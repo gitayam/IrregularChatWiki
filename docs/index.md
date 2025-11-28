@@ -122,7 +122,6 @@ For the full list and community FAQ see the [IrregularChat Forum](https://forum.
 ### Summary Tools
 
 - [SMMRY](https://smmry.com/)
-- [QuillBot Summarizer](https://quillbot.com/summarize/)
 - [AI Resources](/ai-ml/)
 
 ## Security Reminders
