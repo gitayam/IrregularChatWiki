@@ -13,7 +13,7 @@ tags: ["security", "privacy", "dfp", "cybersecurity"]
 
 ## 📋 Checklists
 
-- 📄 Digital Force Protection Checklist [English](https://git.irregularchat.com/irregulars/public-resources/src/branch/main/Checklists/DFP_Checklist-4/Files/DFP-Checklist-By_Languages/DFP-Checklist-English.png) [Spanish](https://git.irregularchat.com/irregulars/public-resources/src/branch/main/Checklists/DFP_Checklist-4/Files/DFP-Checklist-By_Languages/DFP-Checklist-Spanish.png)
+- 📄 Digital Force Protection Checklist [English](https://git.irregularchat.com/public/public-resources/src/branch/main/Checklists/DFP_Checklist-4/Files/DFP-Checklist-By_Languages/DFP-Checklist-English.png) [Spanish](https://git.irregularchat.com/public/public-resources/src/branch/main/Checklists/DFP_Checklist-4/Files/DFP-Checklist-By_Languages/DFP-Checklist-Spanish.png)
 - 📱 [Mobile Hardening Checklist](/general/mobile-hardening-guide)
 - 🔍 [Research DFP Checks](/cybersecurity/cyber-incident-response-guide-personal)
 
