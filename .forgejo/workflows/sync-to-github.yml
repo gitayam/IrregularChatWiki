@@ -1,0 +1,20 @@
+name: Sync to GitHub
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    runs-on: docker
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to GitHub
+        run: |
+          git remote add github https://${{ secrets.GITHUB_USER }}:${{ secrets.GITHUB_TOKEN }}@github.com/gitayam/IrregularChatWiki.git
+          git push github main --force
