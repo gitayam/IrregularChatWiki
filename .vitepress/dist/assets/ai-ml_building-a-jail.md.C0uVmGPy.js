@@ -1,0 +1,9 @@
+import{_ as n,c as s,o as i,ag as l}from"./chunks/framework.CQuhCYrb.js";const o=JSON.parse('{"title":"Building a Jail","description":"","frontmatter":{"title":"Building a Jail"},"headers":[],"relativePath":"ai-ml/building-a-jail.md","filePath":"ai-ml/building-a-jail.md","lastUpdated":null}'),e={name:"ai-ml/building-a-jail.md"};function p(r,a,t,b,c,d){return i(),s("div",null,[...a[0]||(a[0]=[l(`<h1 id="building-a-jail" tabindex="-1">Building a Jail <a class="header-anchor" href="#building-a-jail" aria-label="Permalink to &quot;Building a Jail&quot;">​</a></h1><div class="language- vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span></span></span>
+<span class="line"><span>mkdir jailed</span></span>
+<span class="line"><span>cd jailed</span></span>
+<span class="line"><span>mkdir bin/ lib64/ lib/</span></span>
+<span class="line"><span>cp /lib/x86_64-linux-gnu/libtinfo.so.5 lib/</span></span>
+<span class="line"><span>cp /lib/x86_64-linux-gnu/libdl.so.2 lib/</span></span>
+<span class="line"><span>cp /lib/x86_64-linux-gnu/libc.so.6 lib/</span></span>
+<span class="line"><span>cp /lib64/ld-linux-x86-64.so.2 lib64/</span></span>
+<span class="line"><span>cp /bin/bash bin/</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div>`,2)])])}const m=n(e,[["render",p]]);export{o as __pageData,m as default};
