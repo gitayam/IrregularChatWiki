@@ -210,7 +210,7 @@ export default defineConfig({
 
     footer: {
       message: 'IrregularChat Community Wiki',
-      copyright: 'Copyright © 2024-2025 IrregularChat Community'
+      copyright: 'Copyright © 2025 IrregularChat Community'
     },
 
     outline: {
