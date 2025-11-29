@@ -138,7 +138,30 @@ Isaacson's definitive biography of one of the most influential and controversial
 
 ---
 
+#### 6 Minutes to Freedom: How a House Painter Helped Topple a Dictator
+**Authors**: Kurt Muse & John Gilstrap
+*Recommended by Casey H*
+
+> *"Old but amazing"*
+
+The incredible true story of Kurt Muse, an American businessman imprisoned by Manuel Noriega in Panama, and the Delta Force hostage rescue operation that saved him. A gripping account of courage under captivity and one of the most daring special operations missions in U.S. history.
+
+- **Amazon**: [6 Minutes to Freedom](https://www.amazon.com/Minutes-Freedom-House-Painter-Dictator/dp/0806527595/)
+
+---
+
 ### Geopolitics & Strategy
+
+#### Cold War 2.0: Artificial Intelligence in the New Battle between China, Russia, and America
+**Author**: George S. Takach
+*Recommended by Casey H*
+
+How AI and emerging technologies shape the modern geopolitical rivalry between democratic and autocratic systems. Analyzes four critical technologies—artificial intelligence, semiconductor chips, quantum computing, and biotechnology—through flashpoints including Ukraine and Taiwan. Concludes with recommendations for how Western democracies should respond.
+
+- **Amazon**: [Cold War 2.0](https://www.amazon.com/Cold-War-2-0-Artificial-Intelligence/dp/1639365214/)
+- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
+
+---
 
 #### The New Rules of War: Victory in the Age of Durable Disorder
 **Author**: Sean McFate
@@ -340,6 +363,19 @@ Legendary research on managing egoistic, abusive, or narcissistic coworkers and 
 
 ---
 
+### Government & Policy
+
+#### Recoding America: Why Government Is Failing in the Digital Age and How We Can Do Better
+**Author**: Jennifer Pahlka
+*Recommended by Casey H*
+
+From the founder of Code for America and former Deputy CTO under President Obama. Examines why government struggles with digital service delivery—not just outdated technology, but a rigid, industrial-era culture that prioritizes process over outcomes. Through case studies from the VA, unemployment systems, and more, Pahlka shows how waterfall project management, excessive procurement rules, and disconnected policymaking create dysfunction.
+
+- **Amazon**: [Recoding America](https://www.amazon.com/Recoding-America-Government-Failing-Digital/dp/1250266777/)
+- **Related**: [Working with Acquisitions](/community/a-community-guide-to-working-with-aquisitions)
+
+---
+
 ### Entrepreneurship & Innovation
 
 #### The Private Equity Playbook: Management's Guide to Working with PE Investors
@@ -472,10 +508,20 @@ The central theme: broad exposure to ideas and experiences will make you far mor
 
 > *"I get questions about getting started on the red side and this is generally the book I recommend for new people wanting to get their foot in the door."*
 
-A practical guide for breaking into penetration testing and ethical hacking. Covers the skills, certifications, and career paths for those looking to start in offensive security.
+A guide for breaking into penetration testing and ethical hacking as a career. Covers the skills, certifications, and career paths for those looking to start in offensive security.
 
 - **Amazon**: [The Pentester BluePrint](https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307/)
 - **Related**: [OSCP](/cybersecurity/oscp) | [GPEN](/cybersecurity/gpen) | [Red Teaming](/cybersecurity/cyber-red-teaming)
+
+---
+
+#### Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple Teaming
+**Authors**: Matthew Hickey & Jennifer Arcuri
+
+A more basic, hands-on introduction to actually hacking. While The Pentester BluePrint focuses on career guidance, this book focuses on the technical "how to" of penetration testing and purple teaming.
+
+- **Amazon**: [Hands on Hacking](https://www.amazon.com/dp/1119561450/)
+- **Related**: [OSCP](/cybersecurity/oscp) | [Red Teaming](/cybersecurity/cyber-red-teaming)
 
 ---
 
