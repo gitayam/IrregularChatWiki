@@ -397,6 +397,18 @@ The central theme: broad exposure to ideas and experiences will make you far mor
 
 ### Cybersecurity & Reverse Engineering
 
+#### The Pentester BluePrint: Starting a Career as an Ethical Hacker
+**Authors**: Phillip L. Wylie & Kim Crawley
+
+> *"I get questions about getting started on the red side and this is generally the book I recommend for new people wanting to get their foot in the door."*
+
+A practical guide for breaking into penetration testing and ethical hacking. Covers the skills, certifications, and career paths for those looking to start in offensive security.
+
+- **Amazon**: [The Pentester BluePrint](https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307/)
+- **Related**: [OSCP](/cybersecurity/oscp) | [GPEN](/cybersecurity/gpen) | [Red Teaming](/cybersecurity/cyber-red-teaming)
+
+---
+
 #### Reverse Engineering For Everyone!
 **Author**: @mytechnotalent
 *Recommended by Dominik*
