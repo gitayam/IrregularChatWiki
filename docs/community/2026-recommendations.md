@@ -399,6 +399,26 @@ The personal journal of a Roman Emperor practicing Stoic philosophy. Timeless wi
 
 ---
 
+### Health & Performance
+
+#### Why We Sleep: Unlocking the Power of Sleep and Dreams
+**Author**: Matthew Walker
+*Recommended by Jon Schmidt*
+
+The neuroscience of sleep and why it's so important.
+
+> *"The shorter your sleep, the shorter your life"*
+
+> *"Sleep is the greatest legal performance-enhancing 'drug' that most people are probably neglecting"*
+
+> *"Sleep is not an optional lifestyle luxury. Sleep is a non-negotiable biological necessity"*
+
+> *"The best bridge between despair and hope is a good night's sleep"*
+
+- **Amazon/Audible**: [Why We Sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316/)
+
+---
+
 ### Personal Development
 
 #### The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers
