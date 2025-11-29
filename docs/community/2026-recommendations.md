@@ -277,15 +277,15 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 ---
 
-#### The Beast in the Machine: How AI Looms Over Society
-**Author**: Bradley Birzer
+#### Beast in the Machine: How Robotics and AI Will Transform Warfare and the Future of Human Conflict
+**Author**: Paul Scharre
 *Recommended by Bryan S*
 
 > *"Book good"*
 
-An exploration of how artificial intelligence is reshaping society and the challenges we face as these systems become increasingly powerful.
+An exploration of how robotics and artificial intelligence will transform warfare and reshape the future of human conflict.
 
-- **Amazon**: [The Beast in the Machine](https://www.amazon.com/Beast-Machine-Looms-Over-Society/dp/1684514908/)
+- **Amazon**: [Beast in the Machine](https://www.amazon.com/Beast-Machine-Robotics-Transform-Conflict/dp/1637747187/)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
 ---
