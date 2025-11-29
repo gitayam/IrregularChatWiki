@@ -50,6 +50,18 @@ A daily briefing on cybersecurity news, vulnerability disclosures, and threat in
 
 ### Geopolitics & Strategy
 
+#### The New Rules of War: Victory in the Age of Durable Disorder
+**Author**: Sean McFate
+
+> *"Awesome book on updated strategies of our time"*
+
+A modern look at how warfare has evolved beyond conventional state-on-state conflict. McFate challenges traditional military thinking and offers new frameworks for understanding conflicts in an era of hybrid warfare, private military companies, and strategic ambiguity.
+
+- **Amazon**: [The New Rules of War](https://www.amazon.com/New-Rules-War-Victory-Durable/dp/0062843583/)
+- **Related**: [Information Warfare](/general/information-warfare) | [PMESII-PT Framework](/general/pmesii-pt)
+
+---
+
 #### Battlegrounds: The Fight to Defend the Free World
 **Author**: H.R. McMaster
 
