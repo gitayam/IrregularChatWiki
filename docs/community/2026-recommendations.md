@@ -483,6 +483,18 @@ Read this if you're looking to:
 
 ---
 
+#### Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine
+**Author**: Mike Michalowicz
+*Recommended by Pat W*
+
+> *"Hands down, Profit First. Primarily for business owners but very applicable to anyone."*
+
+A simple system for ensuring profitability by taking profit first, then running the business on what remains. Flips traditional accounting on its head—instead of Sales - Expenses = Profit, it's Sales - Profit = Expenses.
+
+- **Amazon**: [Profit First](https://www.amazon.com/Profit-First-Transform-Cash-Eating-Money-Making/dp/073521414X/)
+
+---
+
 #### Company of One: Why Staying Small Is the Next Big Thing for Business
 **Author**: Paul Jarvis
 *Recommended by [Carrick Longley](https://www.linkedin.com/in/carricklongley)*
