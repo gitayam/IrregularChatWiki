@@ -706,6 +706,16 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ---
 
+## Wiki Pages & References
+
+### WikiTop
+
+A visualization of the most viewed Wikipedia pages, updated in real-time. Fascinating way to see what the world is curious about at any given moment.
+
+- **Visit**: [WikiTop](https://wikitop.net/?lang=en)
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
