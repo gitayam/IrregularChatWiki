@@ -398,6 +398,20 @@ A reminder that progress comes from doing, not deliberating. Whether in work, le
 
 ---
 
+### On Priorities
+
+> *"Things which matter most must never be at the mercy of things which matter least."*
+> — Johann Wolfgang von Goethe
+
+---
+
+### On Simplicity
+
+> *"Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."*
+> — Antoine de Saint-Exupéry
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
