@@ -98,6 +98,30 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 ---
 
+### Systems Thinking & Risk
+
+#### Simple_Complexity: A Management Book for the Rest of Us
+**Author**: Jennifer Garvey Berger & Keith Johnston
+*Recommended by Josh The Elder*
+
+A "management" book with practical applications for planners, leaders, parents, and aspiring entrepreneurs. A very practical introduction to Systems Thinking—something everyone in the community should be learning about.
+
+- **Amazon**: [Simple_Complexity](https://a.co/d/aHBB0R8)
+- **Why it matters**: Systems thinking helps you understand complex problems and avoid unintended consequences
+
+---
+
+#### How to Measure Anything in Cybersecurity Risk
+**Authors**: Douglas W. Hubbard & Richard Seiersen
+*Recommended by Josh The Elder*
+
+Far more about understanding risk than it is about cybersecurity. Has a wonderful balance between theory and practice. Don't let the title fool you—the principles apply broadly to any domain involving uncertainty and decision-making.
+
+- **Amazon**: [How to Measure Anything in Cybersecurity Risk](https://a.co/d/gcjzr1y)
+- **Related**: [Cybersecurity Resources](/cybersecurity/) | [CISA Resources](/cybersecurity/cisa-resources)
+
+---
+
 ### Leadership & Organizational Dynamics
 
 #### The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations
