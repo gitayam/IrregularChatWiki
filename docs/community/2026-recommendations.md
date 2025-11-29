@@ -5,9 +5,41 @@ tags: ["recommendations", "reading", "podcasts", "learning", "community", "2026"
 
 # 2026 Community Recommendations
 
-Community-curated recommendations for books, podcasts, videos, articles, apps, and tools that moved us forward in 2025. These are resources the IrregularChat community found valuable and recommends for 2026.
+Community-curated recommendations for quotes, articles, podcasts, videos, and books that moved us forward in 2025. These are resources the IrregularChat community found valuable and recommends for 2026.
 
 > **Contribute**: Have something that changed your perspective this year? Share it in the community or submit a PR to add it here.
+
+---
+
+## Quotes
+
+> *"Things which matter most must never be at the mercy of things which matter least."*
+> — **Johann Wolfgang von Goethe**
+
+---
+
+> *"Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."*
+> — **Antoine de Saint-Exupéry**
+
+---
+
+> *"Like a burlesque comedian, I'm abnormally fond of that action, which creates movement."*
+> — **e.e. cummings**
+> *Recommended by Bobby Kava*
+
+---
+
+## Articles & Essays
+
+### What is Artificial Intelligence? The Definitive Guide
+**Source**: MIT Technology Review (2024)
+
+> *"Probably the best single article I'd recommend"*
+
+A comprehensive overview of AI—what it is, how it works, and where it's headed. Essential reading for understanding the technology shaping our world.
+
+- **Read**: [What is Artificial Intelligence?](https://www.technologyreview.com/2024/07/10/1094475/what-is-artificial-intelligence-ai-definitive-guide/)
+- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI/ML Learning](/ai-ml/ai-ml-learning)
 
 ---
 
@@ -43,6 +75,20 @@ A daily briefing on cybersecurity news, vulnerability disclosures, and threat in
 - **Listen**: [CyberWire Daily](https://thecyberwire.com/podcasts/daily-podcast)
 - **Format**: Daily
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [CISA Resources](/cybersecurity/cisa-resources)
+
+---
+
+## Videos & Documentaries
+
+### Cognitive Biases and Objective Thinking
+*Recommended by David L*
+
+> *"A real eye opener, and deals with the biases that cloud objective thinking. If you think they're going after one political persuasion about halfway in, they flip it on the other side right after."*
+
+An exploration of how cognitive biases affect our thinking across the political spectrum—challenging viewers regardless of their perspective.
+
+- **Watch**: [YouTube](https://youtu.be/5Peima-Uw7w?si=Rx5jNtoSrRbSW6Nq)
+- **Related**: [Behavior Analysis](/general/behavior-analysis)
 
 ---
 
@@ -107,6 +153,19 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 - **Amazon**: [Cryptonomicon](https://www.amazon.com/Cryptonomicon-Neal-Stephenson/dp/0380788624/)
 - **Why it matters**: Understanding the history of cryptography and information security through narrative
+
+---
+
+#### The Beast in the Machine: How AI Looms Over Society
+**Author**: Bradley Birzer
+*Recommended by Bryan S*
+
+> *"Book good"*
+
+An exploration of how artificial intelligence is reshaping society and the challenges we face as these systems become increasingly powerful.
+
+- **Amazon**: [The Beast in the Machine](https://www.amazon.com/Beast-Machine-Looms-Over-Society/dp/1684514908/)
+- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
 ---
 
@@ -237,29 +296,7 @@ Read this if you're looking to:
 - Explore why the biggest opportunities come from contrarian ideas
 - Develop a mindset for seeing what others miss
 
-You'd be interested in it if you're into:
-- Entrepreneurship or launching a business
-- Tech startups, innovation, strategic thinking
-- Long-term business strategy
-- Creating systems that are hard to replicate
-- Leadership and scaling organizations
-
 - **Amazon**: [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/)
-
----
-
-### AI & Technology
-
-#### The Beast in the Machine: How AI Looms Over Society
-**Author**: Bradley Birzer
-*Recommended by Bryan S*
-
-> *"Book good"*
-
-An exploration of how artificial intelligence is reshaping society and the challenges we face as these systems become increasingly powerful.
-
-- **Amazon**: [The Beast in the Machine](https://www.amazon.com/Beast-Machine-Looms-Over-Society/dp/1684514908/)
-- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
 ---
 
@@ -272,7 +309,6 @@ An exploration of how artificial intelligence is reshaping society and the chall
 A foundational text on open source software development and decentralized collaboration. Essential for understanding movements and how distributed groups can outperform centralized organizations.
 
 - **Read Online**: [catb.org](http://www.catb.org/~esr/writings/cathedral-bazaar/)
-- **Related**: [The Starfish and the Spider](/community/2026-recommendations#the-starfish-and-the-spider-the-unstoppable-power-of-leaderless-organizations)
 
 ---
 
@@ -283,7 +319,6 @@ A foundational text on open source software development and decentralized collab
 A fable about a seagull who refuses to conform to the flock's limitations. A meditation on self-perfection, breaking free from imposed limits, and the pursuit of excellence.
 
 - **Amazon**: [Jonathan Livingston Seagull](https://www.amazon.com/Jonathan-Livingston-Seagull-Richard-Bach/dp/0743278909/)
-- **Why it matters**: Understanding movements and individual drive to transcend
 
 ---
 
@@ -321,7 +356,6 @@ The personal journal of a Roman Emperor practicing Stoic philosophy. Timeless wi
 - **Third Door**: The one you open yourself by carving your own untraditional path
 
 - **Amazon**: [The Third Door](https://www.amazon.com/Third-Door-Uncover-Successful-Launched/dp/0804136661/)
-- **Why it matters**: Shifts mindset from possibility to execution
 
 ---
 
@@ -333,7 +367,6 @@ The personal journal of a Roman Emperor practicing Stoic philosophy. Timeless wi
 The central theme: broad exposure to ideas and experiences will make you far more successful than focusing on a single task or skill. Resonates with those whose lives have been a collection of diverse experiences—what felt like wandering lost in the desert turns out to be invaluable.
 
 - **Amazon**: [Range](https://a.co/d/d0YZWOZ)
-- **Why it matters**: Validates the generalist path in a world obsessed with specialization
 
 ---
 
@@ -352,63 +385,9 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ---
 
-## Videos & Documentaries
-
-### Cognitive Biases and Objective Thinking
-*Recommended by David L*
-
-> *"A real eye opener, and deals with the biases that cloud objective thinking. If you think they're going after one political persuasion about halfway in, they flip it on the other side right after."*
-
-An exploration of how cognitive biases affect our thinking across the political spectrum—challenging viewers regardless of their perspective.
-
-- **Watch**: [YouTube](https://youtu.be/5Peima-Uw7w?si=Rx5jNtoSrRbSW6Nq)
-- **Related**: [The Righteous Mind](/community/2026-recommendations#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | [Behavior Analysis](/general/behavior-analysis)
-
----
-
-## Articles & Essays
-
-### What is Artificial Intelligence? The Definitive Guide
-**Source**: MIT Technology Review (2024)
-
-> *"Probably the best single article I'd recommend"*
-
-A comprehensive overview of AI—what it is, how it works, and where it's headed. Essential reading for understanding the technology shaping our world.
-
-- **Read**: [What is Artificial Intelligence?](https://www.technologyreview.com/2024/07/10/1094475/what-is-artificial-intelligence-ai-definitive-guide/)
-- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI/ML Learning](/ai-ml/ai-ml-learning)
-
----
-
 ## Apps & Tools
 
 *Section open for community contributions*
-
----
-
-## Quotes
-
-### On Action & Movement
-*Recommended by Bobby Kava*
-
-> *"Like a burlesque comedian, I'm abnormally fond of that action, which creates movement."*
-> — e.e. cummings
-
-A reminder that progress comes from doing, not deliberating. Whether in work, learning, or life—movement beats stagnation.
-
----
-
-### On Priorities
-
-> *"Things which matter most must never be at the mercy of things which matter least."*
-> — Johann Wolfgang von Goethe
-
----
-
-### On Simplicity
-
-> *"Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."*
-> — Antoine de Saint-Exupéry
 
 ---
 
@@ -417,7 +396,7 @@ A reminder that progress comes from doing, not deliberating. Whether in work, le
 Have something that moved you forward this year? We want to hear it.
 
 **What we're looking for:**
-- Books, podcasts, videos, articles, apps, or tools
+- Quotes, articles, podcasts, videos, books, apps, or tools
 - Any topic the community covers (security, AI, military, leadership, technology, etc.)
 - Brief explanation of *why* it mattered to you
 
@@ -428,15 +407,10 @@ Have something that moved you forward this year? We want to hear it.
 
 ---
 
-## Previous Years
+## Related Resources
 
 - [Community Reading List](/community/community-reading-list) - Evergreen recommendations by topic
 - [Community Recommended Episodes](/community/community-recommended-episodes) - Podcast episodes
-
----
-
-## Related Resources
-
 - [Learning Resources](/general/learning) - Free courses and training
 - [AI/ML Learning](/ai-ml/ai-ml-learning) - AI-specific learning paths
 - [Certifications](/general/certifications) - Professional development
