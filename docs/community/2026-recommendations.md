@@ -30,6 +30,13 @@ Community-curated recommendations for quotes, articles, podcasts, videos, and bo
 
 ---
 
+> *"Success is not final, failure is not fatal: it is the courage to continue that counts."*
+> — **Winston Churchill**
+
+*Recommended by Casey H*
+
+---
+
 ## Articles & Essays
 
 ### What is Artificial Intelligence? The Definitive Guide
@@ -109,6 +116,20 @@ A theory of generational cycles that predicts periods of crisis and renewal in A
 
 ---
 
+### Biography & History
+
+#### Kissinger: A Biography
+**Author**: Walter Isaacson
+*Recommended by Casey H*
+
+> *"A good read—just reread it recently since he passed. Great book!!"*
+
+Isaacson's definitive biography of one of the most influential and controversial figures in American foreign policy. Essential for understanding modern geopolitics and statecraft.
+
+- **Amazon**: [Kissinger](https://www.amazon.com/Kissinger-Biography-Walter-Isaacson/dp/0743286979/)
+
+---
+
 ### Geopolitics & Strategy
 
 #### The New Rules of War: Victory in the Age of Durable Disorder
@@ -181,6 +202,27 @@ An exploration of how artificial intelligence is reshaping society and the chall
 
 - **Amazon**: [The Beast in the Machine](https://www.amazon.com/Beast-Machine-Looms-Over-Society/dp/1684514908/)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
+
+---
+
+#### The Nvidia Way: Jensen Huang and the Making of a Tech Giant
+**Author**: Tae Kim
+*Recommended by Casey H*
+
+A current look at how Jensen Huang built Nvidia into the dominant force in AI computing. Essential reading for understanding the company powering the AI revolution.
+
+- **Amazon**: [The Nvidia Way](https://www.amazon.com/Nvidia-Way-Jensen-Making-Giant/dp/1324086521/)
+
+---
+
+#### The AI-Driven Leader
+*Recommended by Casey H*
+
+> *"Not super technical but just a good think on how much we do or should give up of our thought leadership moving forward"*
+
+A reflection on leadership in the age of AI—how much decision-making should we delegate to machines?
+
+- **Related**: [AI Ethics](/ai-ml/ai-ethics) | [AI Resources](/ai-ml/ai-resources)
 
 ---
 
