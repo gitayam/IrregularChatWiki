@@ -292,6 +292,16 @@ An excellent book about how liberals and conservatives see the world differently
 
 ---
 
+#### The Laws of Human Nature
+**Author**: Robert Greene
+
+A deep dive into the patterns of human behavior—why people act the way they do, how to read their motivations, and how to understand yourself better. Greene draws on history, philosophy, and psychology to decode the forces driving human interaction. Useful for leadership, relationships, and navigating complex social dynamics.
+
+- **Amazon**: [The Laws of Human Nature](https://www.amazon.com/Laws-Human-Nature-Robert-Greene-ebook/dp/B07BJLX414/)
+- **See also**: [The 48 Laws of Power](#the-48-laws-of-power) by the same author
+
+---
+
 ### Decision Making & Cognition
 
 #### Streetlights and Shadows: Searching for the Keys to Adaptive Decision Making
@@ -343,6 +353,24 @@ A former Delta Force commander shares hard-won leadership principles from specia
 
 - **Amazon**: [The Mission, the Men, and Me](https://www.amazon.com/Mission-Men-Me-Lessons-Commander/dp/0425236579/)
 - **Related**: [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide) | [PMESII-PT Framework](/general/pmesii-pt)
+
+---
+
+#### Endurance: Shackleton's Incredible Voyage
+**Author**: Alfred Lansing
+
+The definitive account of Ernest Shackleton's 1914 Antarctic expedition, where his ship Endurance became trapped and crushed by ice. A masterclass in leadership under extreme adversity—how Shackleton kept his crew alive and motivated through nearly two years of survival in one of the harshest environments on Earth.
+
+- **Amazon**: [Endurance](https://www.amazon.com/Endurance-Shackletons-Incredible-Antarctic-Illustrated/dp/0786708425/)
+
+---
+
+#### Man's Search for Meaning
+**Author**: Viktor E. Frankl
+
+A Holocaust survivor and psychiatrist examines how individuals can find purpose and meaning even in the most challenging circumstances. Frankl's logotherapy—the idea that the primary human drive is not pleasure but the pursuit of meaning—emerged from his experiences in Nazi concentration camps.
+
+- **Amazon**: [Man's Search for Meaning](https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI/)
 
 ---
 
