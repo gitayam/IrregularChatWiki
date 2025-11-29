@@ -297,7 +297,15 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ## Videos & Documentaries
 
-*Section open for community contributions*
+### Cognitive Biases and Objective Thinking
+*Recommended by David L*
+
+> *"A real eye opener, and deals with the biases that cloud objective thinking. If you think they're going after one political persuasion about halfway in, they flip it on the other side right after."*
+
+An exploration of how cognitive biases affect our thinking across the political spectrum—challenging viewers regardless of their perspective.
+
+- **Watch**: [YouTube](https://youtu.be/5Peima-Uw7w?si=Rx5jNtoSrRbSW6Nq)
+- **Related**: [The Righteous Mind](/community/2026-recommendations#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | [Behavior Analysis](/general/behavior-analysis)
 
 ---
 
