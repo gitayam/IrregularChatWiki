@@ -123,6 +123,21 @@ An excellent book about how liberals and conservatives see the world differently
 
 ---
 
+### Decision Making & Cognition
+
+#### Streetlights and Shadows: Searching for the Keys to Adaptive Decision Making
+**Author**: Gary Klein
+*Recommended by David L*
+
+> *"If there's one book I could get everyone to read, that cuts across all kinds of disciplines including AI, it's this book"*
+
+Klein challenges conventional wisdom about decision making, examining why the "rational" approaches taught in textbooks often fail in the real world. Essential reading for anyone working in complex, uncertain environments—from military operations to AI development.
+
+- **MIT Press**: [Streetlights and Shadows](https://mitpress.mit.edu/9780262516723/streetlights-and-shadows/)
+- **Why it matters**: Understanding how experts actually make decisions under pressure
+
+---
+
 ### Systems Thinking & Risk
 
 #### Simple_Complexity: A Management Book for the Rest of Us
