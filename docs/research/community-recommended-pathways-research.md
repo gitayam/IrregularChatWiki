@@ -302,7 +302,3 @@ title: "Community Recommended Pathways/Research"
 - **Balance and Well-being**:
   - **Manage Time**: Maintain a healthy work-life balance.
   - **Stay Connected**: Collaborate with your team and share insights.
-
-### Categories
-
-[Resources]

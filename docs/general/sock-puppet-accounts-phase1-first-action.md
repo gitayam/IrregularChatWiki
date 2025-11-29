@@ -74,7 +74,3 @@ Why is this in the “first action”? Because things you do *may* impact your s
 - [KeePassXC](https://keepassxc.org/) (password, 2FA, and key manager)
 
 - [Bitwarden](https://bitwarden.com/)
-
-[Required]
-
-[Teaming]

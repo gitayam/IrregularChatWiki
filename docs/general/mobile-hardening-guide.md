@@ -139,5 +139,3 @@ For those looking for a Google Play alternative, try the [Aurora Store](https://
 - **Insular**: Isolate apps or run multiple accounts on [F-Droid](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/).
 
 
-[Security]
-[Guide]

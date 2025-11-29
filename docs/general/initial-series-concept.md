@@ -190,5 +190,3 @@ In planning, it may be best to reverse plan. These should be measurable but will
 
 - After ENC 1 is CMD reviewed and approved through the board, rename ENC 1 to SERIES NAME_ENC 1_date (year month 202405)_FINAL.
 
-[Up]
-[Required]

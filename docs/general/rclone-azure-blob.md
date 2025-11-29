@@ -106,13 +106,11 @@ chmod +x rclone_blobmount.sh
 3. Create a systemd file: `sudo nano /etc/systemd/system/blobmount.service`
 
 ```ini
-[Unit]
 Description=rclone blobstorage mount
 After=network.target
 After=systemd-user-sessions.service
 After=network-online.target
 
-[Service]
 User=drok
 Type=forking
 ExecStart=/home/drok/rclone_blobmount.sh
@@ -122,7 +120,6 @@ RestartSec=30
 StartLimitInterval=350
 StartLimitBurst=10
 
-[Install]
 Alias=blobmount.service
 WantedBy=multi-user.target
 ```

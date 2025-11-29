@@ -121,5 +121,3 @@ Run the following checks before browsing to ensure privacy and security:
 See the full [Force Protection Guide](/general/dfp-guide) for more detailed guidance.
 
 
-[Collection]
-[Collaboration]

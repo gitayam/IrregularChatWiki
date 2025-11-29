@@ -52,4 +52,3 @@ Interested in contributing to the Civ-Mil Business Chat? Here’s how you can ge
 We encourage all community members to dive into these resources and discussions to build stronger business connections and gain valuable insights into entrepreneurship and business management.
 
 
-[Required]

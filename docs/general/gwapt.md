@@ -89,4 +89,3 @@ The GWAPT exam includes, but is not limited to:
 - [Web Application Penetration Tester (eWPT)](/cybersecurity/cyber-red-teaming)
 
 
-[Application Security]

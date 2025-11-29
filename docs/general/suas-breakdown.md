@@ -140,4 +140,3 @@ An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly kno
 ### References
 
 
-[Systems]

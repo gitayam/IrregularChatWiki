@@ -141,5 +141,3 @@ Snapshots are restore points for your VM:
 - [Guide](/general/dfp-guide)
 
 
-[Machines]
-[Installation]

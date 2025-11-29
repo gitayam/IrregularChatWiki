@@ -67,7 +67,3 @@ Here are some additional links and tools that might be helpful:
 - [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
 
 - [Payloads All The Things](https://github.com/Swisskyrepo/PayloadsAllTheThings)
-
-
-[Resources]
-[Preparation]

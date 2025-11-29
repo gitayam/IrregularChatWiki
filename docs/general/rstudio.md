@@ -371,5 +371,3 @@ print(paste("Correlation between engagement and sentiment:", correlation_result)
 ### References
 
 
-[Analysis]
-[Sciences]

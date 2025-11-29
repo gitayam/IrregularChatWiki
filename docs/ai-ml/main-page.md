@@ -154,4 +154,3 @@ Share content through proxies like:
 
 - A place for bots to append stuff when commanded (not automatically) for a human to organize later somewhere on the wiki (currently just testing).
 
-[Community]

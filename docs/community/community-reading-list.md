@@ -164,4 +164,3 @@ This section provides a list of recommended readings on leadership:
 - **[Enchiridion: Epictetus, Robert M. Baird et al.**
 
 
-[Engineering]

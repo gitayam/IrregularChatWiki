@@ -111,4 +111,3 @@ They are welcome to request to join anytime but will need to be verified by know
 - Current Wiki Flowchart (see site navigation)
 
 
-[Required]

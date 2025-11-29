@@ -131,4 +131,3 @@ Navigate to the [Special:Upload](Special:Upload) page and upload your `.stl` fil
 Uploaded 3D models will be displayed interactively on their file pages. Thumbnails will be automatically generated using the `3d2png` service.
 
 
-[Building]

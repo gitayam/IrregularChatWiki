@@ -116,9 +116,4 @@ Creating your datasets for analysis with Gephi involves a process of data collec
 
 1. **Create Nodes and Edges Files**: Prepare CSV files for nodes and edges.
 
-1. **Import into Gephi**: Import your files via the Data Laboratory tab, then explore your network using Gephi’s tools.
-
-
-[Tools]
-[Visualization]
-[Science]
+1. **Import into Gephi**: Import your files via the Data Laboratory tab, then explore your network using Gephi's tools.

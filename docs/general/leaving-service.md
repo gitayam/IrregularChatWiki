@@ -146,4 +146,3 @@ Businesses participating in the DOD SkillBridge Program gain access to skilled, 
 - **Maximize Savings**: Live frugally in the early stages of your new career to maximize savings and investments.
 
 
-[Writing]

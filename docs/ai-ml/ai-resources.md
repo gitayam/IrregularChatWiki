@@ -1,5 +1,6 @@
 ---
 title: "AI Resources"
+tags: ["ai", "ml", "llm", "chatgpt", "resources"]
 ---
 
 # AI Resources
@@ -15,7 +16,7 @@ This is the community AI/ML section. It is a comprehensive guide to getting star
 
 - [discussion](/ai-ml/ai-ethics)
 
-- [## Chat Large Language Models (LLMs)
+## Chat Large Language Models (LLMs)
 
 ### Higher Enclaves
 Search for "AI on Government Systems" on intellipedia on any enclave to find the latest information on AI tools, resources, and templates... allegedly.
@@ -39,7 +40,8 @@ Context:
 - Continue AI Coding: https://marketplace.visualstudio.com/items?itemName=Continue.continue. Works with Ollama and VS Code to provide coding support and autocomplete.
 
 ### GPT Automation and Prompt Engineering
-#TODO: Create and Link to guides for developing with ChatGPT and Local LM
+
+See the [AI Prompting Guide](/ai-ml/ai-prompting) for prompt engineering techniques.
 
 ### ChatGPT
 
@@ -130,7 +132,7 @@ Also referenced in the [section](/general/terms).
 
 - **Universal intelligence:** Ability to acquire general intelligence given access to data and resources.
 
-- **[Artificial General Intelligence (AGI):** Ability to accomplish any cognitive task at least as well as humans.
+- **Artificial General Intelligence (AGI):** Ability to accomplish any cognitive task at least as well as humans.
 
 - **Human-level AI:** AGI.
 

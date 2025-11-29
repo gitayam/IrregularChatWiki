@@ -90,4 +90,3 @@ You can copy over the headers to a spreadsheet or to the email directly and fill
 1. *Additional Profile Information* is optional and can be modified anytime via the dashboard. This includes geographic areas like country, state, and base/facility.
 
 
-[Awareness]

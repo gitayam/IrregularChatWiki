@@ -1,38 +1,28 @@
 ---
-title: "Shell"
+title: "Shell Scripting"
+tags: ["shell", "bash", "linux", "programming"]
 ---
 
-# Shell
+# Shell Scripting
 
-## About Shell
-Your content here
-
+Resources for learning and working with shell scripting and the Linux command line.
 
 ## Shell Resources
 
-- Cheat Sheets
+### Cheat Sheets
+- [Bash Cheat Sheet - Devhints](https://devhints.io/bash)
 
-- https://devhints.io/bash
+### Development Tools
+- [ShellCheck](https://www.shellcheck.net/) - Shell script static analysis tool
 
-- Development Environment
+## Learning Resources
 
-* https://www.shellcheck.net/
+### Video Courses
 
-
-## SHELL Learning Resources
-
-### Courses and Lessons
-
-### Videos
-
-- [Bash Shell Scripting, 2nd Edition (O’Reilly)](https://learning.oreilly.com/videos/bash-shell-scripting/9780137689064/)
-
-- [the Linux File System explained in 1,233 seconds (Youtube)](https://www.youtube.com/watch?v=A3G-3hp88mo)
-
-- [Bash Scripting Full Course 3 Hours (Youtube)](https://www.youtube.com/watch?v=e7BufAVwDiM)
-
-- [The 50 Most Popular Linux &amp; Terminal Commands - Full Course for Beginners (Youtube)](https://www.youtube.com/watch?v=ZtqBQ68cfJc)
-
-- [MIT lecture series: Command Line, Git, Programing](https://www.youtube.com/c/MissingSemester/videos)
-
-### Books and Articles
+| Course | Platform | Description |
+|--------|----------|-------------|
+| [Bash Shell Scripting, 2nd Edition](https://learning.oreilly.com/videos/bash-shell-scripting/9780137689064/) | O'Reilly | Comprehensive bash scripting course |
+| [The Linux File System Explained](https://www.youtube.com/watch?v=A3G-3hp88mo) | YouTube | Quick overview of Linux filesystem |
+| [Bash Scripting Full Course](https://www.youtube.com/watch?v=e7BufAVwDiM) | YouTube | 3-hour comprehensive course |
+| [50 Most Popular Linux Commands](https://www.youtube.com/watch?v=ZtqBQ68cfJc) | YouTube | Beginner's terminal command guide |
+| [MIT Missing Semester](https://www.youtube.com/c/MissingSemester/videos) | YouTube | MIT lecture series on command line, Git, and programming

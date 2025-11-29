@@ -83,6 +83,4 @@ This guide outlines the workflow for creating surveys to gather baseline data, r
 
 ### Conclusion
 Creating effective surveys before, during, and after training events is crucial for understanding participant needs, gathering valuable feedback, and continuously improving training programs.
-[Up]
 
-[Collection]

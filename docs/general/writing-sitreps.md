@@ -81,5 +81,3 @@ Take into account these variables which will be used in the output:
 
 1. **Review and Edit**: Carefully review the SITREP bullets for grammar, style, and content, ensuring they are both concise and informative.
 
-[Up]
-[Required]

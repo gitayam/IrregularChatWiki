@@ -101,4 +101,3 @@ To study Jumpmaster nomenclature, see the following resources:
 ### Confirm that the weapon is properly oriented, all adjustable buckles are secured, and the compression straps are tight. Ensure the snap shackle and all fasteners are engaged.
 
 
-[Required]

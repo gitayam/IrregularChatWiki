@@ -16,4 +16,3 @@ If you're looking for a CAD program for drone and parts design:
 
 Beginner tip: STEP saves a much more detailed/user-friendly file than STL when exporting for another person or post-processing with a slicer for 3D printing.).), where prices fluctuate but start around $20.
 
-[Systems]

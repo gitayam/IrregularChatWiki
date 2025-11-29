@@ -99,7 +99,3 @@ DAU credentials fulfill continuing education requirements for certifications lik
 The Small Business Program Credential enhances understanding of small business participation in acquisitions.
 
 DAU courses and credentials are a convenient way to stay competitive in professional development while meeting military requirements.
-
-
-[Development]
-[Education]

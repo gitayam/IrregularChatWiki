@@ -46,4 +46,3 @@ https://cryptpad.irregularchat.com/pad/#/2/pad/view/+Hi8ffnuvn+ULb5FfNVSTKfiBiDX
 
 ### Categories
 
-[Rules]

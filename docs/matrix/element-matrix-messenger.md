@@ -130,7 +130,4 @@ Additional sections are from the [Official Element User Guide](https://static.el
 
 - [Element Website](https://element.io/personal)
 
-[Secure Communication]
 
-[Blue Team]
-[Community Guides]

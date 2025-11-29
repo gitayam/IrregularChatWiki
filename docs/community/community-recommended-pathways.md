@@ -64,9 +64,3 @@ Refer to the [Resources](/general/certifications) page for more information.
   - The Mission Commander Course at the CCOE Cyber Schoolhouse is a joint course and considered a better option.
 
 ### References
-
-
-[Training]
-[Development]
-[Futures Command]
-[Training Programs]

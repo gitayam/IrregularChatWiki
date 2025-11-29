@@ -153,7 +153,3 @@ title: "Community Recommended Pathways/Technology Application Course"
 - **Stay Curious and Adaptable**: Embrace new challenges and reflect on learning.
 
 - **Balance and Well-being**: Prioritize tasks, stay active, and avoid burnout.
-
-### Categories
-
-[Resources]

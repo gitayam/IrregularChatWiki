@@ -181,5 +181,3 @@ NOTE TO TEAMS: Wait until the comments are complete before modifying the TAAW. T
 
 - **Are portion markings in agreement with sourced information?**
 
-[Up]
-[Required]

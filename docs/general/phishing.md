@@ -146,5 +146,3 @@ Educating employees on recognizing and responding to phishing and smishing threa
 
 - [FTC Consumer Advice on Phishing](https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 
-[Red Team]
-[Login Required]

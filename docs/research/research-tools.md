@@ -55,6 +55,3 @@ tags: ["research", "osint", "tools"]
 ### Face Search
 
 - [PimEyes](https://pimeyes.com/en) – Advanced facial recognition search engine for finding images and data inaccessible through regular searches.
-
-
-[Recognition]

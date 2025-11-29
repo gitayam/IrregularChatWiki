@@ -55,6 +55,4 @@ A Virtual Machine (VM) is a software-based computer system emulation. VMs provid
 - [Guide](/general/dfp-guide)
 
 
-[Machines]
 
-[Systems]

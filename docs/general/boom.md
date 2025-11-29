@@ -126,7 +126,5 @@ This page details the types, configurations, and effects of munitions and explos
 
 ### References
 
-[Required]
 
 
-[Weapons]

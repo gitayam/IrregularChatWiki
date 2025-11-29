@@ -59,8 +59,3 @@ This section expands on the application of red teaming tactics and includes rele
 - How community members can provide constructive feedback on red teaming resources and training.
 
 - Protocols for reporting incidents, security breaches, or ethical concerns during or after red team exercises.
-
-[Teaming]
-
-[Resources]
-[Practices]

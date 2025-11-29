@@ -44,4 +44,3 @@ I request to have the discount down to $4k (the total annual amount for CA) for 
     - Upload the quote received from the SANS email.
   - Profit!
 
-[Assistance]

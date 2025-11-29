@@ -142,4 +142,3 @@ Enhancing privacy and security through email encryption is crucial for protectin
 
 - [FTC Consumer Advice on Email Security](https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
 
-[Security]

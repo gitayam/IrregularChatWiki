@@ -140,4 +140,3 @@ See the [comparison](/radio/software-defined-radios-sdrs) table.
 - [AntSDR E200](https://www.crowdsupply.com/microphase-technology/antsdr-e200)
 
 
-[Defined Radio]

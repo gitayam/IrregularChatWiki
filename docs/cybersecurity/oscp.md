@@ -113,6 +113,3 @@ A list of essential tools for conducting penetration tests effectively.
 - [SANS Webcast: Building Your Own Super Duper Home Lab](https://youtu.be/uzqwoufhwyk)
 
 ### References
-
-
-[Resources]

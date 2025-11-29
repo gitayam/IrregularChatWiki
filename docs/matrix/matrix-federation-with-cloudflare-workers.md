@@ -76,4 +76,3 @@ Once your worker is deployed, set up routes to ensure requests to the following 
 You can configure these routes in your Cloudflare dashboard under the **Workers > Routes** section.
 
 ### Categories
-[Management]

@@ -65,5 +65,3 @@ title: "Series Packet"
   - Ensure ENC 3 information still matches ENC 1 and 2.
   - Review header slide for correct series name and team information.
 
-[Up]
-[Required]

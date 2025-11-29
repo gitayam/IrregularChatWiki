@@ -180,4 +180,3 @@ When staying in places like hotels, where RFID systems are commonly used for roo
 
 - [RFID Hacking Tools and Techniques](https://securityresearch.com/rfid-hacking-tools-and-techniques/)
 
-[Required]

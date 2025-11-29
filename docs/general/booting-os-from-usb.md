@@ -10,14 +10,12 @@ This page provides detailed instructions for installing Linux on computers from 
 ### Table of Contents
 
 - [Preparation](#general-preparation)
-
-- [Instructions](#brand-specific-instructions)
+- [Brand-Specific Instructions](#brand-specific-instructions)
   - [Table for BIOS/UEFI Access](#key-table)
-  - *** *HP*)(/hp)
-  - *** [ASUS*)(/asus)
-  - [* [Common Installation Issues and Troubleshooting*)(/common-installation-issues-and-troubleshooting)
-
-- [Resources](#additional-resources)
+  - [HP](#hp)
+  - [ASUS](#asus)
+- [Common Installation Issues and Troubleshooting](#common-installation-issues-and-troubleshooting)
+- [Additional Resources](#additional-resources)
 
 ### General Preparation
 Before flashing Linux, ensure the following steps are completed:
@@ -118,5 +116,3 @@ The table below summarizes the key combinations to access BIOS/UEFI for differen
 
 - [Linux Mint Installation Documentation](https://linuxmint-installation-guide.readthedocs.io/en/latest/)
 
-[Installation]
-[Configuration]

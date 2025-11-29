@@ -211,4 +211,3 @@ Yes. Use compatible Bluetooth interfaces and configure them in Kismet as data so
 - [Quickstart Guide](https://www.kismetwireless.net/docs/readme/quickstart/#compiling-quick-setup)
 
 
-[Installation]

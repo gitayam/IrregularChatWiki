@@ -115,7 +115,3 @@ Git systems are free, open-source, and widely used in software development, prov
 - [Learn Git Basics](https://youtube.com/watch?v=RGOj5yH7evk)
 
 - [GitLab Moving to Git Whitepaper](https://page.gitlab.com/rs/194-VVC-221/images/gitlab-moving-to-git-whitepaper.pdf)
-
-[Development]
-[Design]
-[Control]

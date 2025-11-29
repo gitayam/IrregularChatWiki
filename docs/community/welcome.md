@@ -59,5 +59,3 @@ In 2021, Trish, the Group S8 at the time, established the Innovation and Evoluti
 
 Originating from the 18 initial members of the IEC, the IrregularChat quickly expanded, attracting Special Operations Forces (SOF) personnel who were independently pursuing innovative projects and sought a community of like-minded professionals. This platform facilitated an unprecedented exchange of ideas and practices across the SOF community.
 
-[Community]
-[Required]

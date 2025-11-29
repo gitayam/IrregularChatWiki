@@ -93,4 +93,3 @@ zip -9r plugin-name.mbp *
 ```
 
 
-[Management]

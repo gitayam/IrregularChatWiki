@@ -1,13 +1,23 @@
 ---
-title: "Mobile-devices"
+title: "Mobile Device Security"
+tags: ["mobile", "security", "red-team", "gsm"]
 ---
 
-# Mobile-devices
+# Mobile Device Security
+
+Resources for mobile device security testing and red team operations.
 
 ## Mobile Device Red Teaming
-Your content here
 
-### GSM Red Teaming
-Your content here
+Mobile device security assessments and penetration testing techniques.
 
-More context and specifics about how to use the guide below goes here. [Basestation](/general/gsm-basestation)
+## GSM Red Teaming
+
+GSM network security testing and analysis.
+
+- [GSM Basestation Guide](/general/gsm-basestation) - Guide to GSM basestation operations
+
+## Related Resources
+
+- [Mobile Hardening Guide](/general/mobile-hardening-guide) - Defensive mobile security
+- [Software Defined Radios](/radio/software-defined-radios-sdrs) - SDR tools for RF analysis

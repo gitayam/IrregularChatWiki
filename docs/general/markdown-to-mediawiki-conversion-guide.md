@@ -112,4 +112,3 @@ Apply these instructions to the provided content, ensuring that the final output
 
 ```
 
-[Template]

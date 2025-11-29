@@ -105,4 +105,3 @@ ACTIONS = [
 
 ## Use the provided actions to expand into full bullets, detailing the specific contributions and their impact.
 
-[Template]

@@ -56,5 +56,3 @@ title: "Series Funding Packet"
   - Check Admin data: *Note: "MISO VOICE" does not refer to VOICE at SOCSOUTH; it's in reference to VOICE funding source.*
   - Technical Exhibit: use a calculator to verify costs. Assess how close the cumulative total cost must be.
 
-[Up]
-[Required]

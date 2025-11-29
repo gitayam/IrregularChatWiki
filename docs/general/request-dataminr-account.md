@@ -46,4 +46,3 @@ Best regards,
 
 PAI User Form 2019: https://cryptpad.irregularchat.com/file/#/2/file/e-5cHNafgPuuxCPKObW0Z2CI/
 
-[Login Required]

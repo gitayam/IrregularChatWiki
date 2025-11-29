@@ -161,5 +161,3 @@ Once the PMESII-PT analysis is complete, you can assess how each factor influenc
 ### References
 
 
-[Planning]
-[Analysis]

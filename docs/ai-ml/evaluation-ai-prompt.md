@@ -100,5 +100,3 @@ End of NCOER Bullets
 
 ```
 
-[Template]
-[Template]

@@ -87,4 +87,3 @@ Securing your accounts ensures that attackers cannot gain unauthorized access to
 Cyber incidents can cause significant damage if not addressed promptly. By securing your devices and accounts, you reduce the likelihood of further exploitation and regain control over your digital assets. Follow the steps outlined in this guide to safeguard your data and systems.
 
 
-[Guidelines]

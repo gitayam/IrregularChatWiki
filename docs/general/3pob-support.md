@@ -25,7 +25,4 @@ Fill out the product request form attached to this page. Be as specific as possi
 [3POB LINK HERE](https://mpc-prt.socom.mil/servicedesk/customer/user/login?destination=user%2Frequests%3Fstatus%3Dopen)
 
 
-[Support]
-[Creation]
 
-[Required]

@@ -1,5 +1,6 @@
 ---
 title: "Etherpad"
+tags: ["tools", "collaboration", "self-hosting", "server"]
 ---
 
 # Etherpad
@@ -91,9 +92,8 @@ setup-mariadb(){
     sudo mariadb -e "CREATE DATABASE $sql_db_name DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;"
     sudo mariadb -e "CREATE USER '$sql_user'@'localhost' identified by '$sql_password';"
     sudo mariadb -e "GRANT ALL PRIVILEGES ON $sql_db_name.* TO '$sql_user'@'localhost' IDENTIFIED BY '$sql_password';"
-    ##FIXME: remove dirty db
-    #sed -i '/"dbType"/i \/' settings.json
-    ##FIXME: configure settings
+    # Configure settings.json with database settings
+    # Edit /opt/etherpad/etherpad-lite/settings.json to include:
     #  "dbType" : "mysql",
     #  "dbSettings" : {
     #     "user":     "etherpaduser",
@@ -103,9 +103,7 @@ setup-mariadb(){
     #     "database": "$sql_db_name",
     #     "charset":  "utf8mb4"
     #  },
-    #FIXME
     #  "trustProxy": true,
-    #sed -i '/"trustProxy"/s/false/true' settings.json
 }
 setup_ssl(){
     sudo mkdir -p /var/lib/letsencrypt
@@ -134,4 +132,3 @@ main
 ```
 
 For further information, visit the official [Etherpad site](https://etherpad.org/) or [Docker Hub for Etherpad](https://hub.docker.com/r/etherpad/etherpad).
-[Tools]

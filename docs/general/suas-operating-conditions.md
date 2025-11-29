@@ -127,7 +127,3 @@ For operations conducted in conditions such as hot/cold weather, turbulence, rai
 ### References
 
 
-[Required]
-[Systems]
-[Learned]
-[Operations]

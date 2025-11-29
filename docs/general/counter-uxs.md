@@ -71,6 +71,3 @@ The “generate, grab, guide, grenade” approach for the AI-assisted human-in-t
 
 - **Adherence to Standards:** Developing and deploying anti-drone technologies must align with legal and ethical standards.
 
-[Technology]
-[Systems]
-[Warfare]

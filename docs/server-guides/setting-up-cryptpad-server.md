@@ -58,4 +58,3 @@ git pull
 ``` and restart the server without waiting for the next version.
 
 
-[[:Category:Server](:Category:Self-hosting]

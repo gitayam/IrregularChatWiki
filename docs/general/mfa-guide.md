@@ -89,6 +89,3 @@ Higher-end Yubikeys offer additional features such as encryption and signature c
 - [CISA: What is MFA](https://www.cisa.gov/mfa)
 
 - [Yubico: FIDO U2F Authentication](https://www.yubico.com/authentication-standards/fido-u2f/)
-
-
-[Practices]

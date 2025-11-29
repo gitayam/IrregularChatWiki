@@ -276,5 +276,3 @@ For both approaches, the composite score is the sum of the scores from each crit
 - **Commander's Guidance**: Align COG analysis with the commander's intent and operational objectives.
 
 ### References
-[Planning]
-[Analysis]

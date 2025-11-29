@@ -44,8 +44,3 @@ title: "Sock Puppet Accounts/Creation"
 
 - [Teaming Resources](/cybersecurity/cyber-red-teaming)
   - [Accounts for Red Teaming and Research](/general/sock-puppet-accounts)
-
-### Categories
-[Required]
-
-[Teaming]

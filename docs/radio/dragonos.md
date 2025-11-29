@@ -84,4 +84,3 @@ This channel is best described as a project aimed at making it as easy as possib
 - [DragonOS YouTube Channel](https://www.youtube.com/channel/UC9U2kaqhE716J2WNSTcOghg/about)
 
 
-[Source Software]

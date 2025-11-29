@@ -41,7 +41,3 @@ Return to [Puppet Creation Outline](/general/sock-puppet-accounts-creation).
 - [Port your Google Voice number](https://support.google.com/voice/answer/1065667?hl=en)
 
 - [13 Powerful Social Media Automation Tools to Use in 2024](https://www.socialpilot.co/social-media-automation-tools)
-
-[Required]
-
-[Teaming]

@@ -136,4 +136,3 @@ rclone supports a wide range of cloud storage providers. Some popular options in
 ### Categories
 
 
-[Setup]

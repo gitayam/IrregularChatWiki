@@ -49,6 +49,4 @@ See the following resource for the NPS Guide to citing military reports, orders,
 
 - Use this resource to help with citations: [Home - Citation Guide - Research Guides at Naval Postgraduate School (NPS), Dudley Knox Library (DKL)](https://libguides.nps.edu/citation).
 
-[Up]
-[Required]
 [[MISO](Category:Guides])(/miso)

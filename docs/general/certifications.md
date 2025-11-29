@@ -47,8 +47,3 @@ Using educational resources from Hack The Box Academy helps prepare users for in
 ### Training and Development
 
 - Nothing here yet
-
-
-[and EW]
-[Resources]
-[Development]

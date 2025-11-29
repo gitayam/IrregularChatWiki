@@ -122,9 +122,3 @@ HD FPV options each have trade-offs: DJI leads in performance but at higher cost
 - **Encryption** – Consider ELRS forks like PrivacyLRS for link encryption: https://github.com/sensei-hacker/PrivacyLRS
 
 
-[Piloting]
-[Equipment]
-[Simulators]
-[Training]
-[Simulators]
-[Systems]

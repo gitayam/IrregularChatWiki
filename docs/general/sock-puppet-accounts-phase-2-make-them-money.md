@@ -72,10 +72,3 @@ To build credibility and sustain your sock puppet account, engage in the followi
 ### References
 
 
-[Footprint]
-[Security]
-[Media]
-[Management]
-[Monetization]
-[Tracking]
-[Required]
