@@ -98,6 +98,47 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 ---
 
+### Leadership & Organizational Dynamics
+
+#### The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations
+**Authors**: Ori Brafman & Rod A. Beckstrom
+*Recommended by Flo*
+
+Explains why rigid, ego-driven leaders choke organizations, while decentralized, mission-focused teams thrive. Teaches you how to build small, resilient networks that succeed even when the person in charge is toxic or incompetent.
+
+- **Amazon**: [The Starfish and the Spider](https://www.amazon.com/Starfish-Spider-Unstoppable-Leaderless-Organizations/dp/1591841836/)
+- **Related**: [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide)
+
+---
+
+#### The 48 Laws of Power
+**Author**: Robert Greene
+*Recommended by Flo*
+
+Not a "self-help" book—it's a survival guide for hierarchical, political organizations. Useful for:
+- Navigating egos
+- Avoiding traps
+- Managing optics
+- Reading intent
+
+Great for protecting yourself from leaders who weaponize perception.
+
+- **Amazon**: [The 48 Laws of Power](https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197/)
+
+---
+
+#### The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't
+**Author**: Robert I. Sutton
+*Recommended by Flo*
+
+Legendary research on managing egoistic, abusive, or narcissistic coworkers and leaders. Gives you terms and frameworks to identify repeated abusive patterns and keep your cool.
+
+**Military relevance**: Essential reading for anyone dealing with toxic leadership in hierarchical organizations.
+
+- **Amazon**: [The No Asshole Rule](https://www.amazon.com/Asshole-Rule-Civilized-Workplace-Surviving/dp/0446526568/)
+
+---
+
 ### Entrepreneurship & Innovation
 
 #### Zero to One: Notes on Startups, or How to Build the Future
