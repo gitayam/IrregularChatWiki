@@ -296,7 +296,7 @@ An exploration of how robotics and artificial intelligence will transform warfar
 
 A current look at how Jensen Huang built Nvidia into the dominant force in AI computing. Essential reading for understanding the company powering the AI revolution.
 
-- **Amazon**: [The Nvidia Way](https://www.amazon.com/Nvidia-Way-Jensen-Making-Giant/dp/1324086521/)
+- **Amazon**: [The Nvidia Way](https://www.amazon.com/Nvidia-Way-Jensen-Huang-Making/dp/B0DNRPF51L/)
 
 ---
 
@@ -466,7 +466,7 @@ From the founder of Code for America and former Deputy CTO under President Obama
 
 All the govvies should understand the challenges of founding and scaling a business. This book demystifies how private equity works and what it takes to build, grow, and exit a company successfully.
 
-- **Amazon**: [The Private Equity Playbook](https://www.amazon.com/Private-Equity-Playbook-Managements-Investors/dp/1544513917/)
+- **Amazon**: [The Private Equity Playbook](https://www.amazon.com/Private-Equity-Playbook-Companies-Successful/dp/1801715866/)
 
 ---
 
