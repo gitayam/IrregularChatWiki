@@ -180,7 +180,7 @@ Legendary research on managing egoistic, abusive, or narcissistic coworkers and 
 
 #### The Private Equity Playbook: Management's Guide to Working with PE Investors
 **Author**: Adam Coffey
-*Recommended by David Rollin*
+*Recommended by David Rolen*
 
 All the govvies should understand the challenges of founding and scaling a business. This book demystifies how private equity works and what it takes to build, grow, and exit a company successfully.
 
