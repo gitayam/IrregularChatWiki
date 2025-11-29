@@ -98,6 +98,19 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 ---
 
+### Psychology & Understanding Others
+
+#### The Righteous Mind: Why Good People Are Divided by Politics and Religion
+**Author**: Jonathan Haidt
+*Recommended by JR*
+
+An excellent book about how liberals and conservatives see the world differently—and is very respectful of both sides. Haidt uses moral psychology research to explain why we're so divided and how understanding different moral foundations can help bridge gaps.
+
+- **Amazon**: [The Righteous Mind](https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777/)
+- **Why it matters**: Understanding opposing viewpoints without demonizing them
+
+---
+
 ### Systems Thinking & Risk
 
 #### Simple_Complexity: A Management Book for the Rest of Us
