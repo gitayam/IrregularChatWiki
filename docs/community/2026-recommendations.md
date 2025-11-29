@@ -25,7 +25,8 @@ Community-curated recommendations for quotes, articles, podcasts, videos, and bo
 
 > *"Like a burlesque comedian, I'm abnormally fond of that action, which creates movement."*
 > — **e.e. cummings**
-> *Recommended by Bobby Kava*
+
+*Recommended by Bobby Kava*
 
 ---
 
