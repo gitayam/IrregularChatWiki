@@ -360,6 +360,16 @@ The personal journal of a Roman Emperor practicing Stoic philosophy. Timeless wi
 
 ---
 
+#### The One Thing: The Surprisingly Simple Truth Behind Extraordinary Results
+**Author**: Gary Keller & Jay Papasan
+*Recommended by Jon H*
+
+Focus on the one thing that matters most. A productivity and prioritization framework for cutting through the noise and achieving extraordinary results.
+
+- **Amazon**: [The One Thing](https://a.co/d/9bCrbKR)
+
+---
+
 #### Range: Why Generalists Triumph in a Specialized World
 **Author**: David Epstein
 
