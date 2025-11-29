@@ -221,6 +221,26 @@ A techno-thriller that explores modern warfare when advanced systems fail. Parti
 
 ---
 
+#### Street Without Joy: The French Debacle in Indochina
+**Author**: Bernard B. Fall
+
+Required reading for American officers heading to Vietnam—a cautionary tale of respecting and not underestimating your enemies. Fall's firsthand account of the French war in Indochina remains essential for understanding counterinsurgency failures and the dangers of fighting an enemy you don't understand.
+
+- **Amazon**: [Street Without Joy](https://www.amazon.com/Street-Without-Joy-Bernard-Fall/dp/0811732363/)
+- **Related**: [Information Warfare](/general/information-warfare)
+
+---
+
+#### Gangsters of Capitalism: Smedley Butler, the Marines, and the Making and Breaking of America's Empire
+**Author**: Jonathan M. Katz
+
+A history of American economic and military activity from post-Civil War to pre-WW2. Read this and be attuned to cognitive dissonance, particularly towards China and Haiti, and the information warfare challenges they present. Follows Marine General Smedley Butler's career across America's imperial adventures.
+
+- **Amazon**: [Gangsters of Capitalism](https://www.amazon.com/Gangsters-Capitalism-Smedley-Butler-Marines/dp/1250135591/)
+- **Related**: [Information Warfare](/general/information-warfare) | [PMESII-PT Framework](/general/pmesii-pt)
+
+---
+
 ### Technology & AI
 
 #### Superintelligence: Paths, Dangers, Strategies
