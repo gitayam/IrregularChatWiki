@@ -180,7 +180,7 @@ How AI and emerging technologies shape the modern geopolitical rivalry between d
 
 Frames the present economic warfare dynamic between China and the US in light of the iron triangle—geopolitical competition, economic security, and economic interdependence—highlighting you can only have 2 out of the 3 aspects. His work frames the underlying tensions that will likely further persist and shape the security, economic, and technology environment into the future.
 
-- **Amazon**: [Chokepoints](https://www.amazon.com/Chokepoints-American-Power-Economic-Warfare/dp/0593655826/)
+- **Amazon**: [Chokepoints](https://www.amazon.com/Chokepoints-American-Power-Economic-Warfare/dp/0593712978/)
 - **Related**: [PMESII-PT Framework](/general/pmesii-pt)
 
 ---
