@@ -119,6 +119,18 @@ Former Navy SEAL who tells stories about the strange, dark, and mysterious. Cove
 
 ---
 
+### Why It's So Difficult to Build Things in America (Smarter Every Day)
+*Recommended by Nick F*
+
+> *"A master class in accessible storytelling about how policy, jobs, and national defense are facing a critical turning point in America."*
+
+Destin from Smarter Every Day breaks down why manufacturing and building in the United States has become so challenging—and why it matters for national security.
+
+- **Watch**: [YouTube](https://youtu.be/3ZTGwcHQfLY)
+- **Related**: [Recoding America](#recoding-america-why-government-is-failing-in-the-digital-age-and-how-we-can-do-better)
+
+---
+
 ## Books
 
 ### History & Cycles
