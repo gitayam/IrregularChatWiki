@@ -551,6 +551,7 @@ Connects technology with society and history. Shows the divide of US vs. EU, Wes
 
 - **Wikipedia**: [The Cuckoo's Egg](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book))
 - **Amazon**: [The Cuckoo's Egg](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/)
+- **See also**: [Meeting the Father of Cybersecurity](https://forum.hsp.sh/t/clifford-stoll-spotkanie-z-ojcem-cyberbezpieczenstwa/896) - Marcin's account of visiting Cliff Stoll in San Francisco (Polish)
 - **Related**: [Cybersecurity Resources](/cybersecurity/)
 
 ---
