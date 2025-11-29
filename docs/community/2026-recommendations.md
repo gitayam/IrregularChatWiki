@@ -95,6 +95,20 @@ An exploration of how cognitive biases affect our thinking across the political 
 
 ## Books
 
+### History & Cycles
+
+#### The Fourth Turning: What the Cycles of History Tell Us About America's Next Rendezvous with Destiny
+**Authors**: William Strauss & Neil Howe
+*Recommended by MysteryDroneMan*
+
+A theory of generational cycles that predicts periods of crisis and renewal in American history. The authors argue history moves in roughly 80-year cycles through four "turnings"—and we're currently in a Fourth Turning (crisis era).
+
+- **Amazon**: [The Fourth Turning](https://a.co/d/gk7HG48)
+- **Also see**: [The Fourth Turning Is Here](https://a.co/d/ahfNXy5) - Neil Howe's 2023 follow-up
+- **Video**: [YouTube explainer](https://youtu.be/EVzmKpw_ges?si=B6fw4lSjo9XgeDwT)
+
+---
+
 ### Geopolitics & Strategy
 
 #### The New Rules of War: Victory in the Age of Durable Disorder
