@@ -227,9 +227,8 @@ An exploration of how artificial intelligence is reshaping society and the chall
 
 #### Range: Why Generalists Triumph in a Specialized World
 **Author**: David Epstein
-*Recommended by Bryan S*
 
-> *"In my experience, about half of the people who pick it up love it and the other half are threatened by it."*
+> *"In my experience, about half of the people who pick it up love it and the other half are threatened by it (or at least don't like it)."*
 
 The central theme: broad exposure to ideas and experiences will make you far more successful than focusing on a single task or skill. Resonates with those whose lives have been a collection of diverse experiences—what felt like wandering lost in the desert turns out to be invaluable.
 
@@ -263,7 +262,6 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ### What is Artificial Intelligence? The Definitive Guide
 **Source**: MIT Technology Review (2024)
-*Recommended by Bryan S*
 
 > *"Probably the best single article I'd recommend"*
 
