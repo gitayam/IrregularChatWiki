@@ -412,6 +412,18 @@ Read this if you're looking to:
 
 ---
 
+#### Company of One: Why Staying Small Is the Next Big Thing for Business
+**Author**: Paul Jarvis
+*Recommended by [Carrick Longley](https://www.linkedin.com/in/carricklongley)*
+
+Challenges the assumption that success requires constant growth, offering instead a mindset built on agility, intentional focus, and doing better rather than doing more. This perspective aligns naturally with the SOF community's strengths—small, adaptive teams that succeed through clarity of mission, disciplined execution, and the ability to move fast without unnecessary complexity.
+
+For SOF leaders and operators, the book provides a useful lens for both current roles and future ventures. It reinforces the value of staying lean, avoiding mission creep, and building systems that prioritize autonomy and effectiveness. Whether applied to team leadership, special projects, or post-military career design, Company of One offers a practical way to maximize impact while staying true to core purpose.
+
+- **Amazon**: [Company of One](https://www.amazon.com/Company-One-Staying-Small-Business/dp/1328972356/)
+
+---
+
 ### Philosophy & Foundations
 
 #### The Cathedral and the Bazaar
