@@ -24,6 +24,28 @@ A harrowing examination of Soviet brutality and the psychology of totalitarian s
 
 ---
 
+### Linux Unplugged
+*Recommended by Matthew Parga-Manasse*
+
+A weekly, casual podcast about Linux. Great for staying current with the Linux ecosystem, community news, and practical tips from experienced users.
+
+- **Listen**: [Linux Unplugged](https://linuxunplugged.com/)
+- **Format**: Weekly
+- **Related**: [Shell Scripting Resources](/general/shell) | [Linux Server Setup](/server-guides/linux-server-initial-setup)
+
+---
+
+### CyberWire Daily
+*Recommended by Matthew Parga-Manasse*
+
+A daily briefing on cybersecurity news, vulnerability disclosures, and threat intelligence. Concise format perfect for staying informed on the rapidly evolving security landscape.
+
+- **Listen**: [CyberWire Daily](https://thecyberwire.com/podcasts/daily-podcast)
+- **Format**: Daily
+- **Related**: [Cybersecurity Resources](/cybersecurity/) | [CISA Resources](/cybersecurity/cisa-resources)
+
+---
+
 ## Books
 
 ### Geopolitics & Strategy
@@ -76,6 +98,28 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 ---
 
+### Entrepreneurship & Innovation
+
+#### Zero to One: Notes on Startups, or How to Build the Future
+**Author**: Peter Thiel with Blake Masters
+
+Read this if you're looking to:
+- Build companies that create new value, not copy existing models
+- Understand how to go from nothing (0) to something unique (1)
+- Explore why the biggest opportunities come from contrarian ideas
+- Develop a mindset for seeing what others miss
+
+You'd be interested in it if you're into:
+- Entrepreneurship or launching a business
+- Tech startups, innovation, strategic thinking
+- Long-term business strategy
+- Creating systems that are hard to replicate
+- Leadership and scaling organizations
+
+- **Amazon**: [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/)
+
+---
+
 ## Videos & Documentaries
 
 *Section open for community contributions*
@@ -96,7 +140,13 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 
 ## Quotes
 
-*Section open for community contributions*
+### On Action & Movement
+*Recommended by Bobby Kava*
+
+> *"Like a burlesque comedian, I'm abnormally fond of that action, which creates movement."*
+> — e.e. cummings
+
+A reminder that progress comes from doing, not deliberating. Whether in work, learning, or life—movement beats stagnation.
 
 ---
 
