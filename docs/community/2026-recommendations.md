@@ -131,6 +131,18 @@ Destin from Smarter Every Day breaks down why manufacturing and building in the 
 
 ---
 
+### Ukraine's Counteroffensive Documentary
+*Recommended by Bryan S*
+
+> *"What's the largest counteroffensive in European history since World War II grind to a halt, the reality of a ground war today where we are stuck in the purgatory between human and robotic warfighting. Disturbing, and if you've ever been called 'brother' in the trenches, it'll haunt you. A reminder and a promise."*
+
+A sobering look at modern ground warfare and the transition point between human and autonomous combat systems.
+
+- **Watch**: [YouTube](https://youtu.be/Nf4Cgy56slU?si=ERfkWqM014saWsKB)
+- **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs)
+
+---
+
 ## Books
 
 ### History & Cycles
