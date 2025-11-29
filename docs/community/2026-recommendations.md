@@ -100,6 +100,14 @@ An exploration of how cognitive biases affect our thinking across the political 
 
 ---
 
+### Whiteboard Crypto
+
+A YouTube channel that explains cryptocurrency and blockchain technology using whiteboard-style animations. Breaks down how different cryptocurrencies work and explains the broader ecosystem in accessible terms.
+
+- **Watch**: [Whiteboard Crypto](https://youtube.com/@whiteboardcrypto)
+
+---
+
 ## Books
 
 ### History & Cycles
