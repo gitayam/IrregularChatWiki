@@ -1,166 +1,515 @@
 ---
 title: "Community Reading List"
+tags: ["recommendations", "reading", "books", "learning", "community"]
 ---
 
 # Community Reading List
 
-## Community Recommended Reading and Listening List
+Evergreen recommendations from the IrregularChat community—books that remain relevant year after year.
 
-1. 2025
+> **Looking for current recommendations?** See [2026 Community Recommendations](/community/2026-recommendations) for this year's picks.
 
-1. 2023
+---
 
-### Leadership
-For the full DFP Guides, see [Guide](/general/dfp-guide).
+## Leadership
 
-This section provides a list of recommended readings on leadership:
+::: tip Wiki Resources
+[Army Evaluations](/general/army-evaluation-resources) | [Awards Guide](/general/awards) | [Promotion Boards](/general/promotion-boards)
+:::
 
-- **[The Infinite Game](https://www.amazon.com/The-Infinite-Game-Simon-Sinek-audiobook/dp/B07DKHFTB7) by Simon Sinek**
+#### The Infinite Game
+**Author**: Simon Sinek
 
-- **[Start with Why: How Great Leaders Inspire Everyone to Take Action](https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447/) by Simon Sinek**
+How to build organizations that thrive over the long term by adopting an infinite mindset.
 
-- **[Leaders Eat Last: Why Some Teams Pull Together and Others Don’t](https://www.amazon.com/Leaders-Eat-Last-Together-Others/dp/B00C1N9JG6/) by Simon Sinek**
+- **Amazon**: [The Infinite Game](https://www.amazon.com/The-Infinite-Game-Simon-Sinek-audiobook/dp/B07DKHFTB7)
 
-- **[Thoughts of a Philosophical Fighter Pilot](https://www.amazon.com/Thoughts-Philosophical-Fighter-Pilot-Reprint/dp/0817993924)**
+---
 
-### Influence
+#### Start with Why: How Great Leaders Inspire Everyone to Take Action
+**Author**: Simon Sinek
 
-#### Information Operations
+The foundational text on purpose-driven leadership—why the "why" matters more than the "what" or "how."
 
-- **[Putin’s Trolls: On the Frontlines of Russia’s Information War Against the World](https://a.co/d/5lfcn0H) by Jessikka Aro**
+- **Amazon**: [Start with Why](https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447/)
 
-- **[Disinformation: Former Spy Chief Reveals Secret Strategies for Undermining Freedom, Attacking Religion, and Promoting Terrorism](https://a.co/d/7mLQThx) by Gen Ion Mihai Pacepa, Prof Ronald J Rychlak**
+---
 
-#### Social Engineering
+#### Leaders Eat Last: Why Some Teams Pull Together and Others Don't
+**Author**: Simon Sinek
 
-- **[Social Engineering: The Science of Human Hacking](https://www.amazon.com/Social-Engineering-Second-Science-Hacking/dp/B07NS53TKR/) by Christopher J. Hadnagy**
+How great leaders create environments where people naturally work together to achieve remarkable things.
 
-- **[Click: The Forces Behind How We Fully Engage with People, Work, and Everything We Do](https://www.amazon.com/Click-Forces-Behind-Engage-Everything/dp/0385529066/) by Ori Brafman**
+- **Amazon**: [Leaders Eat Last](https://www.amazon.com/Leaders-Eat-Last-Together-Others/dp/B00C1N9JG6/)
 
-- **[The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations](https://www.amazon.com/gp/product/B000S1LU3M/) by Ori Brafman and Rod**
+---
 
-- **[The Power of Persuasion: How We’re Bought and Sold](https://www.amazon.com/Power-Persuasion-Were-Bought-Sold/dp/0471266341/) by Robert Levine**
+#### Thoughts of a Philosophical Fighter Pilot
+**Author**: James Stockdale
 
-### Society
+Wisdom from a Vietnam POW and Medal of Honor recipient on stoicism, leadership, and resilience.
 
-- **[Propaganda](https://www.amazon.com/Propaganda-Edward-Bernays/dp/0970312598/) by Edward Bernays**
+- **Amazon**: [Thoughts of a Philosophical Fighter Pilot](https://www.amazon.com/Thoughts-Philosophical-Fighter-Pilot-Reprint/dp/0817993924)
 
-- **[Manufacturing Consent: The Political Economy of the Mass Media](https://www.amazon.com/Manufacturing-Consent-Political-Economy-Media/dp/0375714499/) by Edward S. Herman and Noam Chomsky**
+---
 
-- **[Mistakes Were Made (but Not By Me) Third Edition](https://www.amazon.com/Mistakes-Were-Made-but-Third/dp/0358329612/) by Carol Tavris**
+## Influence & Information Operations
 
-### Modeling
+::: tip Wiki Resources
+[Information Warfare](/general/information-warfare) | [TAAW Review](/general/taaw-review) | [Identify Influencers](/general/identify-influencers-using-the-taaw)
+:::
+
+#### Putin's Trolls: On the Frontlines of Russia's Information War Against the World
+**Author**: Jessikka Aro
+
+Firsthand account of Russian information warfare operations and their global impact.
+
+- **Amazon**: [Putin's Trolls](https://a.co/d/5lfcn0H)
+
+---
+
+#### Disinformation: Former Spy Chief Reveals Secret Strategies for Undermining Freedom, Attacking Religion, and Promoting Terrorism
+**Authors**: Gen Ion Mihai Pacepa & Prof Ronald J Rychlak
+
+A former Romanian intelligence chief reveals Soviet disinformation tactics—many still in use today.
+
+- **Amazon**: [Disinformation](https://a.co/d/7mLQThx)
+
+---
+
+## Social Engineering & Persuasion
+
+#### Social Engineering: The Science of Human Hacking
+**Author**: Christopher J. Hadnagy
+
+The definitive guide to understanding and defending against social engineering attacks.
+
+- **Amazon**: [Social Engineering](https://www.amazon.com/Social-Engineering-Second-Science-Hacking/dp/B07NS53TKR/)
+- **Related**: [Cybersecurity Resources](/cybersecurity/)
+
+---
+
+#### Click: The Forces Behind How We Fully Engage with People, Work, and Everything We Do
+**Author**: Ori Brafman
+
+The psychology of connection and engagement.
+
+- **Amazon**: [Click](https://www.amazon.com/Click-Forces-Behind-Engage-Everything/dp/0385529066/)
+
+---
+
+#### The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations
+**Authors**: Ori Brafman & Rod A. Beckstrom
+
+Why decentralized organizations often outperform hierarchical ones.
+
+- **Amazon**: [The Starfish and the Spider](https://www.amazon.com/gp/product/B000S1LU3M/)
+
+---
+
+#### The Power of Persuasion: How We're Bought and Sold
+**Author**: Robert Levine
+
+Understanding the mechanics of persuasion in everyday life.
+
+- **Amazon**: [The Power of Persuasion](https://www.amazon.com/Power-Persuasion-Were-Bought-Sold/dp/0471266341/)
+
+---
+
+#### Influence: The Psychology of Persuasion
+**Author**: Robert Cialdini
+
+The classic text on the six principles of influence—reciprocity, commitment, social proof, authority, liking, and scarcity.
+
+- **Amazon**: [Influence](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X/)
+
+---
+
+## Society & Media
+
+#### Propaganda
+**Author**: Edward Bernays
+
+The 1928 classic that shaped modern public relations and political communication. Bernays, Freud's nephew, explains how to engineer consent.
+
+- **Amazon**: [Propaganda](https://www.amazon.com/Propaganda-Edward-Bernays/dp/0970312598/)
+
+---
+
+#### Manufacturing Consent: The Political Economy of the Mass Media
+**Authors**: Edward S. Herman & Noam Chomsky
+
+How media systems serve elite interests through structural filters rather than overt censorship.
+
+- **Amazon**: [Manufacturing Consent](https://www.amazon.com/Manufacturing-Consent-Political-Economy-Media/dp/0375714499/)
+
+---
+
+#### Mistakes Were Made (but Not By Me)
+**Author**: Carol Tavris
+
+The psychology of self-justification and why we struggle to admit we're wrong.
+
+- **Amazon**: [Mistakes Were Made](https://www.amazon.com/Mistakes-Were-Made-but-Third/dp/0358329612/)
+
+---
+
+## Psychology & Decision Making
+
+::: tip Wiki Resources
+[Behavior Analysis](/general/behavior-analysis) | [SATs](/general/structured-analytic-techniques-sats)
+:::
+
+#### Thinking, Fast and Slow
+**Author**: Daniel Kahneman
+
+Nobel laureate explains the two systems that drive how we think—fast intuition vs. slow reasoning.
+
+- **Amazon**: [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/)
+
+---
+
+### Crowd Psychology
+
+#### The True Believer: Thoughts on the Nature of Mass Movements
+**Author**: Eric Hoffer
+
+Why people join mass movements and what makes movements succeed or fail.
+
+- **Amazon**: [The True Believer](https://www.amazon.com/True-Believer-Thoughts-Movements-Perennial-ebook/dp/B003TO5838/)
+
+---
+
+#### The Crowd: A Study of the Popular Mind
+**Author**: Gustave Le Bon
+
+1895 classic on crowd psychology that influenced leaders from Roosevelt to Mussolini.
+
+- **Amazon**: [The Crowd](https://www.amazon.com/Crowd-Study-Popular-Mind-ebook/dp/B0B3NM64GX/)
+
+---
+
+#### Memoirs of Extraordinary Popular Delusions
+**Author**: Charles Mackay
+
+1841 study of financial bubbles and mass hysteria—from tulip mania to witch hunts.
+
+- **Amazon**: [Extraordinary Popular Delusions](https://www.amazon.com/Memoirs-Extraordinary-Popular-Delusions-Volu-ebook/dp/B0B3NKR3RN)
+
+---
+
+#### Public Opinion
+**Author**: Walter Lippmann
+
+How the media shapes public perception and the gap between reality and the "pictures in our heads."
+
+- **Amazon**: [Public Opinion](https://www.amazon.com/PUBLIC-OPINION-Walter-Lippmann-ebook/dp/B075R63RHB)
+
+---
+
+### Foreign Perspectives of America
+
+#### Understanding Anti-Americanism
+**Author**: Paul Hollander
+
+Academic analysis of anti-American sentiment worldwide—its origins and manifestations.
+
+- **Amazon**: [Understanding Anti-Americanism](https://www.amazon.com/Understanding-Anti-Americanism-Origins-Impact-Abroad/dp/1566636167)
+
+---
+
+#### Land without Ghosts
+**Author**: David Arkush
+
+Chinese perspectives on America from the mid-19th century onward.
+
+- **Amazon**: [Land Without Ghosts](https://www.amazon.com/Land-Without-Ghosts-Impressions-Mid-Nineteenth/dp/0520084241)
+
+---
+
+#### Hating America: A History
+**Author**: Barry Rubin
+
+Historical survey of anti-Americanism from the founding era to the present.
+
+- **Amazon**: [Hating America](https://www.amazon.com/Hating-America-History-Barry-Rubin/dp/019530649X/)
+
+---
+
+#### The Ugly American
+**Authors**: William J. Lederer & Eugene Burdick
+
+1958 novel that shaped American foreign policy thinking—why we fail at winning hearts and minds.
+
+- **Amazon**: [The Ugly American](https://www.amazon.com/Ugly-American-WILLIAM-J-LEDERER/dp/B0B1C3K6W2/)
+
+---
+
+## War & Conflict
+
+::: tip Wiki Resources
+[PMESII-PT](/general/pmesii-pt) | [COG Analysis](/general/center-of-gravity-analysis-guide) | [Unmanned Systems](/general/unmanned-systems)
+:::
+
+#### Triple Cross: How bin Laden's Master Spy Penetrated the CIA, the Green Berets, and the FBI
+**Author**: Peter Lance
+
+The story of Ali Mohamed, the al-Qaeda triple agent who trained terrorists while working with U.S. intelligence.
+
+- **Amazon**: [Triple Cross](https://www.amazon.com/Triple-Cross-Ladens-Penetrate-September/dp/0061189411/)
+
+---
+
+#### Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden
+**Author**: Steve Coll
+
+Pulitzer Prize-winning history of CIA operations in Afghanistan from the Soviet invasion to 9/11.
+
+- **Amazon**: [Ghost Wars](https://www.amazon.com/Ghost-Wars-Secret-Afghanistan-September/dp/0143034669/)
+
+---
+
+#### War Is a Racket
+**Author**: Smedley D. Butler
+
+America's most decorated Marine general exposes the business interests behind war.
+
+- **Amazon**: [War Is a Racket](https://www.amazon.com/War-Racket-Antiwar-Americas-Decorated/dp/0922915865/)
+- **See also**: [Gangsters of Capitalism](/community/2026-recommendations#gangsters-of-capitalism-smedley-butler-the-marines-and-the-making-and-breaking-of-americas-empire) in 2026 Recommendations
+
+---
+
+#### The Art of War
+**Author**: Sun Tzu
+
+The ancient Chinese classic on strategy—still required reading for military and business leaders.
+
+- **Amazon**: [The Art of War](https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772/)
+
+---
+
+#### The Face of Battle
+**Author**: John Keegan
+
+Revolutionary military history that examines war from the soldier's perspective—Agincourt, Waterloo, and the Somme.
+
+- **Amazon**: [The Face of Battle](https://www.amazon.com/Face-Battle-Agincourt-Waterloo-Somme/dp/0140048979/)
+
+---
+
+#### The Guns of August
+**Author**: Barbara W. Tuchman
+
+Pulitzer Prize-winning account of the first month of WWI—how miscalculation led to catastrophe.
+
+- **Amazon**: [The Guns of August](https://www.amazon.com/Guns-August-Barbara-W-Tuchman/dp/0345476093/)
+
+---
+
+#### The Making of the Atomic Bomb
+**Author**: Richard Rhodes
+
+Pulitzer Prize-winning history of the Manhattan Project—science, politics, and moral reckoning.
+
+- **Amazon**: [The Making of the Atomic Bomb](https://www.amazon.com/Making-Atomic-Bomb-Richard-Rhodes/dp/1451677618/)
+
+---
+
+### Open Source Warfare
+
+#### Brave New War: The Next Stage of Terrorism and the End of Globalization
+**Author**: John Robb
+
+How networked insurgencies and system disruption are changing the nature of conflict.
+
+- **Amazon**: [Brave New War](https://www.amazon.com/Brave-New-War-Terrorism-Globalization/dp/0471780790/)
+
+---
+
+#### LikeWar: The Weaponization of Social Media
+**Author**: P.W. Singer
+
+How social media has become a battleground for influence and conflict.
+
+- **Amazon**: [LikeWar](https://www.amazon.com/LikeWar-Weaponization-P-W-Singer/dp/0358108470/)
+
+---
+
+#### The Sovereign Individual: Mastering the Transition to the Information Age
+**Authors**: James Dale Davidson & Lord William Rees-Mogg
+
+1997 predictions about how technology would reshape power, borders, and sovereignty—many now coming true.
+
+- **Amazon**: [The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720/)
+
+---
+
+## Intelligence & Analysis
+
+::: tip Wiki Resources
+[Research Tools](/research/research-tools) | [Research Preparation](/research/research-preparation) | [Research Datasets](/research/research-datasets)
+:::
+
+#### Psychology of Intelligence Analysis
+**Author**: Richards J. Heuer Jr.
+
+CIA handbook on cognitive biases and structured analysis—essential for any analyst.
+
+- **Free PDF**: [CIA.gov](https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/)
+
+---
+
+#### The Art of Intelligence: Lessons from a Life in the CIA's Clandestine Service
+**Author**: Henry A. Crumpton
+
+Memoir from a CIA operations officer on tradecraft, leadership, and the human side of intelligence.
+
+- **Amazon**: [The Art of Intelligence](https://www.amazon.com/Art-Intelligence-Lessons-Clandestine-Service/dp/0143123370/)
+
+---
+
+#### The Craft of Intelligence
+**Author**: Allen W. Dulles
+
+Former CIA Director's overview of intelligence fundamentals—still relevant decades later.
+
+- **Amazon**: [The Craft of Intelligence](https://www.amazon.com/Craft-Intelligence-Legendary-Fundamentals-Gathering/dp/1591145180/)
+
+---
+
+#### The Secret World: A History of Intelligence
+**Author**: Christopher Andrew
+
+Comprehensive history of intelligence from ancient times to the present.
+
+- **Amazon**: [The Secret World](https://www.amazon.com/Secret-World-History-Intelligence/dp/0300243874/)
+
+---
+
+### Research & Data Analysis
+
+#### The Signal and the Noise: Why So Many Predictions Fail — but Some Don't
+**Author**: Nate Silver
+
+How to separate signal from noise in a world of data overload.
+
+- **Amazon**: [The Signal and the Noise](https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087/)
+
+---
 
 #### Applied Predictive Modeling
+**Authors**: Max Kuhn & Kjell Johnson
 
-- **[Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1461468485) by Max Kuhn and Kjell Johnson**
-  - [pdf link](https://vuquangnguyen2016.files.wordpress.com/2018/03/applied-predictive-modeling-max-kuhn-kjell-johnson_1518.pdf)
+Technical guide to predictive modeling techniques.
 
-### Psychology
+- **Amazon**: [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1461468485)
 
-- **[Influence: The Psychology of Persuasion](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X/) by Robert Cialdini**
+---
 
-- **[Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/) by Daniel Kahneman**
+#### The Elements of Statistical Learning
+**Authors**: Trevor Hastie, Robert Tibshirani & Jerome Friedman
 
-#### Open Source Warfare
+The graduate-level textbook on machine learning and statistical methods.
 
-- **[Brave New War: The Next Stage of Terrorism and the End of Globalization](https://www.amazon.com/Brave-New-War-Terrorism-Globalization/dp/0471780790/) by John Robb**
+- **Amazon**: [Elements of Statistical Learning](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/)
 
-- **[LikeWar: The Weaponization of Social Media](https://www.amazon.com/LikeWar-Weaponization-P-W-Singer/dp/0358108470/) by P.W. Singer**
+---
 
-- **[The Sovereign Individual: Mastering the Transition to the Information Age](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720/) by James Dale Davidson and Lord William Rees-Mogg**
+#### Knowing What We Know
+**Author**: Simon Winchester
 
-#### Crowd Psychology
+A history of how humans have gathered, stored, and transmitted knowledge.
 
-- **[The True Believer: Thoughts on the Nature of Mass Movements](https://www.amazon.com/True-Believer-Thoughts-Movements-Perennial-ebook/dp/B003TO5838/) by Eric Hoffer**
+- **Amazon**: [Knowing What We Know](https://a.co/d/2C990an)
 
-- **[The Crowd: A Study of the Popular Mind](https://www.amazon.com/Crowd-Study-Popular-Mind-ebook/dp/B0B3NM64GX/) by Gustave Le Bon**
+---
 
-- **[Memoirs of Extraordinary Popular Delusions](https://www.amazon.com/Memoirs-Extraordinary-Popular-Delusions-Volu-ebook/dp/B0B3NKR3RN) by Charles Mackay**
+## Technology & Cybersecurity
 
-- **[PUBLIC OPINION](https://www.amazon.com/PUBLIC-OPINION-Walter-Lippmann-ebook/dp/B075R63RHB) by Walter Lippmann**
+::: tip Wiki Resources
+[Cybersecurity Overview](/cybersecurity/) | [OSCP Guide](/cybersecurity/oscp) | [Red Teaming](/cybersecurity/cyber-red-teaming)
+:::
 
-#### Foreign Perspectives of America
+#### Genius Makers
+**Author**: Cade Metz
 
-- **[Understanding Anti-Americanism](https://www.amazon.com/Understanding-Anti-Americanism-Origins-Impact-Abroad/dp/1566636167) by Paul Hollander**
+The story of the AI revolution and the mavericks who made it happen.
 
-- **[Land without Ghosts](https://www.amazon.com/Land-Without-Ghosts-Impressions-Mid-Nineteenth/dp/0520084241) by David Arkush**
+- **Amazon**: [Genius Makers](https://www.amazon.com/Genius-Makers-Mavericks-Brought-Facebook/dp/B08CYBGCR1/)
 
-- **[Hating America](https://www.amazon.com/Hating-America-History-Barry-Rubin/dp/019530649X/) by Barry Rubin**
+---
 
-- **[Ugly American](https://www.amazon.com/Ugly-American-WILLIAM-J-LEDERER/dp/B0B1C3K6W2/) by William J Lederer**
+#### The Information: A History, a Theory, a Flood
+**Author**: James Gleick
 
-### War
+How information became the defining feature of the modern age.
 
-- **[Triple Cross: How bin Laden’s Master Spy Penetrated the CIA, the Green Berets, and the FBI](https://www.amazon.com/Triple-Cross-Ladens-Penetrate-September/dp/0061189411/) by Peter Lance**
+- **Amazon**: [The Information](https://www.amazon.com/The-Information-James-Gleick-audiobook/dp/B004Q3NKK4/)
 
-- **[Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden, from the Soviet Invasion to September 10, 2001](https://www.amazon.com/Ghost-Wars-Secret-Afghanistan-September/dp/0143034669/) by Steve Coll**
+---
 
-- **[War Is a Racket: The Antiwar Classic by America’s Most Decorated Soldier](https://www.amazon.com/War-Racket-Antiwar-Americas-Decorated/dp/0922915865/) by Smedley D. Butler**
+#### Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
+**Author**: Kevin Mitnick
 
-- **[The Art of War](https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772/) by Sun Tzu**
+Memoir of America's most famous hacker—social engineering, phone phreaking, and cat-and-mouse with the FBI.
 
-- **[The Face of Battle: A Study of Agincourt, Waterloo, and the Somme](https://www.amazon.com/Face-Battle-Agincourt-Waterloo-Somme/dp/0140048979/) by John Keegan**
+- **Amazon**: [Ghost in the Wires](https://www.amazon.com/Ghost-Wires-Adventures-Worlds-Wanted-ebook/dp/B0047Y0F0K/)
 
-- **[The Guns of August](https://www.amazon.com/Guns-August-Barbara-W-Tuchman/dp/0345476093/) by Barbara W. Tuchman**
+---
 
-- **[The Making of the Atomic Bomb](https://www.amazon.com/Making-Atomic-Bomb-Richard-Rhodes/dp/1451677618/) by Richard Rhodes**
+#### The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage
+**Author**: Cliff Stoll
 
-### Intelligence, Research, and Analysis
+The true story that founded cybersecurity—tracking a hacker through early computer networks.
 
-#### RSS
+- **Amazon**: [The Cuckoo's Egg](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/)
+- **See also**: [Extended review](/community/2026-recommendations#the-cuckoos-egg-tracking-a-spy-through-the-maze-of-computer-espionage) in 2026 Recommendations
 
-- [Research Shorts and Notes](https://ni-u.edu/wp/research-shorts-and-notes/)
+---
 
-#### Intelligence Gathering and Analysis
+#### Cyber Spies
+**Author**: Gordon Corera
 
-- **[Psychology of Intelligence Analysis**
+History of cyber espionage from WWII codebreakers to modern state-sponsored hacking.
 
-- **[https://www.amazon.com/Art-Intelligence-Lessons-Clandestine-Service/dp/0143123370/ The Art of Intelligence: Lessons from a Life in the CIA’s Clandestine Service](https://www.amazon.com/Psychology-Intelligence-Analysis-Richards-Heuer/dp/1684224128/) by Henry A. Crumpton**
+- **Amazon**: [Cyber Spies](https://www.amazon.com/dp/1681774593/)
 
-- **[The Craft of Intelligence: America’s Legendary Spy Master on the Fundamentals of Intelligence Gathering for a Free World](https://www.amazon.com/Craft-Intelligence-Legendary-Fundamentals-Gathering/dp/1591145180/) by Allen W. Dulles**
+---
 
-- **[The Secret World: A History of Intelligence](https://www.amazon.com/Secret-World-History-Intelligence/dp/0300243874/) by Christopher Andrew**
+#### Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
+**Author**: Andy Greenberg
 
-#### Research and Analysis
+The story of Russia's most destructive hacking group and the hunt to stop them.
 
-- **[The Analysis and Use of Financial Statements](https://www.amazon.com/Analysis-Financial-Statements-Gerald-White/dp/0470890810/) by Gerald I. White and Ashwinpaul C. Sondhi**
+- **Amazon**: [Sandworm](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405/)
 
-- **[The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/) by Trevor Hastie, Robert Tibshirani, and Jerome Friedman**
+---
 
-- **[The Signal and the Noise: Why So Many Predictions Fail — but Some Don’t](https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087/) by Nate Silver**
+## Philosophy
 
-- **[Knowing What We Know](https://a.co/d/2C990an)**
+#### Meditations
+**Author**: Marcus Aurelius
 
-### Technology
+The Roman Emperor's personal journal—timeless Stoic wisdom on resilience and perspective.
 
-- **[Genius Makers](https://www.amazon.com/Genius-Makers-Mavericks-Brought-Facebook/dp/B08CYBGCR1/) by Cade Metz, John Lee, et al.**
+- **Amazon**: [Meditations](https://www.amazon.com/Meditations-Marcus-Aurelius/dp/1503280462/)
+- **See also**: [Extended review](/community/2026-recommendations#meditations) in 2026 Recommendations
 
-- **[The Information](https://www.amazon.com/The-Information-James-Gleick-audiobook/dp/B004Q3NKK4/) by James Gleick, Rob Shapiro, et al.**
+---
 
-- **[Ghost in the Wires: My Adventures as the World’s Most Wanted Hacker](https://www.amazon.com/Ghost-Wires-Adventures-Worlds-Wanted-ebook/dp/B0047Y0F0K/) by Kevin Mitnick**
+#### Enchiridion
+**Author**: Epictetus
 
-#### Cybersecurity
+The Stoic handbook—practical philosophy for living well.
 
-- **[The Cuckoo’s Egg: Tracking a Spy Through the Maze of Computer Espionage](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/) by Cliff Stoll**
+- **Amazon**: [Enchiridion](https://www.amazon.com/Enchiridion-Dover-Thrift-Editions-Philosophy/dp/0486433595/)
 
-- **[Cyber Spies](https://www.amazon.com/dp/1681774593/) by Gordon Corera**
+---
 
-- **[Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin’s Most Dangerous Hackers](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405/) by Andy Greenberg**
+## Related Resources
 
-#### Blockchain
-
-- **On Constellation:**
-  - [The Unique Value Proposition and Bull Case for Constellation Network](https://medium.com/@lee.papa/the-unique-value-proposition-and-bull-case-for-constellation-network-1c260dc03f23)
-  - [A Brief History of the Hypergraph](https://medium.com/@lee.papa/a-brief-history-of-the-hypergraph-1d8f79fd72e5)
-
-- **On Void:**
-  - [Enter the Void NFT](https://enterthevoidnft.medium.com/)
-
-### Philosophy
-
-- **[Meditations](https://www.amazon.com/Meditations-Marcus-Aurelius/dp/1503280462/) by Marcus Aurelius**
-
-- **[Enchiridion: Epictetus, Robert M. Baird et al.**
-
-
+- [2026 Community Recommendations](/community/2026-recommendations) - This year's picks
+- [Community Recommended Episodes](/community/community-recommended-episodes) - Podcast episodes
+- [Learning Resources](/general/learning) - Free courses and training
+- [AI/ML Learning](/ai-ml/ai-ml-learning) - AI-specific learning paths
+- [Certifications](/general/certifications) - Professional development
