@@ -208,6 +208,32 @@ You'd be interested in it if you're into:
 
 ---
 
+### AI & Technology
+
+#### The Beast in the Machine
+*Recommended by Bryan S*
+
+> *"Book good"*
+
+- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
+
+---
+
+### Personal Development
+
+#### Range: Why Generalists Triumph in a Specialized World
+**Author**: David Epstein
+*Recommended by Bryan S*
+
+> *"In my experience, about half of the people who pick it up love it and the other half are threatened by it."*
+
+The central theme: broad exposure to ideas and experiences will make you far more successful than focusing on a single task or skill. Resonates with those whose lives have been a collection of diverse experiences—what felt like wandering lost in the desert turns out to be invaluable.
+
+- **Amazon**: [Range](https://a.co/d/d0YZWOZ)
+- **Why it matters**: Validates the generalist path in a world obsessed with specialization
+
+---
+
 ### Cybersecurity & Reverse Engineering
 
 #### Reverse Engineering For Everyone!
@@ -231,7 +257,16 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ## Articles & Essays
 
-*Section open for community contributions*
+### What is Artificial Intelligence? The Definitive Guide
+**Source**: MIT Technology Review (2024)
+*Recommended by Bryan S*
+
+> *"Probably the best single article I'd recommend"*
+
+A comprehensive overview of AI—what it is, how it works, and where it's headed. Essential reading for understanding the technology shaping our world.
+
+- **Read**: [What is Artificial Intelligence?](https://www.technologyreview.com/2024/07/10/1094475/what-is-artificial-intelligence-ai-definitive-guide/)
+- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI/ML Learning](/ai-ml/ai-ml-learning)
 
 ---
 
