@@ -173,7 +173,7 @@ Isaacson's definitive biography of one of the most influential and controversial
 
 ---
 
-#### 6 Minutes to Freedom: How a House Painter Helped Topple a Dictator
+#### Six Minutes to Freedom: How a Band of Heroes Defied a Dictator and Helped Free a Nation
 **Authors**: Kurt Muse & John Gilstrap
 *Recommended by Casey H*
 
@@ -181,7 +181,7 @@ Isaacson's definitive biography of one of the most influential and controversial
 
 The incredible true story of Kurt Muse, an American businessman imprisoned by Manuel Noriega in Panama, and the Delta Force hostage rescue operation that saved him. A gripping account of courage under captivity and one of the most daring special operations missions in U.S. history.
 
-- **Amazon**: [6 Minutes to Freedom](https://www.amazon.com/Minutes-Freedom-House-Painter-Dictator/dp/0806527595/)
+- **Amazon**: [Six Minutes to Freedom](https://www.amazon.com/Six-Minutes-Freedom-Heroes-Dictator/dp/B07Z44W4VM/)
 
 ---
 
