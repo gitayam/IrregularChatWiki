@@ -545,6 +545,15 @@ The neuroscience of sleep and why it's so important.
 
 ---
 
+#### Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success
+**Authors**: Brad Stulberg & Steve Magness
+
+Not a new book, but valuable for anyone moving from a technical focus to a leadership focus. Science-backed strategies for achieving excellence while avoiding burnout—how to push hard sustainably.
+
+- **Amazon**: [Peak Performance](https://www.amazon.com/Peak-Performance-Elevate-Burnout-Science/dp/162336793X/)
+
+---
+
 ### Personal Development
 
 #### The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers
