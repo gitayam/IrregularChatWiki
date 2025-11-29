@@ -108,6 +108,17 @@ A YouTube channel that explains cryptocurrency and blockchain technology using w
 
 ---
 
+### MrBallen
+*Recommended by MysteryDroneMan*
+
+Former Navy SEAL who tells stories about the strange, dark, and mysterious. Covers true crime, unsolved mysteries, and unusual events with compelling storytelling. Massive content library.
+
+- **Watch**: [MrBallen (YouTube)](https://youtube.com/@mrballen)
+- **Podcast**: [MrBallen Podcast](https://youtube.com/@officialmrballenpodcast)
+- **Shorts**: [MrBallen Shorts](https://youtube.com/@mrballenshorts)
+
+---
+
 ## Books
 
 ### History & Cycles
