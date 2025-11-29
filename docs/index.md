@@ -10,6 +10,9 @@ hero:
       text: Browse Wiki
       link: /general/
     - theme: alt
+      text: 2026 Recommendations
+      link: /community/2026-recommendations
+    - theme: alt
       text: IrregularChat Login
       link: https://sso.irregularchat.com
     - theme: alt
