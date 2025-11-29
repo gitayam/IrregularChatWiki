@@ -742,6 +742,15 @@ A visualization of the most viewed Wikipedia pages, updated in real-time. Fascin
 
 ---
 
+### List of File Signatures (Magic Numbers)
+
+Essential reference for reverse engineering, forensics, and file analysis. File signatures (magic numbers) are the bytes at the beginning of files that identify their format—useful for identifying files regardless of extension, detecting embedded files, and forensic analysis.
+
+- **Wikipedia**: [List of File Signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
+- **Related**: [Reverse Engineering For Everyone](#reverse-engineering-for-everyone) | [Cybersecurity Resources](/cybersecurity/)
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
