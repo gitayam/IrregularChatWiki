@@ -210,11 +210,15 @@ You'd be interested in it if you're into:
 
 ### AI & Technology
 
-#### The Beast in the Machine
+#### The Beast in the Machine: How AI Looms Over Society
+**Author**: Bradley Birzer
 *Recommended by Bryan S*
 
 > *"Book good"*
 
+An exploration of how artificial intelligence is reshaping society and the challenges we face as these systems become increasingly powerful.
+
+- **Amazon**: [The Beast in the Machine](https://www.amazon.com/Beast-Machine-Looms-Over-Society/dp/1684514908/)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
 ---
