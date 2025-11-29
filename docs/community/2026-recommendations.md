@@ -187,6 +187,10 @@ The incredible true story of Kurt Muse, an American businessman imprisoned by Ma
 
 ### Geopolitics & Strategy
 
+::: tip Wiki Resources
+Strategic analysis frameworks: [Information Warfare](/general/information-warfare) | [PMESII-PT](/general/pmesii-pt) | [COG Analysis](/general/center-of-gravity-analysis-guide) | [SATs](/general/structured-analytic-techniques-sats) | [TAAW Review](/general/taaw-review)
+:::
+
 #### Cold War 2.0: Artificial Intelligence in the New Battle between China, Russia, and America
 **Author**: George S. Takach
 *Recommended by Casey H*
@@ -266,6 +270,10 @@ A history of American economic and military activity from post-Civil War to pre-
 ---
 
 ### Technology & AI
+
+::: tip Wiki Resources
+AI/ML learning paths: [AI Resources](/ai-ml/ai-resources) | [AI Prompting](/ai-ml/ai-prompting) | [AI Ethics](/ai-ml/ai-ethics) | [AI/ML Learning](/ai-ml/ai-ml-learning) | [Ollama Setup](/general/ollama)
+:::
 
 #### Superintelligence: Paths, Dangers, Strategies
 **Author**: Nick Bostrom
@@ -387,6 +395,10 @@ Far more about understanding risk than it is about cybersecurity. Has a wonderfu
 
 ### Leadership & Organizational Dynamics
 
+::: tip Wiki Resources
+Military leadership resources: [Army Evaluations](/general/army-evaluation-resources) | [Awards Guide](/general/awards) | [Promotion Boards](/general/promotion-boards) | [SSC Quick Links](/general/ssc)
+:::
+
 #### The Mission, the Men, and Me: Lessons from a Former Delta Force Commander
 **Author**: Pete Blaber
 *Recommended by Trey W*
@@ -485,6 +497,10 @@ From the founder of Code for America and former Deputy CTO under President Obama
 ---
 
 ### Entrepreneurship & Innovation
+
+::: tip Wiki Resources
+Transitioning out or starting a business? See: [Leaving Service](/general/leaving-service) | [Business Tools](/general/business) | [Credentialing Assistance](/general/credentialing-assistance)
+:::
 
 #### The Private Equity Playbook: Management's Guide to Working with PE Investors
 **Author**: Adam Coffey
@@ -669,6 +685,10 @@ The central theme: broad exposure to ideas and experiences will make you far mor
 ---
 
 ### Cybersecurity History & Culture
+
+::: tip Wiki Resources
+Building your cyber skills? See: [Traveling DFP](/general/traveling-dfp) | [OSCP Guide](/cybersecurity/oscp) | [GPEN Guide](/cybersecurity/gpen) | [Red Teaming](/cybersecurity/cyber-red-teaming) | [Incident Response](/cybersecurity/cyber-incident-response-guide-personal)
+:::
 
 #### The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage
 **Author**: Cliff Stoll
