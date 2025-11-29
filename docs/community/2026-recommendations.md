@@ -771,6 +771,14 @@ Essential reference for reverse engineering, forensics, and file analysis. File 
 
 ---
 
+### List of Reported UFO Sightings
+
+For Team Foil Hat! A comprehensive Wikipedia list of reported UFO sightings throughout history. Whether you're a skeptic or a believer, it's a fascinating rabbit hole.
+
+- **Wikipedia**: [List of Reported UFO Sightings](https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings)
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
