@@ -556,6 +556,32 @@ Not a new book, but valuable for anyone moving from a technical focus to a leade
 
 ### Personal Development
 
+#### Breaking the Habit of Being Yourself: How to Lose Your Mind and Create a New One
+**Author**: Joe Dispenza
+*Recommended by Nicholas Vandre*
+
+> *"We have to get into the basement of your soul from time to time and check your foundation because what got you here won't get you there. Coming to terms with our ego, subconscious and belief system is the ultimate unlock to reach your next level."*
+
+Integrates quantum physics, neuroscience, and biology to show how you can transcend predetermined patterns and create meaningful change. Practical techniques for modifying behavior and beliefs.
+
+- **Audible**: [Breaking the Habit of Being Yourself](https://www.audible.com/pd/B0868ZFF7X)
+- **Amazon**: [Breaking the Habit of Being Yourself](https://www.amazon.com/Breaking-Habit-Being-Yourself-Create/dp/1401938094/)
+
+---
+
+#### The Untethered Soul: The Journey Beyond Yourself
+**Author**: Michael A. Singer
+*Recommended by Nicholas Vandre*
+
+> *"We have to get into the basement of your soul from time to time and check your foundation because what got you here won't get you there. Coming to terms with our ego, subconscious and belief system is the ultimate unlock to reach your next level."*
+
+A spiritual guide exploring human identity and consciousness. Shows how developing consciousness enables dwelling in the present moment and achieving self-realization.
+
+- **Audible**: [The Untethered Soul](https://www.audible.com/pd/B006IE4OY0)
+- **Amazon**: [The Untethered Soul](https://www.amazon.com/Untethered-Soul-Journey-Beyond-Yourself/dp/1572245379/)
+
+---
+
 #### The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers
 **Author**: Alex Banayan
 *Recommended by Jaime*
