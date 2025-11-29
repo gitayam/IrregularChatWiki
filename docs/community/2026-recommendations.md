@@ -263,6 +263,50 @@ An exploration of how artificial intelligence is reshaping society and the chall
 
 ---
 
+### Philosophy & Foundations
+
+#### The Cathedral and the Bazaar
+**Author**: Eric S. Raymond (ESR)
+*Recommended by Cyber Jay*
+
+A foundational text on open source software development and decentralized collaboration. Essential for understanding movements and how distributed groups can outperform centralized organizations.
+
+- **Read Online**: [catb.org](http://www.catb.org/~esr/writings/cathedral-bazaar/)
+- **Related**: [The Starfish and the Spider](/community/2026-recommendations#the-starfish-and-the-spider-the-unstoppable-power-of-leaderless-organizations)
+
+---
+
+#### Jonathan Livingston Seagull
+**Author**: Richard Bach
+*Recommended by Cyber Jay*
+
+A fable about a seagull who refuses to conform to the flock's limitations. A meditation on self-perfection, breaking free from imposed limits, and the pursuit of excellence.
+
+- **Amazon**: [Jonathan Livingston Seagull](https://www.amazon.com/Jonathan-Livingston-Seagull-Richard-Bach/dp/0743278909/)
+- **Why it matters**: Understanding movements and individual drive to transcend
+
+---
+
+#### The Gospel of Matthew
+*Recommended by Cyber Jay*
+
+> *"If pressed, I'd say Matthew, due to the fact that probably any number of others might recommend ESR or the seagull book."*
+
+For understanding movements, leadership, and the spread of ideas. Part of a larger goal to read ancient/classic works to gain "tools" to process, heal, and return to a state of giving, coaching, and mentoring others.
+
+---
+
+#### Meditations
+**Author**: Marcus Aurelius
+*Recommended by Cyber Jay*
+
+The personal journal of a Roman Emperor practicing Stoic philosophy. Timeless wisdom on resilience, perspective, and maintaining equanimity through difficulty.
+
+- **Amazon**: [Meditations](https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/)
+- **Why it matters**: Tools for processing hardship and returning to a giving mindset
+
+---
+
 ### Personal Development
 
 #### The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers
