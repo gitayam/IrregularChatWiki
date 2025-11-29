@@ -252,6 +252,22 @@ An exploration of how artificial intelligence is reshaping society and the chall
 
 ### Personal Development
 
+#### The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers
+**Author**: Alex Banayan
+*Recommended by Jaime*
+
+> *"This book made me think about HOW can I achieve something rather than IF."*
+
+**The Three Doors:**
+- **First Door** (Front Door): The typical path everyone uses
+- **Second Door** (Back Door): Opened by knowing someone—the networking path
+- **Third Door**: The one you open yourself by carving your own untraditional path
+
+- **Amazon**: [The Third Door](https://www.amazon.com/Third-Door-Uncover-Successful-Launched/dp/0804136661/)
+- **Why it matters**: Shifts mindset from possibility to execution
+
+---
+
 #### Range: Why Generalists Triumph in a Specialized World
 **Author**: David Epstein
 
