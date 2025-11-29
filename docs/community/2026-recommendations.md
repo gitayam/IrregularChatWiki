@@ -228,7 +228,7 @@ McMaster draws on decades of military and national security experience to examin
 
 A techno-thriller that explores modern warfare when advanced systems fail. Particularly relevant for those thinking about resilience, degraded operations, and the fragility of technology-dependent systems.
 
-- **Amazon**: [Ghost Fleet](https://www.amazon.com/Ghost-Fleet-Novel-Next-World/dp/0544705025/)
+- **Amazon**: [Ghost Fleet](https://a.co/d/4p7n1c5)
 - **Related**: [Counter-UxS](/general/counter-uxs) | [Unmanned Systems](/general/unmanned-systems)
 
 ---
