@@ -181,7 +181,7 @@ The incredible true story of Kurt Muse, an American businessman imprisoned by Ma
 
 How AI and emerging technologies shape the modern geopolitical rivalry between democratic and autocratic systems. Analyzes four critical technologies—artificial intelligence, semiconductor chips, quantum computing, and biotechnology—through flashpoints including Ukraine and Taiwan. Concludes with recommendations for how Western democracies should respond.
 
-- **Amazon**: [Cold War 2.0](https://www.amazon.com/Cold-War-2-0-Artificial-Intelligence/dp/1639365214/)
+- **Amazon**: [Cold War 2.0](https://a.co/d/dh1VT9Z)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
 ---
