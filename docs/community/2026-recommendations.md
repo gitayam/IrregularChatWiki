@@ -164,6 +164,19 @@ Far more about understanding risk than it is about cybersecurity. Has a wonderfu
 
 ### Leadership & Organizational Dynamics
 
+#### The Mission, the Men, and Me: Lessons from a Former Delta Force Commander
+**Author**: Pete Blaber
+*Recommended by Trey W*
+
+> *"Lessons learned from others on how leaders can assess a situation, use indigenous knowledge to their benefit, and get the most out of themselves and their team"*
+
+A former Delta Force commander shares hard-won leadership principles from special operations. Emphasizes putting the mission first, taking care of your people, and then yourself—in that order.
+
+- **Amazon**: [The Mission, the Men, and Me](https://www.amazon.com/Mission-Men-Me-Lessons-Commander/dp/0425236579/)
+- **Related**: [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide) | [PMESII-PT Framework](/general/pmesii-pt)
+
+---
+
 #### The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations
 **Authors**: Ori Brafman & Rod A. Beckstrom
 *Recommended by Flo*
