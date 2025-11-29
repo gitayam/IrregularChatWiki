@@ -417,6 +417,20 @@ Explains why rigid, ego-driven leaders choke organizations, while decentralized,
 
 ---
 
+#### New Power: How Power Works in Our Hyperconnected World—and How to Make It Work for You
+**Authors**: Jeremy Heimans & Henry Timms
+*Recommended by Shawn C*
+
+> *"Perfect to explain why the fast moving, seemingly disconnected Irregular community is actually one of the most powerful assets in the military today."*
+
+Explains the shift from "old power" (held by few, closed, leader-driven) to "new power" (made by many, open, peer-driven). Essential for understanding how decentralized communities and movements create outsized impact in the modern world.
+
+- **Amazon**: [New Power](https://www.amazon.com/New-Power-Works-Hyperconnected-World/dp/0385541112/)
+- **Libby**: Free for MWR customers
+- **See also**: [The Starfish and the Spider](#the-starfish-and-the-spider-the-unstoppable-power-of-leaderless-organizations)
+
+---
+
 #### The 48 Laws of Power
 **Author**: Robert Greene
 *Recommended by Flo*
