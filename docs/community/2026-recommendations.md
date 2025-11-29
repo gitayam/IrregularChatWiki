@@ -535,6 +535,26 @@ The central theme: broad exposure to ideas and experiences will make you far mor
 
 ---
 
+### Cybersecurity History & Culture
+
+#### The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage
+**Author**: Cliff Stoll
+*Recommended by Marcin Jasiukowicz*
+
+A true story from the late 1980s about tracking a hacker through early computer networks. Shows the cross section of IT systems back then, how the idea of cybersecurity was being born, and gives you a roadmap to how systems were built up from there to where they are now—the analogies still exist but are buried deep in current technology.
+
+Connects technology with society and history. Shows the divide of US vs. EU, Western world vs. Soviets, and good vs. bad guys—seen both in the technology used (more modern digital systems in the US vs. analog systems still used in Europe) and the mentality and genius of the hackers.
+
+**Historical note**: The German side of this story was one of the foundations that spawned computer culture in Germany—the Chaos Computer Club, which exists to this day.
+
+> *"A perfect fit for the IrregularChat community because of the security topics, historical relevance (back then Soviets vs. US, but now again with war in Ukraine) and overall it's an interesting position for anyone who wants to feed their curiosity."*
+
+- **Wikipedia**: [The Cuckoo's Egg](https://en.wikipedia.org/wiki/The_Cuckoo%27s_Egg_(book))
+- **Amazon**: [The Cuckoo's Egg](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/)
+- **Related**: [Cybersecurity Resources](/cybersecurity/)
+
+---
+
 ### Cybersecurity & Reverse Engineering
 
 #### The Pentester BluePrint: Starting a Career as an Ethical Hacker
