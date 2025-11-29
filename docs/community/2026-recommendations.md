@@ -208,6 +208,21 @@ You'd be interested in it if you're into:
 
 ---
 
+### Cybersecurity & Reverse Engineering
+
+#### Reverse Engineering For Everyone!
+**Author**: @mytechnotalent
+*Recommended by Dominik*
+
+> *"Worth its page length in GOLD"*
+
+A comprehensive guide to reverse engineering, accessible to everyone from beginners to experienced practitioners.
+
+- **Download**: [Reverse Engineering For Everyone (PDF)](https://u.pcloud.link/publink/show?code=XZD9nP5ZvTDbqgEGBRhLvDsSkdgJ0kuYWmfk)
+- **Related**: [Cybersecurity Resources](/cybersecurity/) | [Red Teaming](/cybersecurity/cyber-red-teaming)
+
+---
+
 ## Videos & Documentaries
 
 *Section open for community contributions*
