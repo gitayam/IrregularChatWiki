@@ -779,6 +779,14 @@ For Team Foil Hat! A comprehensive Wikipedia list of reported UFO sightings thro
 
 ---
 
+### Gary Kildall
+
+Gary Kildall (1942–1994) was a computer scientist and microcomputer entrepreneur who created CP/M, one of the first operating systems for personal computers, and founded Digital Research, Inc. He is considered a pioneer of the personal computer revolution—and his story is a cautionary tale about business negotiations (he famously missed the meeting with IBM that led to Microsoft's DOS dominance).
+
+- **Wikipedia**: [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kildall)
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
