@@ -291,6 +291,31 @@ A history of American economic and military activity from post-Civil War to pre-
 
 ---
 
+#### The Accidental Superpower: The Next Generation of American Preeminence and the Coming Global Disorder
+**Author**: Peter Zeihan
+
+> *"Focuses on the circumstances that led the US to become the superpower we are."*
+
+Zeihan examines how geography, demographics, and energy trends created America's unique position in the world. Near the end of WWII, the US made a bold strategic gambit that rewired the international system—empires were abolished and replaced by a global arrangement enforced by the US Navy. We think of this system as normal—it is not. We live in an artificial world on borrowed time.
+
+- **Amazon**: [The Accidental Superpower](https://www.amazon.com/Accidental-Superpower-Generation-American-Preeminence/dp/1455583685/)
+- **Updated Edition**: [The Accidental Superpower: Ten Years On](https://www.amazon.com/Accidental-Superpower-Ten-Years/dp/1538767341/) - Includes new epilogue for every chapter
+- **Also see**: [The Absent Superpower](#the-absent-superpower-the-shale-revolution-and-a-world-without-america)
+
+---
+
+#### The Absent Superpower: The Shale Revolution and a World Without America
+**Author**: Peter Zeihan
+
+> *"Focuses on the retraction of the US's global influence as we withdraw from the Bretton Woods agreement. It puts a LOT of what is happening into a larger perspective."*
+
+The sequel to *The Accidental Superpower*. Zeihan maps out the consequences of American energy independence and withdrawal from global leadership—including Russian aggression in Europe starting with Ukraine (written in 2016). The American shale revolution severs the remaining ties binding America's fate to the wider world, accelerates the global order's breakdown, and triggers military conflicts that will shape the next two decades.
+
+- **Amazon**: [The Absent Superpower](https://www.amazon.com/Absent-Superpower-Revolution-Without-America/dp/099850520X/)
+- **Also see**: [The End of the World Is Just the Beginning](https://www.amazon.com/End-World-Just-Beginning-Globalization/dp/006323047X/) - Zeihan's 2022 follow-up
+
+---
+
 ### Technology & AI
 
 ::: tip Wiki Resources
@@ -677,6 +702,20 @@ A spiritual guide exploring human identity and consciousness. Shows how developi
 
 - **Audible**: [The Untethered Soul](https://www.audible.com/pd/B006IE4OY0)
 - **Amazon**: [The Untethered Soul](https://www.amazon.com/Untethered-Soul-Journey-Beyond-Yourself/dp/1572245379/)
+
+---
+
+#### The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness
+**Author**: Jonathan Haidt
+
+> *"For professional development for parents. Let your kids outside unsupervised but monitor like a hawk when they're on their electronics."*
+
+#1 New York Times Bestseller. Social psychologist Jonathan Haidt investigates the epidemic of teen mental illness that hit many countries simultaneously. He shows how the "play-based childhood" was wiped out by the arrival of the "phone-based childhood" in the early 2010s—and presents more than a dozen mechanisms by which this "great rewiring" has interfered with children's development: sleep deprivation, attention fragmentation, addiction, loneliness, and social comparison.
+
+**The core insight**: Overprotection in the real world and underprotection in the virtual world are the major reasons why children born after 1995 became the anxious generation.
+
+- **Amazon**: [The Anxious Generation](https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036/)
+- **Author's Site**: [anxiousgeneration.com](https://www.anxiousgeneration.com/book)
 
 ---
 
