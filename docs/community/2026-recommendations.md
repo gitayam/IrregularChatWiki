@@ -86,6 +86,16 @@ A daily briefing on cybersecurity news, vulnerability disclosures, and threat in
 
 ---
 
+### Joe Rogan Experience: Renée DiResta
+*Recommended by Luis S*
+
+DiResta and Rogan discuss her research into how state actors and others manipulate social media platforms to influence public opinion and spread propaganda. Covers the mechanics of bot farms, the spread of fake news, and how online disinformation can lead to real-world consequences.
+
+- **Listen**: [Spotify](https://open.spotify.com/episode/5VX7FJGIYr1eKSEagOeb22)
+- **Related**: [Information Warfare](/general/information-warfare)
+
+---
+
 ## Videos & Documentaries
 
 ### Cognitive Biases and Objective Thinking
