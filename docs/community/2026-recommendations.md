@@ -815,6 +815,32 @@ The cancelled American particle accelerator that would have been over twice the 
 
 ---
 
+### V/STOL
+
+For the aviation buffs! Vertical/Short Take-Off and Landing (V/STOL) aircraft have fascinated engineers and military planners for decades. This Wikipedia page covers the history, technology, and various aircraft designs that achieve vertical or short-field capabilities—from the Harrier jump jet to experimental concepts.
+
+- **Wikipedia**: [V/STOL](https://en.wikipedia.org/wiki/V/STOL)
+- **Related**: [Unmanned Systems](/general/unmanned-systems)
+
+---
+
+### List of Reportedly Haunted Locations
+
+For when you need a break from serious topics. A comprehensive list of locations around the world that are reportedly haunted—castles, battlefields, hotels, theaters, and more. Great for planning your next spooky road trip or just enjoying some entertaining rabbit holes.
+
+- **Wikipedia**: [List of Reportedly Haunted Locations](https://en.wikipedia.org/wiki/List_of_reportedly_haunted_locations)
+
+---
+
+### List of Software-Defined Radios
+
+Essential reference for anyone interested in SDR technology. This comprehensive list covers hardware from budget RTL-SDR dongles to professional-grade equipment, with specifications and capabilities for each.
+
+- **Wikipedia**: [List of Software-Defined Radios](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
+- **Related**: [Software Defined Radios](/radio/software-defined-radios-sdrs) | [DragonOS](/radio/dragonos) | [HAM Radio](/radio/ham-radio)
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
