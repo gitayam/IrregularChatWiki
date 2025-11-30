@@ -331,6 +331,19 @@ Former Australian Prime Minister Kevin Rudd—who has studied, lived in, and wor
 
 ---
 
+#### The Dragons and the Snakes: How the Rest Learned to Fight the West
+**Author**: David Kilcullen
+*Recommended by Chris C*
+
+> *"Required reading for anyone in defense. Filled in serious history/knowledge gaps for why we're in the position we're in militarily. The chapter on info warfare is such a great assessment on current IO strategies from the 3 big powers."*
+
+Kilcullen examines how state adversaries ("dragons" like Russia and China) and non-state threats ("snakes" like ISIS and transnational criminal networks) have studied Western military dominance since the Gulf War and adapted to counter it. Explains why the unipolar moment ended and how our adversaries learned to fight us asymmetrically.
+
+- **Amazon**: [The Dragons and the Snakes](https://www.amazon.com/Dragons-Snakes-Rest-Learned-Fight/dp/019026568X/)
+- **Related**: [Information Warfare](/general/information-warfare) | [PMESII-PT Framework](/general/pmesii-pt)
+
+---
+
 ### Technology & AI
 
 ::: tip Wiki Resources
