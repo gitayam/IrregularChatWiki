@@ -316,6 +316,21 @@ The sequel to *The Accidental Superpower*. Zeihan maps out the consequences of A
 
 ---
 
+#### The Avoidable War: The Dangers of a Catastrophic Conflict between the US and Xi Jinping's China
+**Author**: Kevin Rudd
+
+> *"A great look at the relationship between China and US and the background with associated history with personalities and operations. For our line of work, it's important to know the history, so you can better prepare for the impending future."*
+
+Former Australian Prime Minister Kevin Rudd—who has studied, lived in, and worked with China for over 40 years and is fluent in Mandarin—offers rare insight into the mindsets of both American and Chinese leadership. Demystifies the actions of both sides, explaining and translating them for the benefit of the other. Proposes "managed strategic competition" as a framework for these two giants to coexist without catastrophic conflict.
+
+**Endorsed by**: Henry Kissinger and Admiral James Stavridis (16th Supreme Allied Commander of NATO, who called it "an extraordinary tour de force").
+
+- **Amazon**: [The Avoidable War](https://www.amazon.com/Avoidable-War-Dangers-Catastrophic-Conflict/dp/1541701291/)
+- **Summary**: [Shortform](https://www.shortform.com/summary/the-avoidable-war-summary-kevin-rudd)
+- **Related**: [Cold War 2.0](#cold-war-20-artificial-intelligence-in-the-new-battle-between-china-russia-and-america) | [Chokepoints](#chokepoints-american-power-in-the-age-of-economic-warfare)
+
+---
+
 ### Technology & AI
 
 ::: tip Wiki Resources
