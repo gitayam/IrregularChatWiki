@@ -422,6 +422,16 @@ A former Delta Force commander shares hard-won leadership principles from specia
 
 ---
 
+#### Marine Maxims: Turning Leadership Principles Into Practice
+**Author**: Colonel Thomas J. Gordon, USMC (Ret.)
+*Recommended by Holiday*
+
+Distills 50 leadership principles from three decades of Marine Corps service. Focuses on turning leadership theory into practical application, emphasizing character, courage, and resilience. Each chapter includes "Saved Rounds" of concise tips and recommended readings.
+
+- **Amazon**: [Marine Maxims](https://www.amazon.com/Marine-Maxims-Turning-Leadership-Principles/dp/1682473392/)
+
+---
+
 #### Endurance: Shackleton's Incredible Voyage
 **Author**: Alfred Lansing
 
