@@ -153,6 +153,18 @@ A sobering look at modern ground warfare and the transition point between human 
 
 ---
 
+### Interview with a Russian Drone Developer
+*Recommended by Roger O*
+
+> *"This was an interview with a Russian drone manufacturer. It is the only insight I've ever seen like it."*
+
+A rare look inside Russian drone warfare from a private developer's perspective. Covers how to survive an encounter with an FPV drone, how to counter fiber-optic drones, and why personal "drone jammers" are practically useless on the battlefield. This video reached over 1.2 million views before being removed from YouTube.
+
+- **Watch**: [Rumble](https://rumble.com/v6xj3zw-the-1.2m-view-drone-warfare-video-youtube-didnt-want-you-to-see.html)
+- **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs) | [FPV sUAS](/general/fpv-suas)
+
+---
+
 ## Books
 
 ### History & Cycles
