@@ -807,6 +807,14 @@ Gary Kildall (1942–1994) was a computer scientist and microcomputer entreprene
 
 ---
 
+### Superconducting Super Collider
+
+The cancelled American particle accelerator that would have been over twice the size of the Large Hadron Collider. Construction began in Texas in 1991 but was cancelled by Congress in 1993 after $2 billion had been spent. A cautionary tale about big science, politics, and what might have been. Would have most certainly caused a black hole. /s
+
+- **Wikipedia**: [Superconducting Super Collider](https://en.wikipedia.org/wiki/Superconducting_Super_Collider)
+
+---
+
 ## How to Contribute
 
 Have something that moved you forward this year? We want to hear it.
