@@ -344,6 +344,24 @@ Kilcullen examines how state adversaries ("dragons" like Russia and China) and n
 
 ---
 
+#### The Kill Chain: Defending America in the Future of High-Tech Warfare
+**Author**: Christian Brose
+
+> *"Read it. Then fight like your survival depends on the ideas in it—because it does."*
+
+In an era where a single PLA satellite cueing a hypersonic missile can mission-kill a carrier group in minutes, the old assumptions of uncontested forward basing, air superiority, and permissive comms are gone. Brose—former Staff Director of the Senate Armed Services Committee and senior advisor to Senator John McCain—provides the clearest explanation of how America lost its military overmatch and what must happen to get it back.
+
+**For SOF and multi-domain teams**: This book shows why your ability to operate inside an adversary's kill chain—finding their sensors, breaking their networks, blinding their drones, or turning their data links against them—is now the decisive capability in great-power conflict. Brose details how China and Russia have built integrated, long-range precision-strike complexes designed to find and destroy high-value SOF elements the moment they emit, take off, or turn on a router.
+
+This is not about "big Army" or carrier battles—it's about the future of contested special operations, and why the side that masters cheap, prolific, software-defined systems first will own the battlefield.
+
+**Endorsed by**: Eric Schmidt (former Alphabet Chairman), General David Petraeus, and Admiral James Stavridis.
+
+- **Amazon**: [The Kill Chain](https://www.amazon.com/Kill-Chain-Defending-America-High-Tech/dp/031653353X/)
+- **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs) | [Information Warfare](/general/information-warfare)
+
+---
+
 ### Technology & AI
 
 ::: tip Wiki Resources
