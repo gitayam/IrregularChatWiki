@@ -1063,6 +1063,32 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ---
 
+## Space News & Resources
+*Recommended by Brain W*
+
+> *"I used to be a religious reader of SpaceNews but recently they added a paywall and none of the paywall hoppers I tried works so far."*
+
+A curated collection of space industry resources—databases, news sites, and tracking tools—for staying current on launches, satellites, and the business of space.
+
+### News & Analysis
+
+| Site | Description |
+|------|-------------|
+| [Payload Space](https://payloadspace.com/) | Daily newsletter covering space business and policy. Includes the Pathfinder podcast and Parallax science newsletter. |
+| [NASASpaceflight](https://www.nasaspaceflight.com/) | Community-driven space news with deep technical coverage of launches, hardware, and missions. |
+| [Spaceflight Now](https://spaceflightnow.com/) | Launch coverage and space news with detailed mission updates and schedules. |
+| [SpaceNews](https://spacenews.com/) | Industry publication covering space policy, business, and technology. *(Note: Now paywalled)* |
+
+### Databases & Tracking
+
+| Site | Description |
+|------|-------------|
+| [Gunter's Space Page](https://space.skyrocket.de/) | Comprehensive database of 10,000+ satellites and 500+ launch vehicles, maintained since 1996 by German physicist Gunter Krebs. Ad-free. |
+| [Planet4589 / Jonathan's Space Report](https://planet4589.org/) | Harvard astrophysicist Jonathan McDowell's authoritative space catalog (GCAT) and monthly newsletter. The "Orbital Police." |
+| [Norbert Brügge's Space Encyclopedias](https://b14643.eu/) | Detailed rocket database covering launchers from all spacefaring nations, smallsat vehicles, and commercial space companies. |
+
+---
+
 ## Learning Resources
 
 ### Reeborg's World
