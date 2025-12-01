@@ -76,6 +76,18 @@ A comprehensive overview of AI—what it is, how it works, and where it's headed
 
 ---
 
+### OACOK, OKOCA, or OCOKA? Reframing Terrain Analysis for Cyberspace
+**Source**: Gray Space Journal (Summer 2025)
+
+> *"I think it pushes forward the conversation for rethinking how we approach cyberspace as a warfighting domain. It lures in the olds with OAKOC, but then tells them to stop shoehorning things in where they don't make sense."*
+
+A fresh look at applying terrain analysis frameworks (OAKOC/OCOKA) to cyberspace operations. Challenges conventional thinking about how traditional military frameworks should—and shouldn't—be adapted for the cyber domain.
+
+- **Read**: [Line of Departure](https://www.lineofdeparture.army.mil/Journals/Gray-Space/Archive/Summer-2025/Terrain-Analysis/) | [PDF](https://www.lineofdeparture.army.mil/Portals/144/PDF/Journals/Gray-Space/Gray-Space-First-Edition-2025/Terrain-Analysis-UA.pdf)
+- **Related**: [Cybersecurity Resources](/cybersecurity/) | [Information Warfare](/general/information-warfare)
+
+---
+
 ## Podcasts & Audio
 
 ### The Anti-Humans (Martyrmade Podcast, Episode 19)
@@ -199,6 +211,18 @@ A rare look inside Russian drone warfare from a private developer's perspective.
 
 ---
 
+### Wanderers
+**Creator**: Erik Wernquist | **Narration**: Carl Sagan
+
+> *"I've rewatched the clip multiple times over the years and while we may not be exploring the vast expanse that is outer space here in IrregularChat, I do find our community holds the 'wanderers' of our generation."*
+
+A stunning short science fiction film envisioning humanity's future expansion into the Solar System. All locations depicted are digital recreations of actual places—moons, planets, and asteroids—built from real NASA photos and data. The narration is Carl Sagan reading from his book *Pale Blue Dot*.
+
+- **Watch**: [YouTube](https://www.youtube.com/watch?v=YH3c1QZzRK4) (4 min)
+- **Creator's Site**: [erikwernquist.com/wanderers](https://erikwernquist.com/wanderers)
+
+---
+
 ## Books
 
 ### History & Cycles
@@ -260,6 +284,21 @@ The definitive scholarly history of the Crusades, considered one of the great cl
 Award-winning memoir of a devout Muslim's intellectual and spiritual journey from Islam to Christianity. Qureshi—who held an MD from Eastern Virginia Medical School and graduate degrees from Biola, Duke, and Oxford—presents both the evidence that challenged his faith and the personal cost of following it. Winner of the Christian Book Award for Best New Author and Best Non-Fiction (2015).
 
 - **Amazon**: [Seeking Allah, Finding Jesus](https://www.amazon.com/Seeking-Allah-Finding-Jesus-Christianity/dp/0310527236/)
+
+---
+
+#### A People's History of the United States
+**Author**: Howard Zinn
+*Recommended by Josh G*
+
+> *"An old classic but has a lot of good reminders for how this country formed and the struggles people have been through."*
+
+The landmark 1980 book (updated 2003) that tells American history from the perspective of those often left out of traditional narratives—women, factory workers, African Americans, Native Americans, the working poor, and immigrant laborers. With lively prose and scholarly research, Zinn covers from Columbus through the modern era. Runner-up for the National Book Award, with over two million copies sold.
+
+**Cultural note**: Featured on *The Sopranos*, *The Simpsons*, and in *Good Will Hunting*. A 2009 documentary, *The People Speak*, was co-directed by Zinn.
+
+- **Amazon**: [A People's History of the United States](https://www.amazon.com/Peoples-History-United-States/dp/0062397346/)
+- **Free PDF**: [History is a Weapon](https://www.historyisaweapon.com/zinnapeopleshistory.html)
 
 ---
 
