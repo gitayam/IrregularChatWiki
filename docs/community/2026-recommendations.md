@@ -977,6 +977,22 @@ Connects technology with society and history. Shows the divide of US vs. EU, Wes
 
 ---
 
+#### Phrack Magazine (Issues 1-7, especially Issue 7)
+*Recommended by Ted Spaghetti*
+
+> *"The origin of the Hacker Manifesto and most tradecraft. Still published to this day. Physical copies very hard to come by."*
+
+The legendary underground electronic magazine on hacking and phreaking, published since 1985. **Issue 7, Article 3** contains "The Conscience of a Hacker" (aka **The Hacker Manifesto**), written by Loyd Blankenship ("The Mentor") in 1986 after his arrest by the Secret Service.
+
+The Manifesto became a cornerstone of hacker culture, defending hackers as curious explorers rather than criminals: *"I am a hacker, and this is my manifesto."* It's quoted in the film *Hackers* (1995), appears on a poster in *The Social Network* (2010), and is mentioned in Edward Snowden's autobiography *Permanent Record*.
+
+- **Read Issue 7, Article 3**: [The Hacker Manifesto](https://phrack.org/issues/7/3)
+- **Full Archive**: [phrack.org](https://phrack.org/)
+- **Wikipedia**: [Hacker Manifesto](https://en.wikipedia.org/wiki/Hacker_Manifesto) | [Phrack](https://en.wikipedia.org/wiki/Phrack)
+- **Related**: [Cybersecurity Resources](/cybersecurity/) | [The Cuckoo's Egg](#the-cuckoos-egg-tracking-a-spy-through-the-maze-of-computer-espionage)
+
+---
+
 ### Cybersecurity & Reverse Engineering
 
 #### The Pentester BluePrint: Starting a Career as an Ethical Hacker
