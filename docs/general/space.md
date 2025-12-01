@@ -116,6 +116,12 @@ Many space agencies provide open access to satellite data for research, educatio
 
 - [Space-Track](https://www.space-track.org/) – Orbital debris and SSA database (U.S. Space Force).
 
+- [Gunter's Space Page](https://space.skyrocket.de/) – Comprehensive database of 10,000+ satellites and 500+ launch vehicles, maintained since 1996. Ad-free.
+
+- [Planet4589 / Jonathan's Space Report](https://planet4589.org/) – Harvard astrophysicist Jonathan McDowell's authoritative space catalog (GCAT) and monthly newsletter.
+
+- [Norbert Brügge's Space Encyclopedias](https://b14643.eu/) – Detailed rocket database covering launchers from all spacefaring nations and commercial space companies.
+
 1. ⚙️ Operational Tools & Technologies
 Operating satellites and utilizing their data require advanced ground-based tools.
 
@@ -163,6 +169,20 @@ The space industry is rapidly evolving, with new capabilities shaping future ope
 - **Quantum Communications:** Secure cryptographic key distribution via space-based quantum networks.
 
 - **Nuclear Propulsion & Deep Space Exploration:** Future interplanetary travel possibilities.
+
+1. 📰 Space News & Industry Coverage
+
+Stay current on launches, policy, and the business of space.
+
+**News & Analysis:**
+
+- [Payload Space](https://payloadspace.com/) – Daily newsletter covering space business and policy. Includes the Pathfinder podcast and Parallax science newsletter.
+
+- [NASASpaceflight](https://www.nasaspaceflight.com/) – Community-driven space news with deep technical coverage of launches, hardware, and missions.
+
+- [Spaceflight Now](https://spaceflightnow.com/) – Launch coverage and space news with detailed mission updates and schedules.
+
+- [SpaceNews](https://spacenews.com/) – Industry publication covering space policy, business, and technology. *(Note: Paywalled)*
 
 1. 🔗 Community Discussions & Collaboration
 
