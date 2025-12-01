@@ -768,7 +768,9 @@ Legendary research on managing egoistic, abusive, or narcissistic coworkers and 
 
 #### Recoding America: Why Government Is Failing in the Digital Age and How We Can Do Better
 **Author**: Jennifer Pahlka
-*Recommended by Casey H*
+*Recommended by Casey H and Devin Q*
+
+> *"A must read for anyone working with the government in the tech space, this book gives concrete examples of bureaucratic missteps when trying to implement technological solutions to real world problems. It also provides an accessible framework for how to overcome administrative roadblocks."* — Devin Q
 
 From the founder of Code for America and former Deputy CTO under President Obama. Examines why government struggles with digital service delivery—not just outdated technology, but a rigid, industrial-era culture that prioritizes process over outcomes. Through case studies from the VA, unemployment systems, and more, Pahlka shows how waterfall project management, excessive procurement rules, and disconnected policymaking create dysfunction.
 
