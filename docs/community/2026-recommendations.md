@@ -101,6 +101,20 @@ A detailed campaign-level analysis modeling a PLA forceful reunification attempt
 
 ---
 
+### I Will Fucking Piledrive You If You Mention AI Again
+**Author**: Ludicity | **Source**: June 2024
+
+> *"This really drives home how little our leaders understand about AI."*
+
+A data scientist's frustrated takedown of the corporate AI hype cycle. The author argues that most organizations cannot competently deploy basic applications, let alone experimental AI systems—yet executives chase AI projects for thought-leadership status rather than legitimate use cases. Core thesis: "Unless you are one of a tiny handful of businesses who know exactly what they're going to use AI for, you do not need AI for anything."
+
+**Why it matters**: A blunt counterweight to AI hype, useful for anyone trying to have honest conversations about what AI can and can't do in their organization.
+
+- **Read**: [Ludicity Blog](https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/)
+- **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
+
+---
+
 ## Podcasts & Audio
 
 ### The Anti-Humans (Martyrmade Podcast, Episode 19)
