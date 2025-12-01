@@ -88,6 +88,19 @@ A fresh look at applying terrain analysis frameworks (OAKOC/OCOKA) to cyberspace
 
 ---
 
+### Island Blitz: A Campaign Analysis of a Taiwan Takeover by the PLA
+**Author**: Major Maxwell Stewart, USMC
+**Source**: Center for International Maritime Security (CIMSEC), June 2023
+
+A detailed campaign-level analysis modeling a PLA forceful reunification attempt against Taiwan in Summer 2023. Stewart—a Combat Engineer Officer and Northeast Asia Regional Area Officer with a master's from GWU's Elliott School—examines the operational realities: favorable tidal conditions, Taiwan's anti-ship missile capabilities (Hsiung Feng III, Harpoon systems), ROCN survivability, and PLA force buildup under cover of annual exercises.
+
+**Why it matters**: Provides a rigorous, unclassified framework for understanding cross-strait military dynamics and Taiwan's defensive posture.
+
+- **Read**: [CIMSEC](https://cimsec.org/island-blitz-a-campaign-analysis-of-a-taiwan-takeover-by-the-pla/)
+- **Related**: [The Avoidable War](#the-avoidable-war-the-dangers-of-a-catastrophic-conflict-between-the-us-and-xi-jinpings-china) | [Unrestricted Warfare](#unrestricted-warfare-chinas-master-plan-to-destroy-america) | [PMESII-PT](/general/pmesii-pt)
+
+---
+
 ## Podcasts & Audio
 
 ### The Anti-Humans (Martyrmade Podcast, Episode 19)
@@ -130,6 +143,20 @@ DiResta and Rogan discuss her research into how state actors and others manipula
 
 - **Listen**: [Spotify](https://open.spotify.com/episode/5VX7FJGIYr1eKSEagOeb22)
 - **Related**: [Information Warfare](/general/information-warfare)
+
+---
+
+### The Fat Electrician
+
+> *"Anything with military history is a must. Like The Fat Electrician."*
+
+Nicholas "Nic" is a former 68W Combat Medic turned journeyman electrician and Jiu-Jitsu coach who makes military history actually entertaining. Started with viral skit-style reviews on TikTok ("Marine Corps Review," "The A-10 Warthog Review"), then transitioned to long-form deep dives—often 45+ minutes—into American military history, hardware, and the extraordinary stories that get left out of textbooks.
+
+**Style**: Unlike your average history teacher, he goes out of his way to make it entertaining while maintaining historical accuracy.
+
+- **Watch**: [YouTube](https://www.youtube.com/@TheFatElectrician)
+- **Website**: [thefatelectrician.com](https://thefatelectrician.com)
+- **Format**: Long-form videos (30-60 min), shorts, and podcast clips
 
 ---
 
