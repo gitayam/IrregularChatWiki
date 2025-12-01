@@ -37,6 +37,31 @@ Community-curated recommendations for quotes, articles, podcasts, videos, and bo
 
 ---
 
+> *"You have not because you ask not."*
+> — **James 4:2**
+
+---
+
+> *"In the end, we will remember not the words of our enemies, but the silence of our friends."*
+> — **Martin Luther King Jr.**
+
+---
+
+> *"WARNING: The fastest way to kill something special is to compare it to something else."*
+> — **@growwithcolby**
+
+---
+
+> *"You have enemies? Good. That means you've stood up for something, sometime in your life."*
+> — **Winston Churchill**
+
+---
+
+> *"If you love something enough, it will reveal itself to you."*
+> — **George Washington Carver**
+
+---
+
 ## Articles & Essays
 
 ### What is Artificial Intelligence? The Definitive Guide
@@ -162,6 +187,15 @@ A rare look inside Russian drone warfare from a private developer's perspective.
 
 - **Watch**: [Rumble](https://rumble.com/v6xj3zw-the-1.2m-view-drone-warfare-video-youtube-didnt-want-you-to-see.html)
 - **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs) | [FPV sUAS](/general/fpv-suas)
+
+---
+
+### [Documentary Recommendation]
+*Recommended by Troy S*
+
+> *"Absolutely one of my favorite documentaries."*
+
+- **Watch**: [YouTube](https://youtu.be/YYQIF5CJQ-M)
 
 ---
 
@@ -366,6 +400,19 @@ Kilcullen examines how state adversaries ("dragons" like Russia and China) and n
 
 ---
 
+#### Unrestricted Warfare: China's Master Plan to Destroy America
+**Authors**: Qiao Liang & Wang Xiangsui
+*Recommended by YJ*
+
+A 1999 treatise by two Chinese PLA colonels outlining how China could defeat a technologically superior adversary like the United States through asymmetric means. Covers warfare beyond the traditional battlefield: financial warfare, network warfare, media warfare, psychological warfare, and combinations thereof. The authors argue that "the first rule of unrestricted warfare is that there are no rules."
+
+**Historical significance**: Written after observing the Gulf War, this book has proven prescient about the nature of 21st-century conflict and remains essential reading for understanding Chinese strategic thinking.
+
+- **Amazon**: [Unrestricted Warfare](https://www.amazon.com/Unrestricted-Warfare-Chinas-Destroy-America/dp/1626543054/)
+- **Related**: [Information Warfare](/general/information-warfare) | [The Dragons and the Snakes](#the-dragons-and-the-snakes-how-the-rest-learned-to-fight-the-west) | [Cold War 2.0](#cold-war-20-artificial-intelligence-in-the-new-battle-between-china-russia-and-america)
+
+---
+
 #### The Kill Chain: Defending America in the Future of High-Tech Warfare
 **Author**: Christian Brose
 *Recommended by 5/19th MDD Advisor*
@@ -555,6 +602,18 @@ A former Delta Force commander shares hard-won leadership principles from specia
 
 - **Amazon**: [The Mission, the Men, and Me](https://www.amazon.com/Mission-Men-Me-Lessons-Commander/dp/0425236579/)
 - **Related**: [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide) | [PMESII-PT Framework](/general/pmesii-pt)
+
+---
+
+#### Extreme Ownership: How U.S. Navy SEALs Lead and Win
+**Authors**: Jocko Willink & Leif Babin
+*Recommended by Troy S*
+
+> *"Extreme disappointment when you find out who had no interest in doing anything Jocko suggests..."*
+
+Combat leadership principles from two Navy SEAL officers who served together in Iraq. The core concept: leaders must own everything in their world—there is no one else to blame. When subordinates fail, it's because the leader failed to train, equip, or lead them properly. A foundational text on accountability and leadership that applies far beyond the military.
+
+- **Amazon**: [Extreme Ownership](https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs/dp/1250067057/)
 
 ---
 
@@ -919,6 +978,30 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 ## Apps & Tools
 
 *Section open for community contributions*
+
+---
+
+## Learning Resources
+
+### Reeborg's World
+*Recommended by YJ*
+
+An interactive platform for learning programming, particularly Python. Uses a visual robot that you program to navigate mazes and complete tasks. Great for beginners learning programming concepts like loops, conditionals, and functions in a visual, engaging way.
+
+- **Visit**: [Reeborg's World](https://reeborg.ca/)
+- **Related**: [Shell Scripting](/general/shell) | [AI/ML Learning](/ai-ml/ai-ml-learning)
+
+---
+
+### Digital University (DigitalU)
+*Recommended by YJ*
+
+The Department of the Air Force's free digital learning platform. Offers courses on emerging technologies, digital skills, and professional development.
+
+**Recommended course**: *100 Days of Code* - A structured Python programming course for building coding habits.
+
+- **Visit**: [Digital University](https://digitalu.af.mil/)
+- **Related**: [Certifications](/general/certifications) | [Learning Resources](/general/learning) | [Credentialing Assistance](/general/credentialing-assistance)
 
 ---
 
