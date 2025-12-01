@@ -207,6 +207,28 @@ The incredible true story of Kurt Muse, an American businessman imprisoned by Ma
 
 ---
 
+#### A History of the Crusades (3 Volumes)
+**Author**: Sir Steven Runciman
+
+The definitive scholarly history of the Crusades, considered one of the great classics of English historical writing. Runciman overturned the traditional view of the Crusades as a romantic Christian adventure, shifting focus to the East. With verve and drama, he tells the story from the First Crusade through the fall of Acre.
+
+- **Volume I**: The First Crusade and the Foundation of the Kingdom of Jerusalem
+- **Volume II**: The Kingdom of Jerusalem and the Frankish East (1100-1187)
+- **Volume III**: The Kingdom of Acre and the Later Crusades
+
+- **Amazon**: [Volume I](https://www.amazon.com/History-Crusades-Foundation-Jerusalem-Classics/dp/014198550X/) | [3-Volume Set](https://www.amazon.com/History-Crusades-Vol-Foundations-Jerusalem/dp/052134770X/)
+
+---
+
+#### Seeking Allah, Finding Jesus: A Devout Muslim Encounters Christianity
+**Author**: Nabeel Qureshi
+
+Award-winning memoir of a devout Muslim's intellectual and spiritual journey from Islam to Christianity. Qureshi—who held an MD from Eastern Virginia Medical School and graduate degrees from Biola, Duke, and Oxford—presents both the evidence that challenged his faith and the personal cost of following it. Winner of the Christian Book Award for Best New Author and Best Non-Fiction (2015).
+
+- **Amazon**: [Seeking Allah, Finding Jesus](https://www.amazon.com/Seeking-Allah-Finding-Jesus-Christianity/dp/0310527236/)
+
+---
+
 ### Geopolitics & Strategy
 
 ::: tip Wiki Resources
@@ -346,6 +368,7 @@ Kilcullen examines how state adversaries ("dragons" like Russia and China) and n
 
 #### The Kill Chain: Defending America in the Future of High-Tech Warfare
 **Author**: Christian Brose
+*Recommended by 5/19th MDD Advisor*
 
 > *"Read it. Then fight like your survival depends on the ideas in it—because it does."*
 
@@ -362,6 +385,35 @@ This is not about "big Army" or carrier battles—it's about the future of conte
 
 ---
 
+#### Freedom's Forge: How American Business Produced Victory in World War II
+**Author**: Arthur Herman
+*Recommended by Gary O*
+
+> *"This is a good book. Kinda like the tech revolution we are in now and attempts at jumpstarting the industrial base."*
+
+How two extraordinary American businessmen—automobile magnate William Knudsen and shipbuilder Henry Kaiser—helped mobilize the "arsenal of democracy" that won WWII. In four short years, they transformed America's hollow shell of an army into a truly global force by turning auto plants into aircraft factories and drafting talent from Chrysler, Boeing, Lockheed, GE, and Frigidaire.
+
+**Why it matters now**: Parallels the current challenge of rebuilding defense industrial capacity and integrating commercial tech innovation into military capability.
+
+- **Amazon**: [Freedom's Forge](https://www.amazon.com/Freedoms-Forge-American-Business-Produced/dp/0812982045/)
+- **Audible**: [Freedom's Forge](https://www.audible.com/pd/B008XLSF9Q)
+
+---
+
+#### The Origins of Victory: How Disruptive Military Innovation Determines the Fates of Great Powers
+**Author**: Andrew F. Krepinevich Jr.
+*Recommended by Gary O*
+
+The definitive take on the race for military dominance in the twenty-first century. Shows how militaries that successfully pursue disruptive innovation gain major advantages, while those that fail risk catastrophe. The Precision Warfare Revolution the U.S. introduced in the Gulf War gave us a near-monopoly for decades—but now others have these capabilities, and we face an emerging revolution driven by AI, synthetic biology, quantum computing, and additive manufacturing.
+
+**Endorsed by**: General Jim Mattis ("an analytic tour de force... delivers a graduate degree in military adaptation") and Admiral James Stavridis.
+
+- **Amazon**: [The Origins of Victory](https://www.amazon.com/Origins-Victory-Disruptive-Innovation-Determines/dp/0300234090/)
+- **Audible**: [The Origins of Victory](https://www.audible.com/pd/B0BZQCPLL1)
+- **Related**: [The Kill Chain](#the-kill-chain-defending-america-in-the-future-of-high-tech-warfare)
+
+---
+
 ### Technology & AI
 
 ::: tip Wiki Resources
@@ -370,6 +422,7 @@ AI/ML learning paths: [AI Resources](/ai-ml/ai-resources) | [AI Prompting](/ai-m
 
 #### Superintelligence: Paths, Dangers, Strategies
 **Author**: Nick Bostrom
+*Recommended by [Chris Lewis](https://www.linkedin.com/in/chris-lewis-uas-pilot)*
 
 > *"Warning of the dangers of AI + Robotics without taking human factors into consideration, or humans in the loop."*
 
