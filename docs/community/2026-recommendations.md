@@ -325,6 +325,19 @@ The incredible true story of Kurt Muse, an American businessman imprisoned by Ma
 
 ---
 
+#### The War for Middle Earth: Tolkien, Lewis, and the Forgotten World War I
+**Author**: Steven M. Engel
+*Recommended by Jasmine*
+
+> *"It's fascinating so far, especially if you love JRR Tolkien's and CS Lewis' work. It details how both of their experiences in WW1 shaped their world views and inspired their writing. Makes me want to go back and read LOTR again."*
+
+How World War I transformed two young Oxford scholars into the authors of some of the most beloved fantasy literature ever written. Explores how Tolkien and Lewis's firsthand experiences in the trenches—the horror, camaraderie, and loss—shaped the moral frameworks, battle scenes, and themes of sacrifice that define *The Lord of the Rings*, *The Chronicles of Narnia*, and their other works.
+
+- **Amazon**: [The War for Middle Earth](https://a.co/d/3Xa3ZU1)
+- **Related**: [A History of the Crusades](#a-history-of-the-crusades-3-volumes) | [Man's Search for Meaning](#mans-search-for-meaning)
+
+---
+
 #### A History of the Crusades (3 Volumes)
 **Author**: Sir Steven Runciman
 
