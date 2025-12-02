@@ -23,7 +23,12 @@ If you're in the market for a 3D printer under $500, there are several options t
 - **Firmware Updates**: Some printers, like the Bambu, require an internet connection for updates. If privacy is a concern, consider offline solutions or alternative models that don't require connectivity.
 - **Multi-Material Printing**: If you plan to print in multiple colors or materials, look for printers with add-ons like the Bambu AMS or consider a dual-extruder setup.
 
-### References
+## Related Pages
+
+- [Fabrication](/general/fabrication) - Main fabrication hub and community files
+- [Getting Started with CAD](/general/fabrication-getting-started-with-cad) - Guide to CAD software for designing parts
+
+## References
 
 - [Bambu Lab A1 Information](https://www.bambulab.com/)
 - [FlashForge Official Site](https://flashforge.com/)
