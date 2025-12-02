@@ -1,141 +1,362 @@
 ---
 title: "Mobile Hardening Guide"
+tags: ["security", "privacy", "mobile", "android", "ios", "dfp"]
 ---
 
 # Mobile Hardening Guide
 
-## Mobile Device Hardening: Android  |  iOS
-Ensure the safety and security of your mobile devices with these critical guidelines and recommendations tailored for Android and iOS systems. Additional resources are available at the [DFP Checklists](https://github.com/irregularchat/public-resources/tree/main/Checklists).
+## Mobile Device Hardening: Android | iOS
 
-There is a larger  [Section](/general/dfp-guide) that is broader than just mobile devices
+Ensure the safety and security of your mobile devices with these guidelines and recommendations tailored for Android and iOS systems. Additional resources are available at the [DFP Checklists](https://github.com/irregularchat/public-resources/tree/main/Checklists).
 
-### NSA Mobile Device Best Practices
-Download the [Mobile Device Best Practices PDF](#) for a comprehensive guide. Below are some essential highlights:
+There is a larger [Section](/general/dfp-guide) that is broader than just mobile devices.
 
-- **Keep Applications Updated**: Ensure apps are always up-to-date to mitigate vulnerabilities and benefit from the latest security patches.
+::: warning Threat Model Context
+Some advice in this guide (and common security guidance) may be **overly cautious for everyday users**. A group of CISOs published an [open letter critiquing outdated security advice](https://www.hacklore.org/letter) including:
+- **Public USB chargers ("juice jacking")** — No verified cases affecting everyday users in the wild
+- **Disabling Bluetooth/NFC** — Wireless exploits are extraordinarily rare and require specialized hardware
+- **Public WiFi avoidance** — Modern encryption makes large-scale compromises exceedingly rare
 
-- **Disable AdTech**: Remove your Advertising ID and disable personalized ads to reduce tracking.
+**However**, for **high-threat environments** (military operations, journalists in conflict zones, targeted individuals), these precautions may still be warranted. Know your threat model and adjust accordingly.
+:::
 
-- **Use Screen Lock Protection**: Secure your device with passcodes, fingerprint, or facial recognition.
+---
 
-- **Lock Individual Apps**: Set additional locks for sensitive apps such as those handling communication and finance.
+## Official Security Guidance
 
-- **Power Cycle Your Device**: Regularly restart your phone to clear out potential vulnerabilities.
+These guides from government cybersecurity agencies provide authoritative recommendations:
 
-### Comprehensive Mobile Security Checklist
-This checklist is designed to help you harden your mobile device security:
+| Source | Document | Description |
+|--------|----------|-------------|
+| **NSA** | [Mobile Device Best Practices (PDF)](https://media.defense.gov/2021/Sep/16/2002855921/-1/-1/0/MOBILE_DEVICE_BEST_PRACTICES_FINAL_V3%20-%20COPY.PDF) | One-page infographic covering essential mobile security practices |
+| **CISA** | [Mobile Communications Best Practice Guidance (Nov 2025)](https://www.cisa.gov/sites/default/files/2025-11/guidance-mobile-communications-best-practices-20251124_508c.pdf) | Latest guidance addressing Salt Typhoon telecom intrusions |
+| **CISA** | [Federal Mobile Workplace Security (2024)](https://www.cisa.gov/sites/default/files/2024-08/Federal-Mobile-Workplace-Security_508_2024-08-14.pdf) | Comprehensive enterprise mobile security guide |
+| **NIST** | [SP 800-124 Rev. 2](https://csrc.nist.gov/pubs/sp/800/124/r2/final) | Guidelines for Managing the Security of Mobile Devices in the Enterprise |
+| **CIS** | [Google Android Benchmarks](https://www.cisecurity.org/benchmark/google_android) | Detailed configuration benchmarks for Android |
 
-**Digital Security**:
+---
 
-- ☑ Disable unused wireless radios.
+## Critical CISA Recommendations (2024-2025)
 
-- ☑ Use airplane mode when not needed.
+CISA's [December 2024 guidance](https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance) was issued in response to Chinese state-sponsored threat actors (Salt Typhoon) compromising U.S. telecom infrastructure. Key recommendations:
 
-- ☑ Avoid apps and settings that rely heavily on ad tracking.
+### Use End-to-End Encrypted Messaging
 
-**Passwords & Authentication**:
+> CISA strongly recommends using encrypted messaging apps like **Signal** for all communications.
 
-- ☑ Use strong passwords or pins for screen locks.
+- **Signal** - Cross-platform, supports encrypted voice/video calls, group chats, disappearing messages
+- Available: [iOS](https://apps.apple.com/us/app/signal-private-messenger/id874139669) | [Android](https://play.google.com/store/apps/details?id=org.thoughtcrime.securesignal)
 
-- ☑ Lock your SIM card and obtain the PUK from your carrier.
+### Avoid SMS for Multi-Factor Authentication
 
-- ☑ Enable device encryption.
+::: danger Critical Change
+CISA now advises: **Do NOT use SMS for multi-factor authentication.** SMS is vulnerable to SIM-swapping attacks, which increased by **1,055% in the UK** and **240% globally** in 2024.
+:::
 
-- ☑ Use biometrics wisely (prefer non-index fingers).
+**Use instead:**
+- Hardware security keys (FIDO2/WebAuthn) — **Best option**
+- FIDO passkeys
+- Authenticator apps (Aegis, 2FAS)
 
-- ☑ Use a trusted password manager.
+### VPN Guidance
 
-**Activity & Maintenance**:
+::: tip CISA's Position on Personal VPNs
+> "Do not use a personal virtual private network (VPN). Personal VPNs simply shift residual risks from your internet service provider (ISP) to the VPN provider, often increasing the attack surface."
 
-- ☑ Turn off always-on virtual assistants.
+This applies to **commercial VPN services**. Enterprise/organizational VPNs for accessing work resources remain appropriate.
+:::
 
-- ☑ Regularly update the OS and apps.
+### Keep Hardware Current
 
-- ☑ Avoid public USB chargers; use data blockers.
+> "Opt for the latest hardware version from your cell phone manufacturer, as newer hardware often incorporates critical security features that older hardware cannot support."
 
-- ☑ Download apps only from trusted sources.
+Software updates alone cannot provide maximum security benefits without current hardware security features.
 
-- ☑ Use a VPN and enable password protection for vital apps.
+---
 
-- ☑ Maximize privacy settings in all apps.
+## NSA Mobile Device Best Practices
 
-### Mobile Applications for Enhancing Security and Privacy
-Here are some recommended applications to strengthen your mobile device's security and privacy:
+Key highlights from the [NSA guide](https://media.defense.gov/2021/Sep/16/2002855921/-1/-1/0/MOBILE_DEVICE_BEST_PRACTICES_FINAL_V3%20-%20COPY.PDF):
 
-### Side-Loading Apps: Risks and Benefits (Android)
-Understand the pros and cons of side-loading apps (installing from non-official sources):
+### Essential Practices
 
-#### Benefits
+| Practice | Recommendation |
+|----------|---------------|
+| **Lock Screen** | Use 6+ digit PIN; enable wipe after 10 failed attempts |
+| **Auto-Lock** | Set device to lock after 5 minutes of inactivity |
+| **Weekly Reboot** | Restart your device at least once per week |
+| **App Management** | Install minimal apps; only from official stores |
+| **Jailbreaking** | Never jailbreak or root your device |
+| **Software Updates** | Enable automatic updates for OS and apps |
 
-- Access a broader range of apps.
+### Physical Security
 
-- Use open-source apps for better privacy.
+- Maintain physical control of your device at all times
+- Consider a protective case that muffles the microphone
+- Cover your camera when not in use
+- For sensitive conversations, consider voice-encrypting apps
 
-#### Risks
+---
 
-- Potential exposure to malware.
+## Comprehensive Security Checklist
 
-- May void your device's warranty.
+### Device Configuration
 
-### F-Droid: A Secure Alternative
-F-Droid is an open-source platform for Android apps that focuses on privacy and security.
+- [ ] Enable full device encryption
+- [ ] Set strong PIN/password (6+ digits, not sequential or birthdates)
+- [ ] Enable biometric authentication (prefer non-index fingers for fingerprint)
+- [ ] Configure auto-lock (5 minutes or less)
+- [ ] Enable "wipe after failed attempts" (10 attempts)
+- [ ] Disable lock screen notifications for sensitive apps
 
-#### Pros
+### Software & Updates
 
-- Non-tracking, privacy-first app store.
+- [ ] Enable automatic OS updates
+- [ ] Enable automatic app updates
+- [ ] Remove unused applications
+- [ ] Review and minimize app permissions regularly
+- [ ] Only install apps from official stores (App Store, Google Play, F-Droid)
 
-- Access to open-source apps.
+### Authentication & Accounts
 
-#### Cons
+- [ ] Use a password manager ([Bitwarden](https://bitwarden.com/), [KeePass](https://keepassxc.org/))
+- [ ] Enable hardware-based MFA where possible (YubiKey, passkeys)
+- [ ] Use authenticator apps instead of SMS for 2FA
+- [ ] Set a SIM PIN to prevent unauthorized SIM changes
+- [ ] Contact carrier to add account PIN/passphrase for porting protection
 
-- Limited selection compared to Google Play.
+### Communication
 
-- Possible compatibility issues on some devices.
+- [ ] Use end-to-end encrypted messaging (Signal, Element)
+- [ ] Disable SMS fallback in messaging apps where possible
+- [ ] Use encrypted email (ProtonMail)
 
-### How to Install F-Droid
+### Privacy
 
-1. Visit the [official F-Droid website](https://f-droid.org/en/).
-2. Download the F-Droid APK file.
-3. Enable installation from unknown sources on your Android device.
-4. Open the APK file to install F-Droid.
-5. Browse and install secure, open-source apps.
+- [ ] Disable Advertising ID / Reset it regularly
+- [ ] Turn off personalized ads
+- [ ] Disable always-on virtual assistants (Siri, Google Assistant)
+- [ ] Review location permissions; use "While Using" instead of "Always"
+- [ ] Disable location services for apps that don't need it
 
-For those looking for a Google Play alternative, try the [Aurora Store](https://f-droid.org/en/packages/com.aurora.store/), an open-source frontend to Google Play with privacy in mind.
+---
 
-### Recommended Mobile Apps for Security and Privacy (Android and iOS)
+## iOS-Specific Hardening
 
-#### Password Management
+### Lockdown Mode (For High-Risk Users)
 
-- **Bitwarden**: Available on [Android](https://play.google.com/store/apps/details?id=com.x8bit.bitwarden) and [iOS](https://apps.apple.com/us/app/bitwarden-password-manager/id1137397744).
+[Apple Lockdown Mode](https://support.apple.com/en-us/105120) is an **extreme protection** for users who may be targeted by sophisticated cyberattacks (journalists, activists, government officials).
 
-- **KeePass**: Available on [Android](https://play.google.com/store/apps/details?id=keepass2android.keepass2android), [iOS](https://strongboxsafe.com/), and [F-Droid](https://f-droid.org/en/packages/com.android.keepass/).
+**When enabled, Lockdown Mode:**
+- Blocks most message attachment types except images, video, and audio
+- Disables link previews in Messages
+- Blocks incoming FaceTime calls from unknown contacts
+- Prevents connection to non-secure Wi-Fi networks
+- Disables 2G/3G cellular (iPhone/iPad)
+- Requires device unlock to connect accessories
+- Blocks configuration profiles and MDM enrollment
 
-#### Two-Factor Authentication
+**Enable:** Settings → Privacy & Security → Lockdown Mode → Turn On
 
-- **Aegis**: Available on [Android](https://getaegis.app/) and [F-Droid](https://f-droid.org/en/packages/com.beemdevelopment.aegis/).
+::: warning
+Lockdown Mode does **not** clean existing infections. It's a preventive measure, not antivirus. It also creates a detectable fingerprint that may identify you as a high-value target.
+:::
 
-- **2FAS**: More details available on the [official MFA guide](/general/dfp-guide#multi-factor-authentication-mfa).
+### iOS Security Settings
 
-#### Malware Protection
+| Setting | Location | Recommendation |
+|---------|----------|---------------|
+| Stolen Device Protection | Face ID & Passcode | Enable |
+| USB Accessories | Face ID & Passcode | Require unlock |
+| Significant Locations | Privacy → Location Services → System Services | Disable |
+| iPhone Analytics | Privacy → Analytics | Disable all |
+| Apple Advertising | Privacy → Apple Advertising | Disable personalized ads |
+| Safari Fraud Warning | Safari | Enable |
+| Hide IP Address | Safari → Privacy | Enable |
 
-- **Malwarebytes**: Available on [Android](https://play.google.com/store/apps/details?id=org.malwarebytes.antimalware) and [iOS](https://apps.apple.com/us/app/malwarebytes-mobile-security/id1327105431).
+---
 
-#### Encryption and Data Protection
+## Android-Specific Hardening
 
-- **OpenKeychain**: Manage PGP keys on [Android](https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain).
+### Stock Android Security
 
-- **Cryptomator**: Encrypt files before cloud upload on [Android](https://play.google.com/store/apps/details?id=org.cryptomator), [iOS](https://apps.apple.com/us/app/cryptomator/id953086535), and [F-Droid](https://f-droid.org/en/packages/org.cryptomator.lite/).
+| Setting | Location | Recommendation |
+|---------|----------|---------------|
+| Google Play Protect | Play Store → Profile → Play Protect | Enable |
+| Find My Device | Settings → Security | Enable |
+| App Permissions | Settings → Apps → Permissions | Review and minimize |
+| Unknown Sources | Settings → Security | Keep disabled |
+| Developer Options | Settings → About → Build Number | Keep disabled |
+| USB Debugging | Developer Options | Keep disabled |
 
-#### Secure Communication
+### Privacy-Focused Android Operating Systems
 
-- **Element Messenger**: Available on [Android](https://play.google.com/store/apps/details?id=im.vector.app) and [iOS](https://apps.apple.com/us/app/element-messenger/id1083446067), also on [F-Droid](https://f-droid.org/en/packages/im.vector.app/).
+For maximum privacy and security, consider replacing stock Android with a hardened alternative:
 
-- **ProtonMail**: Encrypted email service from Switzerland, available on [Android](https://play.google.com/store/apps/details?id=ch.protonmail.android) and [iOS](https://apps.apple.com/us/app/protonmail-encrypted-email/id979659905).
+| OS | Focus | Best For | Device Support |
+|----|-------|----------|----------------|
+| [**GrapheneOS**](https://grapheneos.org/) | Maximum security | Security-focused users | Google Pixel only |
+| [**CalyxOS**](https://calyxos.org/) | Privacy + usability | Transition from stock Android | Pixel, some others |
+| [**LineageOS**](https://lineageos.org/) | Customization | Wide device support | Many devices |
 
-#### Specialized Tools for Security
+**GrapheneOS Advantages:**
+- Hardened kernel and memory allocation
+- Sandboxed Google Play Services (optional, no privileged access)
+- Vanadium browser (hardened Chromium without Google tracking)
+- Fastest security updates among privacy ROMs
+- Required for hardware security features (Titan M chip)
 
-- **TrackerControl** (F-Droid): Monitor and control app data collection.
+**CalyxOS Advantages:**
+- More beginner-friendly
+- Includes microG (Google Services alternative) by default
+- Tor integration built-in
+- Broader device support than GrapheneOS
 
-- **Insular**: Isolate apps or run multiple accounts on [F-Droid](https://f-droid.org/en/packages/com.oasisfeng.island.fdroid/).
+### F-Droid: Alternative App Store
 
+[F-Droid](https://f-droid.org/) is an open-source app repository focused on privacy:
 
+**Recommended F-Droid Apps:**
+- **Aegis** - 2FA authenticator
+- **KeePassDX** - Password manager
+- **Element** - Matrix messenger
+- **TrackerControl** - Monitor app tracking
+- **Insular** - App isolation
+- **Aurora Store** - Privacy-respecting Google Play frontend
+
+---
+
+## SIM Security & Swapping Prevention
+
+SIM swapping attacks increased dramatically in 2024 (1,055% in UK, 240% globally). Even eSIMs are [not immune to sophisticated attacks](https://hackhunting.wordpress.com/2024/12/31/esim-vulnerabilities-lead-to-sim-swapping-attacks/).
+
+### Protection Measures
+
+1. **Set a SIM PIN**
+   - Requires PIN to use SIM in another device
+   - iOS: Settings → Cellular → SIM PIN
+   - Android: Settings → Security → SIM card lock
+
+2. **Add Carrier Account Security**
+   - Contact your carrier to add a unique passcode/passphrase
+   - Request a "port freeze" or "number lock"
+   - Ask about their SIM swap verification procedures
+
+3. **Never Use SMS for High-Value 2FA**
+   - Banking, crypto, email should use authenticator apps or hardware keys
+   - SMS 2FA is better than nothing, but vulnerable
+
+4. **Monitor for Warning Signs**
+   - Sudden loss of cellular service
+   - Unexpected "SIM changed" notifications
+   - Unable to make/receive calls or texts
+
+5. **eSIM Considerations**
+   - Enable biometric authentication for eSIM changes
+   - eSIMs eliminate physical SIM theft but can still be ported
+   - [GSMA eSIM Security Framework](https://www.gsma.com/esim/) provides certification standards
+
+---
+
+## Recommended Mobile Apps
+
+### Password Management
+
+| App | Platforms | Notes |
+|-----|-----------|-------|
+| [Bitwarden](https://bitwarden.com/) | iOS, Android, Desktop, Web | Open-source, self-hostable |
+| [KeePassXC](https://keepassxc.org/) / [KeePassDX](https://www.keepassdx.com/) | Cross-platform | Offline, open-source |
+
+**Avoid:** LastPass (multiple breaches)
+
+### Two-Factor Authentication
+
+| App | Platforms | Notes |
+|-----|-----------|-------|
+| [YubiKey](https://www.yubico.com/) | Hardware | Best security, FIDO2/WebAuthn |
+| [Aegis](https://getaegis.app/) | Android | Open-source, encrypted backups |
+| [2FAS](https://2fas.com/) | iOS, Android | Open-source, browser extension |
+| [OTP Auth](https://apps.apple.com/us/app/otp-auth/id659877384) | iOS | iCloud sync |
+
+**Avoid:**
+- SMS-based 2FA (vulnerable to SIM swapping)
+- Google Authenticator (sync not end-to-end encrypted)
+- Authy (requires phone number, not open-source)
+
+### Secure Communication
+
+| App | Purpose | Notes |
+|-----|---------|-------|
+| [Signal](https://signal.org/) | Messaging | CISA-recommended, E2EE |
+| [Element](https://element.io/) | Matrix client | Decentralized, E2EE |
+| [ProtonMail](https://proton.me/mail) | Email | Swiss-based, E2EE |
+
+### Security Tools
+
+| App | Purpose | Platform |
+|-----|---------|----------|
+| [Malwarebytes](https://www.malwarebytes.com/) | Malware scanning | iOS, Android |
+| [TrackerControl](https://trackercontrol.org/) | App tracking monitor | Android (F-Droid) |
+| [Cryptomator](https://cryptomator.org/) | File encryption | iOS, Android |
+| [OpenKeychain](https://www.openkeychain.org/) | PGP key management | Android |
+
+---
+
+## Side-Loading Apps (Android)
+
+### Risks and Benefits
+
+**Benefits:**
+- Access to open-source apps not on Play Store
+- Apps without Google tracking
+- Greater control over app sources
+
+**Risks:**
+- Potential malware exposure
+- No automatic security scanning
+- May void warranty
+
+### Safe Side-Loading Practices
+
+1. Only side-load from trusted sources (F-Droid, app developer's official site)
+2. Verify APK signatures/checksums when available
+3. Use a sandboxed environment if possible
+4. Keep "Install unknown apps" disabled by default
+5. Enable only for specific app installation, then disable
+
+---
+
+## Enterprise Considerations
+
+For organizations managing mobile devices, refer to:
+
+- [NIST SP 800-124 Rev. 2](https://csrc.nist.gov/pubs/sp/800/124/r2/final) - Enterprise mobile device management
+- [CISA Enterprise Mobility Management Checklist](https://www.cisa.gov/resources-tools/resources/capacity-enhancement-guide-federal-agencies-ceg-mobile-device) - Federal agency guidance
+
+Key enterprise capabilities:
+- **Mobile Device Management (MDM)** - Centralized policy enforcement
+- **Mobile Application Vetting (MAV)** - App security assessment
+- **Mobile Threat Defense (MTD)** - Real-time threat detection
+
+---
+
+## References & Further Reading
+
+### Government Sources
+- [NSA Telework and Mobile Security Guidance](https://www.nsa.gov/Press-Room/Telework-and-Mobile-Security-Guidance/)
+- [CISA Mobile Communications Best Practice Guidance](https://www.cisa.gov/resources-tools/resources/mobile-communications-best-practice-guidance)
+- [NIST Mobile Device Security Publications](https://csrc.nist.gov/publications)
+- [Army CID SIM Swapping Flyer (PDF)](https://www.cid.army.mil/Portals/118/Documents/Cyber-Flyers/Cyberflyer_SIMSwapping_01-29-2024.pdf)
+
+### Privacy Resources
+- [Privacy Guides - Mobile](https://www.privacyguides.org/android/)
+- [EFF Surveillance Self-Defense](https://ssd.eff.org/)
+- [GrapheneOS Documentation](https://grapheneos.org/faq)
+- [CalyxOS Documentation](https://calyxos.org/docs/)
+
+### Related Wiki Pages
+- [DFP Guide](/general/dfp-guide) - Digital Force Protection overview
+- [Quick DFP Guide](/general/quick-dfp-guide) - Quick reference
+- [VPN Recommendation](/privacy/vpn-recommendation) - VPN guidance
+- [MFA Guide](/general/mfa-guide) - Multi-factor authentication
+- [Password Manager Guide](/general/guide-to-password-managers) - Password management

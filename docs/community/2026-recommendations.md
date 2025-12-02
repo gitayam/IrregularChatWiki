@@ -115,6 +115,25 @@ A data scientist's frustrated takedown of the corporate AI hype cycle. The autho
 
 ---
 
+### Stop Hacklore! An Open Letter on Outdated Security Advice
+**Source**: Hacklore.org | **Authors**: Group of current and former CISOs
+
+An open letter from security professionals calling for the retirement of six pieces of outdated cybersecurity advice that consume people's time without meaningfully reducing real-world risk:
+
+1. **Public WiFi avoidance** — Modern encryption and OS protections make large-scale compromises via open networks "exceedingly rare today"
+2. **QR code scanning warnings** — "There is no evidence of widespread crime originating from QR-code scanning itself"
+3. **Public USB charging prohibition** — "There are no verified cases of 'juice jacking' in the wild affecting everyday users"
+4. **Disabling Bluetooth/NFC** — Wireless exploits are "extraordinarily rare and typically require specialized hardware"
+5. **Regular cookie deletion** — "Doesn't meaningfully improve security or stop modern tracking"
+6. **Frequent password changes** — "No evidence it reduces crime, and it often leads to weaker passwords"
+
+**Why it matters**: Security advice should be "accurate, proportional, and actionable." This letter challenges well-intentioned but outdated guidance and refocuses attention on what actually works: updates, MFA, strong passphrases, and password managers.
+
+- **Read**: [Stop Hacklore! Letter](https://www.hacklore.org/letter)
+- **Related**: [DFP Guide](/general/dfp-guide) | [Mobile Hardening](/general/mobile-hardening-guide) | [MFA Guide](/general/mfa-guide)
+
+---
+
 ## Podcasts & Audio
 
 ### The Anti-Humans (Martyrmade Podcast, Episode 19)
@@ -1075,7 +1094,22 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 
 ## Apps & Tools
 
-*Section open for community contributions*
+### BOOBS CHECK: Iran CDN Detection Technique
+**Author**: [@hkashfi](https://x.com/hkashfi) | **Source**: X/Twitter
+
+A clever technique to verify if websites behind CDNs are actually hosted inside Iran. Works by exploiting Iran's basic censorship filtering applied to traffic.
+
+**How it works:**
+```bash
+curl -i https://domain/boobs.jpg
+```
+
+If the response is a `403` with a `10.10.34.x` IP in the body, the site is landing inside Iran—the result of censorship filtering applied to traffic regardless of what content actually exists at that path.
+
+**Why it matters**: Useful for OSINT, infrastructure attribution, and understanding where sites are actually hosted vs. where they claim to be. The technique exploits the fact that Iran's censorship system will intercept and block requests for filtered keywords even when the requested resource doesn't exist.
+
+- **Original Post**: [X/Twitter](https://x.com/hkashfi/status/1995109785679573167)
+- **Related**: [Cybersecurity Resources](/cybersecurity/) | [DFP Guide](/general/dfp-guide)
 
 ---
 
