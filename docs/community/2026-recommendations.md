@@ -62,6 +62,20 @@ Community-curated recommendations for quotes, articles, podcasts, videos, and bo
 
 ---
 
+## Curated Reading Lists
+
+External reading lists from authoritative sources—regularly updated collections worth bookmarking.
+
+### CSA Professional Reading List
+**Source**: Army University Press | **Updated**: Monthly
+
+The Chief of Staff of the Army publishes a monthly recommended articles list covering strategy, leadership, military history, and current affairs. A curated selection of thought-provoking pieces from professional journals, think tanks, and news outlets.
+
+- **Browse**: [CSA Recommended Articles](https://www.armyupress.army.mil/Resources/CSA-Recommended-Articles/)
+- **Related**: [National Strategy & Reports](/general/national-strategy-and-reports) | [Information Warfare](/general/information-warfare)
+
+---
+
 ## Articles & Essays
 
 ### What is Artificial Intelligence? The Definitive Guide
