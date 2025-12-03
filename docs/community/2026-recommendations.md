@@ -274,6 +274,19 @@ A daily briefing on cybersecurity news, vulnerability disclosures, and threat in
 
 ---
 
+### How I Built This
+*Recommended by Chris F*
+
+> *"It's a business-centered podcast but I find it applicable to lots of things, like beginning a new organization, starting a working group, being an entrepreneur, etc."*
+
+NPR's Guy Raz interviews founders and innovators about the stories behind the companies and movements they built. Each episode dives into the pivotal moments, setbacks, and breakthroughs that shaped iconic brands—from Airbnb to Patagonia to Wikipedia. The lessons transcend business: how to rally people around an idea, navigate uncertainty, and persist through failure.
+
+- **Listen**: [How I Built This](https://www.npr.org/podcasts/510313/how-i-built-this)
+- **Format**: Weekly (~1 hour episodes)
+- **Related**: [Zero to One](#zero-to-one-notes-on-startups-or-how-to-build-the-future) | [Company of One](#company-of-one-why-staying-small-is-the-next-big-thing-for-business) | [The Private Equity Playbook](#the-private-equity-playbook-managements-guide-to-working-with-pe-investors)
+
+---
+
 ### Joe Rogan Experience: Renée DiResta
 *Recommended by Luis S*
 
