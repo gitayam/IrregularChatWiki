@@ -11,6 +11,97 @@ Community-curated recommendations for quotes, articles, podcasts, videos, and bo
 
 ---
 
+## What Should I Read/Watch/Listen To?
+
+Not sure where to start? Follow the flowchart below to find your next recommendation!
+
+```
+                            ┌─────────────────────────┐
+                            │   HOW MUCH TIME DO      │
+                            │      YOU HAVE?          │
+                            └───────────┬─────────────┘
+                                        │
+            ┌───────────────────────────┼───────────────────────────┐
+            │                           │                           │
+            ▼                           ▼                           ▼
+    ┌───────────────┐          ┌───────────────┐          ┌───────────────┐
+    │  5-15 minutes │          │   1-2 hours   │          │  Deep dive    │
+    │   (Quick hit) │          │  (One sitting)│          │ (Commitment)  │
+    └───────┬───────┘          └───────┬───────┘          └───────┬───────┘
+            │                          │                          │
+            ▼                          ▼                          ▼
+    ┌───────────────┐          ┌───────────────┐          ┌───────────────┐
+    │ WHAT FORMAT?  │          │ WHAT FORMAT?  │          │ WHAT FORMAT?  │
+    └───────┬───────┘          └───────┬───────┘          └───────┬───────┘
+            │                          │                          │
+     ┌──────┴──────┐            ┌──────┴──────┐            ┌──────┴──────┐
+     ▼             ▼            ▼             ▼            ▼             ▼
+┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐
+│  READ   │  │ WATCH/  │  │  READ   │  │ WATCH/  │  │  READ   │  │ LISTEN  │
+│         │  │ LISTEN  │  │         │  │ LISTEN  │  │ (Books) │  │(Podcast)│
+└────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘
+     │            │            │            │            │            │
+     ▼            ▼            ▼            ▼            ▼            ▼
+  Quotes      Wanderers    Articles     Videos        Books      Podcasts
+   below       (4 min)      below       below         below       below
+```
+
+### Quick Reference by Topic
+
+| I want to understand... | Start here | Time |
+|------------------------|------------|------|
+| **AI & the hype** | [AI Piledrive Article](#i-will-fucking-piledrive-you-if-you-mention-ai-again) | 15 min |
+| **China/US relations** | [The Avoidable War](#the-avoidable-war-the-dangers-of-a-catastrophic-conflict-between-the-us-and-xi-jinpings-china) | Book |
+| **Why government IT fails** | [Recoding America](#recoding-america-why-government-is-failing-in-the-digital-age-and-how-we-can-do-better) | Book |
+| **Modern warfare reality** | [Ukraine's Counteroffensive](#ukraines-counteroffensive-documentary) | 2 hrs |
+| **Leadership under fire** | [The Mission, the Men, and Me](#the-mission-the-men-and-me-lessons-from-a-former-delta-force-commander) | Book |
+| **Why we're so divided** | [The Righteous Mind](#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | Book |
+| **Sleep science** | [Why We Sleep](#why-we-sleep-unlocking-the-power-of-sleep-and-dreams) | Book |
+| **Hacker culture origins** | [Phrack & Hacker Manifesto](#phrack-magazine-issues-1-7-especially-issue-7) | 30 min |
+| **Security advice myths** | [Stop Hacklore!](#stop-hacklore-an-open-letter-on-outdated-security-advice) | 10 min |
+| **How history repeats** | [The Fourth Turning](#the-fourth-turning-what-the-cycles-of-history-tell-us-about-americas-next-rendezvous-with-destiny) | Book |
+| **Starting a business** | [Zero to One](#zero-to-one-notes-on-startups-or-how-to-build-the-future) | Book |
+| **Drone warfare insights** | [Russian Drone Developer Interview](#interview-with-a-russian-drone-developer) | 1 hr |
+
+### By Mood
+
+::: details "I want something inspiring"
+- **Quick**: [Wanderers](#wanderers) (4 min video) - Carl Sagan narrates humanity's future in space
+- **Read**: [Jonathan Livingston Seagull](#jonathan-livingston-seagull) - Breaking free from limitations
+- **Deep**: [Man's Search for Meaning](#mans-search-for-meaning) - Finding purpose in adversity
+:::
+
+::: details "I want something disturbing (in a good way)"
+- **Listen**: [The Anti-Humans](#the-anti-humans-martyrmade-podcast-episode-19) - Soviet brutality patterns still relevant today
+- **Watch**: [Ukraine's Counteroffensive](#ukraines-counteroffensive-documentary) - Modern ground warfare reality
+- **Read**: [Unrestricted Warfare](#unrestricted-warfare-chinas-master-plan-to-destroy-america) - China's asymmetric playbook
+:::
+
+::: details "I want to learn something practical"
+- **Cybersecurity**: [The Pentester BluePrint](#the-pentester-blueprint-starting-a-career-as-an-ethical-hacker)
+- **Programming**: [Reeborg's World](#reeborgs-world) or [DigitalU 100 Days of Code](#digital-university-digitalu)
+- **Leadership**: [Extreme Ownership](#extreme-ownership-how-us-navy-seals-lead-and-win)
+- **Business**: [Profit First](#profit-first-transform-your-business-from-a-cash-eating-monster-to-a-money-making-machine)
+:::
+
+::: details "I want to understand the big picture"
+- **Geopolitics**: [The Dragons and the Snakes](#the-dragons-and-the-snakes-how-the-rest-learned-to-fight-the-west)
+- **Technology**: [The Kill Chain](#the-kill-chain-defending-america-in-the-future-of-high-tech-warfare)
+- **History cycles**: [The Fourth Turning](#the-fourth-turning-what-the-cycles-of-history-tell-us-about-americas-next-rendezvous-with-destiny)
+- **US power**: [The Accidental Superpower](#the-accidental-superpower-the-next-generation-of-american-preeminence-and-the-coming-global-disorder)
+:::
+
+::: details "I don't know what I don't know"
+Perfect. Here's what the community says will blow your mind:
+- **If you think you understand AI**: [AI Piledrive Article](#i-will-fucking-piledrive-you-if-you-mention-ai-again)
+- **If you think you understand security**: [Stop Hacklore!](#stop-hacklore-an-open-letter-on-outdated-security-advice)
+- **If you think you understand China**: [Unrestricted Warfare](#unrestricted-warfare-chinas-master-plan-to-destroy-america)
+- **If you think you understand US history**: [A People's History](#a-peoples-history-of-the-united-states) or [Gangsters of Capitalism](#gangsters-of-capitalism-smedley-butler-the-marines-and-the-making-and-breaking-of-americas-empire)
+- **If you think you understand how decisions work**: [Streetlights and Shadows](#streetlights-and-shadows-searching-for-the-keys-to-adaptive-decision-making)
+:::
+
+---
+
 ## Quotes
 
 > *"Things which matter most must never be at the mercy of things which matter least."*
