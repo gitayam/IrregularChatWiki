@@ -499,6 +499,20 @@ The landmark 1980 book (updated 2003) that tells American history from the persp
 Strategic analysis frameworks: [Information Warfare](/general/information-warfare) | [PMESII-PT](/general/pmesii-pt) | [COG Analysis](/general/center-of-gravity-analysis-guide) | [SATs](/general/structured-analytic-techniques-sats) | [TAAW Review](/general/taaw-review)
 :::
 
+#### Prisoners of Geography: Ten Maps That Explain Everything About the World
+**Author**: Tim Marshall
+*Recommended by George*
+
+> *"A favorite, not tech specific, but a good geopolitics book to frame a world view."*
+
+Why do nations act the way they do? Marshall argues that geography—mountains, rivers, seas, and natural resources—shapes political decisions more than ideology or leadership. Through ten maps covering Russia, China, the US, Europe, Africa, the Middle East, and more, he shows how physical terrain has determined the fates of nations for centuries. A foundational text for understanding *why* conflicts happen where they do.
+
+- **Amazon**: [Prisoners of Geography](https://www.amazon.com/Prisoners-Geography-Explain-Everything-About/dp/1501121472/)
+- **Also see**: [The Power of Geography](https://www.amazon.com/Power-Geography-Ten-Maps-Future/dp/1982178639/) - Marshall's 2021 follow-up covering ten more regions
+- **Related**: [The Accidental Superpower](#the-accidental-superpower-the-next-generation-of-american-preeminence-and-the-coming-global-disorder) | [Battlegrounds](#battlegrounds-the-fight-to-defend-the-free-world)
+
+---
+
 #### Cold War 2.0: Artificial Intelligence in the New Battle between China, Russia, and America
 **Author**: George S. Takach
 *Recommended by Casey H*
