@@ -825,6 +825,22 @@ An excellent book about how liberals and conservatives see the world differently
 
 ---
 
+#### Maps of Meaning: The Architecture of Belief
+**Author**: Jordan Peterson
+*Recommended by Rob B*
+
+> *"Easily the most applicable book I have ever read to PSYOP."*
+
+A dense psychology textbook Peterson wrote in 1999—well before his public fame—examining how humans construct meaning through narrative, myth, and belief systems. Draws on Jung, Nietzsche, neuroscience, and comparative mythology to explain why people believe what they believe and how symbolic systems shape behavior.
+
+**Why it matters for influence work**: Understanding the deep architecture of belief—how narratives function, why certain symbols resonate, how meaning systems are constructed and disrupted—is foundational for anyone working in psychological operations, strategic communications, or influence. The book is academically rigorous and apolitical, focused on the mechanics of human meaning-making rather than contemporary debates.
+
+- **Amazon**: [Maps of Meaning](https://www.amazon.com/Maps-Meaning-Architecture-Jordan-Peterson/dp/0415922224/)
+- **Note**: Academic text, not a quick read—but foundational for understanding belief formation
+- **Related**: [The Righteous Mind](#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | [The Laws of Human Nature](#the-laws-of-human-nature) | [Information Warfare](/general/information-warfare)
+
+---
+
 #### Doppelganger: A Trip into the Mirror World
 **Author**: Naomi Klein
 *Recommended by Jessica D*
