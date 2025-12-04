@@ -178,10 +178,12 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/community/' },
             { text: 'Join', link: '/community/join' },
-            { text: 'Discourse Guidelines', link: '/community/discourse' },
-            { text: 'About This Wiki', link: '/community/about-this-wiki' },
+            { text: '2026 Recommendations', link: '/community/2026-recommendations' },
+            { text: 'General Advice', link: '/community/general-advice' },
             { text: 'Reading List', link: '/community/community-reading-list' },
             { text: 'Skills Exchange', link: '/community/community-skills-exchange' },
+            { text: 'Discourse Guidelines', link: '/community/discourse' },
+            { text: 'About This Wiki', link: '/community/about-this-wiki' },
           ]
         },
         {

@@ -1,6 +1,6 @@
 ---
 title: "General Advice"
-tags: ["advice", "community", "career", "life", "productivity", "tools"]
+tags: ["advice", "community", "career", "life", "productivity", "tools", "health", "fitness", "business", "learning", "mindset"]
 ---
 
 # General Advice
@@ -119,7 +119,7 @@ Military and government benefits are complex and often underutilized. Know what 
 
 You can't optimize what you don't measure. Use a simple system to know where your money goes.
 
-- **Book**: [Profit First](#) — Applicable to personal finance too, not just business
+- **Book**: [Profit First](/community/2026-recommendations#profit-first-transform-your-business-from-a-cash-eating-monster-to-a-money-making-machine) — Applicable to personal finance too, not just business
 
 ---
 

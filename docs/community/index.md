@@ -20,7 +20,9 @@ Welcome to the IrregularChat community resources. Here you'll find guides for jo
 
 | Resource | Description |
 |----------|-------------|
-| [Reading List](/community/community-reading-list) | Recommended books and articles |
+| [2026 Recommendations](/community/2026-recommendations) | **NEW** Books, podcasts, articles, and videos recommended by the community for 2026 |
+| [General Advice](/community/general-advice) | **NEW** Hard-won wisdom on tools, career, finances, health, learning, and mindset |
+| [Reading List](/community/community-reading-list) | Evergreen recommended books and articles |
 | [Skills Exchange](/community/community-skills-exchange) | Share and learn skills with other members |
 | [Recommended Episodes](/community/community-recommended-episodes) | Podcast and video recommendations |
 | [Community Published Works](/community/community-published) | Work published by community members |
