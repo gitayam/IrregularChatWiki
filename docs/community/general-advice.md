@@ -174,6 +174,26 @@ Notes are only valuable if you can find and use them later. Develop a system:
 
 ## Mindset
 
+### The Soldier's Mindset
+
+> *"When you choose the life of the soldier it's not too different than the Olympic athlete. You're going to be tired and everything will hurt. What separates you is that you will rise back up and fight because soldiers don't know where the race ends."*
+
+Reflections from two decades of service at the highest levels:
+
+- **Pass it forward now** — The current generation of warfighters needs your knowledge *today*. Don't wait until you're the "old veteran" nobody listens to. We're already fighting to retrieve lessons learned from LSCO that previous generations took to their graves.
+
+- **Conviction over credentials** — It wasn't books or quotes that made the difference. It was the conviction to add as much value as possible to the unit and the broader force. When you know something works—because you've seen it save lives—you fight to spread it.
+
+- **Minimum was never the standard** — A PT test was never about the minimum. Never even knew what the minimum was. Always shot for the best.
+
+- **Choose service, not benefits** — Some join as adults who gave up careers to serve the country, not for benefits. That choice shapes everything that follows.
+
+- **Personal experience over theory** — It was less about books and more about personal experience. Losing or being last was never an option.
+
+- **Excellence isn't arrogance** — Aspiring to be the best and relentlessly pursuing it isn't arrogance. It's the standard required when lives depend on your performance.
+
+---
+
 ### Embrace Discomfort
 
 Growth happens at the edge of your comfort zone. Seek out challenges that stretch you—professionally, physically, intellectually.
