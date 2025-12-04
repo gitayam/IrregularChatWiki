@@ -104,6 +104,10 @@ Perfect. Here's what the community says will blow your mind:
 
 ## Quotes
 
+::: tip Looking for practical advice?
+See **[General Advice](/community/general-advice)** for community wisdom on tools, career, finances, health, learning, and more.
+:::
+
 > *"Things which matter most must never be at the mercy of things which matter least."*
 > — **Johann Wolfgang von Goethe**
 
