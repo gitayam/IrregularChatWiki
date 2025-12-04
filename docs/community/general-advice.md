@@ -188,7 +188,7 @@ Reflections from two decades of service at the highest levels:
 
 - **Choose service, not benefits** — Some join as adults who gave up careers to serve the country, not for benefits. That choice shapes everything that follows.
 
-- **Personal experience over theory** — It was less about books and more about personal experience. Losing or being last was never an option.
+- **Personal experience over theory** — It was less about books and more about personal experience. Losing or being last was never an option. As Theodore Roosevelt said in his "Man in the Arena" speech: *"It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again... who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly."* Jump in even when it's not perfect. Criticize those in the ring less.
 
 - **Excellence isn't arrogance** — Aspiring to be the best and relentlessly pursuing it isn't arrogance. It's the standard required when lives depend on your performance.
 
