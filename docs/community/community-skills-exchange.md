@@ -1,58 +1,66 @@
 ---
 title: "Community Skills Exchange"
+tags: ["community", "skills", "freelance", "volunteering"]
 ---
 
 # Community Skills Exchange
 
-## Community Skills Exchange
+A place to offer your skills to the community—whether volunteering, freelancing, or just helping out.
 
-### Individuals Offering Skills or Freelance Services
-If you are interested in contributing to the community, volunteering your skills, or offering freelance services, this is the place to post what you can help with.
+> Looking for job postings? See [Job Announcements](/community/community-job-announcements)
 
-If you are looking for a Job Posting from the community see [Job Announcements](/community/community-job-announcements)
+## Current Skills Offered
 
-### Current Skills Offered
-Available on the Forum: [Skills Offered Tag](https://forum.irregularchat.com/tag/skills-offered)
+Browse available skills on the forum: [Skills Offered Tag](https://forum.irregularchat.com/tag/skills-offered)
 
-### Guidelines for Posting Your Skills or Services
-If you would like to offer your skills for free, or as a freelancer, post it [here](https://forum.irregularchat.com/tag/skills-offered).
+---
 
-## You must be logged into [IrregularChat SSO](https://sso.irregularchat.com).
+## How to Post Your Skills or Services
 
-## Add a new topic to the [community forum category](https://forum.irregularchat.com/c/off-topic-guild/community-only/7).
+### Steps
 
-## Add "skills offered" as a tag.
+1. Log into [IrregularChat SSO](https://sso.irregularchat.com)
+2. Create a new topic in the [Community Forum Category](https://forum.irregularchat.com/c/off-topic-guild/community-only/7)
+3. Add **"skills-offered"** as a tag
+4. Use the template below
+5. When no longer available, **edit your post** to indicate unavailability
 
-## Use the template below or a similar format to provide details.
+---
 
-## Once you are no longer available, please *edit your post to indicate that you are unavailable.*
+## Template for Offering Skills
 
-### Template for Offering Skills to the Community
-This is in markdown syntax, so the forum can be rendered properly.
-```
+Copy and paste this template into your forum post:
 
-1. TITLE:
-Available for [(e.g., "Available for Graphic Design, Web Development, Writing")
-   1. Location:
-[City/Country](Skill/Service]) OR REMOTE
+```markdown
+## Available for [Your Skills Here]
+(e.g., "Available for Graphic Design, Web Development, Writing")
 
-   1. Services Offered:
+### Location
+[City/Country] OR Remote
+
+### Services Offered
 Briefly describe the skills or services you can provide.
 - E.g., Graphic design, coding, writing, research, tutoring, etc.
 
-   1. Availability:
+### Availability
 Days and times when you are available to help or work.
-- E.g., "Weekdays after 5 PM EST," "Available weekends only," or "Flexible schedule."
+- E.g., "Weekdays after 5 PM EST," "Available weekends only," or "Flexible schedule"
 
-   1. Experience/Qualifications:
-(Optional) Share your background, relevant experience, or certifications.
-- E.g., "5+ years of graphic design experience," "Certified AWS Solutions Architect," etc.
+### Experience/Qualifications (Optional)
+Share your background, relevant experience, or certifications.
+- E.g., "5+ years of graphic design experience," "Certified AWS Solutions Architect"
 
-   1. Rates:
+### Rates
 If offering freelance services, mention your rates (hourly/project-based).
-- E.g., "Negotiable," "Starting at $50/hour," "Pro bono for community projects," etc.
+- E.g., "Negotiable," "Starting at $50/hour," "Pro bono for community projects"
 
-   1. POC:
-Preferred contact method (e.g., email, forum direct message).
-
+### Contact
+Preferred contact method (e.g., email, forum direct message)
 ```
+
+---
+
+## Related
+
+- [Job Announcements](/community/community-job-announcements) — Career opportunities from the community
+- [Community Forum](https://forum.irregularchat.com) — Main discussion forum
