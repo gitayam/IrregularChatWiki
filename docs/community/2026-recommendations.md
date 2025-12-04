@@ -825,6 +825,21 @@ An excellent book about how liberals and conservatives see the world differently
 
 ---
 
+#### Doppelganger: A Trip into the Mirror World
+**Author**: Naomi Klein
+*Recommended by Jessica D*
+
+> *"Probably the most well-developed post-COVID discussion I've seen."*
+
+Klein explores how she became confused with Naomi Wolf—another public intellectual who veered into conspiracy theories during COVID—and uses this personal "doppelganger" experience to examine something larger: how mirror worlds of distorted reality have emerged, why people fall into them, and what it reveals about our fractured society. Part memoir, part cultural criticism, part political analysis.
+
+The book asks uncomfortable questions about social division: What happens when legitimate grievances get channeled into destructive movements? How do we distinguish real threats from manufactured panic? Why are so many people drawn to alternative realities? Klein doesn't offer easy answers but provides a thoughtful framework for understanding the post-pandemic landscape of polarization and mistrust.
+
+- **Amazon**: [Doppelganger](https://www.amazon.com/Doppelganger-Trip-into-Mirror-World/dp/0374610320/)
+- **Related**: [The Righteous Mind](#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | [The Anxious Generation](#the-anxious-generation-how-the-great-rewiring-of-childhood-is-causing-an-epidemic-of-mental-illness)
+
+---
+
 #### The Laws of Human Nature
 **Author**: Robert Greene
 
