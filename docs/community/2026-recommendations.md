@@ -17,33 +17,28 @@ Not sure where to start? Follow the flowchart below to find your next recommenda
 
 ```
                             ┌─────────────────────────┐
-                            │   HOW MUCH TIME DO      │
-                            │      YOU HAVE?          │
+                            │    WHAT DO YOU NEED?    │
                             └───────────┬─────────────┘
                                         │
-            ┌───────────────────────────┼───────────────────────────┐
-            │                           │                           │
-            ▼                           ▼                           ▼
-    ┌───────────────┐          ┌───────────────┐          ┌───────────────┐
-    │  5-15 minutes │          │   1-2 hours   │          │  Deep dive    │
-    │   (Quick hit) │          │  (One sitting)│          │ (Commitment)  │
-    └───────┬───────┘          └───────┬───────┘          └───────┬───────┘
-            │                          │                          │
-            ▼                          ▼                          ▼
-    ┌───────────────┐          ┌───────────────┐          ┌───────────────┐
-    │ WHAT FORMAT?  │          │ WHAT FORMAT?  │          │ WHAT FORMAT?  │
-    └───────┬───────┘          └───────┬───────┘          └───────┬───────┘
-            │                          │                          │
-     ┌──────┴──────┐            ┌──────┴──────┐            ┌──────┴──────┐
-     ▼             ▼            ▼             ▼            ▼             ▼
-┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐
-│  READ   │  │ WATCH/  │  │  READ   │  │ WATCH/  │  │  READ   │  │ LISTEN  │
-│         │  │ LISTEN  │  │         │  │ LISTEN  │  │ (Books) │  │(Podcast)│
-└────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘
-     │            │            │            │            │            │
-     ▼            ▼            ▼            ▼            ▼            ▼
-  Quotes      Wanderers    Articles     Videos        Books      Podcasts
-   below       (4 min)      below       below         below       below
+        ┌───────────────┬───────────────┼───────────────┬───────────────┐
+        │               │               │               │               │
+        ▼               ▼               ▼               ▼               ▼
+┌───────────────┐ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐ ┌───────────────┐
+│   Something   │ │   Something   │ │  Perspective  │ │   Practical   │ │  Inspiration  │
+│   to read     │ │   to hear     │ │    shift      │ │    advice     │ │   or wisdom   │
+└───────┬───────┘ └───────┬───────┘ └───────┬───────┘ └───────┬───────┘ └───────┬───────┘
+        │               │               │               │               │
+        ▼               ▼               ▼               ▼               ▼
+   ┌────────┐      ┌────────┐      ┌────────┐      ┌────────┐      ┌────────┐
+   │ Books  │      │Podcasts│      │Articles│      │ General│      │ Quotes │
+   │ below  │      │ below  │      │ below  │      │ Advice │      │ below  │
+   └────────┘      └────────┘      └────────┘      └────────┘      └────────┘
+                                                        │
+                                                        ▼
+                                              ┌─────────────────┐
+                                              │ /community/     │
+                                              │ general-advice  │
+                                              └─────────────────┘
 ```
 
 ### Quick Reference by Topic
@@ -52,22 +47,28 @@ Not sure where to start? Follow the flowchart below to find your next recommenda
 |------------------------|------------|------|
 | **AI & the hype** | [AI Piledrive Article](#i-will-fucking-piledrive-you-if-you-mention-ai-again) | 15 min |
 | **China/US relations** | [The Avoidable War](#the-avoidable-war-the-dangers-of-a-catastrophic-conflict-between-the-us-and-xi-jinpings-china) | Book |
+| **Why geography drives conflict** | [Prisoners of Geography](#prisoners-of-geography-ten-maps-that-explain-everything-about-the-world) | Book |
 | **Why government IT fails** | [Recoding America](#recoding-america-why-government-is-failing-in-the-digital-age-and-how-we-can-do-better) | Book |
 | **Modern warfare reality** | [Ukraine's Counteroffensive](#ukraines-counteroffensive-documentary) | 2 hrs |
 | **Leadership under fire** | [The Mission, the Men, and Me](#the-mission-the-men-and-me-lessons-from-a-former-delta-force-commander) | Book |
+| **The soldier's mindset** | [General Advice](/community/general-advice#the-soldiers-mindset) | 5 min |
 | **Why we're so divided** | [The Righteous Mind](#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | Book |
+| **WWI & fantasy literature** | [The War for Middle Earth](#the-war-for-middle-earth-tolkien-lewis-and-the-forgotten-world-war-i) | Book |
 | **Sleep science** | [Why We Sleep](#why-we-sleep-unlocking-the-power-of-sleep-and-dreams) | Book |
 | **Hacker culture origins** | [Phrack & Hacker Manifesto](#phrack-magazine-issues-1-7-especially-issue-7) | 30 min |
 | **Security advice myths** | [Stop Hacklore!](#stop-hacklore-an-open-letter-on-outdated-security-advice) | 10 min |
 | **How history repeats** | [The Fourth Turning](#the-fourth-turning-what-the-cycles-of-history-tell-us-about-americas-next-rendezvous-with-destiny) | Book |
-| **Starting a business** | [Zero to One](#zero-to-one-notes-on-startups-or-how-to-build-the-future) | Book |
+| **Starting a business/org** | [How I Built This](#how-i-built-this) | Podcast |
 | **Drone warfare insights** | [Russian Drone Developer Interview](#interview-with-a-russian-drone-developer) | 1 hr |
+| **Practical life advice** | [General Advice](/community/general-advice) | Browse |
 
 ### By Mood
 
 ::: details "I want something inspiring"
 - **Quick**: [Wanderers](#wanderers) (4 min video) - Carl Sagan narrates humanity's future in space
+- **Quick**: [The Soldier's Mindset](/community/general-advice#the-soldiers-mindset) - 20 years of hard-won wisdom
 - **Read**: [Jonathan Livingston Seagull](#jonathan-livingston-seagull) - Breaking free from limitations
+- **Read**: [The War for Middle Earth](#the-war-for-middle-earth-tolkien-lewis-and-the-forgotten-world-war-i) - How WWI shaped Tolkien and Lewis
 - **Deep**: [Man's Search for Meaning](#mans-search-for-meaning) - Finding purpose in adversity
 :::
 
@@ -78,17 +79,29 @@ Not sure where to start? Follow the flowchart below to find your next recommenda
 :::
 
 ::: details "I want to learn something practical"
+- **Life/Career/Health**: [General Advice](/community/general-advice) - Community wisdom across all domains
 - **Cybersecurity**: [The Pentester BluePrint](#the-pentester-blueprint-starting-a-career-as-an-ethical-hacker)
 - **Programming**: [Reeborg's World](#reeborgs-world) or [DigitalU 100 Days of Code](#digital-university-digitalu)
 - **Leadership**: [Extreme Ownership](#extreme-ownership-how-us-navy-seals-lead-and-win)
 - **Business**: [Profit First](#profit-first-transform-your-business-from-a-cash-eating-monster-to-a-money-making-machine)
+- **Tools**: [Why Markdown?](/community/general-advice#use-markdown-everywhere) - The case for plain text
 :::
 
 ::: details "I want to understand the big picture"
+- **Geography**: [Prisoners of Geography](#prisoners-of-geography-ten-maps-that-explain-everything-about-the-world) - Why nations act the way they do
 - **Geopolitics**: [The Dragons and the Snakes](#the-dragons-and-the-snakes-how-the-rest-learned-to-fight-the-west)
 - **Technology**: [The Kill Chain](#the-kill-chain-defending-america-in-the-future-of-high-tech-warfare)
 - **History cycles**: [The Fourth Turning](#the-fourth-turning-what-the-cycles-of-history-tell-us-about-americas-next-rendezvous-with-destiny)
 - **US power**: [The Accidental Superpower](#the-accidental-superpower-the-next-generation-of-american-preeminence-and-the-coming-global-disorder)
+- **Curated monthly**: [CSA Reading List](#csa-professional-reading-list) - Army Chief of Staff picks
+:::
+
+::: details "I want to start something"
+Whether it's a business, working group, or new organization:
+- **Podcast**: [How I Built This](#how-i-built-this) - Stories from founders
+- **Book**: [Zero to One](#zero-to-one-notes-on-startups-or-how-to-build-the-future) - Building something new
+- **Book**: [Company of One](#company-of-one-why-staying-small-is-the-next-big-thing-for-business) - Staying lean
+- **Advice**: [Business & Entrepreneurship](/community/general-advice#business--entrepreneurship) - Community tips
 :::
 
 ::: details "I don't know what I don't know"
@@ -96,8 +109,10 @@ Perfect. Here's what the community says will blow your mind:
 - **If you think you understand AI**: [AI Piledrive Article](#i-will-fucking-piledrive-you-if-you-mention-ai-again)
 - **If you think you understand security**: [Stop Hacklore!](#stop-hacklore-an-open-letter-on-outdated-security-advice)
 - **If you think you understand China**: [Unrestricted Warfare](#unrestricted-warfare-chinas-master-plan-to-destroy-america)
+- **If you think you understand geopolitics**: [Prisoners of Geography](#prisoners-of-geography-ten-maps-that-explain-everything-about-the-world)
 - **If you think you understand US history**: [A People's History](#a-peoples-history-of-the-united-states) or [Gangsters of Capitalism](#gangsters-of-capitalism-smedley-butler-the-marines-and-the-making-and-breaking-of-americas-empire)
 - **If you think you understand how decisions work**: [Streetlights and Shadows](#streetlights-and-shadows-searching-for-the-keys-to-adaptive-decision-making)
+- **If you think you know what excellence requires**: [The Soldier's Mindset](/community/general-advice#the-soldiers-mindset)
 :::
 
 ---
