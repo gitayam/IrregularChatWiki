@@ -186,6 +186,31 @@ The Chief of Staff of the Army publishes a monthly recommended articles list cov
 
 ---
 
+### Benjamin Franklin's 13 Virtues
+**Source**: Franklin's Autobiography (1791) | **Type**: Personal Development Framework
+
+At age 20, Benjamin Franklin created a systematic approach to moral perfection—a weekly practice of focusing on one virtue at a time. He tracked his progress in a small book, cycling through all 13 virtues every quarter. Franklin credited this system for much of his success and happiness.
+
+**The 13 Virtues:**
+1. **Temperance** — Eat not to dullness; drink not to elevation
+2. **Silence** — Speak not but what may benefit others or yourself; avoid trifling conversation
+3. **Order** — Let all your things have their places; let each part of your business have its time
+4. **Resolution** — Resolve to perform what you ought; perform without fail what you resolve
+5. **Frugality** — Make no expense but to do good to others or yourself; waste nothing
+6. **Industry** — Lose no time; be always employed in something useful; cut off unnecessary actions
+7. **Sincerity** — Use no hurtful deceit; think innocently and justly; speak accordingly
+8. **Justice** — Wrong none by doing injuries, or omitting the benefits that are your duty
+9. **Moderation** — Avoid extremes; forbear resenting injuries
+10. **Cleanliness** — Tolerate no uncleanliness in body, clothes, or habitation
+11. **Tranquility** — Be not disturbed at trifles, or at accidents common or unavoidable
+12. **Chastity** — Rarely use venery but for health or offspring, never to dullness, weakness, or injury
+13. **Humility** — Imitate Jesus and Socrates
+
+- **Read**: [Franklin's Autobiography - Chapter 9](https://www.ushistory.org/franklin/autobiography/page38.htm) (USHistory.org)
+- **Related**: [General Advice - Mindset](/community/general-advice#mindset) | [Meditations](#meditations)
+
+---
+
 ## Articles & Essays
 
 ### What is Artificial Intelligence? The Definitive Guide
