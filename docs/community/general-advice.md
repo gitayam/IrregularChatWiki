@@ -38,14 +38,26 @@ Hard-won wisdom from the IrregularChat community. Practical tips across life dom
 
 > *"Every slide deck I create is plain text using one of these templates and compiled to PDF."*
 
-Skip PowerPoint. Write your presentations in plain text using LaTeX Beamer templates—version controlled, reproducible, and professional.
+**The hard truth about PowerPoint**: Good presentations are never good *because* of the graphics. Content and structure carry the message. Fancy animations, gradient backgrounds, and clip art don't make weak ideas stronger—they distract from them. For detail-oriented audiences, inconsistent formatting, misaligned elements, and visual clutter actively undermine your credibility.
+
+**The alternative**: Write your presentations in plain text using LaTeX Beamer templates. The template handles all formatting decisions so you can focus entirely on *what* you're saying, not how the bullet points are indented.
 
 - **Templates**: [Overleaf Beamer Templates](https://www.overleaf.com/latex/templates/tagged/beamer)
 - **Benefits**:
-  - Version control your presentations
-  - Consistent formatting across decks
-  - Math and code rendering built-in
-  - Export to PDF for universal compatibility
+  - **Content-first** — No fiddling with fonts, spacing, or alignment
+  - **Version control** — Track every change with Git, collaborate without "final_v3_REAL.pptx"
+  - **Consistent formatting** — Template enforces visual consistency across all slides
+  - **Math and code** — Renders beautifully without screenshots or workarounds
+  - **Universal output** — Export to PDF that looks identical everywhere
+  - **Diff-friendly** — See exactly what changed between versions
+
+**Getting started**:
+1. Create a free account on [Overleaf](https://www.overleaf.com/)
+2. Browse [Beamer templates](https://www.overleaf.com/latex/templates/tagged/beamer) and pick one you like
+3. Replace the sample content with your material
+4. Download as PDF
+
+**When PowerPoint is required**: If you must use PowerPoint, apply the same principles—pick one clean template, disable animations, and let the content do the work.
 
 ---
 
