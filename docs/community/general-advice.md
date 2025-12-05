@@ -206,6 +206,37 @@ Reflections from two decades of service at the highest levels:
 
 ---
 
+### Question Everything You Were Taught
+
+Technology is advancing faster than doctrine. The tactics you learned may have been optimized for human limitations that no longer apply.
+
+**The uncomfortable question**: If an AI system trained to clear buildings—running thousands of simulations with civilian and enemy roles—would it converge on the same tactics we use? Almost certainly not.
+
+Consider why current CQB tactics exist:
+- Human eyes are at a predictable height range
+- Rifles are held at chest level within a narrow band
+- We move through doorways sequentially because we're human-sized
+- We stack and slice because that's what human geometry allows
+
+An AI-enabled autonomous system operates in a completely different space:
+- **Three-dimensional maneuverability** — Drones can engage from near the ceiling, near the ground, or multiple angles simultaneously
+- **No fatal funnel constraints** — Small systems don't need to flow through doorways the way humans do
+- **Distributed sensors** — "Eyes" everywhere, not just forward-facing at 5-6 feet
+- **Expendable first contact** — Send something cheap through first; don't lead with your most valuable asset (humans)
+
+**The broader principle**: Every tactic, technique, and procedure was designed around constraints that may no longer exist. The force that recognizes this first—and adapts—wins. The force that keeps doing things "the way we've always done them" because it's doctrine will learn hard lessons.
+
+This applies beyond combat:
+- Intelligence collection methods designed for human analysts may be obsolete with AI processing
+- Communication protocols designed for voice/radio may not fit autonomous systems
+- Planning timelines designed for human decision cycles may be too slow
+
+**Don't just master the current playbook—question whether the playbook itself needs rewriting.**
+
+**Related**: [Guide to Unmanned Systems](/general/guide-to-unmanned-systems) | [FPV sUAS](/general/fpv-suas) | [Counter-UxS](/general/counter-uxs)
+
+---
+
 ### Embrace Discomfort
 
 Growth happens at the edge of your comfort zone. Seek out challenges that stretch you—professionally, physically, intellectually.
