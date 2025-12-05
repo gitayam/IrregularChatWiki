@@ -9,7 +9,7 @@ Hard-won wisdom from the IrregularChat community. Practical tips across life dom
 
 > **Contribute**: Have advice that changed how you operate? Share it in the community or submit a PR.
 
----
+***
 
 ## Tools & Productivity
 
@@ -32,7 +32,7 @@ Hard-won wisdom from the IrregularChat community. Practical tips across life dom
 
 **Related**: [Knowledge Management for Communities](/general/knowledge-management-for-communities-of-interest)
 
----
+***
 
 ### Plain Text Presentations with LaTeX Beamer
 
@@ -59,7 +59,7 @@ Hard-won wisdom from the IrregularChat community. Practical tips across life dom
 
 **When PowerPoint is required**: If you must use PowerPoint, apply the same principles—pick one clean template, disable animations, and let the content do the work.
 
----
+***
 
 ## Career & Professional Development
 
@@ -73,7 +73,7 @@ Keep a running log of your accomplishments, projects, and impact metrics. When e
 
 **Related**: [Army Evaluation Resources](/general/army-evaluation-resources) | [Awards Guide](/general/awards)
 
----
+***
 
 ### Build Your Network Before You Need It
 
@@ -81,7 +81,7 @@ The worst time to build relationships is when you desperately need something. In
 
 **Related**: [Community Skills Exchange](/community/community-skills-exchange)
 
----
+***
 
 ### Learn to Write Well
 
@@ -93,7 +93,7 @@ Clear writing is clear thinking. The ability to communicate complex ideas simply
 
 **Related**: [Community Writing](/community/community-writing)
 
----
+***
 
 ## Finances
 
@@ -101,7 +101,7 @@ Clear writing is clear thinking. The ability to communicate complex ideas simply
 
 The gap between what you earn and what you spend is your freedom. Maximize that gap, especially early in your career when lifestyle inflation is tempting.
 
----
+***
 
 ### Understand Your Benefits
 
@@ -113,7 +113,7 @@ Military and government benefits are complex and often underutilized. Know what 
 
 **Related**: [Credentialing Assistance](/general/credentialing-assistance) | [Leaving Service](/general/leaving-service)
 
----
+***
 
 ### Track Your Spending
 
@@ -121,7 +121,7 @@ You can't optimize what you don't measure. Use a simple system to know where you
 
 - **Book**: [Profit First](/community/2026-recommendations#profit-first-transform-your-business-from-a-cash-eating-monster-to-a-money-making-machine) — Applicable to personal finance too, not just business
 
----
+***
 
 ## Health & Fitness
 
@@ -135,13 +135,13 @@ Sleep affects everything: cognition, emotional regulation, physical recovery, de
 - **Target**: 7-9 hours for most adults
 - **Tip**: Consistent sleep/wake times matter more than total hours
 
----
+***
 
 ### Move Every Day
 
 Exercise is the closest thing we have to a wonder drug. Even 20 minutes of walking improves cognitive function, mood, and longevity.
 
----
+***
 
 ### Learn to Cook
 
@@ -150,7 +150,7 @@ Cooking is a force multiplier for health, finances, and quality of life. Start s
 - Batch cook on weekends
 - Treat eating out as occasional, not default
 
----
+***
 
 ## Learning & Academics
 
@@ -162,7 +162,7 @@ Meta-learning—understanding how you learn best—pays dividends across everyth
 - **Course**: [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) (free on Coursera)
 - **Techniques**: Spaced repetition, active recall, interleaving
 
----
+***
 
 ### Read Widely, Not Just Deeply
 
@@ -171,7 +171,7 @@ Specialists know more and more about less and less. Cross-domain knowledge creat
 - **Book**: [Range](/community/2026-recommendations#range-why-generalists-triumph-in-a-specialized-world)
 - **Practice**: Read outside your field regularly
 
----
+***
 
 ### Take Notes That You'll Actually Use
 
@@ -182,7 +182,7 @@ Notes are only valuable if you can find and use them later. Develop a system:
 
 **Related**: [Knowledge Management](/general/knowledge-management-for-communities-of-interest)
 
----
+***
 
 ## Mindset
 
@@ -204,7 +204,7 @@ Reflections from two decades of service at the highest levels:
 
 - **Excellence isn't arrogance** — Aspiring to be the best and relentlessly pursuing it isn't arrogance. It's the standard required when lives depend on your performance.
 
----
+***
 
 ### Question Everything You Were Taught
 
@@ -235,13 +235,13 @@ This applies beyond combat:
 
 **Related**: [Guide to Unmanned Systems](/general/guide-to-unmanned-systems) | [FPV sUAS](/general/fpv-suas) | [Counter-UxS](/general/counter-uxs)
 
----
+***
 
 ### Embrace Discomfort
 
 Growth happens at the edge of your comfort zone. Seek out challenges that stretch you—professionally, physically, intellectually.
 
----
+***
 
 ### Control What You Can Control
 
@@ -249,7 +249,7 @@ Stoic wisdom that never gets old. Focus energy on your actions and responses, no
 
 - **Book**: [Meditations](/community/2026-recommendations#meditations) by Marcus Aurelius
 
----
+***
 
 ### Ask for Help
 
@@ -257,13 +257,13 @@ Stoic wisdom that never gets old. Focus energy on your actions and responses, no
 
 Most people want to help but don't know you need it. Be specific about what you need and who might be able to help.
 
----
+***
 
 ### Fail Forward
 
 Failure is data. Extract the lesson, adjust, and move. The only wasted failure is one you don't learn from.
 
----
+***
 
 ## Office & Organizational
 
@@ -274,7 +274,7 @@ Your boss has constraints and pressures you may not see. Make their job easier:
 - Anticipate what they'll need
 - Communicate proactively about blockers
 
----
+***
 
 ### Master Email
 
@@ -284,7 +284,7 @@ Email is a tool, not a task. Control it or it will control you:
 - **Use filters** to pre-sort low-priority messages
 - **Write clear subject lines** that indicate action needed
 
----
+***
 
 ### Meetings Need Agendas
 
@@ -294,7 +294,7 @@ If there's no agenda, there's no meeting. Before accepting or scheduling:
 - Who actually needs to be there?
 - What's the expected outcome?
 
----
+***
 
 ## Business & Entrepreneurship
 
@@ -304,13 +304,13 @@ Perfectionism is fear in disguise. Ship something, get feedback, iterate. The ma
 
 **Related**: [Zero to One](/community/2026-recommendations#zero-to-one-notes-on-startups-or-how-to-build-the-future) | [Company of One](/community/2026-recommendations#company-of-one-why-staying-small-is-the-next-big-thing-for-business)
 
----
+***
 
 ### Solve Real Problems
 
 The best business ideas come from problems you've personally experienced. Build something you would use.
 
----
+***
 
 ### Cashflow Is King
 
@@ -318,7 +318,7 @@ Revenue means nothing if you can't pay bills. Understand the difference between 
 
 - **Book**: [Profit First](/community/2026-recommendations#profit-first-transform-your-business-from-a-cash-eating-monster-to-a-money-making-machine)
 
----
+***
 
 ## Related Resources
 

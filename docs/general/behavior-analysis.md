@@ -28,7 +28,7 @@ This template is also available on SIPR with the same name.
 7. Save the new page.
 8. Use the normal "Edit" option to fill in the details.
 
----
+***
 
 ## Template Starts Here
 

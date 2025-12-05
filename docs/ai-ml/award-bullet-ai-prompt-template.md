@@ -25,7 +25,7 @@ AI-generated content is a starting point. Always review and refine citations to 
 
 Use this template with [AI on government systems](https://intellipedia.intelink.gov/wiki/Ai_on_government_systems) or commercial LLMs.
 
----
+***
 
 ## Quick Start
 
@@ -35,13 +35,13 @@ Use this template with [AI on government systems](https://intellipedia.intelink.
 4. Paste into your LLM (ChatGPT, Claude, government AI tools)
 5. Review, refine, and iterate
 
----
+***
 
 ## Award Citation Prompt Template
 
 Copy everything below the line into your AI tool:
 
----
+***
 
 ```
 <role>
@@ -135,7 +135,7 @@ Format your response as numbered bullets ready for copy/paste into the award for
 </task>
 ```
 
----
+***
 
 ## Alternative: Simplified Quick Prompt
 
@@ -160,7 +160,7 @@ Key achievements:
 Rules: Active voice, Action-Impact-Result format, max 84 words per bullet, no semicolons, numerals for 10+.
 ```
 
----
+***
 
 ## Prompt for Improving Existing Bullets
 
@@ -193,7 +193,7 @@ Provide:
 </output_format>
 ```
 
----
+***
 
 ## Chain-of-Thought Prompt for Complex Awards
 
@@ -239,7 +239,7 @@ Show your reasoning at each step, then provide the final citation bullets.
 </task>
 ```
 
----
+***
 
 ## Writing Standards Reference
 
@@ -254,7 +254,7 @@ Show your reasoning at each step, then provide the final citation bullets.
 | Ranks | Abbreviated (SGT, CPT, MAJ) |
 | Acronyms | Spell out first use, then abbreviate |
 
----
+***
 
 ## Related Resources
 

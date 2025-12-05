@@ -21,7 +21,7 @@ Want to use ChatGPT, but the questions/answers are CUI, FOUO, Sensitive, or othe
 
 AFRL/RI has setup a Large Language Model (LLM) on Air Force computers which is authorized for use and available for anyone with a CaC card. You can register with your CaC here: https http://niprgpt.devilops.dso.mil/ AFRL is contemplating SECRET and SCI versions, if there is sufficient interest. Please repost/forward this for maximum exposure.
 
----
+***
 
 - **T.S. Allen:** *(signal)'' DSD Hicks made remarks last week on AI and software in DoD that addressed COTS, DevSecOps, and software usability:
 

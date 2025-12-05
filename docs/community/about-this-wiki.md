@@ -237,10 +237,10 @@ git push
 ### Page Template
 
 ```markdown
----
+***
 title: "Your Page Title"
 tags: ["relevant", "tags", "here"]
----
+***
 
 # Your Page Title
 

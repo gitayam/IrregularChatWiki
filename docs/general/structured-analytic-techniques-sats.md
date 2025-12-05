@@ -10,7 +10,7 @@ title: "Structured Analytic Techniques (SATs)"
 
 See reference materials for brainstorming guidelines.
 
----
+***
 
 ## Technique Level 1
 
@@ -112,7 +112,7 @@ Find the template from [MindTools](https://www.mindtools.com/ab1w9zu/starburstin
 
 3. **STEP 3**: Analyze themes and draw conclusions for further investigation. (Beebe and Pherson, 2015, p. 251)
 
----
+***
 
 ## Technique Level 2
 
@@ -223,7 +223,7 @@ Find the template from [MindTools](https://www.mindtools.com/ab1w9zu/starburstin
 
 2. **STEP 2**: Rank scenarios based on severity and probability. (Beebe and Pherson, 2015, p. 351)
 
----
+***
 
 ## Technique Level 3
 
@@ -309,19 +309,19 @@ Find the template from [MindTools](https://www.mindtools.com/ab1w9zu/starburstin
 
 2. **STEP 2**: Refine the indicators, ensuring they are observable, valid, reliable, and stable. (Beebe and Pherson, 2015, p. 328)
 
----
+***
 
 ## Technique Level 4
 
 *(To be expanded)*
 
----
+***
 
 ## Technique Level 5
 
 *(To be expanded)*
 
----
+***
 
 ## References
 

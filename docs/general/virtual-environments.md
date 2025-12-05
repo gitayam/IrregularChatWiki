@@ -46,7 +46,7 @@ A Virtual Machine (VM) is a software-based computer system emulation. VMs provid
 
 - **[Virtual Device (AVD) Emulator](/general/android-virtual-device):** A tool for running and debugging Android applications. It is part of Android Studio and offers a free and open-source solution for Android development.
 
----
+***
 
 ### Related Pages
 

@@ -13,7 +13,7 @@ A place to offer your skills to the community—whether volunteering, freelancin
 
 Browse available skills on the forum: [Skills Offered Tag](https://forum.irregularchat.com/tag/skills-offered)
 
----
+***
 
 ## How to Post Your Skills or Services
 
@@ -25,7 +25,7 @@ Browse available skills on the forum: [Skills Offered Tag](https://forum.irregul
 4. Use the template below
 5. When no longer available, **edit your post** to indicate unavailability
 
----
+***
 
 ## Template for Offering Skills
 
@@ -58,7 +58,7 @@ If offering freelance services, mention your rates (hourly/project-based).
 Preferred contact method (e.g., email, forum direct message)
 ```
 
----
+***
 
 ## Related
 

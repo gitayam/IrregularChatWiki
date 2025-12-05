@@ -9,7 +9,7 @@ Evergreen recommendations from the IrregularChat community—books that remain r
 
 > **Looking for current recommendations?** See [2026 Community Recommendations](/community/2026-recommendations) for this year's picks.
 
----
+***
 
 ## Leadership
 
@@ -24,7 +24,7 @@ How to build organizations that thrive over the long term by adopting an infinit
 
 - **Amazon**: [The Infinite Game](https://www.amazon.com/The-Infinite-Game-Simon-Sinek-audiobook/dp/B07DKHFTB7)
 
----
+***
 
 #### Start with Why: How Great Leaders Inspire Everyone to Take Action
 **Author**: Simon Sinek
@@ -33,7 +33,7 @@ The foundational text on purpose-driven leadership—why the "why" matters more 
 
 - **Amazon**: [Start with Why](https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447/)
 
----
+***
 
 #### Leaders Eat Last: Why Some Teams Pull Together and Others Don't
 **Author**: Simon Sinek
@@ -42,7 +42,7 @@ How great leaders create environments where people naturally work together to ac
 
 - **Amazon**: [Leaders Eat Last](https://www.amazon.com/Leaders-Eat-Last-Together-Others/dp/B00C1N9JG6/)
 
----
+***
 
 #### Thoughts of a Philosophical Fighter Pilot
 **Author**: James Stockdale
@@ -51,7 +51,7 @@ Wisdom from a Vietnam POW and Medal of Honor recipient on stoicism, leadership, 
 
 - **Amazon**: [Thoughts of a Philosophical Fighter Pilot](https://www.amazon.com/Thoughts-Philosophical-Fighter-Pilot-Reprint/dp/0817993924)
 
----
+***
 
 ## Influence & Information Operations
 
@@ -66,7 +66,7 @@ Firsthand account of Russian information warfare operations and their global imp
 
 - **Amazon**: [Putin's Trolls](https://a.co/d/5lfcn0H)
 
----
+***
 
 #### Disinformation: Former Spy Chief Reveals Secret Strategies for Undermining Freedom, Attacking Religion, and Promoting Terrorism
 **Authors**: Gen Ion Mihai Pacepa & Prof Ronald J Rychlak
@@ -75,7 +75,7 @@ A former Romanian intelligence chief reveals Soviet disinformation tactics—man
 
 - **Amazon**: [Disinformation](https://a.co/d/7mLQThx)
 
----
+***
 
 ## Social Engineering & Persuasion
 
@@ -87,7 +87,7 @@ The definitive guide to understanding and defending against social engineering a
 - **Amazon**: [Social Engineering](https://www.amazon.com/Social-Engineering-Second-Science-Hacking/dp/B07NS53TKR/)
 - **Related**: [Cybersecurity Resources](/cybersecurity/)
 
----
+***
 
 #### Click: The Forces Behind How We Fully Engage with People, Work, and Everything We Do
 **Author**: Ori Brafman
@@ -96,7 +96,7 @@ The psychology of connection and engagement.
 
 - **Amazon**: [Click](https://www.amazon.com/Click-Forces-Behind-Engage-Everything/dp/0385529066/)
 
----
+***
 
 #### The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations
 **Authors**: Ori Brafman & Rod A. Beckstrom
@@ -105,7 +105,7 @@ Why decentralized organizations often outperform hierarchical ones.
 
 - **Amazon**: [The Starfish and the Spider](https://www.amazon.com/gp/product/B000S1LU3M/)
 
----
+***
 
 #### The Power of Persuasion: How We're Bought and Sold
 **Author**: Robert Levine
@@ -114,7 +114,7 @@ Understanding the mechanics of persuasion in everyday life.
 
 - **Amazon**: [The Power of Persuasion](https://www.amazon.com/Power-Persuasion-Were-Bought-Sold/dp/0471266341/)
 
----
+***
 
 #### Influence: The Psychology of Persuasion
 **Author**: Robert Cialdini
@@ -123,7 +123,7 @@ The classic text on the six principles of influence—reciprocity, commitment, s
 
 - **Amazon**: [Influence](https://www.amazon.com/Influence-Psychology-Persuasion-Robert-Cialdini/dp/006124189X/)
 
----
+***
 
 ## Society & Media
 
@@ -134,7 +134,7 @@ The 1928 classic that shaped modern public relations and political communication
 
 - **Amazon**: [Propaganda](https://www.amazon.com/Propaganda-Edward-Bernays/dp/0970312598/)
 
----
+***
 
 #### Manufacturing Consent: The Political Economy of the Mass Media
 **Authors**: Edward S. Herman & Noam Chomsky
@@ -143,7 +143,7 @@ How media systems serve elite interests through structural filters rather than o
 
 - **Amazon**: [Manufacturing Consent](https://www.amazon.com/Manufacturing-Consent-Political-Economy-Media/dp/0375714499/)
 
----
+***
 
 #### Mistakes Were Made (but Not By Me)
 **Author**: Carol Tavris
@@ -152,7 +152,7 @@ The psychology of self-justification and why we struggle to admit we're wrong.
 
 - **Amazon**: [Mistakes Were Made](https://www.amazon.com/Mistakes-Were-Made-but-Third/dp/0358329612/)
 
----
+***
 
 ## Psychology & Decision Making
 
@@ -167,7 +167,7 @@ Nobel laureate explains the two systems that drive how we think—fast intuition
 
 - **Amazon**: [Thinking, Fast and Slow](https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555/)
 
----
+***
 
 ### Crowd Psychology
 
@@ -178,7 +178,7 @@ Why people join mass movements and what makes movements succeed or fail.
 
 - **Amazon**: [The True Believer](https://www.amazon.com/True-Believer-Thoughts-Movements-Perennial-ebook/dp/B003TO5838/)
 
----
+***
 
 #### The Crowd: A Study of the Popular Mind
 **Author**: Gustave Le Bon
@@ -187,7 +187,7 @@ Why people join mass movements and what makes movements succeed or fail.
 
 - **Amazon**: [The Crowd](https://www.amazon.com/Crowd-Study-Popular-Mind-ebook/dp/B0B3NM64GX/)
 
----
+***
 
 #### Memoirs of Extraordinary Popular Delusions
 **Author**: Charles Mackay
@@ -196,7 +196,7 @@ Why people join mass movements and what makes movements succeed or fail.
 
 - **Amazon**: [Extraordinary Popular Delusions](https://www.amazon.com/Memoirs-Extraordinary-Popular-Delusions-Volu-ebook/dp/B0B3NKR3RN)
 
----
+***
 
 #### Public Opinion
 **Author**: Walter Lippmann
@@ -205,7 +205,7 @@ How the media shapes public perception and the gap between reality and the "pict
 
 - **Amazon**: [Public Opinion](https://www.amazon.com/PUBLIC-OPINION-Walter-Lippmann-ebook/dp/B075R63RHB)
 
----
+***
 
 ### Foreign Perspectives of America
 
@@ -216,7 +216,7 @@ Academic analysis of anti-American sentiment worldwide—its origins and manifes
 
 - **Amazon**: [Understanding Anti-Americanism](https://www.amazon.com/Understanding-Anti-Americanism-Origins-Impact-Abroad/dp/1566636167)
 
----
+***
 
 #### Land without Ghosts
 **Author**: David Arkush
@@ -225,7 +225,7 @@ Chinese perspectives on America from the mid-19th century onward.
 
 - **Amazon**: [Land Without Ghosts](https://www.amazon.com/Land-Without-Ghosts-Impressions-Mid-Nineteenth/dp/0520084241)
 
----
+***
 
 #### Hating America: A History
 **Author**: Barry Rubin
@@ -234,7 +234,7 @@ Historical survey of anti-Americanism from the founding era to the present.
 
 - **Amazon**: [Hating America](https://www.amazon.com/Hating-America-History-Barry-Rubin/dp/019530649X/)
 
----
+***
 
 #### The Ugly American
 **Authors**: William J. Lederer & Eugene Burdick
@@ -243,7 +243,7 @@ Historical survey of anti-Americanism from the founding era to the present.
 
 - **Amazon**: [The Ugly American](https://www.amazon.com/Ugly-American-WILLIAM-J-LEDERER/dp/B0B1C3K6W2/)
 
----
+***
 
 ## War & Conflict
 
@@ -258,7 +258,7 @@ The story of Ali Mohamed, the al-Qaeda triple agent who trained terrorists while
 
 - **Amazon**: [Triple Cross](https://www.amazon.com/Triple-Cross-Ladens-Penetrate-September/dp/0061189411/)
 
----
+***
 
 #### Ghost Wars: The Secret History of the CIA, Afghanistan, and Bin Laden
 **Author**: Steve Coll
@@ -267,7 +267,7 @@ Pulitzer Prize-winning history of CIA operations in Afghanistan from the Soviet 
 
 - **Amazon**: [Ghost Wars](https://www.amazon.com/Ghost-Wars-Secret-Afghanistan-September/dp/0143034669/)
 
----
+***
 
 #### War Is a Racket
 **Author**: Smedley D. Butler
@@ -277,7 +277,7 @@ America's most decorated Marine general exposes the business interests behind wa
 - **Amazon**: [War Is a Racket](https://www.amazon.com/War-Racket-Antiwar-Americas-Decorated/dp/0922915865/)
 - **See also**: [Gangsters of Capitalism](/community/2026-recommendations#gangsters-of-capitalism-smedley-butler-the-marines-and-the-making-and-breaking-of-americas-empire) in 2026 Recommendations
 
----
+***
 
 #### The Art of War
 **Author**: Sun Tzu
@@ -286,7 +286,7 @@ The ancient Chinese classic on strategy—still required reading for military an
 
 - **Amazon**: [The Art of War](https://www.amazon.com/Art-War-Sun-Tzu/dp/1599869772/)
 
----
+***
 
 #### The Face of Battle
 **Author**: John Keegan
@@ -295,7 +295,7 @@ Revolutionary military history that examines war from the soldier's perspective�
 
 - **Amazon**: [The Face of Battle](https://www.amazon.com/Face-Battle-Agincourt-Waterloo-Somme/dp/0140048979/)
 
----
+***
 
 #### The Guns of August
 **Author**: Barbara W. Tuchman
@@ -304,7 +304,7 @@ Pulitzer Prize-winning account of the first month of WWI—how miscalculation le
 
 - **Amazon**: [The Guns of August](https://www.amazon.com/Guns-August-Barbara-W-Tuchman/dp/0345476093/)
 
----
+***
 
 #### The Making of the Atomic Bomb
 **Author**: Richard Rhodes
@@ -313,7 +313,7 @@ Pulitzer Prize-winning history of the Manhattan Project—science, politics, and
 
 - **Amazon**: [The Making of the Atomic Bomb](https://www.amazon.com/Making-Atomic-Bomb-Richard-Rhodes/dp/1451677618/)
 
----
+***
 
 ### Open Source Warfare
 
@@ -324,7 +324,7 @@ How networked insurgencies and system disruption are changing the nature of conf
 
 - **Amazon**: [Brave New War](https://www.amazon.com/Brave-New-War-Terrorism-Globalization/dp/0471780790/)
 
----
+***
 
 #### LikeWar: The Weaponization of Social Media
 **Author**: P.W. Singer
@@ -333,7 +333,7 @@ How social media has become a battleground for influence and conflict.
 
 - **Amazon**: [LikeWar](https://www.amazon.com/LikeWar-Weaponization-P-W-Singer/dp/0358108470/)
 
----
+***
 
 #### The Sovereign Individual: Mastering the Transition to the Information Age
 **Authors**: James Dale Davidson & Lord William Rees-Mogg
@@ -342,7 +342,7 @@ How social media has become a battleground for influence and conflict.
 
 - **Amazon**: [The Sovereign Individual](https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720/)
 
----
+***
 
 ## Intelligence & Analysis
 
@@ -357,7 +357,7 @@ CIA handbook on cognitive biases and structured analysis—essential for any ana
 
 - **Free PDF**: [CIA.gov](https://www.cia.gov/resources/csi/books-monographs/psychology-of-intelligence-analysis-2/)
 
----
+***
 
 #### The Art of Intelligence: Lessons from a Life in the CIA's Clandestine Service
 **Author**: Henry A. Crumpton
@@ -366,7 +366,7 @@ Memoir from a CIA operations officer on tradecraft, leadership, and the human si
 
 - **Amazon**: [The Art of Intelligence](https://www.amazon.com/Art-Intelligence-Lessons-Clandestine-Service/dp/0143123370/)
 
----
+***
 
 #### The Craft of Intelligence
 **Author**: Allen W. Dulles
@@ -375,7 +375,7 @@ Former CIA Director's overview of intelligence fundamentals—still relevant dec
 
 - **Amazon**: [The Craft of Intelligence](https://www.amazon.com/Craft-Intelligence-Legendary-Fundamentals-Gathering/dp/1591145180/)
 
----
+***
 
 #### The Secret World: A History of Intelligence
 **Author**: Christopher Andrew
@@ -384,7 +384,7 @@ Comprehensive history of intelligence from ancient times to the present.
 
 - **Amazon**: [The Secret World](https://www.amazon.com/Secret-World-History-Intelligence/dp/0300243874/)
 
----
+***
 
 ### Research & Data Analysis
 
@@ -395,7 +395,7 @@ How to separate signal from noise in a world of data overload.
 
 - **Amazon**: [The Signal and the Noise](https://www.amazon.com/Signal-Noise-Many-Predictions-Fail-but/dp/0143125087/)
 
----
+***
 
 #### Applied Predictive Modeling
 **Authors**: Max Kuhn & Kjell Johnson
@@ -404,7 +404,7 @@ Technical guide to predictive modeling techniques.
 
 - **Amazon**: [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1461468485)
 
----
+***
 
 #### The Elements of Statistical Learning
 **Authors**: Trevor Hastie, Robert Tibshirani & Jerome Friedman
@@ -413,7 +413,7 @@ The graduate-level textbook on machine learning and statistical methods.
 
 - **Amazon**: [Elements of Statistical Learning](https://www.amazon.com/Elements-Statistical-Learning-Prediction-Statistics/dp/0387848576/)
 
----
+***
 
 #### Knowing What We Know
 **Author**: Simon Winchester
@@ -422,7 +422,7 @@ A history of how humans have gathered, stored, and transmitted knowledge.
 
 - **Amazon**: [Knowing What We Know](https://a.co/d/2C990an)
 
----
+***
 
 ## Technology & Cybersecurity
 
@@ -437,7 +437,7 @@ The story of the AI revolution and the mavericks who made it happen.
 
 - **Amazon**: [Genius Makers](https://www.amazon.com/Genius-Makers-Mavericks-Brought-Facebook/dp/B08CYBGCR1/)
 
----
+***
 
 #### The Information: A History, a Theory, a Flood
 **Author**: James Gleick
@@ -446,7 +446,7 @@ How information became the defining feature of the modern age.
 
 - **Amazon**: [The Information](https://www.amazon.com/The-Information-James-Gleick-audiobook/dp/B004Q3NKK4/)
 
----
+***
 
 #### Ghost in the Wires: My Adventures as the World's Most Wanted Hacker
 **Author**: Kevin Mitnick
@@ -455,7 +455,7 @@ Memoir of America's most famous hacker—social engineering, phone phreaking, an
 
 - **Amazon**: [Ghost in the Wires](https://www.amazon.com/Ghost-Wires-Adventures-Worlds-Wanted-ebook/dp/B0047Y0F0K/)
 
----
+***
 
 #### The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage
 **Author**: Cliff Stoll
@@ -465,7 +465,7 @@ The true story that founded cybersecurity—tracking a hacker through early comp
 - **Amazon**: [The Cuckoo's Egg](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/)
 - **See also**: [Extended review](/community/2026-recommendations#the-cuckoos-egg-tracking-a-spy-through-the-maze-of-computer-espionage) in 2026 Recommendations
 
----
+***
 
 #### Cyber Spies
 **Author**: Gordon Corera
@@ -474,7 +474,7 @@ History of cyber espionage from WWII codebreakers to modern state-sponsored hack
 
 - **Amazon**: [Cyber Spies](https://www.amazon.com/dp/1681774593/)
 
----
+***
 
 #### Sandworm: A New Era of Cyberwar and the Hunt for the Kremlin's Most Dangerous Hackers
 **Author**: Andy Greenberg
@@ -483,7 +483,7 @@ The story of Russia's most destructive hacking group and the hunt to stop them.
 
 - **Amazon**: [Sandworm](https://www.amazon.com/Sandworm-Cyberwar-Kremlins-Dangerous-Hackers/dp/0385544405/)
 
----
+***
 
 ## Philosophy
 
@@ -495,7 +495,7 @@ The Roman Emperor's personal journal—timeless Stoic wisdom on resilience and p
 - **Amazon**: [Meditations](https://www.amazon.com/Meditations-Marcus-Aurelius/dp/1503280462/)
 - **See also**: [Extended review](/community/2026-recommendations#meditations) in 2026 Recommendations
 
----
+***
 
 #### Enchiridion
 **Author**: Epictetus
@@ -504,7 +504,7 @@ The Stoic handbook—practical philosophy for living well.
 
 - **Amazon**: [Enchiridion](https://www.amazon.com/Enchiridion-Dover-Thrift-Editions-Philosophy/dp/0486433595/)
 
----
+***
 
 ## Related Resources
 

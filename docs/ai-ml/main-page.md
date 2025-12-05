@@ -148,7 +148,7 @@ Share content through proxies like:
 
 - Use a virtual environment like [Kasm](https://vm.irregularchat.com/) and scan files with [VirusTotal](https://www.virustotal.com/gui/home/upload).
 
----
+***
 
 ### Semi-Automated Bot Content
 

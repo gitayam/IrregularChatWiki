@@ -41,7 +41,7 @@ Look for signs of genuine engagement:
 - Is the source credible and verifiable?
 - Has the information been filtered through secondary sources that may have altered it?
 
----
+***
 
 ## Mental Fallacies to Watch For
 
@@ -60,7 +60,7 @@ Are we discussing a mental fallacy? Here are common ones to identify:
 | **Cherry-Picking** | Selecting only favorable evidence while ignoring contradictory data |
 | **Bandwagon Fallacy** | Arguing something is true or right because many people believe it |
 
----
+***
 
 ## Bad Faith Tactics to Recognize
 
@@ -76,7 +76,7 @@ Be aware of these manipulation tactics:
 | **Gaslighting** | Causing someone to doubt their memory, perception, or judgment |
 | **Projection** | Attributing one's own behavior or motives to others |
 
----
+***
 
 ## Principles for Better Discourse
 
@@ -101,7 +101,7 @@ Before criticizing someone's argument:
 3. Mention anything you have learned from them
 4. Only then offer your critique or rebuttal
 
----
+***
 
 ## Encouraged Behaviors
 
@@ -122,7 +122,7 @@ Before criticizing someone's argument:
 - Spreading unverified information as fact
 - Brigading or coordinated harassment
 
----
+***
 
 ## Related Resources
 

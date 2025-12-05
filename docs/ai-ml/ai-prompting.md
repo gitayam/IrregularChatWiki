@@ -15,7 +15,7 @@ Prompt engineering is the craft of designing precise and effective instructions 
 
 In 2025, prompt engineering is no longer a clever trick or temporary trend. It's a systematic method for producing precise, creative, and trustworthy results from large language models. The quality of your prompts directly affects the usefulness, safety, and reliability of AI outputs.
 
----
+***
 
 ## Core Principles
 
@@ -33,7 +33,7 @@ Tell me about cybersecurity.
 Explain the top 5 cybersecurity threats facing small businesses in 2025. For each threat, provide: a brief description, potential business impact, and one practical mitigation step. Format as a numbered list.
 ```
 
----
+***
 
 ### 2. Provide Context and Constraints
 
@@ -55,7 +55,7 @@ Constraints: No jargon, under 300 words, focus on risk and action items.
 Output format: Executive summary with 3 bullet points for recommended actions.
 ```
 
----
+***
 
 ### 3. Use Delimiters and Structure
 
@@ -85,7 +85,7 @@ Summarize the following text in 3 bullet points:
 """
 ```
 
----
+***
 
 ### 4. Assign a Role (Persona Prompting)
 
@@ -109,7 +109,7 @@ Act as a military intelligence analyst. Given this collection of open-source rep
 Act as a technical writer for a security-conscious audience. Explain how to set up a VPN on a home router in clear, step-by-step instructions.
 ```
 
----
+***
 
 ## Advanced Techniques
 
@@ -125,7 +125,7 @@ Classify the sentiment of this customer review as positive, negative, or neutral
 
 **Best for:** Simple, well-defined tasks where the model's general knowledge is sufficient.
 
----
+***
 
 ### Few-Shot Prompting
 
@@ -169,7 +169,7 @@ Input: Scheduled task created to run at system startup
 Output:
 ```
 
----
+***
 
 ### Chain-of-Thought (CoT) Prompting
 
@@ -204,7 +204,7 @@ Let me think through this step by step:
 Chain-of-thought prompting yields significant performance gains with larger models (100B+ parameters). Smaller models may produce illogical reasoning chains. Use CoT for math, logic puzzles, multi-step analysis, and complex reasoning tasks.
 :::
 
----
+***
 
 ### Self-Consistency
 
@@ -227,7 +227,7 @@ Approach 3:
 Final answer (with confidence level):
 ```
 
----
+***
 
 ### Prompt Chaining
 
@@ -253,7 +253,7 @@ Based on these enriched indicators, assess the likely threat actor TTPs and prov
 [output from Prompt 2]
 ```
 
----
+***
 
 ### Tree of Thoughts (ToT)
 
@@ -269,7 +269,7 @@ Select the most promising approach and develop it further.
 If you reach a dead end, backtrack and try another branch.
 ```
 
----
+***
 
 ### ReAct (Reasoning + Acting)
 
@@ -296,7 +296,7 @@ Thought: I found the current price from a reliable source.
 Final Answer: The current Bitcoin price is approximately €58,432 EUR.
 ```
 
----
+***
 
 ### Response Prefilling
 
@@ -314,7 +314,7 @@ Begin your response with this format:
 
 The model will continue from where you left off, maintaining your structure.
 
----
+***
 
 ## Domain-Specific Templates
 
@@ -350,7 +350,7 @@ Assess:
 Provide an overall reliability rating (A-F) with justification.
 ```
 
----
+***
 
 ### Intelligence Analysis
 
@@ -381,7 +381,7 @@ Generate:
 4. Recommended collection sources for each
 ```
 
----
+***
 
 ### Security Analysis
 
@@ -414,7 +414,7 @@ Determine:
 4. Escalation recommendation (Yes/No with criteria)
 ```
 
----
+***
 
 ### Technical Writing
 
@@ -434,7 +434,7 @@ Include:
 - Related resources
 ```
 
----
+***
 
 ## Model-Specific Tips
 
@@ -462,7 +462,7 @@ Include:
 | Gemini | Multimodal prompts | Image analysis, multimedia |
 | Llama/Open models | Simpler prompts, clear examples | Cost-effective deployment |
 
----
+***
 
 ## Defensive Prompting
 
@@ -490,7 +490,7 @@ Respond helpfully within the boundaries above. If the request falls outside your
 </response_guidelines>
 ```
 
----
+***
 
 ## Common Pitfalls
 
@@ -515,7 +515,7 @@ Models have knowledge cutoffs, token limits, and blind spots. Know what your mod
 If building applications, validate and sanitize user inputs before passing to models.
 :::
 
----
+***
 
 ## Quick Reference
 
@@ -529,7 +529,7 @@ If building applications, validate and sanitize user inputs before passing to mo
 | Tree of thoughts | Exploratory problems | High |
 | ReAct | Tool-using agents | High |
 
----
+***
 
 ## Learning Resources
 
@@ -547,7 +547,7 @@ If building applications, validate and sanitize user inputs before passing to mo
 - Brown et al. (2020) - Few-Shot Learning in GPT-3
 - Yao et al. (2023) - Tree of Thoughts
 
----
+***
 
 ## Related Wiki Resources
 

@@ -17,7 +17,7 @@ This page provides AI prompt templates for writing NCOER Senior Rater comments. 
 AI-generated content is a starting point. Always review and tailor comments to accurately reflect the NCO's specific performance, potential, and your professional assessment.
 :::
 
----
+***
 
 ## Quick Start
 
@@ -28,7 +28,7 @@ AI-generated content is a starting point. Always review and tailor comments to a
 5. Generate, review, and refine
 6. Ensure comments fit within the allocated space (typically 4-5 lines)
 
----
+***
 
 ## Senior Rater Regulatory Guidance
 
@@ -70,13 +70,13 @@ Senior Raters must address:
 - Lack of rated NCO's signature (if applicable)
 - When serving as both Rater and Senior Rater
 
----
+***
 
 ## Senior Rater Comments Prompt Template
 
 Copy everything below the line into your AI tool:
 
----
+***
 
 ```
 <role>
@@ -148,7 +148,7 @@ Match the tone to the performance/potential ratings provided.
 </task>
 ```
 
----
+***
 
 ## Prompt by Rating Level
 
@@ -267,7 +267,7 @@ Tone: Direct, professional, constructive—focused on facts and development.
 </task>
 ```
 
----
+***
 
 ## Prompt for Improving Existing Comments
 
@@ -298,7 +298,7 @@ Provide:
 </output_format>
 ```
 
----
+***
 
 ## Chain-of-Thought Prompt for Complex Evaluations
 
@@ -348,7 +348,7 @@ Show your reasoning, then provide the final Senior Rater comments (4-5 lines).
 </task>
 ```
 
----
+***
 
 ## Writing Tips
 
@@ -361,7 +361,7 @@ Show your reasoning, then provide the final Senior Rater comments (4-5 lines).
 | Be concise (4-5 lines) | Write paragraphs |
 | Use confident language | Hedge or qualify unnecessarily |
 
----
+***
 
 ## Related Resources
 

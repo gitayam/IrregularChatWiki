@@ -13,7 +13,7 @@ The Top Formats were: 1. White paper 2. Article 3. Email
 
 The Top Topics: 1. pending_survey 2. pending_survey 3. pending_survey
 
----
+***
 
 ### Organizing Questions
 

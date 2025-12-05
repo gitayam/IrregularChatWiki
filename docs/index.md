@@ -136,6 +136,6 @@ For the full list and community FAQ see the [IrregularChat Forum](https://forum.
 - **Report issues** - Spot a vulnerability? Report it immediately with context
 :::
 
----
+***
 
 *This wiki is continually evolving. Use the navigation, search bar, or links above to explore. Logged-in users can edit and create pages to contribute to our collective knowledge.*

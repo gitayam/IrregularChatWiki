@@ -26,7 +26,7 @@ title: "Quick DFP Guide"
 - [r/Privacy](https://www.reddit.com/r/privacy/)
 - [Privacy Guides Matrix](https://matrix.to/#/#privacyguides:matrix.org)
 
----
+***
 
 ## Privacy & Security Tools
 

@@ -14,7 +14,7 @@ Leveraging historical research methods enriches OSINT investigations. This guide
 
 The effectiveness of archival research in OSINT lies in your ability to creatively dig deeper, build personal collections, and critically assess the context and content of your findings.
 
----
+***
 
 ## Embracing Historical Methods in OSINT
 
@@ -33,7 +33,7 @@ University and public libraries can be a goldmine for research:
 - [Library of Congress](https://www.loc.gov/) - US national library
 - [National Archives](https://www.archives.gov/) - US government records
 
----
+***
 
 ## Building Personal Research Archives
 
@@ -45,7 +45,7 @@ Creating personal archives is vital for storing and indexing sources:
 - **[Hunchly](https://www.hunch.ly/)** - Tool for capturing online research sessions
 - **[Zotero](/research/research-citations)** - Reference manager for saving and organizing research materials
 
----
+***
 
 ## Critical Analysis of Sources
 
@@ -57,7 +57,7 @@ Interpret sources critically, looking for what's omitted and exploring different
 - **Multilingual Wikipedia** - Check entries in other languages for different content
 - **Talk Pages** - Provides context and debates behind Wikipedia content
 
----
+***
 
 ## Tools for Archival Recovery
 
@@ -69,7 +69,7 @@ Tools and methods to uncover what's been deliberately removed or lost:
 - **[Wayback Machine](https://web.archive.org/)** - Access archived versions of web pages
 - **[DocFetcher](https://docfetcher.sourceforge.net/)** - Desktop search application for creating a searchable index
 
----
+***
 
 ## Contextualizing and Managing Research
 
@@ -81,7 +81,7 @@ Grasping the socio-cultural backdrop of the sources to comprehend their full imp
 - **[OSINT Framework](https://osintframework.com/)** - Collection of OSINT tools and resources
 - **Deleted Tweets** - Services to find removed Twitter/X content
 
----
+***
 
 ## Related Resources
 

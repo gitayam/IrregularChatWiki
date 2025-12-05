@@ -19,7 +19,7 @@ ssh root@ssh.alfaren.xyz 'ansible-playbook -i /root/Git/matrix-docker-ansible-de
 
 ### Configuration
 ```
----
+***
 ## The bare domain name which represents your Matrix identity.
 ## Matrix user ids for your server will be of the form (`@user:&lt;matrix-domain&gt;`).
 1. 1. Note: this playbook does not touch the server referenced here.

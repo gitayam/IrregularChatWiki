@@ -13,7 +13,7 @@ tags: ["gephi", "network-analysis", "visualization", "osint", "research", "socia
 
 Gephi is an open-source network visualization software that is a powerful tool for researchers, data scientists, marketers, and social scientists. It is designed to handle large datasets and create various network visualizations to uncover complex systems' underlying patterns, structures, and dynamics. Gephi is widely used for social network analysis, link analysis, and biological network analysis, among other applications.
 
----
+***
 
 ## What Can Gephi Be Used For?
 
@@ -25,7 +25,7 @@ Gephi is an open-source network visualization software that is a powerful tool f
 
 - **Marketing and Behavior Change**: Analyzing customer networks to identify key influencers and target marketing efforts more effectively. Gephi can reveal how information spreads through networks, helping to craft strategies for behavior change campaigns or viral marketing.
 
----
+***
 
 ## Anecdotes
 
@@ -33,7 +33,7 @@ Gephi is an open-source network visualization software that is a powerful tool f
 
 - In a behavior change campaign aimed at promoting healthy habits, public health researchers used Gephi to map the social networks of community members. The analysis revealed unexpected pathways for information dissemination, allowing for a more targeted intervention strategy.
 
----
+***
 
 ## Key Terms
 
@@ -58,7 +58,7 @@ Layout algorithms are techniques used to position nodes in the visualization spa
 | **Radial Axis** | Arranges nodes around a central node | Emphasizing hierarchy or centrality |
 | **Random Layout** | Places nodes randomly | Baseline for applying other algorithms |
 
----
+***
 
 ## Installing Gephi
 
@@ -75,7 +75,7 @@ Ask your S6 to install Gephi. NIPR and SIPR access authorization is necessary.
 3. Run the installer and follow the prompts
 4. Launch Gephi and install any recommended plugins
 
----
+***
 
 ## Gephi Cookbook and Workflows
 
@@ -99,7 +99,7 @@ Ask your S6 to install Gephi. NIPR and SIPR access authorization is necessary.
 
 - **Preview and Export**: Use the Preview tab to fine-tune your visualization before exporting as PNG, SVG, or PDF.
 
----
+***
 
 ## Learning Resources
 
@@ -107,7 +107,7 @@ Ask your S6 to install Gephi. NIPR and SIPR access authorization is necessary.
 - [Gephi User Documentation](https://gephi.org/users/) - Full user guides and tutorials
 - [Gephi GitHub Wiki](https://github.com/gephi/gephi/wiki) - Community documentation
 
----
+***
 
 ## Datasets
 
@@ -129,7 +129,7 @@ Use this Google query to find network datasets:
 "social network" OR "twitter" filetype:GEXF OR filetype:GDF
 ```
 
----
+***
 
 ## Creating Your Own Datasets
 
@@ -165,7 +165,7 @@ Creating datasets for Gephi involves data collection, cleaning, and formatting:
 
 6. **Import into Gephi**: Import your files via the Data Laboratory tab, then explore your network using Gephi's tools.
 
----
+***
 
 ## Related Resources
 

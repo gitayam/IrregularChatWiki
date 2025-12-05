@@ -124,7 +124,7 @@ The following FAQs provide a snapshot of common concerns and clarifications draw
 
 - [HQDA OER FAQ](https://www.hrc.army.mil/content/18945)
 
----
+***
 
 ### 1. What are the primary types of evaluation reports used in the Army?
 
@@ -134,7 +134,7 @@ The following FAQs provide a snapshot of common concerns and clarifications draw
 
 - **Academic Evaluation Reports (AERs):** DA Form 1059 series, documenting academic performance at Army schools or civilian institutions.
 
----
+***
 
 ### 2. When are evaluation reports typically completed?
 Evaluation reports are generated for multiple reasons, including:
@@ -149,7 +149,7 @@ Evaluation reports are generated for multiple reasons, including:
 
 - **Annual Reports:** Required at set periods for certain categories of Soldiers.
 
----
+***
 
 ### 3. How does the rated Soldier participate in the evaluation process?
 The rated Soldier should:
@@ -160,7 +160,7 @@ The rated Soldier should:
 
 - Review the completed evaluation report for accuracy and appeal the report if discrepancies or perceived injustices arise.
 
----
+***
 
 ### 4. What are the responsibilities of the Rater and Senior Rater?
 
@@ -168,12 +168,12 @@ The rated Soldier should:
 
 - **Senior Rater:** Evaluates the Soldier’s long-term potential for positions of increased responsibility, considering not just immediate performance but suitability for future leadership roles.
 
----
+***
 
 ### 5. What is the significance of “Most Qualified (MQ)” ratings and how are they determined?
 MQ ratings indicate truly standout performance and potential. Both raters and senior raters manage their profiles, limiting how many MQ assessments they can grant. This ensures MQ remains meaningful and signals a Soldier’s exceptional distinction among peers. By understanding these constraints, Soldiers recognize that MQ is earned through consistent excellence, strong leadership qualities, adherence to Army Values, and demonstrated capacity for future responsibility.
 
----
+***
 
 ### 6. When is a supplementary review required?
 A supplementary review is necessary when:
@@ -184,17 +184,17 @@ A supplementary review is necessary when:
 
 - Certain conditions in AERs (e.g., “Failed to Achieve Course Standards” or “Did Not Graduate”) trigger additional oversight to ensure fairness and objectivity.
 
----
+***
 
 ### 7. Can evaluation reports be modified after submission?
 Yes. Factual errors or new, relevant information may warrant an amendment or addendum to the original report. Procedures for requesting and processing amendments are outlined in the applicable regulations, ensuring accuracy and completeness of the Soldier’s record.
 
----
+***
 
 ### 8. What should a Soldier do if they disagree with their evaluation report?
 If the Soldier believes the report is inaccurate or unfair, they may initiate the appeals process. This involves submitting a written appeal and supporting evidence. The appropriate authority reviews the appeal, which may uphold, modify, or invalidate the contested report.
 
----
+***
 
 ### 9. How do these evaluations support the Soldier’s career progression?
 Evaluations guide developmental counseling, inform promotion boards, influence future assignments, and shape professional development opportunities. A strong evaluation history, supported by substantiated accomplishments and leadership potential, assists Soldiers in advancing their careers and contributing more effectively to the Army’s mission.

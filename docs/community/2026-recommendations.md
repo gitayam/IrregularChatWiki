@@ -9,7 +9,7 @@ Community-curated recommendations for quotes, articles, podcasts, videos, and bo
 
 > **Contribute**: Have something that changed your perspective this year? Share it in the community or submit a PR to add it here.
 
----
+***
 
 ## What Should I Read/Watch/Listen To?
 
@@ -115,7 +115,7 @@ Perfect. Here's what the community says will blow your mind:
 - **If you think you know what excellence requires**: [The Soldier's Mindset](/community/general-advice#the-soldiers-mindset)
 :::
 
----
+***
 
 ## Quotes
 
@@ -126,51 +126,51 @@ See **[General Advice](/community/general-advice)** for community wisdom on tool
 > *"Things which matter most must never be at the mercy of things which matter least."*
 > — **Johann Wolfgang von Goethe**
 
----
+***
 
 > *"Perfection is achieved not when there is nothing more to add, but when there is nothing left to take away."*
 > — **Antoine de Saint-Exupéry**
 
----
+***
 
 > *"Like a burlesque comedian, I'm abnormally fond of that action, which creates movement."*
 > — **e.e. cummings**
 
 *Recommended by Bobby Kava*
 
----
+***
 
 > *"Success is not final, failure is not fatal: it is the courage to continue that counts."*
 > — **Winston Churchill**
 
 *Recommended by Casey H*
 
----
+***
 
 > *"You have not because you ask not."*
 > — **James 4:2**
 
----
+***
 
 > *"In the end, we will remember not the words of our enemies, but the silence of our friends."*
 > — **Martin Luther King Jr.**
 
----
+***
 
 > *"WARNING: The fastest way to kill something special is to compare it to something else."*
 > — **@growwithcolby**
 
----
+***
 
 > *"You have enemies? Good. That means you've stood up for something, sometime in your life."*
 > — **Winston Churchill**
 
----
+***
 
 > *"If you love something enough, it will reveal itself to you."*
 > — **George Washington Carver**
 
----
+***
 
 ## Curated Reading Lists
 
@@ -184,7 +184,7 @@ The Chief of Staff of the Army publishes a monthly recommended articles list cov
 - **Browse**: [CSA Recommended Articles](https://www.armyupress.army.mil/Resources/CSA-Recommended-Articles/)
 - **Related**: [National Strategy & Reports](/general/national-strategy-and-reports) | [Information Warfare](/general/information-warfare)
 
----
+***
 
 ### Benjamin Franklin's 13 Virtues
 **Source**: Franklin's Autobiography (1791) | **Type**: Personal Development Framework
@@ -209,7 +209,7 @@ At age 20, Benjamin Franklin created a systematic approach to moral perfection�
 - **Read**: [Franklin's Autobiography - Chapter 9](https://www.ushistory.org/franklin/autobiography/page38.htm) (USHistory.org)
 - **Related**: [General Advice - Mindset](/community/general-advice#mindset) | [Meditations](#meditations)
 
----
+***
 
 ## Articles & Essays
 
@@ -223,7 +223,7 @@ A comprehensive overview of AI—what it is, how it works, and where it's headed
 - **Read**: [What is Artificial Intelligence?](https://www.technologyreview.com/2024/07/10/1094475/what-is-artificial-intelligence-ai-definitive-guide/)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI/ML Learning](/ai-ml/ai-ml-learning)
 
----
+***
 
 ### OACOK, OKOCA, or OCOKA? Reframing Terrain Analysis for Cyberspace
 **Source**: Gray Space Journal (Summer 2025)
@@ -235,7 +235,7 @@ A fresh look at applying terrain analysis frameworks (OAKOC/OCOKA) to cyberspace
 - **Read**: [Line of Departure](https://www.lineofdeparture.army.mil/Journals/Gray-Space/Archive/Summer-2025/Terrain-Analysis/) | [PDF](https://www.lineofdeparture.army.mil/Portals/144/PDF/Journals/Gray-Space/Gray-Space-First-Edition-2025/Terrain-Analysis-UA.pdf)
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [Information Warfare](/general/information-warfare)
 
----
+***
 
 ### Island Blitz: A Campaign Analysis of a Taiwan Takeover by the PLA
 **Author**: Major Maxwell Stewart, USMC
@@ -248,7 +248,7 @@ A detailed campaign-level analysis modeling a PLA forceful reunification attempt
 - **Read**: [CIMSEC](https://cimsec.org/island-blitz-a-campaign-analysis-of-a-taiwan-takeover-by-the-pla/)
 - **Related**: [The Avoidable War](#the-avoidable-war-the-dangers-of-a-catastrophic-conflict-between-the-us-and-xi-jinpings-china) | [Unrestricted Warfare](#unrestricted-warfare-chinas-master-plan-to-destroy-america) | [PMESII-PT](/general/pmesii-pt)
 
----
+***
 
 ### I Will Fucking Piledrive You If You Mention AI Again
 **Author**: Ludicity | **Source**: June 2024
@@ -262,7 +262,7 @@ A data scientist's frustrated takedown of the corporate AI hype cycle. The autho
 - **Read**: [Ludicity Blog](https://ludic.mataroa.blog/blog/i-will-fucking-piledrive-you-if-you-mention-ai-again/)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
----
+***
 
 ### Stop Hacklore! An Open Letter on Outdated Security Advice
 **Source**: Hacklore.org | **Authors**: Group of current and former CISOs
@@ -281,7 +281,7 @@ An open letter from security professionals calling for the retirement of six pie
 - **Read**: [Stop Hacklore! Letter](https://www.hacklore.org/letter)
 - **Related**: [DFP Guide](/general/dfp-guide) | [Mobile Hardening](/general/mobile-hardening-guide) | [MFA Guide](/general/mfa-guide)
 
----
+***
 
 ## Podcasts & Audio
 
@@ -294,7 +294,7 @@ A harrowing examination of Soviet brutality and the psychology of totalitarian s
 - **Listen**: [Martyrmade - The Anti-Humans](https://www.martyrmade.com/podcast-parts/19-the-anti-humans)
 - **Why it matters**: Understanding historical atrocities helps recognize warning signs in current events
 
----
+***
 
 ### Linux Unplugged
 *Recommended by Matthew Parga-Manasse*
@@ -305,7 +305,7 @@ A weekly, casual podcast about Linux. Great for staying current with the Linux e
 - **Format**: Weekly
 - **Related**: [Shell Scripting Resources](/general/shell) | [Linux Server Setup](/server-guides/linux-server-initial-setup)
 
----
+***
 
 ### CyberWire Daily
 *Recommended by Matthew Parga-Manasse*
@@ -316,7 +316,7 @@ A daily briefing on cybersecurity news, vulnerability disclosures, and threat in
 - **Format**: Daily
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [CISA Resources](/cybersecurity/cisa-resources)
 
----
+***
 
 ### How I Built This
 *Recommended by Chris F*
@@ -329,7 +329,7 @@ NPR's Guy Raz interviews founders and innovators about the stories behind the co
 - **Format**: Weekly (~1 hour episodes)
 - **Related**: [Zero to One](#zero-to-one-notes-on-startups-or-how-to-build-the-future) | [Company of One](#company-of-one-why-staying-small-is-the-next-big-thing-for-business) | [The Private Equity Playbook](#the-private-equity-playbook-managements-guide-to-working-with-pe-investors)
 
----
+***
 
 ### Joe Rogan Experience: Renée DiResta
 *Recommended by Luis S*
@@ -339,7 +339,7 @@ DiResta and Rogan discuss her research into how state actors and others manipula
 - **Listen**: [Spotify](https://open.spotify.com/episode/5VX7FJGIYr1eKSEagOeb22)
 - **Related**: [Information Warfare](/general/information-warfare)
 
----
+***
 
 ### The Fat Electrician
 
@@ -353,7 +353,7 @@ Nicholas "Nic" is a former 68W Combat Medic turned journeyman electrician and Ji
 - **Website**: [thefatelectrician.com](https://thefatelectrician.com)
 - **Format**: Long-form videos (30-60 min), shorts, and podcast clips
 
----
+***
 
 ## Videos & Documentaries
 
@@ -367,7 +367,7 @@ An exploration of how cognitive biases affect our thinking across the political 
 - **Watch**: [YouTube](https://youtu.be/5Peima-Uw7w?si=Rx5jNtoSrRbSW6Nq)
 - **Related**: [Behavior Analysis](/general/behavior-analysis)
 
----
+***
 
 ### Whiteboard Crypto
 
@@ -375,7 +375,7 @@ A YouTube channel that explains cryptocurrency and blockchain technology using w
 
 - **Watch**: [Whiteboard Crypto](https://youtube.com/@whiteboardcrypto)
 
----
+***
 
 ### MrBallen
 *Recommended by MysteryDroneMan*
@@ -386,7 +386,7 @@ Former Navy SEAL who tells stories about the strange, dark, and mysterious. Cove
 - **Podcast**: [MrBallen Podcast](https://youtube.com/@officialmrballenpodcast)
 - **Shorts**: [MrBallen Shorts](https://youtube.com/@mrballenshorts)
 
----
+***
 
 ### Why It's So Difficult to Build Things in America (Smarter Every Day)
 *Recommended by Nick F*
@@ -398,7 +398,7 @@ Destin from Smarter Every Day breaks down why manufacturing and building in the 
 - **Watch**: [YouTube](https://youtu.be/3ZTGwcHQfLY)
 - **Related**: [Recoding America](#recoding-america-why-government-is-failing-in-the-digital-age-and-how-we-can-do-better)
 
----
+***
 
 ### Ukraine's Counteroffensive Documentary
 *Recommended by Bryan S*
@@ -410,7 +410,7 @@ A sobering look at modern ground warfare and the transition point between human 
 - **Watch**: [YouTube](https://youtu.be/Nf4Cgy56slU?si=ERfkWqM014saWsKB)
 - **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs)
 
----
+***
 
 ### Interview with a Russian Drone Developer
 *Recommended by Roger O*
@@ -422,7 +422,7 @@ A rare look inside Russian drone warfare from a private developer's perspective.
 - **Watch**: [Rumble](https://rumble.com/v6xj3zw-the-1.2m-view-drone-warfare-video-youtube-didnt-want-you-to-see.html)
 - **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs) | [FPV sUAS](/general/fpv-suas)
 
----
+***
 
 ### [Documentary Recommendation]
 *Recommended by Troy S*
@@ -431,7 +431,7 @@ A rare look inside Russian drone warfare from a private developer's perspective.
 
 - **Watch**: [YouTube](https://youtu.be/YYQIF5CJQ-M)
 
----
+***
 
 ### Wanderers
 **Creator**: Erik Wernquist | **Narration**: Carl Sagan
@@ -443,7 +443,7 @@ A stunning short science fiction film envisioning humanity's future expansion in
 - **Watch**: [YouTube](https://www.youtube.com/watch?v=YH3c1QZzRK4) (4 min)
 - **Creator's Site**: [erikwernquist.com/wanderers](https://erikwernquist.com/wanderers)
 
----
+***
 
 ## Books
 
@@ -459,7 +459,7 @@ A theory of generational cycles that predicts periods of crisis and renewal in A
 - **Also see**: [The Fourth Turning Is Here](https://a.co/d/ahfNXy5) - Neil Howe's 2023 follow-up
 - **Video**: [YouTube explainer](https://youtu.be/EVzmKpw_ges?si=B6fw4lSjo9XgeDwT)
 
----
+***
 
 ### Biography & History
 
@@ -473,7 +473,7 @@ Isaacson's definitive biography of one of the most influential and controversial
 
 - **Amazon**: [Kissinger](https://www.amazon.com/Kissinger-Biography-Walter-Isaacson/dp/0743286979/)
 
----
+***
 
 #### Six Minutes to Freedom: How a Band of Heroes Defied a Dictator and Helped Free a Nation
 **Authors**: Kurt Muse & John Gilstrap
@@ -485,7 +485,7 @@ The incredible true story of Kurt Muse, an American businessman imprisoned by Ma
 
 - **Amazon**: [Six Minutes to Freedom](https://www.amazon.com/Six-Minutes-Freedom-Heroes-Dictator/dp/B07Z44W4VM/)
 
----
+***
 
 #### The War for Middle Earth: Tolkien, Lewis, and the Forgotten World War I
 **Author**: Steven M. Engel
@@ -498,7 +498,7 @@ How World War I transformed two young Oxford scholars into the authors of some o
 - **Amazon**: [The War for Middle Earth](https://a.co/d/3Xa3ZU1)
 - **Related**: [A History of the Crusades](#a-history-of-the-crusades-3-volumes) | [Man's Search for Meaning](#mans-search-for-meaning)
 
----
+***
 
 #### A History of the Crusades (3 Volumes)
 **Author**: Sir Steven Runciman
@@ -511,7 +511,7 @@ The definitive scholarly history of the Crusades, considered one of the great cl
 
 - **Amazon**: [Volume I](https://www.amazon.com/History-Crusades-Foundation-Jerusalem-Classics/dp/014198550X/) | [3-Volume Set](https://www.amazon.com/History-Crusades-Vol-Foundations-Jerusalem/dp/052134770X/)
 
----
+***
 
 #### Seeking Allah, Finding Jesus: A Devout Muslim Encounters Christianity
 **Author**: Nabeel Qureshi
@@ -520,7 +520,7 @@ Award-winning memoir of a devout Muslim's intellectual and spiritual journey fro
 
 - **Amazon**: [Seeking Allah, Finding Jesus](https://www.amazon.com/Seeking-Allah-Finding-Jesus-Christianity/dp/0310527236/)
 
----
+***
 
 #### A People's History of the United States
 **Author**: Howard Zinn
@@ -535,7 +535,7 @@ The landmark 1980 book (updated 2003) that tells American history from the persp
 - **Amazon**: [A People's History of the United States](https://www.amazon.com/Peoples-History-United-States/dp/0062397346/)
 - **Free PDF**: [History is a Weapon](https://www.historyisaweapon.com/zinnapeopleshistory.html)
 
----
+***
 
 ### Geopolitics & Strategy
 
@@ -555,7 +555,7 @@ Why do nations act the way they do? Marshall argues that geography—mountains, 
 - **Also see**: [The Power of Geography](https://www.amazon.com/Power-Geography-Ten-Maps-Future/dp/1982178639/) - Marshall's 2021 follow-up covering ten more regions
 - **Related**: [The Accidental Superpower](#the-accidental-superpower-the-next-generation-of-american-preeminence-and-the-coming-global-disorder) | [Battlegrounds](#battlegrounds-the-fight-to-defend-the-free-world)
 
----
+***
 
 #### Cold War 2.0: Artificial Intelligence in the New Battle between China, Russia, and America
 **Author**: George S. Takach
@@ -566,7 +566,7 @@ How AI and emerging technologies shape the modern geopolitical rivalry between d
 - **Amazon**: [Cold War 2.0](https://a.co/d/dh1VT9Z)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
----
+***
 
 #### Chokepoints: American Power in the Age of Economic Warfare
 **Author**: Edward Fishman
@@ -577,7 +577,7 @@ Frames the present economic warfare dynamic between China and the US in light of
 - **Amazon**: [Chokepoints](https://www.amazon.com/Chokepoints-American-Power-Economic-Warfare/dp/0593712978/)
 - **Related**: [PMESII-PT Framework](/general/pmesii-pt)
 
----
+***
 
 #### The New Rules of War: Victory in the Age of Durable Disorder
 **Author**: Sean McFate
@@ -589,7 +589,7 @@ A modern look at how warfare has evolved beyond conventional state-on-state conf
 - **Amazon**: [The New Rules of War](https://www.amazon.com/New-Rules-War-Victory-Durable/dp/0062843583/)
 - **Related**: [Information Warfare](/general/information-warfare) | [PMESII-PT Framework](/general/pmesii-pt)
 
----
+***
 
 #### Battlegrounds: The Fight to Defend the Free World
 **Author**: H.R. McMaster
@@ -601,7 +601,7 @@ McMaster draws on decades of military and national security experience to examin
 - **Amazon**: [Battlegrounds](https://www.amazon.com/Battlegrounds-Fight-Defend-Free-World/dp/0062899465/)
 - **Related**: [Center of Gravity Analysis Guide](/general/center-of-gravity-analysis-guide) | [PMESII-PT Framework](/general/pmesii-pt)
 
----
+***
 
 #### Ghost Fleet: A Novel of the Next World War
 **Authors**: P.W. Singer & August Cole
@@ -613,7 +613,7 @@ A techno-thriller that explores modern warfare when advanced systems fail. Parti
 - **Amazon**: [Ghost Fleet](https://a.co/d/4p7n1c5)
 - **Related**: [Counter-UxS](/general/counter-uxs) | [Unmanned Systems](/general/unmanned-systems)
 
----
+***
 
 #### Street Without Joy: The French Debacle in Indochina
 **Author**: Bernard B. Fall
@@ -623,7 +623,7 @@ Required reading for American officers heading to Vietnam—a cautionary tale of
 - **Amazon**: [Street Without Joy](https://www.amazon.com/Street-Without-Joy-Bernard-Fall/dp/0811732363/)
 - **Related**: [Information Warfare](/general/information-warfare)
 
----
+***
 
 #### Gangsters of Capitalism: Smedley Butler, the Marines, and the Making and Breaking of America's Empire
 **Author**: Jonathan M. Katz
@@ -633,7 +633,7 @@ A history of American economic and military activity from post-Civil War to pre-
 - **Amazon**: [Gangsters of Capitalism](https://www.amazon.com/Gangsters-Capitalism-Smedley-Butler-Marines/dp/1250135591/)
 - **Related**: [Information Warfare](/general/information-warfare) | [PMESII-PT Framework](/general/pmesii-pt)
 
----
+***
 
 #### The Accidental Superpower: The Next Generation of American Preeminence and the Coming Global Disorder
 **Author**: Peter Zeihan
@@ -646,7 +646,7 @@ Zeihan examines how geography, demographics, and energy trends created America's
 - **Updated Edition**: [The Accidental Superpower: Ten Years On](https://www.amazon.com/Accidental-Superpower-Ten-Years/dp/1538767341/) - Includes new epilogue for every chapter
 - **Also see**: [The Absent Superpower](#the-absent-superpower-the-shale-revolution-and-a-world-without-america)
 
----
+***
 
 #### The Absent Superpower: The Shale Revolution and a World Without America
 **Author**: Peter Zeihan
@@ -658,7 +658,7 @@ The sequel to *The Accidental Superpower*. Zeihan maps out the consequences of A
 - **Amazon**: [The Absent Superpower](https://www.amazon.com/Absent-Superpower-Revolution-Without-America/dp/099850520X/)
 - **Also see**: [The End of the World Is Just the Beginning](https://www.amazon.com/End-World-Just-Beginning-Globalization/dp/006323047X/) - Zeihan's 2022 follow-up
 
----
+***
 
 #### The Avoidable War: The Dangers of a Catastrophic Conflict between the US and Xi Jinping's China
 **Author**: Kevin Rudd
@@ -673,7 +673,7 @@ Former Australian Prime Minister Kevin Rudd—who has studied, lived in, and wor
 - **Summary**: [Shortform](https://www.shortform.com/summary/the-avoidable-war-summary-kevin-rudd)
 - **Related**: [Cold War 2.0](#cold-war-20-artificial-intelligence-in-the-new-battle-between-china-russia-and-america) | [Chokepoints](#chokepoints-american-power-in-the-age-of-economic-warfare)
 
----
+***
 
 #### The Dragons and the Snakes: How the Rest Learned to Fight the West
 **Author**: David Kilcullen
@@ -686,7 +686,7 @@ Kilcullen examines how state adversaries ("dragons" like Russia and China) and n
 - **Amazon**: [The Dragons and the Snakes](https://www.amazon.com/Dragons-Snakes-Rest-Learned-Fight/dp/019026568X/)
 - **Related**: [Information Warfare](/general/information-warfare) | [PMESII-PT Framework](/general/pmesii-pt)
 
----
+***
 
 #### Unrestricted Warfare: China's Master Plan to Destroy America
 **Authors**: Qiao Liang & Wang Xiangsui
@@ -699,7 +699,7 @@ A 1999 treatise by two Chinese PLA colonels outlining how China could defeat a t
 - **Amazon**: [Unrestricted Warfare](https://www.amazon.com/Unrestricted-Warfare-Chinas-Destroy-America/dp/1626543054/)
 - **Related**: [Information Warfare](/general/information-warfare) | [The Dragons and the Snakes](#the-dragons-and-the-snakes-how-the-rest-learned-to-fight-the-west) | [Cold War 2.0](#cold-war-20-artificial-intelligence-in-the-new-battle-between-china-russia-and-america)
 
----
+***
 
 #### The Kill Chain: Defending America in the Future of High-Tech Warfare
 **Author**: Christian Brose
@@ -718,7 +718,7 @@ This is not about "big Army" or carrier battles—it's about the future of conte
 - **Amazon**: [The Kill Chain](https://www.amazon.com/Kill-Chain-Defending-America-High-Tech/dp/031653353X/)
 - **Related**: [Unmanned Systems](/general/unmanned-systems) | [Counter-UxS](/general/counter-uxs) | [Information Warfare](/general/information-warfare)
 
----
+***
 
 #### Freedom's Forge: How American Business Produced Victory in World War II
 **Author**: Arthur Herman
@@ -733,7 +733,7 @@ How two extraordinary American businessmen—automobile magnate William Knudsen 
 - **Amazon**: [Freedom's Forge](https://www.amazon.com/Freedoms-Forge-American-Business-Produced/dp/0812982045/)
 - **Audible**: [Freedom's Forge](https://www.audible.com/pd/B008XLSF9Q)
 
----
+***
 
 #### The Origins of Victory: How Disruptive Military Innovation Determines the Fates of Great Powers
 **Author**: Andrew F. Krepinevich Jr.
@@ -747,7 +747,7 @@ The definitive take on the race for military dominance in the twenty-first centu
 - **Audible**: [The Origins of Victory](https://www.audible.com/pd/B0BZQCPLL1)
 - **Related**: [The Kill Chain](#the-kill-chain-defending-america-in-the-future-of-high-tech-warfare)
 
----
+***
 
 ### Technology & AI
 
@@ -766,7 +766,7 @@ The foundational text on AI safety and existential risk. Bostrom methodically ex
 - **Amazon**: [Superintelligence](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834/)
 - **Related**: [AI Ethics](/ai-ml/ai-ethics) | [AI Resources](/ai-ml/ai-resources)
 
----
+***
 
 #### Cryptonomicon
 **Author**: Neal Stephenson
@@ -776,7 +776,7 @@ A sprawling novel weaving together WWII codebreakers and modern-day tech entrepr
 - **Amazon**: [Cryptonomicon](https://www.amazon.com/Cryptonomicon-Neal-Stephenson/dp/0380788624/)
 - **Why it matters**: Understanding the history of cryptography and information security through narrative
 
----
+***
 
 #### Beast in the Machine: How Robotics and AI Will Transform Warfare and the Future of Human Conflict
 **Author**: Paul Scharre
@@ -789,7 +789,7 @@ An exploration of how robotics and artificial intelligence will transform warfar
 - **Amazon**: [Beast in the Machine](https://www.amazon.com/Beast-Machine-Robotics-Transform-Conflict/dp/1637747187/)
 - **Related**: [AI Resources](/ai-ml/ai-resources) | [AI Ethics](/ai-ml/ai-ethics)
 
----
+***
 
 #### The Nvidia Way: Jensen Huang and the Making of a Tech Giant
 **Author**: Tae Kim
@@ -799,7 +799,7 @@ A current look at how Jensen Huang built Nvidia into the dominant force in AI co
 
 - **Amazon**: [The Nvidia Way](https://www.amazon.com/Nvidia-Way-Jensen-Huang-Making/dp/B0DNRPF51L/)
 
----
+***
 
 #### The AI-Driven Leader
 *Recommended by Casey H*
@@ -810,7 +810,7 @@ A reflection on leadership in the age of AI—how much decision-making should we
 
 - **Related**: [AI Ethics](/ai-ml/ai-ethics) | [AI Resources](/ai-ml/ai-resources)
 
----
+***
 
 ### Psychology & Understanding Others
 
@@ -823,7 +823,7 @@ An excellent book about how liberals and conservatives see the world differently
 - **Amazon**: [The Righteous Mind](https://www.amazon.com/Righteous-Mind-Divided-Politics-Religion/dp/0307455777/)
 - **Why it matters**: Understanding opposing viewpoints without demonizing them
 
----
+***
 
 #### Maps of Meaning: The Architecture of Belief
 **Author**: Jordan Peterson
@@ -839,7 +839,7 @@ A dense psychology textbook Peterson wrote in 1999—well before his public fame
 - **Note**: Academic text, not a quick read—but foundational for understanding belief formation
 - **Related**: [The Righteous Mind](#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | [The Laws of Human Nature](#the-laws-of-human-nature) | [Information Warfare](/general/information-warfare)
 
----
+***
 
 #### Doppelganger: A Trip into the Mirror World
 **Author**: Naomi Klein
@@ -854,7 +854,7 @@ The book asks uncomfortable questions about social division: What happens when l
 - **Amazon**: [Doppelganger](https://www.amazon.com/Doppelganger-Trip-into-Mirror-World/dp/0374610320/)
 - **Related**: [The Righteous Mind](#the-righteous-mind-why-good-people-are-divided-by-politics-and-religion) | [The Anxious Generation](#the-anxious-generation-how-the-great-rewiring-of-childhood-is-causing-an-epidemic-of-mental-illness)
 
----
+***
 
 #### The Laws of Human Nature
 **Author**: Robert Greene
@@ -864,7 +864,7 @@ A deep dive into the patterns of human behavior—why people act the way they do
 - **Amazon**: [The Laws of Human Nature](https://www.amazon.com/Laws-Human-Nature-Robert-Greene-ebook/dp/B07BJLX414/)
 - **See also**: [The 48 Laws of Power](#the-48-laws-of-power) by the same author
 
----
+***
 
 ### Decision Making & Cognition
 
@@ -879,7 +879,7 @@ Klein challenges conventional wisdom about decision making, examining why the "r
 - **MIT Press**: [Streetlights and Shadows](https://mitpress.mit.edu/9780262516723/streetlights-and-shadows/)
 - **Why it matters**: Understanding how experts actually make decisions under pressure
 
----
+***
 
 ### Systems Thinking & Risk
 
@@ -892,7 +892,7 @@ A "management" book with practical applications for planners, leaders, parents, 
 - **Amazon**: [Simple_Complexity](https://a.co/d/aHBB0R8)
 - **Why it matters**: Systems thinking helps you understand complex problems and avoid unintended consequences
 
----
+***
 
 #### How to Measure Anything in Cybersecurity Risk
 **Authors**: Douglas W. Hubbard & Richard Seiersen
@@ -903,7 +903,7 @@ Far more about understanding risk than it is about cybersecurity. Has a wonderfu
 - **Amazon**: [How to Measure Anything in Cybersecurity Risk](https://a.co/d/gcjzr1y)
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [CISA Resources](/cybersecurity/cisa-resources)
 
----
+***
 
 ### Leadership & Organizational Dynamics
 
@@ -922,7 +922,7 @@ A former Delta Force commander shares hard-won leadership principles from specia
 - **Amazon**: [The Mission, the Men, and Me](https://www.amazon.com/Mission-Men-Me-Lessons-Commander/dp/0425236579/)
 - **Related**: [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide) | [PMESII-PT Framework](/general/pmesii-pt)
 
----
+***
 
 #### Extreme Ownership: How U.S. Navy SEALs Lead and Win
 **Authors**: Jocko Willink & Leif Babin
@@ -934,7 +934,7 @@ Combat leadership principles from two Navy SEAL officers who served together in 
 
 - **Amazon**: [Extreme Ownership](https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs/dp/1250067057/)
 
----
+***
 
 #### Marine Maxims: Turning Leadership Principles Into Practice
 **Author**: Colonel Thomas J. Gordon, USMC (Ret.)
@@ -944,7 +944,7 @@ Distills 50 leadership principles from three decades of Marine Corps service. Fo
 
 - **Amazon**: [Marine Maxims](https://www.amazon.com/Marine-Maxims-Turning-Leadership-Principles/dp/1682473392/)
 
----
+***
 
 #### Endurance: Shackleton's Incredible Voyage
 **Author**: Alfred Lansing
@@ -953,7 +953,7 @@ The definitive account of Ernest Shackleton's 1914 Antarctic expedition, where h
 
 - **Amazon**: [Endurance](https://www.amazon.com/Endurance-Shackletons-Incredible-Antarctic-Illustrated/dp/0786708425/)
 
----
+***
 
 #### Man's Search for Meaning
 **Author**: Viktor E. Frankl
@@ -962,7 +962,7 @@ A Holocaust survivor and psychiatrist examines how individuals can find purpose 
 
 - **Amazon**: [Man's Search for Meaning](https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl-ebook/dp/B009U9S6FI/)
 
----
+***
 
 #### The Starfish and the Spider: The Unstoppable Power of Leaderless Organizations
 **Authors**: Ori Brafman & Rod A. Beckstrom
@@ -973,7 +973,7 @@ Explains why rigid, ego-driven leaders choke organizations, while decentralized,
 - **Amazon**: [The Starfish and the Spider](https://www.amazon.com/Starfish-Spider-Unstoppable-Leaderless-Organizations/dp/1591841836/)
 - **Related**: [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide)
 
----
+***
 
 #### New Power: How Power Works in Our Hyperconnected World—and How to Make It Work for You
 **Authors**: Jeremy Heimans & Henry Timms
@@ -987,7 +987,7 @@ Explains the shift from "old power" (held by few, closed, leader-driven) to "new
 - **Libby**: Free for MWR customers
 - **See also**: [The Starfish and the Spider](#the-starfish-and-the-spider-the-unstoppable-power-of-leaderless-organizations)
 
----
+***
 
 #### The 48 Laws of Power
 **Author**: Robert Greene
@@ -1003,7 +1003,7 @@ Great for protecting yourself from leaders who weaponize perception.
 
 - **Amazon**: [The 48 Laws of Power](https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197/)
 
----
+***
 
 #### The No Asshole Rule: Building a Civilized Workplace and Surviving One That Isn't
 **Author**: Robert I. Sutton
@@ -1015,7 +1015,7 @@ Legendary research on managing egoistic, abusive, or narcissistic coworkers and 
 
 - **Amazon**: [The No Asshole Rule](https://www.amazon.com/Asshole-Rule-Civilized-Workplace-Surviving/dp/0446526568/)
 
----
+***
 
 ### Government & Policy
 
@@ -1030,7 +1030,7 @@ From the founder of Code for America and former Deputy CTO under President Obama
 - **Amazon**: [Recoding America](https://www.amazon.com/Recoding-America-Government-Failing-Digital/dp/1250266777/)
 - **Related**: [Working with Acquisitions](/community/a-community-guide-to-working-with-aquisitions)
 
----
+***
 
 ### Entrepreneurship & Innovation
 
@@ -1046,7 +1046,7 @@ All the govvies should understand the challenges of founding and scaling a busin
 
 - **Amazon**: [The Private Equity Playbook](https://www.amazon.com/Private-Equity-Playbook-Companies-Successful/dp/1801715866/)
 
----
+***
 
 #### Zero to One: Notes on Startups, or How to Build the Future
 **Author**: Peter Thiel with Blake Masters
@@ -1059,7 +1059,7 @@ Read this if you're looking to:
 
 - **Amazon**: [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/)
 
----
+***
 
 #### Profit First: Transform Your Business from a Cash-Eating Monster to a Money-Making Machine
 **Author**: Mike Michalowicz
@@ -1071,7 +1071,7 @@ A simple system for ensuring profitability by taking profit first, then running 
 
 - **Amazon**: [Profit First](https://www.amazon.com/Profit-First-Transform-Cash-Eating-Money-Making/dp/073521414X/)
 
----
+***
 
 #### Company of One: Why Staying Small Is the Next Big Thing for Business
 **Author**: Paul Jarvis
@@ -1083,7 +1083,7 @@ For SOF leaders and operators, the book provides a useful lens for both current 
 
 - **Amazon**: [Company of One](https://www.amazon.com/Company-One-Staying-Small-Business/dp/1328972356/)
 
----
+***
 
 ### Philosophy & Foundations
 
@@ -1095,7 +1095,7 @@ A foundational text on open source software development and decentralized collab
 
 - **Read Online**: [catb.org](http://www.catb.org/~esr/writings/cathedral-bazaar/)
 
----
+***
 
 #### Jonathan Livingston Seagull
 **Author**: Richard Bach
@@ -1105,7 +1105,7 @@ A fable about a seagull who refuses to conform to the flock's limitations. A med
 
 - **Amazon**: [Jonathan Livingston Seagull](https://www.amazon.com/Jonathan-Livingston-Seagull-Richard-Bach/dp/0743278909/)
 
----
+***
 
 #### The Gospel of Matthew
 *Recommended by Cyber Jay*
@@ -1114,7 +1114,7 @@ A fable about a seagull who refuses to conform to the flock's limitations. A med
 
 For understanding movements, leadership, and the spread of ideas. Part of a larger goal to read ancient/classic works to gain "tools" to process, heal, and return to a state of giving, coaching, and mentoring others.
 
----
+***
 
 #### Meditations
 **Author**: Marcus Aurelius
@@ -1125,7 +1125,7 @@ The personal journal of a Roman Emperor practicing Stoic philosophy. Timeless wi
 - **Amazon**: [Meditations](https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255/)
 - **Why it matters**: Tools for processing hardship and returning to a giving mindset
 
----
+***
 
 ### Health & Performance
 
@@ -1145,7 +1145,7 @@ The neuroscience of sleep and why it's so important.
 
 - **Amazon/Audible**: [Why We Sleep](https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316/)
 
----
+***
 
 #### Peak Performance: Elevate Your Game, Avoid Burnout, and Thrive with the New Science of Success
 **Authors**: Brad Stulberg & Steve Magness
@@ -1154,7 +1154,7 @@ Not a new book, but valuable for anyone moving from a technical focus to a leade
 
 - **Amazon**: [Peak Performance](https://www.amazon.com/Peak-Performance-Elevate-Burnout-Science/dp/162336793X/)
 
----
+***
 
 ### Personal Development
 
@@ -1169,7 +1169,7 @@ Integrates quantum physics, neuroscience, and biology to show how you can transc
 - **Audible**: [Breaking the Habit of Being Yourself](https://www.audible.com/pd/B0868ZFF7X)
 - **Amazon**: [Breaking the Habit of Being Yourself](https://www.amazon.com/Breaking-Habit-Being-Yourself-Create/dp/1401938094/)
 
----
+***
 
 #### The Untethered Soul: The Journey Beyond Yourself
 **Author**: Michael A. Singer
@@ -1182,7 +1182,7 @@ A spiritual guide exploring human identity and consciousness. Shows how developi
 - **Audible**: [The Untethered Soul](https://www.audible.com/pd/B006IE4OY0)
 - **Amazon**: [The Untethered Soul](https://www.amazon.com/Untethered-Soul-Journey-Beyond-Yourself/dp/1572245379/)
 
----
+***
 
 #### The Anxious Generation: How the Great Rewiring of Childhood Is Causing an Epidemic of Mental Illness
 **Author**: Jonathan Haidt
@@ -1196,7 +1196,7 @@ A spiritual guide exploring human identity and consciousness. Shows how developi
 - **Amazon**: [The Anxious Generation](https://www.amazon.com/Anxious-Generation-Rewiring-Childhood-Epidemic/dp/0593655036/)
 - **Author's Site**: [anxiousgeneration.com](https://www.anxiousgeneration.com/book)
 
----
+***
 
 #### The Third Door: The Wild Quest to Uncover How the World's Most Successful People Launched Their Careers
 **Author**: Alex Banayan
@@ -1211,7 +1211,7 @@ A spiritual guide exploring human identity and consciousness. Shows how developi
 
 - **Amazon**: [The Third Door](https://www.amazon.com/Third-Door-Uncover-Successful-Launched/dp/0804136661/)
 
----
+***
 
 #### The One Thing: The Surprisingly Simple Truth Behind Extraordinary Results
 **Author**: Gary Keller & Jay Papasan
@@ -1221,7 +1221,7 @@ Focus on the one thing that matters most. A productivity and prioritization fram
 
 - **Amazon**: [The One Thing](https://a.co/d/9bCrbKR)
 
----
+***
 
 #### Range: Why Generalists Triumph in a Specialized World
 **Author**: David Epstein
@@ -1232,7 +1232,7 @@ The central theme: broad exposure to ideas and experiences will make you far mor
 
 - **Amazon**: [Range](https://a.co/d/d0YZWOZ)
 
----
+***
 
 ### Cybersecurity History & Culture
 
@@ -1257,7 +1257,7 @@ Connects technology with society and history. Shows the divide of US vs. EU, Wes
 - **See also**: [Meeting the Father of Cybersecurity](https://forum.hsp.sh/t/clifford-stoll-spotkanie-z-ojcem-cyberbezpieczenstwa/896) - Marcin's account of visiting Cliff Stoll in San Francisco (Polish)
 - **Related**: [Cybersecurity Resources](/cybersecurity/)
 
----
+***
 
 #### Phrack Magazine (Issues 1-7, especially Issue 7)
 *Recommended by Ted Spaghetti*
@@ -1273,7 +1273,7 @@ The Manifesto became a cornerstone of hacker culture, defending hackers as curio
 - **Wikipedia**: [Hacker Manifesto](https://en.wikipedia.org/wiki/Hacker_Manifesto) | [Phrack](https://en.wikipedia.org/wiki/Phrack)
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [The Cuckoo's Egg](#the-cuckoos-egg-tracking-a-spy-through-the-maze-of-computer-espionage)
 
----
+***
 
 ### Cybersecurity & Reverse Engineering
 
@@ -1287,7 +1287,7 @@ A guide for breaking into penetration testing and ethical hacking as a career. C
 - **Amazon**: [The Pentester BluePrint](https://www.amazon.com/Pentester-BluePrint-Your-Guide-Being/dp/1119684307/)
 - **Related**: [OSCP](/cybersecurity/oscp) | [GPEN](/cybersecurity/gpen) | [Red Teaming](/cybersecurity/cyber-red-teaming)
 
----
+***
 
 #### Hands on Hacking: Become an Expert at Next Gen Penetration Testing and Purple Teaming
 **Authors**: Matthew Hickey & Jennifer Arcuri
@@ -1297,7 +1297,7 @@ A more basic, hands-on introduction to actually hacking. While The Pentester Blu
 - **Amazon**: [Hands on Hacking](https://www.amazon.com/dp/1119561450/)
 - **Related**: [OSCP](/cybersecurity/oscp) | [Red Teaming](/cybersecurity/cyber-red-teaming)
 
----
+***
 
 #### Reverse Engineering For Everyone!
 **Author**: @mytechnotalent
@@ -1310,7 +1310,7 @@ A comprehensive guide to reverse engineering, accessible to everyone from beginn
 - **Download**: [Reverse Engineering For Everyone (PDF)](https://u.pcloud.link/publink/show?code=XZD9nP5ZvTDbqgEGBRhLvDsSkdgJ0kuYWmfk)
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [Red Teaming](/cybersecurity/cyber-red-teaming)
 
----
+***
 
 ## Apps & Tools
 
@@ -1331,7 +1331,7 @@ If the response is a `403` with a `10.10.34.x` IP in the body, the site is landi
 - **Original Post**: [X/Twitter](https://x.com/hkashfi/status/1995109785679573167)
 - **Related**: [Cybersecurity Resources](/cybersecurity/) | [DFP Guide](/general/dfp-guide)
 
----
+***
 
 ## Learning Resources
 
@@ -1343,7 +1343,7 @@ An interactive platform for learning programming, particularly Python. Uses a vi
 - **Visit**: [Reeborg's World](https://reeborg.ca/)
 - **Related**: [Shell Scripting](/general/shell) | [AI/ML Learning](/ai-ml/ai-ml-learning)
 
----
+***
 
 ### Digital University (DigitalU)
 *Recommended by YJ*
@@ -1355,7 +1355,7 @@ The Department of the Air Force's free digital learning platform. Offers courses
 - **Visit**: [Digital University](https://digitalu.af.mil/)
 - **Related**: [Certifications](/general/certifications) | [Learning Resources](/general/learning) | [Credentialing Assistance](/general/credentialing-assistance)
 
----
+***
 
 ## Wiki Pages & References
 
@@ -1365,7 +1365,7 @@ A visualization of the most viewed Wikipedia pages, updated in real-time. Fascin
 
 - **Visit**: [WikiTop](https://wikitop.net/?lang=en)
 
----
+***
 
 ### List of File Signatures (Magic Numbers)
 
@@ -1374,7 +1374,7 @@ Essential reference for reverse engineering, forensics, and file analysis. File 
 - **Wikipedia**: [List of File Signatures](https://en.wikipedia.org/wiki/List_of_file_signatures)
 - **Related**: [Reverse Engineering For Everyone](#reverse-engineering-for-everyone) | [Cybersecurity Resources](/cybersecurity/)
 
----
+***
 
 ### List of Reported UFO Sightings
 
@@ -1382,7 +1382,7 @@ For Team Foil Hat! A comprehensive Wikipedia list of reported UFO sightings thro
 
 - **Wikipedia**: [List of Reported UFO Sightings](https://en.wikipedia.org/wiki/List_of_reported_UFO_sightings)
 
----
+***
 
 ### Gary Kildall
 
@@ -1390,7 +1390,7 @@ Gary Kildall (1942–1994) was a computer scientist and microcomputer entreprene
 
 - **Wikipedia**: [Gary Kildall](https://en.wikipedia.org/wiki/Gary_Kildall)
 
----
+***
 
 ### Superconducting Super Collider
 
@@ -1398,7 +1398,7 @@ The cancelled American particle accelerator that would have been over twice the 
 
 - **Wikipedia**: [Superconducting Super Collider](https://en.wikipedia.org/wiki/Superconducting_Super_Collider)
 
----
+***
 
 ### V/STOL
 
@@ -1407,7 +1407,7 @@ For the aviation buffs! Vertical/Short Take-Off and Landing (V/STOL) aircraft ha
 - **Wikipedia**: [V/STOL](https://en.wikipedia.org/wiki/V/STOL)
 - **Related**: [Unmanned Systems](/general/unmanned-systems)
 
----
+***
 
 ### List of Reportedly Haunted Locations
 
@@ -1415,7 +1415,7 @@ For when you need a break from serious topics. A comprehensive list of locations
 
 - **Wikipedia**: [List of Reportedly Haunted Locations](https://en.wikipedia.org/wiki/List_of_reportedly_haunted_locations)
 
----
+***
 
 ### List of Software-Defined Radios
 
@@ -1424,7 +1424,7 @@ Essential reference for anyone interested in SDR technology. This comprehensive 
 - **Wikipedia**: [List of Software-Defined Radios](https://en.wikipedia.org/wiki/List_of_software-defined_radios)
 - **Related**: [Software Defined Radios](/radio/software-defined-radios-sdrs) | [DragonOS](/radio/dragonos) | [HAM Radio](/radio/ham-radio)
 
----
+***
 
 ## How to Contribute
 
@@ -1440,7 +1440,7 @@ Have something that moved you forward this year? We want to hear it.
 2. Edit this page directly via [GitHub](https://github.com/gitayam/IrregularChatWiki) or [Forgejo](https://git.irregularchat.com/sac/IrregularChatWiki)
 3. Share in the IrregularChat Matrix space
 
----
+***
 
 ## Related Resources
 

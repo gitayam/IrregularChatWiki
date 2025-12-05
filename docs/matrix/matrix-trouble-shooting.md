@@ -54,7 +54,7 @@ systemctl restart matrix-synapse.service
 ```
 or using Ansible, you may want to send a restart
 
----
+***
 
 ### Issues and Answers
 

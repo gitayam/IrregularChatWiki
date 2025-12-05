@@ -57,7 +57,7 @@ Automate Docker setup on remote servers using this Ansible playbook:
 
 ```
 
----
+***
 - name: Install Docker on remote servers
   hosts: all
   become: yes

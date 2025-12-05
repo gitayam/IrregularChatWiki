@@ -20,7 +20,7 @@ Some advice in this guide (and common security guidance) may be **overly cautiou
 **However**, for **high-threat environments** (military operations, journalists in conflict zones, targeted individuals), these precautions may still be warranted. Know your threat model and adjust accordingly.
 :::
 
----
+***
 
 ## Official Security Guidance
 
@@ -34,7 +34,7 @@ These guides from government cybersecurity agencies provide authoritative recomm
 | **NIST** | [SP 800-124 Rev. 2](https://csrc.nist.gov/pubs/sp/800/124/r2/final) | Guidelines for Managing the Security of Mobile Devices in the Enterprise |
 | **CIS** | [Google Android Benchmarks](https://www.cisecurity.org/benchmark/google_android) | Detailed configuration benchmarks for Android |
 
----
+***
 
 ## Critical CISA Recommendations (2024-2025)
 
@@ -72,7 +72,7 @@ This applies to **commercial VPN services**. Enterprise/organizational VPNs for 
 
 Software updates alone cannot provide maximum security benefits without current hardware security features.
 
----
+***
 
 ## NSA Mobile Device Best Practices
 
@@ -96,7 +96,7 @@ Key highlights from the [NSA guide](https://media.defense.gov/2021/Sep/16/200285
 - Cover your camera when not in use
 - For sensitive conversations, consider voice-encrypting apps
 
----
+***
 
 ## Comprehensive Security Checklist
 
@@ -139,7 +139,7 @@ Key highlights from the [NSA guide](https://media.defense.gov/2021/Sep/16/200285
 - [ ] Review location permissions; use "While Using" instead of "Always"
 - [ ] Disable location services for apps that don't need it
 
----
+***
 
 ## iOS-Specific Hardening
 
@@ -174,7 +174,7 @@ Lockdown Mode does **not** clean existing infections. It's a preventive measure,
 | Safari Fraud Warning | Safari | Enable |
 | Hide IP Address | Safari → Privacy | Enable |
 
----
+***
 
 ## Android-Specific Hardening
 
@@ -224,7 +224,7 @@ For maximum privacy and security, consider replacing stock Android with a harden
 - **Insular** - App isolation
 - **Aurora Store** - Privacy-respecting Google Play frontend
 
----
+***
 
 ## SIM Security & Swapping Prevention
 
@@ -256,7 +256,7 @@ SIM swapping attacks increased dramatically in 2024 (1,055% in UK, 240% globally
    - eSIMs eliminate physical SIM theft but can still be ported
    - [GSMA eSIM Security Framework](https://www.gsma.com/esim/) provides certification standards
 
----
+***
 
 ## Recommended Mobile Apps
 
@@ -300,7 +300,7 @@ SIM swapping attacks increased dramatically in 2024 (1,055% in UK, 240% globally
 | [Cryptomator](https://cryptomator.org/) | File encryption | iOS, Android |
 | [OpenKeychain](https://www.openkeychain.org/) | PGP key management | Android |
 
----
+***
 
 ## Side-Loading Apps (Android)
 
@@ -324,7 +324,7 @@ SIM swapping attacks increased dramatically in 2024 (1,055% in UK, 240% globally
 4. Keep "Install unknown apps" disabled by default
 5. Enable only for specific app installation, then disable
 
----
+***
 
 ## Enterprise Considerations
 
@@ -338,7 +338,7 @@ Key enterprise capabilities:
 - **Mobile Application Vetting (MAV)** - App security assessment
 - **Mobile Threat Defense (MTD)** - Real-time threat detection
 
----
+***
 
 ## References & Further Reading
 

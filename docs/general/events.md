@@ -68,7 +68,7 @@ Unencrypted: https://etherpad.irregularchat.com/p/sofweek2024
 
 *Join us for a fun-filled afternoon of networking, learning, and innovation. Don’t miss out on the opportunity to connect with like-minded individuals and explore the latest in technology and creativity. We look forward to seeing you there!*
 
----
+***
 
 ### Past Events
 

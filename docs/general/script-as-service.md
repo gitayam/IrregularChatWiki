@@ -126,7 +126,7 @@ Add lines to restart your services at midnight (00:00) and noon (12:00):
 ```
 This setup ensures that your Python scripts, whether running directly on your system or within a Docker container, are reliably executed as services and can automatically restart to maintain continuous operation.
 
----
+***
 
 
 ## Preventing Duplicate Process Instances in Scripts

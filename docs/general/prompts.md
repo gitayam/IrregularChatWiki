@@ -12,7 +12,7 @@ Welcome to the IrregularChat! We recommend muting the chat and checking in perio
 
 A lot of resources, guides, and discussions have already been posted, and you can find them at:
 https://irregularpedia.org
----
+***
 Here's the Irregular Chat Login guide that should walk you step by step on joining the SSO:
 
 https://irregularpedia.org/community/join

@@ -91,7 +91,7 @@ BLUF: Buy the best tool you can afford. If it’s multipurpose and decently pric
 
 - **Type:** Choose from handheld RF scanners, broadband RF scanners, spectrum analyzers, and integrated scanning systems based on specific needs and complexity.
 
----
+***
 
 [ [Blue Team]​
 

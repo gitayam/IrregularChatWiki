@@ -9,7 +9,7 @@ tags: ["security", "privacy", "dfp", "cybersecurity"]
 >
 > 🩺‼️ Is it too late for prevention - Do you need an incident response guide? **[Response Guide](/cybersecurity/cyber-incident-response-guide-personal)**
 
----
+***
 
 ## 📋 Checklists
 
@@ -17,7 +17,7 @@ tags: ["security", "privacy", "dfp", "cybersecurity"]
 - 📱 [Mobile Hardening Checklist](/general/mobile-hardening-guide)
 - 🔍 [Research DFP Checks](/cybersecurity/cyber-incident-response-guide-personal)
 
----
+***
 
 ## 📘 Guides
 
