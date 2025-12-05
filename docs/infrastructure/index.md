@@ -1,31 +1,17 @@
----
-title: "Infrastructure"
-tags: ["infrastructure", "self-hosting", "cloudflare", "authentik"]
----
+# Infrastructure & Self-Hosting
 
-# Infrastructure
+This page provides a comprehensive overview of infrastructure and self-hosting resources available in the Irregularpedia.
 
-Guides for setting up and managing infrastructure, including identity management, reverse proxies, and cloud services.
+## Getting Started
 
-## Cloudflare
+- **[Server Guides](/server-guides/)**: A collection of guides for setting up and managing servers.
+- **[Docker](/server-guides/docker)**: An introduction to Docker and containerization.
 
-| Guide | Description |
-|-------|-------------|
-| [Cloudflare Overview](/infrastructure/cloudflare) | Introduction to Cloudflare services |
-| [Cloudflare Tunnels](/infrastructure/self-host-cloudflare-tunnels) | Self-hosting with Cloudflare Tunnels |
-| [Reverse Proxy with Cloudflared](/infrastructure/reverse-proxy-cloudflared) | Setting up reverse proxy |
-| [Cloudflare Troubleshooting](/infrastructure/cloudflare-trouble-shooting) | Common issues and solutions |
+## Core Infrastructure
 
-## Authentik (Identity Provider)
-
-| Guide | Description |
-|-------|-------------|
-| [Authentik Installation](/infrastructure/authentik-installation) | Installing and configuring Authentik |
-| [Create Login and Users](/infrastructure/authentik-create-login-and-users) | User management in Authentik |
-| [Authentik Workflows](/infrastructure/authentik-workflows) | Automation and workflow configuration |
-| [Authentik Backup](/infrastructure/authentik-backup) | Backup and recovery procedures |
-
-## Related Resources
-
-- [Server Guides](/server-guides/) - Linux server setup and Docker
-- [Matrix Deployment](/matrix/) - Self-hosting Matrix chat servers
+- **[Cloudflare Tunnels](/infrastructure/self-host-cloudflare-tunnels)**: A guide to using Cloudflare Tunnels for secure and easy self-hosting.
+- **[Authentik](/infrastructure/authentik-installation)**: An open-source identity provider for managing user access to your services.
+- **[Matrix Server](/matrix/)**: A guide to self-hosting your own secure communication server.
+- **[Linux Server Setup](/server-guides/linux-server-initial-setup)**: A guide to the initial setup of a Linux server.
+- **[Proxmox LXC](/server-guides/proxmox-linux-container-lxc-setup)**: A guide to setting up Linux containers with Proxmox.
+- **[CryptPad Server](/server-guides/setting-up-cryptpad-server)**: A guide to setting up a secure and private office suite.
