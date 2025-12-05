@@ -4,83 +4,80 @@ title: "DragonOS"
 
 # DragonOS
 
-## What is DragonOS
-DragonOS leverages the portability, security, and power of Lubuntu Linux as a delivery package and operating environment for a pre-installed suite of the most powerful and accessible open-source SDR software. DragonOS has verified support for various inexpensive and powerful SDR hardware, including RTL-SDR, HackRF One, LimeSDR, BladeRF, and many others.
+DragonOS is a specialized, Debian-based Linux distribution built for Software Defined Radio (SDR) enthusiasts and professionals. Its primary purpose is to provide a ready-to-use environment for SDR operations by pre-installing a comprehensive suite of open-source SDR software and drivers.
 
-Go to the source [CEMAXECUTER](https://cemaxecuter.com/)
+It is available for both x86-64 and Raspberry Pi (arm64) architectures, offering flexibility in deployment.
 
-- Pre-configured Products including the WarDragon Kit+ found [here](https://cemaxecuter.com/?post_type=product)
-[Background](#)
+- **Official Website:** [cemaxecuter.com](https://cemaxecuter.com/)
+- **SourceForge:** [DragonOS on SourceForge](https://sourceforge.net/projects/dragonos-focal/)
 
-### Supported Devices
+---
 
-- **Virtualized**
-  - VirtualBox
-  - VMware
+## Key Features
 
-- **Raspberry Pi**
-  - Pi 3
-  - Pi 4
+- **Pre-installed Software:** Comes with a wide range of popular SDR applications, including:
+  - GNU Radio
+  - GQRX
+  - SDRangel
+  - Kismet
+  - CubicSDR
+  - And many other tools for signal analysis and decoding.
+- **Extensive Hardware Support:** Out-of-the-box support for a wide range of SDR hardware, including:
+  - RTL-SDR
+  - HackRF One
+  - LimeSDR
+  - BladeRF
+- **Versatile Deployment:** Can be booted as a live system, installed alongside other operating systems, or run within a virtual machine.
 
-- **Intel**
+---
 
-- **ARM**
+## Common Use Cases
 
-## Install DragonOS
+DragonOS is suitable for a variety of applications, including:
 
-### Download DragonOS
+- **Radio Frequency Analysis:** Identifying and analyzing a wide range of radio signals.
+- **Wireless Communication Research:** Experimenting with and learning about wireless protocols.
+- **Security Auditing:** Identifying vulnerabilities in wireless systems.
+- **Broadcast AM/FM/DAB Reception:** Listening to and analyzing broadcast radio.
+- **ADS-B Aircraft Tracking:** Tracking aircraft in real-time.
+- **APRS (Automatic Packet Reporting System):** Tracking and messaging for amateur radio.
 
-- [Download from SourceForge](https://sourceforge.net/projects/dragonos-focal/files/latest/download)
+---
 
-- DragonOS_FocalX_R29.iso (Torrent available)
+## Getting Started
 
-### Prepare USB with ISO File for Live Boot or Dual-Boot Options
+### 1. Download DragonOS
 
-- [Ventoy](https://www.ventoy.net/en/download.html) – Allows drag-and-drop of ISO files after USB is set up.
+- **[Download from SourceForge](https://sourceforge.net/projects/dragonos-focal/files/latest/download)**: This will download the latest `.iso` file.
 
-- [Etcher](https://www.balena.io/etcher/) – Lightweight and compatible with different operating systems.
+### 2. Prepare a Bootable USB Drive
 
-### Boot and Installation Options
+Use one of the following tools to create a bootable USB drive from the downloaded `.iso` file:
 
-- Boot DragonOS from the live image.
+- **[Ventoy](https://www.ventoy.net/en/download.html)**: Allows you to drag and drop multiple ISO files onto a single USB drive.
+- **[balenaEtcher](https://www.balena.io/etcher/)**: A simple and reliable tool for flashing ISOs.
 
-- Install DragonOS in a dual-boot configuration alongside Windows, macOS, or Linux.
+### 3. Boot and Install
 
-- Run DragonOS in a virtual machine using the downloaded ISO.
+- **Live Boot:** Boot directly from the USB drive to try DragonOS without installing it.
+- **Dual Boot:** Install DragonOS alongside your existing operating system.
+- **Virtual Machine:** Run DragonOS in a VM using the `.iso` file.
 
-## DragonOS Guides
-DragonOS is highly supported and has many guides and walkthroughs. These are sorted by [or specific actions on the [https://www.youtube.com/channel/UC9U2kaqhE716J2WNSTcOghg DragonOS YouTube Channel](/radio/software-defined-radios-sdrs).
+---
 
->
-This channel is best described as a project aimed at making it as easy as possible for someone new to Linux and SDRs to run either a live Linux distro or install Linux and be up and running with not only popular, well-known, and easily installed SDR software, but also more challenging to install and/or compile software. Combined with YouTube videos, it ensures everyone’s on the same page and can follow along.
+## Community & Support
 
-## Additional Information
-
-- [DragonOS SourceForge Page](https://sourceforge.net/projects/dragonos-focal/)
-
-- [DragonOS YouTube Channel](https://www.youtube.com/channel/UC9U2kaqhE716J2WNSTcOghg)
-
-- [Patreon Support](https://www.patreon.com/cemaxecuter)
-
-### For Support or Questions
-
-- Email: cemaxecuter@protonmail.com
-
-- [Join the DragonOS Discord](https://discord.gg/9uSC2un)
-
-- Matrix Channels:
+- **[DragonOS YouTube Channel](https://www.youtube.com/channel/UC9U2kaqhE716J2WNSTcOghg)**: The official YouTube channel with many tutorials and guides.
+- **[DragonOS Discord](https://discord.gg/9uSC2un)**: Join the community on Discord for support and discussion.
+- **Matrix Channels:**
   - [DragonOS General Chat](https://matrix.to/#/#dragon-os:matrix.org)
   - [DragonOS Q&A](https://matrix.to/#/#dragon-os-qa:matrix.org)
   - [DragonOS Announcements](https://matrix.to/#/#dragon-os-updates:matrix.org)
 
+---
 ## References
 
 - [DragonOS SourceForge Wiki](https://sourceforge.net/p/dragonos-focal/wiki/Home/)
-
 - [Ventoy](https://www.ventoy.net/en/index.html)
-
-- [Balena Etcher](https://www.balena.io/what-is-balena)
-
+- [balenaEtcher](https://www.balena.io/what-is-balena)
 - [DragonOS YouTube Channel](https://www.youtube.com/channel/UC9U2kaqhE716J2WNSTcOghg/about)
-
-
