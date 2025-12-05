@@ -3,7 +3,7 @@
 This is a list of desired pages for the wiki. Community members are encouraged to create these pages and help us grow our collective knowledge. If you have an idea for a page, feel free to create it and add it to the appropriate section.
 
 ### 1. Blue Teaming and Defensive Operations
-*   **Reasoning:** The wiki is heavily skewed towards offensive cybersecurity. A dedicated page on defensive concepts like threat hunting, SIEM usage, and incident response would fill a major gap.
+*   **Reasoning:** The wiki is heavily skewed towards offensive cybersecurity. While a personal cyber incident response guide exists ([Cyber Incident Response Guide (Personal)](/cybersecurity/cyber-incident-response-guide-personal)), a dedicated page on broader defensive concepts like threat hunting, SIEM usage (e.g., Splunk, ELK Stack), and incident response would fill a major gap. This page would serve as a higher-level overview or a follow-on to the personal guide, focusing on organizational or team-based defensive strategies.
 *   **Suggested Location:** `cybersecurity/defensive-operations.md`
 
 ### 2. Cloud Security Fundamentals
