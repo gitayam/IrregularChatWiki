@@ -71,7 +71,7 @@ Keep a running log of your accomplishments, projects, and impact metrics. When e
 - **Format**: Date, what you did, measurable impact
 - **Tool**: Plain text file, markdown, or a simple spreadsheet
 
-**Related**: [Army Evaluation Resources](/general/army-evaluation-resources) | [Awards Guide](/general/awards)
+**Related**: [Army Evaluation Resources](/military/army-evaluation-resources) | [Awards Guide](/military/awards)
 
 ***
 
@@ -111,7 +111,7 @@ Military and government benefits are complex and often underutilized. Know what 
 - Healthcare options
 - Leave policies
 
-**Related**: [Credentialing Assistance](/general/credentialing-assistance) | [Leaving Service](/general/leaving-service)
+**Related**: [Credentialing Assistance](/military/credentialing-assistance) | [Leaving Service](/military/leaving-service)
 
 ***
 

@@ -54,7 +54,7 @@ For more details, contact the Education Office.
 - [OSCP Resources](https://github.com/0xsyr0/OSCP)
 
 ### SANS Certs
-Looking for SANS funding? Check out the page for [Assistance](/general/credentialing-assistance).
+Looking for SANS funding? Check out the page for [Assistance](/military/credentialing-assistance).
 
 ### CompTIA Certifications
 CompTIA certifications are widely recognized in the IT industry and can validate your skills and boost your career. Here’s how you can pursue them with funding assistance:

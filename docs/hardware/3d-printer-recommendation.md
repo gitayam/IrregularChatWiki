@@ -25,8 +25,8 @@ If you're in the market for a 3D printer under $500, there are several options t
 
 ## Related Pages
 
-- [Fabrication](/general/fabrication) - Main fabrication hub and community files
-- [Getting Started with CAD](/general/fabrication-getting-started-with-cad) - Guide to CAD software for designing parts
+- [Fabrication](/hardware/fabrication) - Main fabrication hub and community files
+- [Getting Started with CAD](/hardware/fabrication-getting-started-with-cad) - Guide to CAD software for designing parts
 
 ## References
 

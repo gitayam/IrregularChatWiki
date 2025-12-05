@@ -14,7 +14,7 @@ Evergreen recommendations from the IrregularChat community—books that remain r
 ## Leadership
 
 ::: tip Wiki Resources
-[Army Evaluations](/general/army-evaluation-resources) | [Awards Guide](/general/awards) | [Promotion Boards](/general/promotion-boards)
+[Army Evaluations](/military/army-evaluation-resources) | [Awards Guide](/military/awards) | [Promotion Boards](/military/promotion-boards)
 :::
 
 #### The Infinite Game

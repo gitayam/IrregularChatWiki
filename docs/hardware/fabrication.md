@@ -10,8 +10,8 @@ For community knowledge management, fabrication and rapid prototyping are used t
 
 ## Related Pages
 
-- [3D Printer Recommendation](/general/3d-printer-recommendation) - Community recommendations for 3D printers under $500
-- [Getting Started with CAD](/general/fabrication-getting-started-with-cad) - Guide to CAD software for designing parts
+- [3D Printer Recommendation](/hardware/3d-printer-recommendation) - Community recommendations for 3D printers under $500
+- [Getting Started with CAD](/hardware/fabrication-getting-started-with-cad) - Guide to CAD software for designing parts
 - [Unmanned Systems](/general/unmanned-systems) - UAS/drone information and resources
 
 ## Community Files

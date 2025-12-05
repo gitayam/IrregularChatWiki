@@ -36,8 +36,8 @@ If you're looking for a CAD program for drone and parts design:
 
 ## Related Pages
 
-- [Fabrication](/general/fabrication) - Main fabrication hub and community files
-- [3D Printer Recommendation](/general/3d-printer-recommendation) - Recommended printers for getting started
+- [Fabrication](/hardware/fabrication) - Main fabrication hub and community files
+- [3D Printer Recommendation](/hardware/3d-printer-recommendation) - Recommended printers for getting started
 - [Unmanned Systems](/general/unmanned-systems) - Drone and UAS resources
 
 ## Resources

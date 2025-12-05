@@ -173,7 +173,7 @@ Previously shared files are found here - https://url.irregular.chat/cuxs-drive
 
 Jump in and share your fabrication skills, projects, and questions, from 3D printing to metalwork! Start by introducing yourself and your projects.
 
-📝 : Help grow our knowledge base! Add to the Fabrication Wiki at irregularpedia.org/general/3d-printer-recommendation or contribute to the NIPR Inteldocs at go.intelink.gov/I7IjyTL.
+📝 : Help grow our knowledge base! Add to the Fabrication Wiki at irregularpedia.org/hardware/3d-printer-recommendation or contribute to the NIPR Inteldocs at go.intelink.gov/I7IjyTL.
 
 ```
 

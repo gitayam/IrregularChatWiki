@@ -21,7 +21,7 @@ Military credentialing programs, certification guides, free learning resources, 
 - **Amount**: $4,000/year
 - **Purpose**: Professional certifications aligned with career goals
 - **Portal**: [ArmyIgnitED](https://www.armyignited.com/app/)
-- **Guide**: [Credentialing Assistance](/general/credentialing-assistance)
+- **Guide**: [Credentialing Assistance](/military/credentialing-assistance)
 
 ### SOF Education Program (SEP)
 
@@ -55,7 +55,7 @@ Military credentialing programs, certification guides, free learning resources, 
 ### Cybersecurity
 
 **SANS/GIAC**
-- [Credentialing Assistance for SANS](/general/credentialing-assistance) - Use CA for $4k SANS training
+- [Credentialing Assistance for SANS](/military/credentialing-assistance) - Use CA for $4k SANS training
 - [SANS Roadmap](https://www.sans.org/cyber-security-skills-roadmap/) - Career progression
 - Recommended: [SEC504 GCIH](https://www.sans.org/cyber-security-courses/hacker-techniques-incident-handling/)
 

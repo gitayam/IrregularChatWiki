@@ -91,7 +91,7 @@ Referenced in TM 3-53.11 Chapter 2, the HPEM provides a framework for:
 
 ## Influence Operations
 
-- [Influence](/general/influence) - Influence operations concepts and case studies
+- [Influence](/general/information-warfare) - Influence operations concepts and case studies
 - [Identify Influencers using the TAAW](/general/identify-influencers-using-the-taaw) - Order of Merit List methodology
 
 ### Influencer Evaluation Criteria

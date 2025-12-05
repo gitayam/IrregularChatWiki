@@ -6,7 +6,7 @@ tags: ["ai", "prompting", "awards", "military", "writing", "army"]
 # Award Bullet AI Prompt Template
 
 ::: tip Related Resources
-[AI Prompting Guide](/ai-ml/ai-prompting) | [Awards Guide](/general/awards) | [AI Resources](/ai-ml/ai-resources)
+[AI Prompting Guide](/ai-ml/ai-prompting) | [Awards Guide](/military/awards) | [AI Resources](/ai-ml/ai-resources)
 :::
 
 ## Overview
@@ -259,6 +259,6 @@ Show your reasoning at each step, then provide the final citation bullets.
 ## Related Resources
 
 - [AI Prompting Guide](/ai-ml/ai-prompting) - Advanced prompting techniques
-- [Awards Guide](/general/awards) - Army award regulations and tips
-- [Army Evaluation Resources](/general/army-evaluation-resources) - NCOER/OER guidance
+- [Awards Guide](/military/awards) - Army award regulations and tips
+- [Army Evaluation Resources](/military/army-evaluation-resources) - NCOER/OER guidance
 - [AI Resources](/ai-ml/ai-resources) - LLM tools and platforms

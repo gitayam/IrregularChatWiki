@@ -83,9 +83,9 @@ See: [FPV sUAS Guide](/general/fpv-suas)
 
 ## Fabrication & DIY
 
-- [Fabrication](/general/fabrication) - 3D printing and manufacturing
-- [3D Printer Recommendation](/general/3d-printer-recommendation) - Community-recommended printers
-- [Fabrication: Getting Started with CAD](/general/fabrication-getting-started-with-cad) - CAD software guides
+- [Fabrication](/hardware/fabrication) - 3D printing and manufacturing
+- [3D Printer Recommendation](/hardware/3d-printer-recommendation) - Community-recommended printers
+- [Fabrication: Getting Started with CAD](/hardware/fabrication-getting-started-with-cad) - CAD software guides
 
 ## Policy & Doctrine
 

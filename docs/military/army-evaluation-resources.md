@@ -41,7 +41,7 @@ The Rater sets the tone for objective, honest performance assessments. Through r
 
 **Key Responsibilities:**
 
-- Conduct initial and periodic performance counseling sessions using the [COUNSELING FORM](/general/army-evaluation-resources) and NCO Counseling Checklist/Record for NCOs.
+- Conduct initial and periodic performance counseling sessions using the [COUNSELING FORM](/military/army-evaluation-resources) and NCO Counseling Checklist/Record for NCOs.
 
 - Accurately document performance, aligning narrative comments and bullets with observed achievements and adherence to Army Values.
 
@@ -154,7 +154,7 @@ Evaluation reports are generated for multiple reasons, including:
 ### 3. How does the rated Soldier participate in the evaluation process?
 The rated Soldier should:
 
-- Attend and engage in counseling sessions with the Rater, using tools like the [COUNSELING FORM](/general/army-evaluation-resources) and NCO Counseling Checklist to track performance goals.
+- Attend and engage in counseling sessions with the Rater, using tools like the [COUNSELING FORM](/military/army-evaluation-resources) and NCO Counseling Checklist to track performance goals.
 
 - Contribute input through support forms (e.g., OER and NCOER support forms), highlighting achievements, specific duties, and noteworthy accomplishments throughout the rating period.
 

@@ -6,7 +6,7 @@ tags: ["ai", "prompting", "ncoer", "oer", "evaluation", "military", "army"]
 # Evaluation AI Prompt
 
 ::: tip Related Resources
-[AI Prompting Guide](/ai-ml/ai-prompting) | [Army Evaluation Resources](/general/army-evaluation-resources) | [AI Resources](/ai-ml/ai-resources)
+[AI Prompting Guide](/ai-ml/ai-prompting) | [Army Evaluation Resources](/military/army-evaluation-resources) | [AI Resources](/ai-ml/ai-resources)
 :::
 
 ## Overview
@@ -366,7 +366,7 @@ Show your reasoning, then provide the final Senior Rater comments (4-5 lines).
 ## Related Resources
 
 - [AI Prompting Guide](/ai-ml/ai-prompting) - Advanced prompting techniques
-- [Army Evaluation Resources](/general/army-evaluation-resources) - Full NCOER/OER guidance
+- [Army Evaluation Resources](/military/army-evaluation-resources) - Full NCOER/OER guidance
 - [Award Bullet AI Prompt Template](/ai-ml/award-bullet-ai-prompt-template) - Award citation prompts
 - [AI Resources](/ai-ml/ai-resources) - LLM tools and platforms
 - [DA PAM 623-3](http://thenewoer.com/presentation_content/external_files/DA%20Pam%20623-3%20Dated%2031%20March%202014.pdf) - Official evaluation guidance

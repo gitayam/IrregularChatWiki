@@ -908,7 +908,7 @@ Far more about understanding risk than it is about cybersecurity. Has a wonderfu
 ### Leadership & Organizational Dynamics
 
 ::: tip Wiki Resources
-Military leadership resources: [Army Evaluations](/general/army-evaluation-resources) | [Awards Guide](/general/awards) | [Promotion Boards](/general/promotion-boards) | [SSC Quick Links](/general/ssc)
+Military leadership resources: [Army Evaluations](/military/army-evaluation-resources) | [Awards Guide](/military/awards) | [Promotion Boards](/military/promotion-boards) | [SSC Quick Links](/general/ssc)
 :::
 
 #### The Mission, the Men, and Me: Lessons from a Former Delta Force Commander
@@ -1035,7 +1035,7 @@ From the founder of Code for America and former Deputy CTO under President Obama
 ### Entrepreneurship & Innovation
 
 ::: tip Wiki Resources
-Transitioning out or starting a business? See: [Leaving Service](/general/leaving-service) | [Business Tools](/general/business) | [Credentialing Assistance](/general/credentialing-assistance)
+Transitioning out or starting a business? See: [Leaving Service](/military/leaving-service) | [Business Tools](/general/business) | [Credentialing Assistance](/military/credentialing-assistance)
 :::
 
 #### The Private Equity Playbook: Management's Guide to Working with PE Investors
@@ -1353,7 +1353,7 @@ The Department of the Air Force's free digital learning platform. Offers courses
 **Recommended course**: *100 Days of Code* - A structured Python programming course for building coding habits.
 
 - **Visit**: [Digital University](https://digitalu.af.mil/)
-- **Related**: [Certifications](/general/certifications) | [Learning Resources](/general/learning) | [Credentialing Assistance](/general/credentialing-assistance)
+- **Related**: [Certifications](/general/certifications) | [Learning Resources](/general/learning) | [Credentialing Assistance](/military/credentialing-assistance)
 
 ***
 

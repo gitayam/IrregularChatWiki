@@ -10,15 +10,15 @@ Resources for leaving service, self-service portals, evaluations, awards, promot
 
 | Resource | Description |
 |----------|-------------|
-| [Leaving Service](/general/leaving-service) | Transition assistance and civilian career guidance |
+| [Leaving Service](/military/leaving-service) | Transition assistance and civilian career guidance |
 | [SSC Quick Links](/general/ssc) | Self-service portals and common links |
-| [Army Evaluation Resources](/general/army-evaluation-resources) | OER/NCOER guides and tools |
+| [Army Evaluation Resources](/military/army-evaluation-resources) | OER/NCOER guides and tools |
 
 ## Transitioning Out
 
 ### Transition Assistance
 
-- [Leaving Service Guide](/general/leaving-service) - Comprehensive transition guide
+- [Leaving Service Guide](/military/leaving-service) - Comprehensive transition guide
 - [Practical Tips for Service to Civilian Career](https://forum.irregularchat.com/t/practical-tips-for-service-to-civilian-career/4780) - Community lessons learned
 
 ### Key Programs
@@ -93,7 +93,7 @@ See: [SSC Quick Links](/general/ssc) for complete list
 
 ### Resources
 
-- [Army Evaluation Resources](/general/army-evaluation-resources) - Comprehensive guide
+- [Army Evaluation Resources](/military/army-evaluation-resources) - Comprehensive guide
 - [Evaluation AI Prompt](/ai-ml/evaluation-ai-prompt) - AI assistance for drafting bullets
 
 ### Forms
@@ -120,7 +120,7 @@ See: [SSC Quick Links](/general/ssc) for complete list
 
 ## Awards
 
-- [Awards Guide](/general/awards) - Writing guidelines and templates
+- [Awards Guide](/military/awards) - Writing guidelines and templates
 - [Combined Awards](/general/combined-awards) - Extended awards reference
 - [Award Bullet AI Prompt](/ai-ml/award-bullet-ai-prompt-template) - AI assistance for bullets
 
@@ -135,7 +135,7 @@ See: [SSC Quick Links](/general/ssc) for complete list
 
 ## Promotion Boards
 
-- [Promotion Boards Guide](/general/promotion-boards) - Preparation and Q&A
+- [Promotion Boards Guide](/military/promotion-boards) - Preparation and Q&A
 - [Doctrine SmartBook](https://cascom.army.mil/asrp/slr/files/DoctrineSmartBookJuly2024.pdf) - Doctrine primer
 
 ### Key Regulations to Know

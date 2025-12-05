@@ -33,7 +33,7 @@ To prepare for your licensing exam, numerous resources are available:
 - ' [Amateur Radio Extra Exam 2020-2024 Flash Cards](https://ankiweb.net/shared/info/817192394)
 
 ### Training Opportunities
-Local clubs and online communities often offer classes and study sessions for aspiring ham radio operators. - [Liberty](/general/flnc) has options for getting trained and certified
+Local clubs and online communities often offer classes and study sessions for aspiring ham radio operators. - [Liberty](/community/flnc) has options for getting trained and certified
 
 ### Finding Exam Sessions
 ARRL provides resources to find in-person ham radio exam locations in your area or schedule an online exam. Online and in-person tests are given regularly. For more information, visit [Find an Amateur Radio License Exam Session](https://www.arrl.org/find-an-amateur-radio-license-exam-session).

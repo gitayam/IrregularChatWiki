@@ -20,7 +20,7 @@ This section contains general guides, resources, and documentation for the Irreg
 - [Learning Resources](/general/learning)
 - [Certifications](/general/certifications)
 - [Funding Certifications Through the Military](/general/funding-certifications-through-the-military)
-- [Credentialing Assistance](/general/credentialing-assistance)
+- [Credentialing Assistance](/military/credentialing-assistance)
 - [GWAPT](/general/gwapt) - Web Application Penetration Tester
 - [GCFA](/general/gcfa) - Certified Forensic Analyst
 - [CASP](/general/casp) - CompTIA Advanced Security Practitioner
@@ -76,13 +76,13 @@ This section contains general guides, resources, and documentation for the Irreg
 
 ## Military & Government
 
-- [Army Evaluation Resources](/general/army-evaluation-resources)
-- [Awards](/general/awards)
-- [Promotion Boards](/general/promotion-boards)
+- [Army Evaluation Resources](/military/army-evaluation-resources)
+- [Awards](/military/awards)
+- [Promotion Boards](/military/promotion-boards)
 - [DTS SATO Travel](/general/dts-sato-travel)
 - [Forms](/general/forms)
 - [Information for National Guard and Reserve](/general/information-for-national-guard-and-reserve-service-members)
-- [Leaving Service](/general/leaving-service)
+- [Leaving Service](/military/leaving-service)
 
 ## Radio & Communications
 

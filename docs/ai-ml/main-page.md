@@ -65,7 +65,7 @@ The community section requires login; it houses chat archives and more:
 
 - [Topics in Unmanned Systems](/general/unmanned-systems)
 
-- [Contributions](/general/unsorted) from chats that need organization.
+- [Contributions](/general/) from chats that need organization.
 
 - [Guides](/server-guides/)
 
