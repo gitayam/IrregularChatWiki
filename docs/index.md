@@ -29,24 +29,27 @@ features:
   - title: AI & Autonomy
     details: LLM guides, AI ethics, prompt engineering, and autonomous systems resources.
     link: /ai-ml/
+  - title: Hardware & Fabrication
+    details: 3D printing, Flipper Zero, SDRs, and other hardware-related topics.
+    link: /hardware/
+  - title: Infrastructure & Self-Hosting
+    details: Self-hosting Matrix, Ansible automation, Docker deployments, and cloud setup.
+    link: /infrastructure/
+  - title: Cybersecurity
+    details: Guides, tools, and resources for both offensive and defensive cybersecurity.
+    link: /cybersecurity/
   - title: Information Warfare
     details: TAAW methodology, influence operations, COG analysis, and strategic communications.
     link: /general/information-warfare
   - title: Unmanned Systems
     details: sUAS operations, counter-UAS, FPV drones, and drone deployment guides.
     link: /general/unmanned-systems
-  - title: Certifications & Learning
-    details: Military credentialing, certification guides, and professional development resources.
-    link: /general/certifications-and-learning
   - title: Military & Career
     details: Leaving service, SSC, evaluations, awards, promotion boards, and career advice.
-    link: /general/military-and-career
+    link: /military/
   - title: RF/SDR/Communications
     details: Software defined radio, DragonOS, Flipper Zero, HAM radio, and RF guides.
     link: /radio/
-  - title: Server & Infrastructure
-    details: Self-hosting Matrix, Ansible automation, Docker deployments, and cloud setup.
-    link: /server-guides/
 ---
 
 # Welcome to IrregularChat
