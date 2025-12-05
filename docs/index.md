@@ -23,6 +23,9 @@ features:
   - title: Research & OSINT
     details: Open source intelligence, research methodologies, datasets, and analytical frameworks.
     link: /research/
+  - title: Development
+    details: Software engineering guides, development environments, and community projects.
+    link: /development/software-engineering
   - title: AI & Autonomy
     details: LLM guides, AI ethics, prompt engineering, and autonomous systems resources.
     link: /ai-ml/
