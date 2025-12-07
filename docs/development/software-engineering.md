@@ -15,6 +15,7 @@ This page is a central resource for software engineers in the IrregularChat comm
 
 ## AI Assistants
 
+- **[Full-Stack Development with AI](./full-stack-development-with-ai.md)**: A guide to leveraging AI in your development workflow.
 - **[AI & Autonomy](/ai-ml/)**: The main portal for all AI/ML-related topics, including learning guides and tools.
 - **[AI Prompting Guide](/ai-ml/ai-prompting)**: A comprehensive guide on how to effectively use AI models.
 - **[Large Language Models](/general/large-language-models)**: An introduction to "Knowledge Management Assistants" and the underlying LLM technologies.
