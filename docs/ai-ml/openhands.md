@@ -72,7 +72,7 @@ services:
 ```
 3. start this service with `cd /home/user/openhands && docker-compose up -d`
 4. wait a few minutes for the service to start and then you should be able to access the web interface at localhost:3000 in your browser. or remote IP address if you've installed it on a remote server, I use tailscale to access this from my laptop while I'm away.
-5. once the webpage is open you will need to configure openhands to use your custom model. open `settings -> LLM` and input the following information in Custom Model we set openai/<modelname> to tell openhands that this is served over an openai compatible api.
+5. once the webpage is open you will need to configure openhands to use your custom model. open `settings -> LLM` and input the following information in Custom Model we set openai/`<modelname>` to tell openhands that this is served over an openai compatible api.
     - Custom Model: `openai/devstral`
     - Base URL: http://`<your IP address>`:8000/v1
     - API Key: `<blank>` or anything vllm doesn't parse this by default
