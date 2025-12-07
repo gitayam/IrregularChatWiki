@@ -4,7 +4,9 @@ title: "RF/SDR/Communications"
 
 # RF/SDR/Communications
 
-Software defined radio, DragonOS, Flipper Zero, HAM radio licensing, and RF communications resources.
+## RF Learning
+
+*   [RF Learning Pipeline](/radio/rf-learning-pipeline) - A comprehensive guide to learning RF engineering concepts, skills, and certifications.
 
 ## Getting Started
 
