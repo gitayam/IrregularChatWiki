@@ -6,7 +6,7 @@ This guide explores how to leverage AI, particularly large language models (LLMs
 
 While large, cloud-based models like Claude and Gemini are incredibly powerful, there's a growing movement towards using smaller, self-hosted models for day-to-day development tasks. The core idea is that for well-defined, smaller tasks, these models are "good enough" and offer significant advantages in terms of cost, privacy, and control.
 
-Instead of "one-shotting" a large codebase, which can be difficult to review and debug, the agentic approach breaks down development into smaller, manageable tasks that are assigned to AI agents.
+Instead of "one-shotting" a large codebase, which can be difficult to review and debug, the agentic approach breaks down development into smaller, manageable tasks that are assigned to AI agents. For small, well-defined tasks, the difference in output between self-hosted and cloud models may not be significant, making self-hosted options more practical. Keeping context concise remains a key factor for optimal performance across all models.
 
 ## Core Components of an AI-Powered Workflow
 
@@ -20,12 +20,13 @@ Self-hosting your own LLMs gives you complete control over your data and elimina
 *   **Hardware:** Self-hosting requires significant GPU resources. A setup with dual NVIDIA 3090s (providing around 48GB of VRAM) is a good starting point for models like `Devstral-Small`.
 *   **Serving Models:** [vLLM](https://github.com/vllm-project/vllm) is a high-throughput and memory-efficient inference and serving engine for LLMs. It can be deployed using Docker.
 
-### 2. Agentic Coding Harnesses
+### 2. Agentic Coding Harnesses & AI-Enhanced Shells
 
-An agentic harness is a tool that provides an LLM with the capabilities to interact with your development environment (e.g., file system, shell, web browser).
+An agentic harness is a tool that provides an LLM with the capabilities to interact with your development environment (e.g., file system, shell, web browser). AI-enhanced shells further streamline terminal interactions.
 
 *   **[OpenHands](https://github.com/All-Hands-AI/OpenHands):** An open-source agent that can execute complex tasks and is designed to work with a variety of models. It can be deployed via Docker and connected to your self-hosted LLM.
 *   **[cline.bot](https://github.com/Aider-Chat/cline.bot):** A command-line tool that lets you code with AI agents in your terminal.
+*   **Warp:** An AI-enhanced terminal that offers advanced features like intelligent tab completion, AI-corrected prompts, and controlled "yolo" execution (auto-acceptance of commands). It allows for "warp-izing" shells over SSH, enabling context to follow across different shell sessions and remote servers. Warp can identify and help maintain context, suggesting modifications when context becomes "muddied."
 
 These tools can be used to automate tasks like writing code, fixing bugs, and even submitting merge requests based on issues in your project management system.
 
@@ -34,8 +35,9 @@ These tools can be used to automate tasks like writing code, fixing bugs, and ev
 AI can be integrated into your project management workflow to automate tedious tasks.
 
 *   **Task Evaluation:** A larger, more powerful model can be used to analyze the complexity of new tasks, assign labels, and manage backlogs.
-*   **Integration with Gitlab/GitHub:** By using the APIs of platforms like Gitlab, you can create agents that automatically create issues, assign tasks, and manage merge requests.
+*   **Integration with Gitlab/GitHub:** By using the APIs of platforms like Gitlab/GitHub, you can create agents that automatically create issues, assign tasks, and manage merge requests. AI agents can directly interact with these platforms, sending commits and managing project activities.
 *   **Structured Projects:** A well-structured project with a clear "vision" document, phases, milestones, and sprints makes it easier for AI agents to understand the context and contribute effectively.
+*   **Advanced Workflows:** Complex workflows can involve using multiple AI agents in parallel, for example, running several Claude instances within `tmux` sessions to concurrently work on different `git worktrees` or resolve GitHub issues.
 
 ## Advanced Concepts
 
@@ -51,7 +53,7 @@ As you build more complex systems, you'll likely need multiple specialized agent
 A shared knowledge base or "hivemind" can be created using a key-value store like Redis.
 
 *   **[Upstash](https://upstash.com/):** A serverless Redis provider that offers a generous free tier, making it easy to get started.
-*   **Coordination:** Agents can connect to the Redis instance to share information, coordinate tasks, and maintain a consistent state.
+*   **Coordination:** Agents can connect to the Redis instance to share information, coordinate tasks, and maintain a consistent state, forming a "hivemind" for distributed agents. HuggingFace spaces can be used to spin up infrastructure for these agents.
 
 ### Code Execution with MCP (Model Context Protocol)
 
@@ -60,18 +62,25 @@ A more efficient way to expose tools to an LLM is to use the "Code Mode" approac
 *   **The Concept:** Instead of giving the LLM a list of tools, you provide it with a TypeScript API definition. The LLM then writes code to call that API.
 *   **Benefits:** This can significantly reduce the number of tokens required for tool use, making your agents faster and more cost-effective.
 
+## Mobile Development with AI
+
+*   **Claude Code on the Web:** Offers capabilities for coding directly on mobile devices, providing a "game changer" experience for on-the-go development.
+
 ## Recommended Tools and Technologies
 
-*   **Models:** Devstral-Small, Mistral, Qwen
+*   **Models:** Devstral-Small, Mistral, Qwen, Claude
 *   **Model Serving:** vLLM, Docker
 *   **Agentic Harnesses:** OpenHands, cline.bot
+*   **AI-Enhanced Shells:** Warp
 *   **Project Management:** Gitlab, GitHub
 *   **A2A Communication:** A2A Protocol, Agno
 *   **Shared State:** Redis (Upstash)
 *   **Frontend (Lightweight):** [HTMX](https://htmx.org/)
 *   **IDE:** VSCode, JupyterLab
+*   **Mobile Development:** Claude Code on the Web
 
 ## See Also
 
 *   [Software Engineering](./software-engineering.md)
 *   [OpenHands Guide](../ai-ml/openhands.md)
+
