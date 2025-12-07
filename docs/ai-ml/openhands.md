@@ -3,8 +3,23 @@
 OpenHands is an open source agentic coding harness. It works similar to cursor or claude code through a web instance. It is deployed as a docker compose and can be connected to many LLMs. This guide aims to provide a fully local or at least privately hosted coding environment, so we will also be deploying Devstral-Small using vllm.
 
 **Requirements**:
-- Linux server with docker and docker-compose installed
-- Linux server with an nvidia GPU (minimum 48GB vram) 2x 3090s works great
+- Linux server with Docker and Docker Compose installed.
+- A Linux server with at least one NVIDIA GPU with enough VRAM for your chosen model. For `Devstral-Small`, a minimum of 40GB of VRAM is recommended.
+
+## Hardware Considerations
+
+For self-hosting Large Language Models (LLMs), the graphics card (GPU) and its available video RAM (VRAM) are the most critical components. The model you choose will determine the amount of VRAM you need.
+
+### The Dual RTX 3090 Setup: A Great Value
+
+A popular and cost-effective setup for self-hosting capable models is a pair of NVIDIA RTX 3090 GPUs.
+
+*   **Large VRAM Capacity:** Two RTX 3090s provide a combined 48GB of VRAM (24GB each). This is crucial for loading large models like `Devstral-Small` (which requires ~40GB) or other 70B parameter models.
+*   **NVLink Support:** The RTX 3090 supports NVLink, allowing the two GPUs to be bridged for faster interconnect speed. This can improve performance and efficiency when a model is split across both cards. The newer RTX 4090, in contrast, does not support NVLink.
+*   **Cost-Effectiveness:** Especially when purchased used, two RTX 3090s can offer a better price-to-performance ratio for VRAM than a single, newer high-end card.
+*   **Power and Cooling:** Be aware that this setup is power-hungry. Each RTX 3090 can draw up to 350W, so a robust power supply (1000W+) and good case airflow are essential.
+
+While newer cards like the RTX 4090 offer higher raw performance, the dual 3090 setup remains a strong contender for developers and researchers who need a large VRAM pool for a reasonable cost.
 
 ## Devstral
 
