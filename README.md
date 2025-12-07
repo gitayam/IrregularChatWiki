@@ -110,6 +110,26 @@ Your content here...
 - [Related Topic](./related-topic.md)
 ```
 
+### Vitepress HTML Parsing
+
+Vitepress uses a strict HTML parser. If you use angle brackets (`<` or `>`) in your markdown, they might be interpreted as HTML tags. This can cause the build to fail with an "Element is missing end tag" error.
+
+To avoid this, you should escape these characters or enclose them in backticks.
+
+**Incorrect:**
+```
+This is a <custom> tag.
+```
+
+**Correct:**
+```
+This is a `<custom>` tag.
+```
+or
+```
+This is a &lt;custom&gt; tag.
+```
+
 ## Architecture
 
 ### How It Works
