@@ -23,6 +23,8 @@ Search for "AI on Government Systems" on intellipedia on any enclave to find the
 
 ### NIPR Level LLMs
 
+- GenAI.mil: https://genai.mil/ - DoD generative AI platform accessible from NIPR. Currently running Gemini 2.5.
+
 - NIPRGPT: https://niprgpt.mil/
 
 Context:
