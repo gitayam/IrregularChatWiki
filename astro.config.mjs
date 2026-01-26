@@ -227,6 +227,7 @@ export default defineConfig({
             { label: 'Reading List', slug: 'community/community-reading-list' },
             { label: 'Skills Exchange', slug: 'community/community-skills-exchange' },
             { label: 'Discourse Guidelines', slug: 'community/discourse' },
+            { label: 'Obsidian + GitHub Guide', slug: 'community/obsidian-github-guide' },
             { label: 'About This Wiki', slug: 'community/about-this-wiki' },
           ],
         },
