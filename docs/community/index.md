@@ -11,7 +11,8 @@ Welcome to the IrregularChat community resources. Here you'll find guides for jo
 
 | Resource | Description |
 |----------|-------------|
-| [Join IrregularChat](/community/join) | How to join the community |
+| [User Validation](/community/user-validation) | **NEW** How to invite/verify new members (vouching process) |
+| [Join IrregularChat](/community/join) | SSO account setup and access |
 | [Welcome Guide](/community/welcome) | Introduction for new members |
 | [Discourse Guidelines](/community/discourse) | Community discussion rules and principles |
 | [About This Wiki](/community/about-this-wiki) | How this wiki works, architecture, and how to contribute |

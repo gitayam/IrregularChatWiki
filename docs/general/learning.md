@@ -26,7 +26,8 @@ Find community-shared posts about learning [here](https://forum.irregularchat.co
 
 #### Udemy for Military
 
-- [Free if you sign up and verify with a .mil email.](https://digitalu.af.mil/)
+- [DigitalU (Air Force)](https://digitalu.af.mil/) - Free if you sign up and verify with a .mil email.
+- [Udemy via GALE](https://qrco.de/galeudemy) - Free Udemy account access for active duty military through military libraries.
 
 #### O’Reilly
 

@@ -89,7 +89,8 @@ Military credentialing programs, certification guides, free learning resources, 
 
 | Platform | Access | Description |
 |----------|--------|-------------|
-| [Udemy for Military](https://digitalu.af.mil/) | .mil email | Free courses |
+| [Udemy for Military (DigitalU)](https://digitalu.af.mil/) | .mil email | Free courses via Air Force |
+| [Udemy via GALE](https://qrco.de/galeudemy) | Active Duty | Free Udemy account access through military libraries |
 | [O'Reilly](https://www.oreilly.com/self-registration/dod-mwr-libraries-army/) | MWR Libraries | Technical books and videos |
 | [DC3 Cyber Training](https://www.dcita.edu/) | DoD | Forensics and cyber fundamentals |
 | [Army eLearning](https://usarmy.percipio.com/) | Army | CompTIA prep and more |
