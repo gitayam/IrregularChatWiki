@@ -4,144 +4,143 @@ description: IrregularChat Knowledge Base - Community-driven resources for secur
 template: splash
 hero:
   title: Irregularpedia
-  tagline: Community-driven resources for security, privacy, research, and technology
+  tagline: Where operators, researchers, and builders share knowledge. Break silos. Build together.
   image:
     file: ../../assets/logo.png
   actions:
     - text: Browse Wiki
-      link: /general/
+      link: /research/
       icon: right-arrow
       variant: primary
-    - text: 2026 Recommendations
-      link: /community/2026-recommendations/
-      icon: star
-    - text: IrregularChat Login
+    - text: Join Community
+      link: /community/join/
+      icon: add-document
+    - text: Login
       link: https://sso.irregularchat.com
-      icon: external
-    - text: Forum
-      link: https://forum.irregularchat.com
       icon: external
 ---
 
-import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import { Card, CardGrid, LinkCard, Tabs, TabItem, Steps, Badge } from '@astrojs/starlight/components';
 
-## Featured Sections
+## Explore by Topic
 
-<CardGrid stagger>
+<CardGrid>
   <Card title="Research & OSINT" icon="magnifier">
-    Open source intelligence, research methodologies, datasets, and analytical frameworks.
+    Open source intelligence, research methodologies, analytical frameworks, and datasets for investigators.
 
     [Explore Research →](/research/)
   </Card>
   <Card title="AI & Autonomy" icon="rocket">
-    LLM guides, AI ethics, prompt engineering, and autonomous systems resources.
+    LLM guides, prompt engineering, AI ethics, and resources for building with autonomous systems.
 
     [Explore AI/ML →](/ai-ml/)
   </Card>
   <Card title="Cybersecurity" icon="warning">
-    Guides, tools, and resources for both offensive and defensive cybersecurity.
+    Offensive and defensive security guides, incident response, mobile hardening, and red team resources.
 
     [Explore Security →](/cybersecurity/)
   </Card>
   <Card title="Infrastructure" icon="setting">
-    Self-hosting Matrix, Ansible automation, Docker deployments, and cloud setup.
+    Self-hosting guides for Matrix, Docker, Ansible automation, and cloud deployments.
 
     [Explore Infrastructure →](/infrastructure/)
   </Card>
 </CardGrid>
 
 <CardGrid>
-  <LinkCard title="Information Warfare" description="TAAW methodology, influence operations, COG analysis" href="/general/information-warfare/" />
-  <LinkCard title="Unmanned Systems" description="sUAS operations, counter-UAS, FPV drones" href="/general/unmanned-systems/" />
-  <LinkCard title="RF/SDR/Communications" description="Software defined radio, DragonOS, HAM radio" href="/radio/" />
-  <LinkCard title="Military & Career" description="Evaluations, awards, promotion boards, career advice" href="/military/" />
+  <LinkCard title="Information Warfare" description="TAAW methodology, influence ops, COG analysis, PMESII-PT" href="/general/information-warfare/" />
+  <LinkCard title="Unmanned Systems" description="sUAS operations, FPV drones, counter-UAS tactics" href="/general/unmanned-systems/" />
+  <LinkCard title="RF & Communications" description="Software defined radio, DragonOS, HAM, Flipper Zero" href="/radio/" />
+  <LinkCard title="Certs & Learning" description="Certifications, training resources, career development" href="/general/certifications-and-learning/" />
 </CardGrid>
 
 ---
 
-## Welcome to IrregularChat
+## Getting Started
 
-The **IrregularChat** Community of Interest (COI) is where tech enthusiasts, researchers, and innovators converge. This wiki is a dynamic space to discuss the latest in technology, share knowledge, and collaborate on projects.
+<Steps>
 
-*Embrace a spirit of professional impatience and be ready to break down silos!*
+1. **Create your account**
 
-### Rules of Engagement
+   [Login via IrregularChat SSO](https://sso.irregularchat.com) to access all community resources.
 
-For the full list and community FAQ see the [IrregularChat Forum](https://forum.irregularchat.com/t/irregularchat-community-faq-guidelines/4).
+2. **Join the conversation**
 
-1. Leave your rank and ego at the door.
-2. Stay on topic to maintain focus. Mark jokes and sarcasm with `/j` or `/s`. Do NOT joke about leaking or spilling classified information.
-3. Avoid sharing confidential, personally identifiable information (PII) or classified information. Encryption does not make it permissible.
-4. Chatham House Rule used throughout, unless stated otherwise.
-5. Don't be disrespectful to members.
-6. Engage with the Wiki and Forum - fill gaps, correct inaccuracies, create missing pages.
+   Ask questions on [Q&A](https://qa.irregulars.io) or discuss topics on the [Forum](https://forum.irregularchat.com).
 
-### Getting Started
+3. **Explore and contribute**
 
-| Step | Action |
-|------|--------|
-| 1. Login | [IrregularChat Login](https://sso.irregularchat.com) (login required) |
-| 2. GitHub | [IrregularChat GitHub](https://github.com/orgs/irregularchat/dashboard) (login required) |
-| 3. Explore | Browse this wiki using search or navigation |
-| 4. Contribute | Edit pages and share your knowledge |
+   Browse the wiki, find gaps, and edit pages to share your knowledge.
 
-### Quick Links
-
-| Category | Links |
-|----------|-------|
-| Learning | [Resources](/general/learning/) · [Certifications](/general/certifications/) |
-| Research | [Research Tools](https://researchtools.net) · [Datasets](/research/research-datasets/) |
-| AI/ML | [AI Resources](/ai-ml/ai-resources/) · [LLM Guides](/ai-ml/) |
-| Business | [Business Tools](/general/business/) |
-| Security | [Cybersecurity](/cybersecurity/) · [Privacy](/privacy/) |
-
-### Community Hub
-
-- [Technology Discussions](https://forum.irregularchat.com/c/general/4)
-- [AI/ML Discussions](https://forum.irregularchat.com/tag/ai)
-- [Business Discussions](https://forum.irregularchat.com/tag/business)
-- [Unmanned Systems](/general/unmanned-systems/)
-- [Server Guides](/server-guides/)
+</Steps>
 
 ---
 
-## Sharing Content
+## Quick Access
 
-### Before Posting
-
-1. **Search first** - Check the wiki and [Forum](https://forum.irregularchat.com) before sharing
-2. **Add context** - Share context, not just links
-3. **Use tags** - Use #tagged categories for organization
-4. **Scan files** - Use [VirusTotal](https://www.virustotal.com/gui/home/upload) for any downloads
-
-### Bypassing Paywalls
-
-| Tool | Link |
-|------|------|
-| Archive.is | [archive.is](https://archive.is/) |
-| Archive.ph | [archive.ph](https://archive.ph/) |
-| 12ft.io | [12ft.io](https://12ft.io/) |
-| PaywallHub | [paywallhub.com](https://paywallhub.com/) |
-| Internet Archive | [archive.org](https://archive.org/) |
-
-### Privacy-Friendly Frontends
-
-| Service | Alternative |
-|---------|-------------|
-| TikTok | [ProxiTok Instances](https://github.com/pablouser1/ProxiTok/wiki/Public-instances#clearnet) |
-| YouTube | [Invidious Instances](https://docs.invidious.io/instances/) |
+<Tabs>
+  <TabItem label="New Here?" icon="open-book">
+    **Start with these essentials:**
+    - [Community Guidelines](/community/discourse/) — How we communicate
+    - [2026 Recommendations](/community/2026-recommendations/) — Current year picks
+    - [General Advice](/community/general-advice/) — Wisdom from the community
+    - [Reading List](/community/community-reading-list/) — Foundational resources
+  </TabItem>
+  <TabItem label="Operators" icon="rocket">
+    **Field-relevant resources:**
+    - [Research Preparation](/research/research-preparation/) — Before you start
+    - [Structured Analytic Techniques](/general/structured-analytic-techniques-sats/) — SATs overview
+    - [TAAW Review](/general/taaw-review/) — Target audience analysis
+    - [Unmanned Systems Guide](/general/guide-to-unmanned-systems/) — UxS fundamentals
+  </TabItem>
+  <TabItem label="Builders" icon="setting">
+    **Technical deep-dives:**
+    - [Linux Server Setup](/server-guides/linux-server-initial-setup/) — Foundation config
+    - [Docker Guide](/server-guides/docker/) — Container basics
+    - [Matrix Deployment](/matrix/ansible-for-matrix-deployment/) — Secure comms
+    - [Privacy Tools](/privacy/) — OPSEC essentials
+  </TabItem>
+  <TabItem label="Career" icon="document">
+    **Professional development:**
+    - [Certifications](/general/certifications/) — Industry certs guide
+    - [Learning Resources](/general/learning/) — Skill building
+    - [Leaving Service](/military/leaving-service/) — Transition guide
+    - [Credentialing Assistance](/military/credentialing-assistance/) — Military benefits
+  </TabItem>
+</Tabs>
 
 ---
 
-## Security Reminders
+## Community Links
 
-:::caution[When Consuming Shared Content]
-- **Trust cautiously** - Always double-check URLs
-- **Use virtual environments** - Consider [Kasm](https://vm.irregularchat.com/) for untrusted content
-- **Scan files** - Use [VirusTotal](https://www.virustotal.com/gui/home/upload) before opening
-- **Report issues** - Spot a vulnerability? Report it immediately with context
+<CardGrid>
+  <LinkCard title="Q&A Forum" description="Ask questions, get answers from the community" href="https://qa.irregulars.io" />
+  <LinkCard title="Discussion Forum" description="Long-form discussions and announcements" href="https://forum.irregularchat.com" />
+  <LinkCard title="GitHub" description="Code repositories and open source projects" href="https://github.com/irregularchat" />
+  <LinkCard title="Research Tools" description="External tools collection at researchtools.net" href="https://researchtools.net" />
+</CardGrid>
+
+---
+
+## Rules of Engagement
+
+:::note[Community Standards]
+1. **Leave rank and ego at the door** — We're all here to learn
+2. **Stay on topic** — Mark jokes with `/j` or `/s`
+3. **No classified or PII** — Encryption doesn't make it okay
+4. **Chatham House Rule** — What's said here stays here
+5. **Be respectful** — Disagree professionally
+6. **Contribute back** — Fill gaps, fix errors, create content
 :::
 
+For the full community FAQ, see the [Forum Guidelines](https://forum.irregularchat.com/t/irregularchat-community-faq-guidelines/4).
+
 ---
 
-*This wiki is continually evolving. Use the navigation, search bar, or links above to explore. Logged-in users can edit and create pages to contribute to our collective knowledge.*
+:::tip[Before Sharing Content]
+**Search first** — Check the wiki and forum before posting duplicates.
+**Add context** — Share insights, not just links.
+**Scan files** — Use [VirusTotal](https://www.virustotal.com/gui/home/upload) for downloads.
+:::
+
+*This wiki evolves continuously. Use search, navigation, or the links above to explore. Contributors can edit any page.*
