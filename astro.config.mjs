@@ -1,5 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import mermaid from 'astro-mermaid';
+import plantuml from 'astro-plantuml';
+import liveCode from 'astro-live-code';
 // import starlightObsidian from 'starlight-obsidian'; // Disabled - requires Obsidian vault setup
 import starlightTags from 'starlight-tags';
 import starlightSiteGraph from 'starlight-site-graph';
@@ -8,11 +11,17 @@ import starlightScrollToTop from 'starlight-scroll-to-top';
 import starlightPageActions from 'starlight-page-actions';
 import starlightUITweaks from 'starlight-ui-tweaks';
 import starlightVideos from 'starlight-videos';
-// import starlightKbd from 'starlight-kbd'; // Requires keyboard shortcut definitions
+import starlightKbd from 'starlight-kbd';
 
 export default defineConfig({
   site: 'https://irregularpedia.org',
   integrations: [
+    // Mermaid must be before starlight for proper diagram rendering
+    mermaid({
+      theme: 'default',
+    }),
+    plantuml(),
+    liveCode(),
     starlight({
       title: 'Irregularpedia',
       description: 'IrregularChat Knowledge Base - Community-driven resources for security, privacy, research, and technology',
@@ -41,7 +50,13 @@ export default defineConfig({
         starlightPageActions(),
         starlightUITweaks(),
         starlightVideos(),
-        // starlightKbd(), // Requires keyboard shortcut definitions
+        starlightKbd({
+          types: [
+            { id: 'mac', label: 'macOS', default: true },
+            { id: 'windows', label: 'Windows' },
+            { id: 'linux', label: 'Linux' },
+          ],
+        }),
       ],
       head: [
         {
