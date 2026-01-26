@@ -1,0 +1,60 @@
+/* IrregularChat Wiki Custom Styles */
+
+:root {
+  /* Theme color from VitePress config */
+  --sl-color-accent-low: #1a5f3e;
+  --sl-color-accent: #3eaf7c;
+  --sl-color-accent-high: #6fcf97;
+
+  /* Improve readability */
+  --sl-content-width: 50rem;
+}
+
+/* Tag section styling - migrated from VitePress */
+.tag-section {
+  margin-bottom: 2rem;
+}
+
+.tag-section h2 {
+  text-transform: capitalize;
+  border-bottom: 1px solid var(--sl-color-gray-5);
+  padding-bottom: 0.5rem;
+}
+
+.tag-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tag-section li {
+  padding: 0.25rem 0;
+}
+
+/* Code block line numbers - match VitePress behavior */
+.expressive-code .ec-line .line-number {
+  display: inline-block;
+  width: 2em;
+  text-align: right;
+  padding-right: 1em;
+  color: var(--sl-color-gray-4);
+  user-select: none;
+}
+
+/* Improve callout/admonition styling */
+.starlight-aside {
+  border-radius: 0.5rem;
+}
+
+/* Footer styling */
+footer.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 1px solid var(--sl-color-gray-5);
+  margin-top: 2rem;
+}
+
+footer.site-footer p {
+  margin: 0.25rem 0;
+  color: var(--sl-color-gray-3);
+  font-size: 0.875rem;
+}

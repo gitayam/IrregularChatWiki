@@ -1,0 +1,13 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props}>
+  <slot />
+</Default>
+
+<footer class="site-footer">
+  <p>IrregularChat Community Wiki</p>
+  <p>Copyright &copy; {new Date().getFullYear()} IrregularChat Community</p>
+</footer>

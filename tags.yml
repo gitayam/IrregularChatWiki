@@ -1,0 +1,410 @@
+# Starlight Tags Configuration
+# Define tags used throughout the wiki
+
+defaults:
+  color: "#6b7280"
+
+tags:
+  # AI & Machine Learning
+  ai:
+    label: "AI"
+    description: "Artificial Intelligence related content"
+    color: "#3b82f6"
+  ml:
+    label: "ML"
+    description: "Machine Learning resources and guides"
+    color: "#3b82f6"
+  llm:
+    label: "LLM"
+    description: "Large Language Model guides and resources"
+    color: "#3b82f6"
+  chatgpt:
+    label: "ChatGPT"
+    description: "ChatGPT-specific content"
+    color: "#3b82f6"
+  claude:
+    label: "Claude"
+    description: "Claude AI related content"
+    color: "#3b82f6"
+  prompting:
+    label: "Prompting"
+    description: "AI prompting techniques and guides"
+    color: "#3b82f6"
+  prompt-engineering:
+    label: "Prompt Engineering"
+    description: "Prompt engineering techniques"
+    color: "#3b82f6"
+
+  # Community
+  community:
+    label: "Community"
+    description: "Community-related content"
+    color: "#10b981"
+  irregularchat:
+    label: "IrregularChat"
+    description: "IrregularChat specific content"
+    color: "#10b981"
+  onboarding:
+    label: "Onboarding"
+    description: "Onboarding guides and resources"
+    color: "#10b981"
+  verification:
+    label: "Verification"
+    description: "Verification processes"
+    color: "#10b981"
+
+  # Research & OSINT
+  research:
+    label: "Research"
+    description: "Research methodologies and tools"
+    color: "#8b5cf6"
+  osint:
+    label: "OSINT"
+    description: "Open Source Intelligence"
+    color: "#8b5cf6"
+  tools:
+    label: "Tools"
+    description: "Tools and utilities"
+    color: "#8b5cf6"
+  network-analysis:
+    label: "Network Analysis"
+    description: "Network analysis techniques"
+    color: "#8b5cf6"
+  visualization:
+    label: "Visualization"
+    description: "Data visualization"
+    color: "#8b5cf6"
+  social-network-analysis:
+    label: "Social Network Analysis"
+    description: "Social network analysis"
+    color: "#8b5cf6"
+  gephi:
+    label: "Gephi"
+    description: "Gephi network visualization"
+    color: "#8b5cf6"
+
+  # Security
+  security:
+    label: "Security"
+    description: "Security-related content"
+    color: "#ef4444"
+  cybersecurity:
+    label: "Cybersecurity"
+    description: "Cybersecurity guides and resources"
+    color: "#ef4444"
+  red-team:
+    label: "Red Team"
+    description: "Red team operations"
+    color: "#ef4444"
+  pentesting:
+    label: "Pentesting"
+    description: "Penetration testing"
+    color: "#ef4444"
+  penetration-testing:
+    label: "Penetration Testing"
+    description: "Penetration testing guides"
+    color: "#ef4444"
+  physical-security:
+    label: "Physical Security"
+    description: "Physical security testing"
+    color: "#ef4444"
+  opsec:
+    label: "OPSEC"
+    description: "Operations security"
+    color: "#ef4444"
+  dfp:
+    label: "DFP"
+    description: "Digital footprint protection"
+    color: "#ef4444"
+
+  # Privacy
+  privacy:
+    label: "Privacy"
+    description: "Privacy-related content"
+    color: "#f97316"
+
+  # Military & Career
+  military:
+    label: "Military"
+    description: "Military-related content"
+    color: "#eab308"
+  army:
+    label: "Army"
+    description: "Army-specific content"
+    color: "#eab308"
+  career:
+    label: "Career"
+    description: "Career development resources"
+    color: "#eab308"
+  awards:
+    label: "Awards"
+    description: "Awards and recognition"
+    color: "#eab308"
+  ncoer:
+    label: "NCOER"
+    description: "NCOER evaluation content"
+    color: "#eab308"
+  oer:
+    label: "OER"
+    description: "OER evaluation content"
+    color: "#eab308"
+  evaluation:
+    label: "Evaluation"
+    description: "Evaluation guides"
+    color: "#eab308"
+  writing:
+    label: "Writing"
+    description: "Writing guides and templates"
+    color: "#eab308"
+
+  # Learning & Education
+  learning:
+    label: "Learning"
+    description: "Learning resources"
+    color: "#14b8a6"
+  certifications:
+    label: "Certifications"
+    description: "Professional certifications"
+    color: "#14b8a6"
+  education:
+    label: "Education"
+    description: "Educational content"
+    color: "#14b8a6"
+  resources:
+    label: "Resources"
+    description: "General resources"
+    color: "#14b8a6"
+  training:
+    label: "Training"
+    description: "Training materials"
+    color: "#14b8a6"
+
+  # Technical
+  docker:
+    label: "Docker"
+    description: "Docker containerization"
+    color: "#06b6d4"
+  containers:
+    label: "Containers"
+    description: "Container technologies"
+    color: "#06b6d4"
+  devops:
+    label: "DevOps"
+    description: "DevOps practices"
+    color: "#06b6d4"
+  server:
+    label: "Server"
+    description: "Server administration"
+    color: "#06b6d4"
+  self-hosting:
+    label: "Self-Hosting"
+    description: "Self-hosting guides"
+    color: "#06b6d4"
+  linux:
+    label: "Linux"
+    description: "Linux administration"
+    color: "#06b6d4"
+  bash:
+    label: "Bash"
+    description: "Bash scripting"
+    color: "#06b6d4"
+  shell:
+    label: "Shell"
+    description: "Shell scripting"
+    color: "#06b6d4"
+  programming:
+    label: "Programming"
+    description: "Programming guides"
+    color: "#06b6d4"
+
+  # Hardware & Fabrication
+  devices:
+    label: "Devices"
+    description: "Device guides"
+    color: "#ec4899"
+  fabrication:
+    label: "Fabrication"
+    description: "Fabrication and making"
+    color: "#ec4899"
+  3d-printing:
+    label: "3D Printing"
+    description: "3D printing guides"
+    color: "#ec4899"
+  drop:
+    label: "Drop"
+    description: "Drop devices"
+    color: "#ec4899"
+
+  # Communications
+  matrix:
+    label: "Matrix"
+    description: "Matrix chat protocol"
+    color: "#6366f1"
+  chat:
+    label: "Chat"
+    description: "Chat and messaging"
+    color: "#6366f1"
+  element:
+    label: "Element"
+    description: "Element Matrix client"
+    color: "#6366f1"
+  signal:
+    label: "Signal"
+    description: "Signal messenger"
+    color: "#6366f1"
+
+  # Mobile
+  mobile:
+    label: "Mobile"
+    description: "Mobile device content"
+    color: "#84cc16"
+  android:
+    label: "Android"
+    description: "Android-specific content"
+    color: "#84cc16"
+  ios:
+    label: "iOS"
+    description: "iOS-specific content"
+    color: "#84cc16"
+  gsm:
+    label: "GSM"
+    description: "GSM technology"
+    color: "#84cc16"
+
+  # Unmanned Systems
+  suas:
+    label: "sUAS"
+    description: "Small Unmanned Aircraft Systems"
+    color: "#f59e0b"
+  drones:
+    label: "Drones"
+    description: "Drone-related content"
+    color: "#f59e0b"
+  certification:
+    label: "Certification"
+    description: "Certification guides"
+    color: "#f59e0b"
+  faa:
+    label: "FAA"
+    description: "FAA regulations"
+    color: "#f59e0b"
+
+  # Content & Media
+  recommendations:
+    label: "Recommendations"
+    description: "Community recommendations"
+    color: "#22c55e"
+  reading:
+    label: "Reading"
+    description: "Reading lists"
+    color: "#22c55e"
+  books:
+    label: "Books"
+    description: "Book recommendations"
+    color: "#22c55e"
+  podcasts:
+    label: "Podcasts"
+    description: "Podcast recommendations"
+    color: "#22c55e"
+  "2026":
+    label: "2026"
+    description: "2026 content"
+    color: "#22c55e"
+
+  # Lifestyle
+  advice:
+    label: "Advice"
+    description: "General advice"
+    color: "#6b7280"
+  life:
+    label: "Life"
+    description: "Life skills"
+    color: "#6b7280"
+  productivity:
+    label: "Productivity"
+    description: "Productivity tips"
+    color: "#6b7280"
+  health:
+    label: "Health"
+    description: "Health topics"
+    color: "#6b7280"
+  fitness:
+    label: "Fitness"
+    description: "Fitness content"
+    color: "#6b7280"
+  mindset:
+    label: "Mindset"
+    description: "Mindset and personal growth"
+    color: "#6b7280"
+  business:
+    label: "Business"
+    description: "Business topics"
+    color: "#6b7280"
+  skills:
+    label: "Skills"
+    description: "Skill development"
+    color: "#6b7280"
+  freelance:
+    label: "Freelance"
+    description: "Freelancing guides"
+    color: "#6b7280"
+  volunteering:
+    label: "Volunteering"
+    description: "Volunteering opportunities"
+    color: "#6b7280"
+
+  # Technical Documentation
+  meta:
+    label: "Meta"
+    description: "Meta content about the wiki"
+    color: "#64748b"
+  wiki:
+    label: "Wiki"
+    description: "Wiki documentation"
+    color: "#64748b"
+  vitepress:
+    label: "VitePress"
+    description: "VitePress related (legacy)"
+    color: "#64748b"
+  cloudflare:
+    label: "Cloudflare"
+    description: "Cloudflare configuration"
+    color: "#64748b"
+  methodology:
+    label: "Methodology"
+    description: "Methodological guides"
+    color: "#64748b"
+  analysis:
+    label: "Analysis"
+    description: "Analysis techniques"
+    color: "#64748b"
+  planning:
+    label: "Planning"
+    description: "Planning guides"
+    color: "#64748b"
+  collaboration:
+    label: "Collaboration"
+    description: "Collaboration tools"
+    color: "#64748b"
+  zenithflow:
+    label: "ZenithFlow"
+    description: "ZenithFlow tool"
+    color: "#64748b"
+  storyforge:
+    label: "StoryForge"
+    description: "StoryForge tool"
+    color: "#64748b"
+
+  # Catch-all
+  relevant:
+    label: "Relevant"
+    description: "Relevant content"
+    color: "#6b7280"
+  tags:
+    label: "Tags"
+    description: "Tagged content"
+    color: "#6b7280"
+  here:
+    label: "Here"
+    description: "Reference tag"
+    color: "#6b7280"

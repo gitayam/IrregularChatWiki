@@ -14,9 +14,25 @@ Irregularpedia is an open wiki maintained by the IrregularChat community. It ser
 - Community events and projects
 - Technical guides and tutorials
 
-## Contributing
+## Tech Stack
 
-There are several ways to contribute to the wiki:
+| Component | Technology | Why |
+|-----------|------------|-----|
+| Static Site Generator | [Astro Starlight](https://starlight.astro.build/) | Modern, fast, excellent documentation framework |
+| Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) | Free, global CDN, automatic HTTPS |
+| Source Control | GitHub + Forgejo | Redundancy, community access |
+| Content Format | Markdown/MDX | Simple, portable, component support |
+
+### Enabled Plugins
+
+- **starlight-tags** - Tagging system for content organization
+- **starlight-site-graph** - Interactive site visualization
+- **starlight-scroll-to-top** - Scroll to top button
+- **starlight-page-actions** - Page action buttons
+- **starlight-ui-tweaks** - UI customization
+- **starlight-videos** - Video embed support
+
+## Contributing
 
 ### Option 1: Edit Directly Online
 
@@ -25,51 +41,15 @@ Edit pages directly in your browser:
 - **GitHub:** [github.com/gitayam/IrregularChatWiki](https://github.com/gitayam/IrregularChatWiki)
 - **Forgejo:** [git.irregularchat.com/sac/IrregularChatWiki](https://git.irregularchat.com/sac/IrregularChatWiki)
 
-Navigate to any file in `docs/`, click Edit, make your changes, and submit a pull request.
+Navigate to any file in `src/content/docs/`, click Edit, make your changes, and submit a pull request.
 
-### Option 2: Local Editing with Obsidian (Recommended)
-
-For larger contributions or frequent editing, we recommend using [Obsidian](https://obsidian.md/) - a free, powerful Markdown editor.
-
-**Setup:**
+### Option 2: Local Development
 
 ```bash
 # Clone the repository
 git clone https://github.com/gitayam/IrregularChatWiki.git
 cd IrregularChatWiki
 
-# Open the docs folder in Obsidian
-# File > Open Vault > Select the "docs" folder
-```
-
-**Benefits of Obsidian:**
-- Excellent Markdown editing with live preview
-- Wiki-style `[[internal links]]` support
-- Graph view to visualize connections between pages
-- Works offline - edit anywhere
-- Free for personal use
-
-**Submitting Changes:**
-
-```bash
-# Create a branch for your changes
-git checkout -b my-contribution
-
-# Add and commit your changes
-git add .
-git commit -m "Add: description of your changes"
-
-# Push and create a pull request
-git push origin my-contribution
-```
-
-Then open a Pull Request on GitHub or Forgejo.
-
-### Option 3: Run the Wiki Locally
-
-Preview your changes before submitting:
-
-```bash
 # Install dependencies
 npm install
 
@@ -83,15 +63,29 @@ npm run build
 npm run preview
 ```
 
-The dev server runs at `http://localhost:5173` with hot reload.
+The dev server runs at `http://localhost:4321` with hot reload.
+
+### Submitting Changes
+
+```bash
+# Create a branch for your changes
+git checkout -b my-contribution
+
+# Add and commit your changes
+git add .
+git commit -m "Add: description of your changes"
+
+# Push and create a pull request
+git push origin my-contribution
+```
 
 ## Content Guidelines
 
 - Write in clear, accessible language
 - Use Markdown formatting
-- Place new pages in the appropriate `docs/` subdirectory
+- Place new pages in the appropriate `src/content/docs/` subdirectory
 - Add frontmatter with title and description
-- Link related pages using `[text](relative-path.md)` syntax
+- Add tags to help organize content
 
 **Page Template:**
 
@@ -99,6 +93,7 @@ The dev server runs at `http://localhost:5173` with hot reload.
 ---
 title: Your Page Title
 description: Brief description for search engines
+tags: ["tag1", "tag2"]
 ---
 
 # Your Page Title
@@ -110,86 +105,73 @@ Your content here...
 - [Related Topic](./related-topic.md)
 ```
 
-### Vitepress HTML Parsing
+### Callouts/Admonitions
 
-Vitepress uses a strict HTML parser. If you use angle brackets (`<` or `>`) in your markdown, they might be interpreted as HTML tags. This can cause the build to fail with an "Element is missing end tag" error.
+Starlight uses the following callout syntax:
 
-To avoid this, you should escape these characters or enclose them in backticks.
+```markdown
+:::note[Note Title]
+This is a note callout.
+:::
 
-**Incorrect:**
+:::tip[Tip Title]
+This is a tip callout.
+:::
+
+:::caution[Caution Title]
+This is a caution callout.
+:::
+
+:::danger[Danger Title]
+This is a danger callout.
+:::
 ```
-This is a <custom> tag.
-```
-
-**Correct:**
-```
-This is a `<custom>` tag.
-```
-or
-```
-This is a &lt;custom&gt; tag.
-```
-
-## Architecture
-
-### How It Works
-
-```
-GitHub Repository ──push──> Cloudflare Pages ──deploy──> irregularpedia.org
-       │
-       └──sync──> Forgejo (git.irregularchat.com)
-```
-
-### Tech Stack
-
-| Component | Technology | Why |
-|-----------|------------|-----|
-| Static Site Generator | [VitePress](https://vitepress.dev/) | Fast, Vue-powered, excellent for documentation |
-| Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) | Free, global CDN, automatic HTTPS |
-| Source Control | GitHub + Forgejo | Redundancy, community access |
-| Content Format | Markdown | Simple, portable, works with any editor |
-
-### Why This Stack?
-
-**VitePress:**
-- Lightning-fast builds and hot reload
-- Built-in search functionality
-- Clean, modern documentation theme
-- Vue components when needed
-- Markdown extensions (code highlighting, containers, etc.)
-
-**Cloudflare Pages:**
-- Free tier includes unlimited sites and bandwidth
-- Automatic deployments on every push
-- Global edge network for fast loading worldwide
-- Automatic HTTPS certificates
-- Preview deployments for pull requests
-
-**Cost:** $0/month for hosting and deployment
 
 ## Repository Structure
 
 ```
 IrregularChatWiki/
-├── docs/                    # Wiki content (Markdown files)
-│   ├── index.md            # Homepage
-│   ├── ai-ml/              # AI/ML topics
-│   ├── cybersecurity/      # Security guides
-│   ├── community/          # Community info
-│   └── general/            # General topics
-├── .vitepress/
-│   └── config.ts           # VitePress configuration
+├── src/
+│   ├── content/
+│   │   └── docs/           # Wiki content (Markdown files)
+│   │       ├── index.mdx   # Homepage
+│   │       ├── ai-ml/      # AI/ML topics
+│   │       ├── cybersecurity/  # Security guides
+│   │       ├── community/  # Community info
+│   │       └── general/    # General topics
+│   ├── components/         # Custom Astro components
+│   └── styles/             # Custom CSS
+├── public/                 # Static assets (images, etc.)
+├── astro.config.mjs        # Astro/Starlight configuration
+├── tags.yml                # Tag definitions
 ├── .github/workflows/      # GitHub Actions (sync to Forgejo)
-├── .forgejo/workflows/     # Forgejo Actions (sync to GitHub)
+├── .forgejo/workflows/     # Forgejo Actions (deploy to Cloudflare)
 └── package.json            # Node.js dependencies
 ```
+
+## Architecture
+
+```
+GitHub Repository ──sync──> Forgejo ──deploy──> Cloudflare Pages ──> irregularpedia.org
+```
+
+### Why Astro Starlight?
+
+- Modern documentation framework with excellent defaults
+- Built-in search functionality (Pagefind)
+- Extensive plugin ecosystem
+- MDX support for interactive content
+- Excellent accessibility and performance
+- Active development and community
+
+**Cost:** $0/month for hosting and deployment
 
 ## Syncing
 
 The repository is mirrored between GitHub and Forgejo:
 
 - Push to either platform automatically syncs to the other
-- Cloudflare Pages deploys from GitHub
+- Cloudflare Pages deploys from Forgejo
 - Both platforms accept pull requests
 
 ## License

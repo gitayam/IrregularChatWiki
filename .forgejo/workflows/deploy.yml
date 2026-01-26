@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build VitePress
+      - name: Build Astro Starlight
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
@@ -28,4 +28,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy .vitepress/dist --project-name=irregularchat-wiki
+          command: pages deploy dist --project-name=irregularchat-wiki

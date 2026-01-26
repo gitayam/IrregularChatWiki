@@ -1,2 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.astro/
+
+# OS files
 .DS_Store
+
+# Editor folders
 .obsidian/
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.*
+
+# Temporary files
+*.log
+.gemini-clipboard/
