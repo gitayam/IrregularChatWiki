@@ -41,6 +41,10 @@ Context:
 
 - Continue AI Coding: https://marketplace.visualstudio.com/items?itemName=Continue.continue. Works with Ollama and VS Code to provide coding support and autocomplete.
 
+### Multi-Platform AI Assistants
+
+- **ClawdBot**: https://github.com/clawdbot/clawdbot - Personal AI assistant that operates across multiple messaging platforms (WhatsApp, Telegram, Slack, and more). Features voice capabilities, live Canvas interface, and can be customized for specific domains. TypeScript, MIT license.
+
 ### GPT Automation and Prompt Engineering
 
 See the [AI Prompting Guide](/ai-ml/ai-prompting) for prompt engineering techniques.
