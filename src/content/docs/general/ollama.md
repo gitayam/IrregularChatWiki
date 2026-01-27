@@ -9,7 +9,15 @@ title: "Ollama"
 ### Introduction to Ollama
 Ollama is a command-line tool designed to simplify the management of Docker images and containers. It allows users to efficiently copy, push, and pull Docker images between different environments, such as local development machines, private registries, or public cloud platforms. Ollama is especially useful for developers and system administrators looking to streamline their Docker workflows.
 
-Network Chuck has made a video to get more advanced: [host ALL your AI locally](https://youtu.be/Wjrdr0NU4Sk?si=HcsWZIQD7m_QN091) ## Setting Up Ollama
+### Host ALL Your AI Locally (NetworkChuck)
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Wjrdr0NU4Sk" title="Host ALL your AI locally - NetworkChuck" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+**[Watch on YouTube](https://youtu.be/Wjrdr0NU4Sk)** - NetworkChuck shows how to host AI locally
+
+## Setting Up Ollama
 
 
 ### Prerequisites

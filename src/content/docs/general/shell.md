@@ -19,6 +19,12 @@ Resources for learning and working with shell scripting and the Linux command li
 
 ### Video Courses
 
+#### Bash Scripting Full Course (3 Hours)
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/e7BufAVwDiM" title="Bash Scripting Full Course" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 | Course | Platform | Description |
 |--------|----------|-------------|
 | [Bash Shell Scripting, 2nd Edition](https://learning.oreilly.com/videos/bash-shell-scripting/9780137689064/) | O'Reilly | Comprehensive bash scripting course |

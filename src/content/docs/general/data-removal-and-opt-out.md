@@ -29,11 +29,20 @@ Some services operate on a subscription model, while others provide free DIY too
 
 ### 📺 Must-Watch Videos
 
-- [Data Brokers: Last Week Tonight with John Oliver (HBO)](https://www.youtube.com/watch?v=wqn3gR1WTcA) -  Breakdown of data brokers and what you can do about it..
+#### Data Brokers: Last Week Tonight (John Oliver)
 
-- [*This Isn’t Looking Good for DeleteMe* – Techlore](https://www.youtube.com/watch?v=8B35VCtd9nM) – A breakdown of misleading claims around DeleteMe and hidden tiers.
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/wqn3gR1WTcA" title="Data Brokers: Last Week Tonight with John Oliver" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-- [*The Data Broker Nightmare – Why Your Info Is Everywhere* – Techlore](https://www.youtube.com/watch?v=20v4vSeWj6o) – Explains how your data gets shared and why it’s hard to remove.
+**[Watch on YouTube](https://www.youtube.com/watch?v=wqn3gR1WTcA)** - Breakdown of data brokers and what you can do about it.
+
+#### More Videos
+
+| Video | Description |
+|-------|-------------|
+| [This Isn't Looking Good for DeleteMe – Techlore](https://www.youtube.com/watch?v=8B35VCtd9nM) | Breakdown of misleading claims around DeleteMe and hidden tiers |
+| [The Data Broker Nightmare – Techlore](https://www.youtube.com/watch?v=20v4vSeWj6o) | How your data gets shared and why it's hard to remove |
 
 ### 🧵 Forum Discussions & Reddit Threads
 

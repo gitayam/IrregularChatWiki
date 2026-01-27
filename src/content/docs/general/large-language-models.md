@@ -130,7 +130,13 @@ These Apple devices are particularly recommended for their ability to handle the
 
 ### More about LLMs
 
-- NetworkChuck breaks down LLMs and much more in an easy to understand video https://www.youtube.com/watch?v=WxYC9-hBM_g
+#### NetworkChuck Explains LLMs
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/WxYC9-hBM_g" title="NetworkChuck Explains LLMs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+**[Watch on YouTube](https://www.youtube.com/watch?v=WxYC9-hBM_g)** - NetworkChuck breaks down LLMs in an easy to understand video
 
 - Here is a [link to request llama weights](https://docs.google.com/forms/d/e/1FAIpQLSfqNECQnMkycAp2jP4Z9TFX0cGR4uf7b_fBxjY_OjhJILlKGA/viewform). Note the license agreement. (JR)
 

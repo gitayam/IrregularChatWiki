@@ -10,7 +10,13 @@ title: "AI/ML Learning"
 
 ## Videos
 
-[Neural Networks from Scratch](https://youtu.be/VMj-3S1tku0) - A great video for understanding neural networks, what a forward pass is, back propagation and the math behind it. (Ryan C)
+### Neural Networks from Scratch
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/VMj-3S1tku0" title="Neural Networks from Scratch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+**[Watch on YouTube](https://youtu.be/VMj-3S1tku0)** - A great video for understanding neural networks, what a forward pass is, back propagation and the math behind it. (Ryan C)
 
 ## Books
 

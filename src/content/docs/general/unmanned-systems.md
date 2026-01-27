@@ -123,14 +123,19 @@ See: [FPV sUAS Guide](/general/fpv-suas)
 
 ## Videos & Training
 
-### Calling for Fire with sUAS
-- [YouTube: Calling for Fire](https://www.youtube.com/watch?v=RtezbxukS6A) - Using AirPods for fire missions (see 22:45)
+### 2-508 sUAS Lessons Learned
 
-### Lessons Learned
-- [2-508 sUAS Lessons Learned](https://www.youtube.com/watch?v=a5-i1HUWQKc)
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/a5-i1HUWQKc" title="2-508 sUAS Lessons Learned" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
-### FPV Training
-- [Joshua Bardwell's YouTube Channel](https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ) - FPV tutorials and reviews
+### More Training Videos
+
+| Video | Description |
+|-------|-------------|
+| [Calling for Fire](https://www.youtube.com/watch?v=RtezbxukS6A) | Using AirPods for fire missions (see 22:45) |
+| [2-508 sUAS Lessons Learned](https://www.youtube.com/watch?v=a5-i1HUWQKc) | Unit lessons learned |
+| [Joshua Bardwell's Channel](https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ) | FPV tutorials and reviews |
 
 ## Related Pages
 
