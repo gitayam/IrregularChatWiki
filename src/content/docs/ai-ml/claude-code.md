@@ -8,6 +8,10 @@ tags: ["ai", "coding", "claude", "anthropic", "development"]
 
 Claude Code is Anthropic's official command-line interface (CLI) for AI-assisted software development. It provides agentic coding capabilities, allowing Claude to read files, execute commands, and make changes to your codebase directly from the terminal.
 
+:::tip[Quick Navigation]
+**Jump to:** [Troubleshooting & Debugging](#troubleshooting--debugging) | [Recommended Tech Stacks](#recommended-tech-stacks) | [Coding Tips](#coding-tips) | [Plugins](#extending-claude-code-with-plugins)
+:::
+
 ## What is Claude Code?
 
 Claude Code is a terminal-based AI coding assistant that can:
@@ -196,25 +200,153 @@ Plugins and MCP servers can consume significant context tokens. To assess impact
 4. **Use lightweight models**: Switch to `haiku` for simple tasks
 :::
 
-## Best Practices
+## Troubleshooting & Debugging
+
+When you encounter issues with Claude Code or your project, follow this systematic approach:
+
+### Step 1: Research Online & Use Context7
+
+The [Context7 MCP](https://context7.com/docs/clients/claude-code) fetches up-to-date, version-specific documentation directly into your prompts.
+
+**Install Context7:**
+```bash
+claude mcp add context7 -- npx -y @upstash/context7-mcp
+```
+
+**Usage:**
+```
+# Add "use context7" to fetch current docs
+"use context7 to show me how to configure Vite for Cloudflare Workers"
+
+# Or be specific with a library ID
+"use context7 for React Router 7 middleware setup"
+```
+
+The `context7-docs-fetcher` plugin (ccplugins) automatically detects when you need library documentation and fetches it.
+
+### Step 2: Use Debugging Subagents
+
+If research doesn't resolve the issue, leverage specialized debugging agents:
+
+| Agent | Source | Specialization |
+|-------|--------|----------------|
+| **debugger** | voltagent | Root cause analysis, systematic problem-solving |
+| **debug-session** | ccplugins | Interactive debugging workflows |
+| **error-detective** | ccplugins | Error pattern detection |
+| **systematic-debugging** | superpowers | Structured debugging methodology |
+
+**Debugging Agent Capabilities:**
+- Stack trace interpretation and log analysis
+- Memory leak and race condition detection
+- Performance profiling and bottleneck identification
+- Minimal reproduction case creation
+- Cross-platform debugging (OS, architecture, library versions)
+
+### Step 3: Escalation Path
+
+1. **Search** → Web search, Context7 docs
+2. **Analyze** → Use debugger/error-detective agents
+3. **Isolate** → Create minimal reproduction
+4. **Community** → [Claude Code GitHub Issues](https://github.com/anthropics/claude-code/issues)
+5. **Support** → Anthropic support (expect delays)
+
+## Recommended Tech Stacks
+
+These are battle-tested tech stacks that work well with Claude Code for modern full-stack development.
+
+### Edge-First Stack (Recommended)
+
+For projects deploying to Cloudflare Workers or similar edge platforms:
+
+| Layer | Technology | Notes |
+|-------|------------|-------|
+| **Runtime** | [Cloudflare Workers](https://workers.cloudflare.com/) | Edge compute, global distribution |
+| **Framework** | [React Router 7](https://reactrouter.com/) (formerly Remix) | Full-stack React framework |
+| **AI** | [Workers AI](https://developers.cloudflare.com/workers-ai/) | Edge AI inference |
+| **Components** | [Storybook](https://storybook.js.org/) | Component development & testing |
+| **Monorepo** | [Turborepo](https://turbo.build/) | Fast, incremental builds |
+| **E2E Testing** | [Playwright](https://playwright.dev/) | Cross-browser testing |
+| **Package Manager** | [pnpm](https://pnpm.io/) | Fast, disk-efficient |
+
+**Why this stack:**
+- React Router 7 has [first-class Cloudflare Workers support](https://developers.cloudflare.com/workers/framework-guides/web-apps/react-router/)
+- Turborepo + pnpm enables efficient monorepo management
+- Storybook 8+ is fully compatible with pnpm
+- Playwright supports [portable stories from Storybook](https://storybook.js.org/docs/api/portable-stories/portable-stories-playwright) for component testing
+
+**Starter Templates:**
+- [turborepo-react-router-v7-starter](https://github.com/thedammyking/turborepo-react-router-v7-starter) - Turborepo + RR7 + TypeScript
+- [cloudflare-turbo-stack](https://github.com/imkeanserna/cloudflare-turbo-stack) - Full SaaS starter with auth
+
+### Traditional Full-Stack
+
+For projects requiring more traditional server infrastructure:
+
+| Layer | Technology | Notes |
+|-------|------------|-------|
+| **Backend** | Node.js / Python / Go | Choose based on team expertise |
+| **Frontend** | React / Vue / Svelte | Component-based UI |
+| **Database** | PostgreSQL / SQLite | Reliable, well-documented |
+| **ORM** | Prisma / Drizzle | Type-safe database access |
+| **Testing** | Vitest + Playwright | Unit + E2E coverage |
+
+### Testing Best Practices
+
+Modern frontend testing combines multiple approaches:
+
+| Test Type | Tool | Purpose |
+|-----------|------|---------|
+| Unit | Vitest | Fast, isolated logic tests |
+| Component | Storybook | Visual + interaction testing |
+| Integration | Testing Library | User-centric DOM testing |
+| E2E | Playwright | Full browser automation |
+| Visual | Storybook snapshots | Regression detection |
+
+**Playwright Tips:**
+- Use semantic selectors (`getByRole`, `getByLabel`) over CSS selectors
+- Isolate tests with fresh browser contexts
+- [Mock APIs with MSW](https://mswjs.io/) for deterministic tests
+
+## Coding Tips
 
 ### Before Implementing Features
 
-1. **Check available plugins** - A plugin may already solve your problem
-2. **Match task to capability** - Use specialized agents for specific domains
-3. **Start simple** - Use built-in tools before adding plugins
+1. **Research first** - Use `context7` to fetch current documentation
+2. **Check available plugins** - A plugin may already solve your problem
+3. **Match task to capability** - Use specialized agents for specific domains
+4. **Start simple** - Use built-in tools before adding plugins
+
+### Effective Prompting
+
+```
+# Bad: Vague request
+"Fix the bug"
+
+# Good: Specific with context
+"The login form throws 'undefined is not a function' on submit.
+Check src/components/LoginForm.tsx - use context7 for React Hook Form docs"
+```
 
 ### Session Management
 
 - Keep context focused on the current task
 - Use `/clear` to reset when switching contexts
 - Consider separate sessions for unrelated projects
+- Ask Claude to assess context usage: *"Are any plugins or MCP servers eating up my context?"*
+
+### Debugging Workflow
+
+1. **Describe the symptom** clearly with error messages
+2. **Ask for research**: *"use context7 to check [library] docs for this error"*
+3. **Request agent help**: *"use the debugger agent to analyze this stack trace"*
+4. **Iterate systematically** - don't jump to solutions without diagnosis
 
 ### Cost Optimization
 
 - Use `haiku` model for quick tasks (lower cost)
 - Batch related changes in single sessions
 - Avoid unnecessary file reads/writes
+- Disable unused plugins to reduce context overhead
 
 ## Related Resources
 
