@@ -8,9 +8,16 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    container:
+      image: catthehacker/ubuntu:act-latest
+      options: --dns 8.8.8.8 --dns 1.1.1.1
     steps:
-      - name: Clone and Push to GitHub
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Push to GitHub
         run: |
-          git clone --mirror https://git.irregularchat.com/irregulars/IrregularChatWiki.git repo
-          cd repo
-          git push --mirror https://${{ secrets.GH_USER }}:${{ secrets.GH_PAT }}@github.com/gitayam/IrregularChatWiki.git
+          git remote add github https://${{ secrets.GH_USER }}:${{ secrets.GH_PAT }}@github.com/gitayam/IrregularChatWiki.git
+          git push github main --force
