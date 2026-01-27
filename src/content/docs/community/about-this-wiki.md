@@ -312,3 +312,4 @@ More detailed content.
 - **Astro Docs**: [docs.astro.build](https://docs.astro.build/)
 - **Cloudflare Pages Docs**: [developers.cloudflare.com/pages](https://developers.cloudflare.com/pages/)
 - **IrregularChat Community**: [irregularchat.com](https://irregularchat.com)
+
