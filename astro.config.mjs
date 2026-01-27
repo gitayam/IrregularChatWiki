@@ -31,10 +31,10 @@ export default defineConfig({
       },
       favicon: '/favicon.ico',
       social: [
-        { icon: 'github', label: 'GitHub', href: 'https://github.com/irregularchat' },
+        { icon: 'github', label: 'Git', href: 'https://git.irregularchat.com/irregulars/IrregularChatWiki' },
       ],
       editLink: {
-        baseUrl: 'https://github.com/irregularchat/wiki/edit/main/',
+        baseUrl: 'https://git.irregularchat.com/irregulars/IrregularChatWiki/_edit/main/',
       },
       lastUpdated: true,
       tableOfContents: {
