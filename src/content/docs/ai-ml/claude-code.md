@@ -262,11 +262,21 @@ For projects deploying to Cloudflare Workers or similar edge platforms:
 |-------|------------|-------|
 | **Runtime** | [Cloudflare Workers](https://workers.cloudflare.com/) | Edge compute, global distribution |
 | **Framework** | [React Router 7](https://reactrouter.com/) (formerly Remix) | Full-stack React framework |
+| **Database** | [Cloudflare D1](https://developers.cloudflare.com/d1/) | Serverless SQLite at the edge |
+| **Storage** | [Cloudflare R2](https://developers.cloudflare.com/r2/) | S3-compatible object storage, zero egress fees |
 | **AI** | [Workers AI](https://developers.cloudflare.com/workers-ai/) | Edge AI inference |
+| **Containers** | [Cloudflare Containers](https://developers.cloudflare.com/containers/) | Run Docker containers at edge |
+| **KV** | [Workers KV](https://developers.cloudflare.com/kv/) | Global key-value storage |
 | **Components** | [Storybook](https://storybook.js.org/) | Component development & testing |
 | **Monorepo** | [Turborepo](https://turbo.build/) | Fast, incremental builds |
 | **E2E Testing** | [Playwright](https://playwright.dev/) | Cross-browser testing |
 | **Package Manager** | [pnpm](https://pnpm.io/) | Fast, disk-efficient |
+
+**Why Cloudflare Services:**
+- **D1**: SQLite at the edge with automatic replication, perfect for read-heavy workloads
+- **R2**: Zero egress fees (unlike S3), S3-compatible API
+- **Workers AI**: Run inference without managing GPU infrastructure
+- **Containers**: Full Docker support when Workers aren't enough
 
 **Why this stack:**
 - React Router 7 has [first-class Cloudflare Workers support](https://developers.cloudflare.com/workers/framework-guides/web-apps/react-router/)
@@ -277,6 +287,23 @@ For projects deploying to Cloudflare Workers or similar edge platforms:
 **Starter Templates:**
 - [turborepo-react-router-v7-starter](https://github.com/thedammyking/turborepo-react-router-v7-starter) - Turborepo + RR7 + TypeScript
 - [cloudflare-turbo-stack](https://github.com/imkeanserna/cloudflare-turbo-stack) - Full SaaS starter with auth
+
+### Alternatives to Cloudflare
+
+While Cloudflare's edge stack is powerful, here are alternatives if you need different capabilities:
+
+| Cloudflare Service | Alternative | When to Consider |
+|--------------------|-------------|------------------|
+| **Workers** | [Vercel Edge Functions](https://vercel.com/docs/functions/edge-functions), [Deno Deploy](https://deno.com/deploy), [Fastly Compute](https://www.fastly.com/products/edge-compute) | Different edge locations, existing vendor relationship |
+| **D1** | [PlanetScale](https://planetscale.com/), [Turso](https://turso.tech/), [Neon](https://neon.tech/) | Need MySQL compatibility, more complex queries |
+| **R2** | [AWS S3](https://aws.amazon.com/s3/), [Backblaze B2](https://www.backblaze.com/cloud-storage), [MinIO](https://min.io/) | Existing AWS ecosystem, self-hosted needs |
+| **Workers AI** | [Replicate](https://replicate.com/), [Together AI](https://together.ai/), [Ollama](https://ollama.com/) (self-hosted) | Different models, self-hosting requirements |
+| **KV** | [Upstash Redis](https://upstash.com/), [Redis Cloud](https://redis.io/cloud/) | Need Redis features, pub/sub |
+| **Containers** | [Fly.io](https://fly.io/), [Railway](https://railway.app/), [Render](https://render.com/) | More container features, persistent storage |
+
+:::tip[Hybrid Approach]
+Many production systems combine services. Example: Cloudflare Workers + PlanetScale database + R2 storage + self-hosted Ollama for sensitive AI workloads.
+:::
 
 ### Traditional Full-Stack
 
