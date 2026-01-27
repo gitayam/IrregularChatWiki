@@ -39,7 +39,7 @@ Irregularpedia is an open wiki maintained by the IrregularChat community. It ser
 Edit pages directly in your browser:
 
 - **GitHub:** [github.com/gitayam/IrregularChatWiki](https://github.com/gitayam/IrregularChatWiki)
-- **Forgejo:** [git.irregularchat.com/sac/IrregularChatWiki](https://git.irregularchat.com/sac/IrregularChatWiki)
+- **Forgejo:** [git.irregularchat.com/irregulars/IrregularChatWiki](https://git.irregularchat.com/irregulars/IrregularChatWiki)
 
 Navigate to any file in `src/content/docs/`, click Edit, make your changes, and submit a pull request.
 
@@ -182,5 +182,5 @@ Content is provided for educational purposes by the IrregularChat community.
 
 - **Wiki:** [irregularpedia.org](https://irregularpedia.org)
 - **GitHub:** [github.com/gitayam/IrregularChatWiki](https://github.com/gitayam/IrregularChatWiki)
-- **Forgejo:** [git.irregularchat.com/sac/IrregularChatWiki](https://git.irregularchat.com/sac/IrregularChatWiki)
+- **Forgejo:** [git.irregularchat.com/irregulars/IrregularChatWiki](https://git.irregularchat.com/irregulars/IrregularChatWiki)
 - **Community:** [IrregularChat](https://irregularchat.com)

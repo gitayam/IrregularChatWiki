@@ -17,5 +17,5 @@ jobs:
 
       - name: Push to Forgejo
         run: |
-          git remote add forgejo https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_TOKEN }}@git.irregularchat.com/sac/IrregularChatWiki.git
+          git remote add forgejo https://${{ secrets.FORGEJO_USER }}:${{ secrets.FORGEJO_TOKEN }}@git.irregularchat.com/irregulars/IrregularChatWiki.git
           git push forgejo main --force

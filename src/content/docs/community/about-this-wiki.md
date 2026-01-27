@@ -1,6 +1,6 @@
 ---
 title: "About This Wiki"
-tags: ["meta", "wiki", "community", "vitepress", "cloudflare"]
+tags: ["meta", "wiki", "community", "astro", "starlight", "cloudflare"]
 ---
 
 # About This Wiki
@@ -35,15 +35,15 @@ The IrregularChat community generates a tremendous amount of knowledge through d
 ```
 ┌─────────────────────────────────────────────────────────────────┐
 │                         CONTENT LAYER                          │
-│  Markdown files in /docs with YAML frontmatter                 │
+│  Markdown/MDX files in src/content/docs/ with YAML frontmatter │
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────────┐
-│                      BUILD LAYER (VitePress)                   │
-│  - Converts Markdown → HTML                                    │
-│  - Generates navigation & search index                         │
-│  - Applies theme & Vue components                              │
+│                  BUILD LAYER (Astro Starlight)                 │
+│  - Converts Markdown/MDX → HTML                                │
+│  - Generates navigation, search index & site graph             │
+│  - Applies theme, plugins & Astro components                   │
 └─────────────────────────────────────────────────────────────────┘
                               │
                               ▼
@@ -60,28 +60,32 @@ The IrregularChat community generates a tremendous amount of knowledge through d
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-### VitePress
+### Astro Starlight
 
-[VitePress](https://vitepress.dev/) is the static site generator that powers this wiki.
+[Astro Starlight](https://starlight.astro.build/) is the documentation framework that powers this wiki, built on top of [Astro](https://astro.build/).
 
-**Why VitePress?**
+**Why Astro Starlight?**
 
-- **Speed** - Built on Vite, the fastest JavaScript build tool
-- **Vue-Powered** - Can embed interactive Vue components when needed
-- **Documentation-First** - Designed specifically for technical documentation
-- **Excellent Markdown** - Code highlighting, custom containers, frontmatter
-- **Built-in Search** - Local search works offline, no external service needed
+- **Performance** - Ships zero JavaScript by default, ultra-fast page loads
+- **Documentation-First** - Purpose-built for technical documentation
+- **Rich Plugin Ecosystem** - Tags, site graph, scroll-to-top, videos, and more
+- **MDX Support** - Embed interactive components when needed
+- **Built-in Search** - Pagefind-powered search works instantly
+- **Accessibility** - WCAG 2.1 compliant out of the box
 
-**Key Features Used:**
+**Key Features & Plugins Used:**
 
 | Feature | Purpose |
 |---------|---------|
-| Sidebar Navigation | Organized topic hierarchy |
-| Local Search | Find content instantly |
-| Dark/Light Mode | Reader preference |
-| Code Highlighting | Technical examples |
-| Frontmatter Tags | Content categorization |
-| `createContentLoader` | Dynamic tags page generation |
+| Sidebar Navigation | Organized topic hierarchy with collapsible sections |
+| Pagefind Search | Fast, client-side full-text search |
+| Dark/Light Mode | Reader preference with system detection |
+| Code Highlighting | Syntax highlighting with Shiki |
+| starlight-tags | Content categorization and tag pages |
+| starlight-site-graph | Visual knowledge graph of page connections |
+| starlight-videos | Embedded video support |
+| starlight-kbd | Keyboard shortcut documentation |
+| Mermaid & PlantUML | Diagram rendering from code |
 
 ### Cloudflare Pages
 
@@ -110,7 +114,7 @@ The wiki lives in two synchronized repositories:
 | Platform | URL | Purpose |
 |----------|-----|---------|
 | **GitHub** | [github.com/gitayam/IrregularChatWiki](https://github.com/gitayam/IrregularChatWiki) | Primary, triggers Cloudflare deploys |
-| **Forgejo** | [git.irregularchat.com/sac/IrregularChatWiki](https://git.irregularchat.com/sac/IrregularChatWiki) | Community mirror, self-hosted |
+| **Forgejo** | [git.irregularchat.com/irregulars/IrregularChatWiki](https://git.irregularchat.com/irregulars/IrregularChatWiki) | Community mirror, self-hosted |
 
 **Sync Mechanism:**
 
@@ -143,34 +147,43 @@ This ensures:
 
 ```
 IrregularChatWiki/
-├── docs/                      # All wiki content
-│   ├── index.md              # Homepage
-│   ├── tags.md               # Auto-generated tags page
-│   ├── tags.data.ts          # Tags data loader
-│   ├── ai-ml/                # AI/ML topics
-│   ├── community/            # Community resources
-│   ├── cybersecurity/        # Security guides
-│   ├── general/              # General topics
-│   ├── infrastructure/       # Self-hosting guides
-│   ├── matrix/               # Matrix/Element guides
-│   ├── privacy/              # Privacy & OPSEC
-│   ├── radio/                # RF/SDR topics
-│   ├── research/             # OSINT & research
-│   ├── server-guides/        # Server setup
-│   └── public/               # Static assets (images, logo)
-├── .vitepress/
-│   └── config.ts             # VitePress configuration
+├── src/
+│   ├── content/
+│   │   └── docs/              # All wiki content (Markdown/MDX)
+│   │       ├── index.mdx      # Homepage
+│   │       ├── ai-ml/         # AI/ML topics
+│   │       ├── community/     # Community resources
+│   │       ├── cybersecurity/ # Security guides
+│   │       ├── development/   # Development guides
+│   │       ├── general/       # General topics
+│   │       ├── hardware/      # Hardware guides
+│   │       ├── infrastructure/# Self-hosting guides
+│   │       ├── matrix/        # Matrix/Element guides
+│   │       ├── military/      # Military resources
+│   │       ├── privacy/       # Privacy & OPSEC
+│   │       ├── radio/         # RF/SDR topics
+│   │       ├── research/      # OSINT & research
+│   │       └── server-guides/ # Server setup
+│   ├── assets/                # Images and media
+│   ├── components/            # Custom Astro components
+│   └── styles/                # Custom CSS
+├── public/                    # Static assets (favicon, logo)
+├── astro.config.mjs           # Astro & Starlight configuration
 ├── .github/
-│   └── workflows/            # GitHub Actions
-├── package.json              # Node.js dependencies
-└── README.md                 # Repository documentation
+│   └── workflows/             # GitHub Actions (sync to Forgejo)
+├── package.json               # Node.js dependencies
+└── README.md                  # Repository documentation
 ```
 
 ## History
 
-### Migration from MediaWiki
+### Migration Journey
 
-This wiki was originally hosted on MediaWiki. In late 2024, it was migrated to VitePress for several reasons:
+This wiki has evolved through two major platform migrations:
+
+#### MediaWiki → VitePress (2024)
+
+Originally hosted on MediaWiki, the wiki was migrated to VitePress:
 
 | MediaWiki | VitePress |
 |-----------|-----------|
@@ -180,12 +193,25 @@ This wiki was originally hosted on MediaWiki. In late 2024, it was migrated to V
 | Complex permission system | Simple Git-based workflow |
 | Heavy resource usage | Lightweight, fast |
 
-The migration process involved:
-1. Exporting MediaWiki content to XML
-2. Converting to Markdown using custom scripts
-3. Cleaning up formatting artifacts
-4. Restructuring navigation
-5. Adding frontmatter and tags
+#### VitePress → Astro Starlight (2025)
+
+The wiki was further migrated to Astro Starlight for enhanced features:
+
+| VitePress | Astro Starlight |
+|-----------|-----------------|
+| Vue-based components | Astro components (zero JS by default) |
+| Limited plugin ecosystem | Rich plugin ecosystem |
+| Manual sidebar configuration | Flexible sidebar with autogenerate |
+| Basic search | Pagefind full-text search |
+| Single content type | MDX support for interactive content |
+
+**Key improvements from Starlight:**
+- Site graph visualization of knowledge connections
+- Tag-based content organization
+- Embedded video support
+- Keyboard shortcut documentation
+- Mermaid and PlantUML diagram rendering
+- Better mobile experience
 
 ## Contributing
 
@@ -211,9 +237,9 @@ npm install
 
 # Start development server
 npm run dev
-# → Opens at http://localhost:5173
+# → Opens at http://localhost:4321
 
-# Make your changes in docs/
+# Make your changes in src/content/docs/
 
 # Build to verify
 npm run build
@@ -230,17 +256,20 @@ git push
 
 1. Clone the repository
 2. Open Obsidian → File → Open Vault
-3. Select the `docs/` folder
+3. Select the `src/content/docs/` folder as your vault
 4. Edit with live preview and wiki-style linking
 5. Commit and push changes via Git
+
+See the [Obsidian + GitHub Guide](/community/obsidian-github-guide) for detailed setup instructions.
 
 ### Page Template
 
 ```markdown
-***
+---
 title: "Your Page Title"
+description: "Brief description for SEO and previews"
 tags: ["relevant", "tags", "here"]
-***
+---
 
 # Your Page Title
 
@@ -249,6 +278,10 @@ Introduction paragraph explaining the topic.
 ## Main Section
 
 Content with proper Markdown formatting.
+
+:::tip
+Use callouts for important information!
+:::
 
 ### Subsection
 
@@ -274,7 +307,8 @@ More detailed content.
 
 - **Live Wiki**: [irregularpedia.org](https://irregularpedia.org)
 - **GitHub**: [github.com/gitayam/IrregularChatWiki](https://github.com/gitayam/IrregularChatWiki)
-- **Forgejo**: [git.irregularchat.com/sac/IrregularChatWiki](https://git.irregularchat.com/sac/IrregularChatWiki)
-- **VitePress Docs**: [vitepress.dev](https://vitepress.dev/)
+- **Forgejo**: [git.irregularchat.com/irregulars/IrregularChatWiki](https://git.irregularchat.com/irregulars/IrregularChatWiki)
+- **Astro Starlight Docs**: [starlight.astro.build](https://starlight.astro.build/)
+- **Astro Docs**: [docs.astro.build](https://docs.astro.build/)
 - **Cloudflare Pages Docs**: [developers.cloudflare.com/pages](https://developers.cloudflare.com/pages/)
 - **IrregularChat Community**: [irregularchat.com](https://irregularchat.com)
