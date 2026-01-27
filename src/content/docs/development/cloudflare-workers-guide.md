@@ -87,6 +87,7 @@ Any text editor works, but we recommend:
 
 - **[VS Code](https://code.visualstudio.com/)** - Free, popular, great extensions
 - **[Cursor](https://cursor.sh/)** - VS Code fork with built-in AI
+- **[Claude Code](/ai-ml/claude-code)** - Terminal-based AI coding assistant (works alongside any editor)
 
 ### 4. Basic Terminal Knowledge
 
