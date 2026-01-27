@@ -40,6 +40,7 @@ New to AI/ML? Start with these community guides:
 | ChatGPT | [chatgpt.com](https://chatgpt.com) | OpenAI's GPT models |
 | Gemini | [gemini.google.com](https://gemini.google.com) | Google's LLM (formerly Bard) |
 | Claude | [claude.ai](https://claude.ai) | Anthropic's AI assistant |
+| **Claude Code** | [Claude Code Guide](/ai-ml/claude-code) | Anthropic's CLI for agentic coding |
 | Perplexity | [perplexity.ai](https://perplexity.ai) | AI search with citations |
 
 ## AI Tools & Applications
@@ -56,6 +57,7 @@ New to AI/ML? Start with these community guides:
 - [Writer](https://writer.com/) - AI writing assistant
 - [AI Content Detector](https://writer.com/ai-content-detector/) - Detect AI-generated content
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programming
+- **[Claude Code](/ai-ml/claude-code)** - Agentic CLI for AI-assisted development (pricing, plugins, tips)
 - [HackerGPT](/ai-ml/hackergpt2) - Security-focused AI assistant
 
 ### AI Prompt Templates
