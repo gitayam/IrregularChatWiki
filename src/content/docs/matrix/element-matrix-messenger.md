@@ -1,7 +1,9 @@
 ---
 title: "ARCHIVED-Element (Matrix) Messenger"
 ---
-This page is arcived because the community did not adopt a self hosted matrix/element infrastructure and remained with signal. While there are many advantages to element, for the majority in the community it was to different or slightly to burdensome. In keeping with the spirit of the community of going where the people are. 
+_This page is arcived because the community did not adopt a self hosted matrix/element infrastructure and remained with signal. While there are many advantages to element, for the majority in the community it was to different or slightly to burdensome. In keeping with the spirit of the community of going where the people are._
+
+
 
 
 # Element (Matrix) Messenger
