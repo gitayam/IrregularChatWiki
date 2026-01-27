@@ -38,6 +38,7 @@ This page is a central resource for software engineers in the IrregularChat comm
 
 ## Deployment & Infrastructure
 
+- **[Cloudflare Workers Guide](/development/cloudflare-workers-guide)**: Complete beginner's guide to serverless edge computing - manual setup, AI-assisted development, and Git integration.
 - **[Server Guides](/server-guides/)**: A collection of guides for setting up and managing servers.
 - **[Cloudflare Status](https://www.cloudflarestatus.com)**: Check the status of Cloudflare services.
 - **[GitHub Status](https://www.githubstatus.com/)**: Check the status of GitHub services.

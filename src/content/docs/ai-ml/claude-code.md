@@ -377,6 +377,7 @@ Check src/components/LoginForm.tsx - use context7 for React Hook Form docs"
 
 ## Related Resources
 
+- [Cloudflare Workers Guide](/development/cloudflare-workers-guide) - Complete beginner's guide to edge computing
 - [Project Rules & Lessons Learned](/ai-ml/project-rules-lessons-learned) - CLAUDE.md patterns, common bugs, and fixes by stack type
 - [Full-Stack Development with AI](/development/full-stack-development-with-ai) - AI-powered development workflows
 - [AI Prompting Guide](/ai-ml/ai-prompting) - Effective prompt engineering
