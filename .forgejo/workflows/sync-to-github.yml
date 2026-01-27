@@ -8,16 +8,16 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    container:
-      image: catthehacker/ubuntu:act-latest
-      options: --dns 8.8.8.8 --dns 1.1.1.1
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: https://github.com/actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Push to GitHub
+        env:
+          GH_USER: ${{ secrets.GH_USER }}
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          git remote add github https://${{ secrets.GH_USER }}:${{ secrets.GH_PAT }}@github.com/gitayam/IrregularChatWiki.git
+          git remote add github https://${GH_USER}:${GH_PAT}@github.com/gitayam/IrregularChatWiki.git
           git push github main --force
