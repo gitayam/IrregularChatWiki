@@ -23,37 +23,13 @@ This guide takes you from zero to deploying your first Cloudflare Worker. We'll 
 
 Prefer learning by watching? These official Cloudflare tutorials will get you started:
 
-### Essential Videos
+**Watch this 30-minute video or follow the written guide below - your choice!**
 
 <div class="not-content">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/H7Qe96fqg1M" title="Learn Cloudflare Workers - Full Course for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-**[Learn Cloudflare Workers - Full Course for Beginners](https://www.youtube.com/watch?v=H7Qe96fqg1M)** (Cloudflare Official)
-- Complete beginner course by Kristian Freeman
-- Covers everything from setup to deployment
-- Updated March 2024
-
-### More Video Resources
-
-| Video | What You'll Learn | Duration |
-|-------|-------------------|----------|
-| [Stateful Apps with Workers](https://www.youtube.com/watch?v=QTsaAhFvX9o) | KV caching, D1 databases, external APIs | ~20 min |
-| [Deploy React to Workers](https://www.youtube.com/watch?v=B2bLUc3iOsI) | Migrating existing React apps | ~15 min |
-| [Build Rust Powered Apps](https://www.youtube.com/watch?v=dttu4QtKkO0) | Workers with Rust, global databases | ~25 min |
-| [Cloudflare Workflows Intro](https://www.youtube.com/watch?v=slS4RBV0SBk) | Event-driven architecture | ~20 min |
-
-### Other Learning Platforms
-
-| Platform | Course | Notes |
-|----------|--------|-------|
-| **[egghead.io](https://egghead.io/courses/introduction-to-cloudflare-workers-5aa3)** | Introduction to Cloudflare Workers | Free, by Kristian Freeman |
-| **[Cloudflare Labs](https://developers.cloudflare.com/labs/workers/)** | Interactive learning path | Hands-on exercises |
-| **[FreeCodeCamp](https://www.freecodecamp.org/news/how-to-build-an-embeddable-ai-chatbot-widget-with-cloudflare-workers/)** | Build an AI Chatbot Widget | Project-based tutorial |
-
-:::tip[Cloudflare YouTube Channel]
-Subscribe to [@CloudflareDevelopers](https://www.youtube.com/@CloudflareDevelopers) for new tutorials, demos, and feature announcements.
-:::
+Ready to code? **Skip to [Manual Setup](#manual-setup-the-learning-path)** to start building.
 
 ---
 
@@ -994,28 +970,50 @@ export default {
 
 ## Next Steps
 
-### Keep Learning
+### More Video Tutorials
+
+Want to go deeper? Check out these official tutorials:
+
+| Video | What You'll Learn | Duration |
+|-------|-------------------|----------|
+| [Stateful Apps with Workers](https://www.youtube.com/watch?v=QTsaAhFvX9o) | KV caching, D1 databases, external APIs | ~20 min |
+| [Deploy React to Workers](https://www.youtube.com/watch?v=B2bLUc3iOsI) | Migrating existing React apps | ~15 min |
+| [Build Rust Powered Apps](https://www.youtube.com/watch?v=dttu4QtKkO0) | Workers with Rust, global databases | ~25 min |
+| [Cloudflare Workflows Intro](https://www.youtube.com/watch?v=slS4RBV0SBk) | Event-driven architecture | ~20 min |
+
+:::tip[Subscribe]
+[@CloudflareDevelopers on YouTube](https://www.youtube.com/@CloudflareDevelopers) - New tutorials every week
+:::
+
+### Other Learning Platforms
+
+| Platform | Course | Notes |
+|----------|--------|-------|
+| **[egghead.io](https://egghead.io/courses/introduction-to-cloudflare-workers-5aa3)** | Introduction to Cloudflare Workers | Free, by Kristian Freeman |
+| **[Cloudflare Labs](https://developers.cloudflare.com/labs/workers/)** | Interactive learning path | Hands-on exercises |
+| **[FreeCodeCamp](https://www.freecodecamp.org/news/how-to-build-an-embeddable-ai-chatbot-widget-with-cloudflare-workers/)** | Build an AI Chatbot Widget | Project-based tutorial |
+
+### Documentation & Examples
 
 | Resource | Description |
 |----------|-------------|
 | **[Official Docs](https://developers.cloudflare.com/workers/)** | Comprehensive reference for all Workers features |
-| **[Cloudflare Labs](https://developers.cloudflare.com/labs/workers/)** | Interactive tutorials with hands-on exercises |
 | **[Workers Examples](https://github.com/cloudflare/workers-sdk/tree/main/templates)** | Official templates for common use cases |
-| **[D1 Tutorials](https://developers.cloudflare.com/d1/tutorials/)** | Database-specific guides (Comments API, Staff Directory) |
+| **[D1 Tutorials](https://developers.cloudflare.com/d1/tutorials/)** | Database guides (Comments API, Staff Directory) |
 | **[KV Tutorials](https://developers.cloudflare.com/kv/tutorials/)** | Key-value storage guides |
 
-### Join the Community
+### Community
 
 - **[Cloudflare Discord](https://discord.cloudflare.com/)** - Get help from other developers
-- **[Cloudflare Community Forums](https://community.cloudflare.com/)** - Search existing solutions
-- **[Workers Twitter/X](https://twitter.com/CloudflareDev)** - Latest announcements
+- **[Community Forums](https://community.cloudflare.com/)** - Search existing solutions
+- **[@CloudflareDev](https://twitter.com/CloudflareDev)** - Latest announcements
 
-### Level Up Your Skills
+### Level Up
 
-1. **Learn TypeScript** - Makes Workers development much smoother with better autocomplete
-2. **Try Hono Framework** - [hono.dev](https://hono.dev/) - Fast, lightweight framework built for Workers
-3. **Explore Drizzle ORM** - [orm.drizzle.team](https://orm.drizzle.team/) - Type-safe database queries for D1
-4. **Build a real project** - The best way to learn is by building something you'll actually use
+1. **Learn TypeScript** - Better autocomplete and fewer bugs
+2. **Try [Hono](https://hono.dev/)** - Fast framework built for Workers
+3. **Use [Drizzle ORM](https://orm.drizzle.team/)** - Type-safe database queries
+4. **Build something real** - Best way to learn!
 
 ---
 
