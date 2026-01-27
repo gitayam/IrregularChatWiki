@@ -9,7 +9,7 @@ tags: ["ai", "coding", "claude", "anthropic", "development"]
 Claude Code is Anthropic's official command-line interface (CLI) for AI-assisted software development. It provides agentic coding capabilities, allowing Claude to read files, execute commands, and make changes to your codebase directly from the terminal.
 
 :::tip[Quick Navigation]
-**Jump to:** [Troubleshooting & Debugging](#troubleshooting--debugging) | [Recommended Tech Stacks](#recommended-tech-stacks) | [Coding Tips](#coding-tips) | [Plugins](#extending-claude-code-with-plugins)
+**Jump to:** [Troubleshooting & Debugging](#troubleshooting--debugging) | [Recommended Tech Stacks](#recommended-tech-stacks) | [Coding Tips](#coding-tips) | [Plugins](#extending-claude-code-with-plugins) | [Project Rules & Lessons Learned](/ai-ml/project-rules-lessons-learned)
 :::
 
 ## What is Claude Code?
@@ -377,6 +377,7 @@ Check src/components/LoginForm.tsx - use context7 for React Hook Form docs"
 
 ## Related Resources
 
+- [Project Rules & Lessons Learned](/ai-ml/project-rules-lessons-learned) - CLAUDE.md patterns, common bugs, and fixes by stack type
 - [Full-Stack Development with AI](/development/full-stack-development-with-ai) - AI-powered development workflows
 - [AI Prompting Guide](/ai-ml/ai-prompting) - Effective prompt engineering
 - [OpenHands Guide](/ai-ml/openhands) - Alternative agentic coding tool
