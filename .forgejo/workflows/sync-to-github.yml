@@ -9,12 +9,16 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Push to GitHub
         env:
           GH_USER: ${{ secrets.GH_USER }}
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
-          cd $GITHUB_WORKSPACE || cd /workspace
-          git remote add github https://${GH_USER}:${GH_PAT}@github.com/gitayam/IrregularChatWiki.git || true
-          git fetch --unshallow || true
+          git remote add github https://${GH_USER}:${GH_PAT}@github.com/gitayam/IrregularChatWiki.git
           git push github main --force
