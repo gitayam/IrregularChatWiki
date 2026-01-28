@@ -4,6 +4,22 @@ title: "Guide to Unmanned Systems"
 
 # Guide to Unmanned Systems
 
+## Regulatory Updates (January 2026)
+
+**FCC Exempts Certain UAS from "Covered List"**
+
+On January 7, 2026, the Federal Communications Commission (FCC) issued a Public Notice (DA 26-22) updating the "Covered List" to exempt specific Uncrewed Aircraft Systems (UAS) and their critical components. This follows a broader December 2025 decision that had restricted foreign-produced UAS.
+
+**Key Exemptions:**
+1.  **Blue UAS Cleared List:** UAS and components on the Defense Innovation Unit’s (DIU) [Blue UAS Cleared List](https://www.diu.mil/blue-uas).
+2.  **"Domestic End Product" Compliant:** UAS and components that meet the [Buy American Act](https://www.acquisition.gov/far/25.101) standard (48 CFR § 25.101(a)) for domestic manufacturing.
+
+These exemptions allow manufacturers of qualifying secure and domestic drones to continue seeking FCC equipment authorization until **January 1, 2027**.
+
+**Documents:**
+*   [FCC Public Notice: Exemption for Certain UAS (PDF)](/documents/fcc-covered-list-exemption-notice-2026-01-07.pdf)
+*   [FCC News Release & FAQs](https://www.fcc.gov/document/fcc-updates-covered-list-exempt-certain-drones-and-releases-faqs)
+
 ## Leader's Guide to Unmanned Systems
 
 Return back to [Unmanned Systems](/general/unmanned-systems)
