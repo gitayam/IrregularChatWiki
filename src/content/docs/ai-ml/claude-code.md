@@ -57,6 +57,12 @@ Business accounts require a **minimum of 5 user seats** (standard accounts). You
 **Plan accordingly when writing SOWs or purchase requests.**
 :::
 
+### Military Procurement Advice
+
+*   **Recurring Payments:** Recurring charges on a Government Purchase Card (GPC) are rare and often flagged.
+*   **Contracting vs. Subscriptions:** If you need a recurring service, avoid simple "subscription" terms. Most cases will require a contract with **Wide Area Workflow (WAWF)** or standard invoice submission.
+*   **Vendor Flexibility:** When contacting Anthropic sales, request pricing structures that fit government fiscal years (e.g., annual upfront payment) rather than monthly recurring billing. Be prepared to ask them to arrange pricing in a way that fits specific requiring activity needs.
+
 ### Claude Code Add-on (Premium)
 
 For teams already on Claude Team/Enterprise:
