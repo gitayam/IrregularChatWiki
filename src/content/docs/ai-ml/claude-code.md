@@ -9,7 +9,7 @@ tags: ["ai", "coding", "claude", "anthropic", "development"]
 Claude Code is Anthropic's official command-line interface (CLI) for AI-assisted software development. It provides agentic coding capabilities, allowing Claude to read files, execute commands, and make changes to your codebase directly from the terminal.
 
 :::tip[Quick Navigation]
-**Jump to:** [Troubleshooting & Debugging](#troubleshooting--debugging) | [Recommended Tech Stacks](#recommended-tech-stacks) | [Coding Tips](#coding-tips) | [Plugins](#extending-claude-code-with-plugins) | [Project Rules & Lessons Learned](/ai-ml/project-rules-lessons-learned)
+**Jump to:** [What is Claude Code?](#what-is-claude-code) | [Why Claude Code? (vs. Alternatives)](#why-claude-code-vs-alternatives) | [Getting Started](#getting-started-with-claude-code) | [Plugins](#extending-claude-code-with-plugins) | [Troubleshooting](#troubleshooting--debugging) | [Tech Stacks](#recommended-tech-stacks) | [Funding & Subscriptions](/ai-ml/claude-code-funding) | [Customer Support](#customer-support-reality)
 :::
 
 ## What is Claude Code?
@@ -28,102 +28,6 @@ Unlike the web-based Claude chat interface, Claude Code operates directly in you
 
 :::caution[Important for Government Users]
 Claude Code operates in your local environment. Ensure you understand your organization's policies regarding AI tools accessing code repositories and executing commands on government systems.
-:::
-
-## Pricing Model
-
-Understanding Claude Code's pricing is critical, especially for military units and contractors budgeting for AI tools.
-
-### Individual Plans
-
-| Plan | Price | Includes |
-|------|-------|----------|
-| **Claude Pro** | $20/month | Access to Claude Code CLI, priority access to models |
-| **Claude Max** | $200/month | 5x the usage of Pro, higher rate limits |
-
-### Business/Team Plans
-
-| Plan | Price | Notes |
-|------|-------|-------|
-| **Claude Team** | $30/user/month | **Minimum 5 seats required** |
-| **Claude Enterprise** | Custom pricing | Volume discounts, SSO, admin controls |
-
-:::danger[Contracting Complication]
-Business accounts require a **minimum of 5 user seats** (standard accounts). You can then add premium Claude Code accounts on top. This complicates procurement for:
-- Small units or teams with fewer than 5 users
-- Service members needing individual access through unit contracts
-- Contractors with variable team sizes
-
-**Plan accordingly when writing SOWs or purchase requests.**
-:::
-
-### Military Procurement Advice
-
-:::note[Compliance vs. Discounts]
-The following points are **procurement strategies** to ensure purchases are compliant with government fiscal rules. These are **not** special discount codes or rates. You are asking the vendor to structure the contract in a way that allows the government to pay for it legally.
-:::
-
-*   **Recurring Payments:** Recurring charges on a Government Purchase Card (GPC) are rare and often flagged.
-*   **Contracting vs. Subscriptions:** If you need a recurring service, avoid simple "subscription" terms. Most cases will require a contract with **Wide Area Workflow (WAWF)** or standard invoice submission.
-*   **Vendor Flexibility:** When contacting Anthropic sales, request pricing structures that fit government fiscal years (e.g., annual upfront payment) rather than monthly recurring billing. Be prepared to ask them to arrange pricing in a way that fits specific requiring activity needs. **(Note: Be prepared for significant delays; response times can exceed a month.)**
-*   **PWS Integration for Minor Subscriptions:** To maintain flexibility and leverage GPC where appropriate, consider explicitly writing minor subscriptions into a Performance Work Statement (PWS) for a larger contract. This can allow for easier procurement of individual seats or tools. Always remember the **5-basic-account minimum** requirement when planning.
-
-### Claude Code Add-on (Premium)
-
-For teams already on Claude Team/Enterprise:
-- Additional premium Claude Code seats can be added per-user
-- These provide enhanced usage limits beyond standard accounts
-- Contact Anthropic sales for specific pricing
-
-## Claude Code vs API Credits
-
-### Why Claude Code is More Efficient
-
-| Factor | Claude Code (Subscription) | API Credits |
-|--------|---------------------------|-------------|
-| **Pricing Model** | Fixed monthly fee | Pay-per-token (can spike rapidly) |
-| **Context Management** | Automatic summarization | Manual token management |
-| **Tool Use** | Built-in file/shell access | Must implement yourself |
-| **Cost Predictability** | Predictable monthly cost | Highly variable |
-| **Best For** | Ongoing development work | Short sprints, one-off tasks |
-
-### When API Credits Make Sense
-
-- **Short sprints**: Quick, isolated tasks that won't recur
-- **Batch processing**: Automated pipelines with controlled input
-- **Integration**: Embedding Claude in custom applications
-- **One-time projects**: Tasks that don't justify a subscription
-
-:::tip[Alternative to Raw API Credits]
-While API credits are available, there's often no need to use them directly.
-1.  **Claude Agent SDK for Python**: You can script complex tasks in Python, and the SDK will leverage your existing authenticated Claude Pro session on that machine.
-2.  **CLI Scripting**: For simpler automation, you can directly `bash` script calls to the `claude` CLI, also using your Pro subscription.
-3.  **API Emulation**: Some users create local servers (e.g., with FastAPI) that wrap the Claude Code CLI or SDK, exposing an OpenAI-compatible API endpoint to integrate with tools expecting that format.
-:::
-
-:::caution[API Credit Tiers]
-Anthropic only allows purchasing API credits in **escalating tiers**. You can't buy small amounts - minimum purchases increase as you scale:
-- Tier 1: $5 minimum
-- Tier 2: $40 minimum
-- Tier 3: $200 minimum
-- Higher tiers: Contact sales
-
-This can lead to over-purchasing for small projects.
-:::
-
-## Current Capabilities & Maintenance
-
-### Rapid Evolution & Staying Updated
-Claude Code is a rapidly evolving tool. It's crucial to stay updated with the latest changes and features. Review changelogs frequently (monthly at the slowest) to understand new capabilities and improvements.
-
-### Top-Level Built-In Capabilities
-
-*   **/chrome interaction**: One of the newest, highly efficient, and effective built-in capabilities allowing direct interaction with the Chrome browser.
-
-### Multiple Terminals & Updates
-
-:::warning[CLI Update Conflicts]
-Having multiple terminals open with the Claude Code CLI running simultaneously can sometimes "hold back" updates and lead to API errors. It's recommended to close extra CLI sessions if you encounter unexpected behavior or update issues.
 :::
 
 ## Why Claude Code? (vs. Alternatives)
@@ -152,46 +56,73 @@ Many developers consider running a local LLM (like Llama 3 via Ollama) with an M
 
 **Verdict:** Use both. Copilot for typing speed, Claude Code for feature implementation and heavy lifting.
 
-## Billing Warnings
+## Getting Started with Claude Code
 
-### Dark Patterns to Watch For
+Here’s what you need to know to get up and running with Claude Code and make the most of its agentic capabilities.
 
-:::danger[Seamless Charging]
-Claude Code may **charge your card on file without a checkout page**. Users expecting a confirmation screen may be surprised when charges appear directly.
+### Current Capabilities & Maintenance
 
-**Recommendations:**
-- Use a dedicated payment method with spending limits
-- Monitor your Anthropic account billing page regularly
-- Set up billing alerts if available
-- Review charges immediately after enabling new features
+#### Rapid Evolution & Staying Updated
+Claude Code is a rapidly evolving tool. It's crucial to stay updated with the latest changes and features. Review changelogs frequently (monthly at the slowest) to understand new capabilities and improvements.
+
+#### Top-Level Built-In Capabilities
+
+*   **/chrome interaction**: One of the newest, highly efficient, and effective built-in capabilities allowing direct interaction with the Chrome browser.
+
+#### Multiple Terminals & Updates
+
+:::warning[CLI Update Conflicts]
+Having multiple terminals open with the Claude Code CLI running simultaneously can sometimes "hold back" updates and lead to API errors. It's recommended to close extra CLI sessions if you encounter unexpected behavior or update issues.
 :::
 
-### Budget Management Tips
+## Coding Tips
 
-1. **Use a prepaid card or virtual card** with a fixed limit
-2. **Check billing weekly** at console.anthropic.com
-3. **Set calendar reminders** for renewal dates
-4. **Document all charges** for unit expense reports
+### Before Implementing Features
 
-## Customer Support Reality
+1. **Research first** - Use `context7` to fetch current documentation
+2. **Check available plugins** - A plugin may already solve your problem
+3. **Match task to capability** - Use specialized agents for specific domains
+4. **Start simple** - Use built-in tools before adding plugins
 
-:::caution[Support Response Times]
-Reaching a human at Anthropic is **very challenging**. Our community experience:
+### Effective Prompting
 
-- **Initial response**: ~1 month of constant emailing
-- **Subsequent emails**: Somewhat faster, but still days to weeks
-- **No phone support**: Email only
-- **Limited business hours coverage**
+```
+# Bad: Vague request
+"Fix the bug"
 
-**Plan for self-service troubleshooting.** Community resources and documentation are often faster than support tickets.
-:::
+# Good: Specific with context
+"The login form throws 'undefined is not a function' on submit.
+Check src/components/LoginForm.tsx - use context7 for React Hook Form docs"
+```
 
-### Support Tips
+### Session Management
 
-- Use the [Anthropic Status Page](https://status.anthropic.com/) first
-- Search the [Anthropic Docs](https://docs.anthropic.com/) thoroughly
-- Include detailed logs and reproduction steps in tickets
-- Be persistent but professional in follow-ups
+- Keep context focused on the current task
+- Use `/clear` to reset when switching contexts
+- Consider separate sessions for unrelated projects
+- Ask Claude to assess context usage: *"Are any plugins or MCP servers eating up my context?"*
+
+### Debugging Workflow
+
+1. **Describe the symptom** clearly with error messages
+2. **Ask for research**: *"use context7 to check [library] docs for this error"*
+3. **Request agent help**: *"use the debugger agent to analyze this stack trace"*
+4. **Iterate systematically** - don't jump to solutions without diagnosis
+
+### Cost Optimization
+
+- Use `haiku` model for quick tasks (lower cost)
+- Batch related changes in single sessions
+- Avoid unnecessary file reads/writes
+- Disable unused plugins to reduce context overhead
+
+### Feature Implementation Strategy
+
+> "Implement <FEATURE_X> but first look at the possible claude plugins and perhaps select ones that are best for the job."
+
+### LLMs.txt
+
+The `/llms.txt` standard is like a "big sitemap for LLMs". It helps AI models quickly understand your website or documentation. `Context7` leverages this concept at scale. Ensure your own projects have an `llms.txt` to make them accessible to these agentic tools.
 
 ## Extending Claude Code with Plugins
 
@@ -231,7 +162,7 @@ Or use the slash command:
 
 :::danger[Context Hogs]
 Plugins and MCP servers (and files like `CLAUDE.md`) can consume significant context tokens.
-**Critical Prompt:** *"Can you assess whether any plugins or MCP servers are eating up all my context?"*
+**Critical Prompt:** *"Can you assess whether any plugins or MCP servers are eating up my context?"*
 :::
 
 ## Troubleshooting & Debugging
@@ -244,7 +175,7 @@ When hitting a difficult bug or implementing a complex feature, use this prompt 
 
 ### Feature Implementation Strategy
 
-> "Implement &lt;FEATURE_X&gt; but first look at the possible claude plugins and perhaps select ones that are best for the job."
+> "Implement <FEATURE_X> but first look at the possible claude plugins and perhaps select ones that are best for the job."
 
 ### LLMs.txt
 
@@ -324,46 +255,31 @@ Modern frontend testing combines multiple approaches:
 - Isolate tests with fresh browser contexts
 - [Mock APIs with MSW](https://mswjs.io/) for deterministic tests
 
-## Coding Tips
+## Funding & Subscriptions
 
-### Before Implementing Features
+For detailed information on Claude Code pricing models, API credits, military procurement advice, and billing considerations, please refer to the dedicated guide:
 
-1. **Research first** - Use `context7` to fetch current documentation
-2. **Check available plugins** - A plugin may already solve your problem
-3. **Match task to capability** - Use specialized agents for specific domains
-4. **Start simple** - Use built-in tools before adding plugins
+👉 [**Claude Code Funding & Subscriptions**](/ai-ml/claude-code-funding) 👈
 
-### Effective Prompting
+## Customer Support Reality
 
-```
-# Bad: Vague request
-"Fix the bug"
+:::caution[Support Response Times]
+Reaching a human at Anthropic is **very challenging**. Our community experience:
 
-# Good: Specific with context
-"The login form throws 'undefined is not a function' on submit.
-Check src/components/LoginForm.tsx - use context7 for React Hook Form docs"
-```
+- **Initial response**: ~1 month of constant emailing
+- **Subsequent emails**: Somewhat faster, but still days to weeks
+- **No phone support**: Email only
+- **Limited business hours coverage**
 
-### Session Management
+**Plan for self-service troubleshooting.** Community resources and documentation are often faster than support tickets.
+:::
 
-- Keep context focused on the current task
-- Use `/clear` to reset when switching contexts
-- Consider separate sessions for unrelated projects
-- Ask Claude to assess context usage: *"Are any plugins or MCP servers eating up my context?"*
+### Support Tips
 
-### Debugging Workflow
-
-1. **Describe the symptom** clearly with error messages
-2. **Ask for research**: *"use context7 to check [library] docs for this error"*
-3. **Request agent help**: *"use the debugger agent to analyze this stack trace"*
-4. **Iterate systematically** - don't jump to solutions without diagnosis
-
-### Cost Optimization
-
-- Use `haiku` model for quick tasks (lower cost)
-- Batch related changes in single sessions
-- Avoid unnecessary file reads/writes
-- Disable unused plugins to reduce context overhead
+- Use the [Anthropic Status Page](https://status.anthropic.com/) first
+- Search the [Anthropic Docs](https://docs.anthropic.com/) thoroughly
+- Include detailed logs and reproduction steps in tickets
+- Be persistent but professional in follow-ups
 
 ## Related Resources
 
