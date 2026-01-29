@@ -65,7 +65,8 @@ The following points are **procurement strategies** to ensure purchases are comp
 
 *   **Recurring Payments:** Recurring charges on a Government Purchase Card (GPC) are rare and often flagged.
 *   **Contracting vs. Subscriptions:** If you need a recurring service, avoid simple "subscription" terms. Most cases will require a contract with **Wide Area Workflow (WAWF)** or standard invoice submission.
-*   **Vendor Flexibility:** When contacting Anthropic sales, request pricing structures that fit government fiscal years (e.g., annual upfront payment) rather than monthly recurring billing. Be prepared to ask them to arrange pricing in a way that fits specific requiring activity needs.
+*   **Vendor Flexibility:** When contacting Anthropic sales, request pricing structures that fit government fiscal years (e.g., annual upfront payment) rather than monthly recurring billing. Be prepared to ask them to arrange pricing in a way that fits specific requiring activity needs. **(Note: Be prepared for significant delays; response times can exceed a month.)**
+*   **PWS Integration for Minor Subscriptions:** To maintain flexibility and leverage GPC where appropriate, consider explicitly writing minor subscriptions into a Performance Work Statement (PWS) for a larger contract. This can allow for easier procurement of individual seats or tools. Always remember the **5-basic-account minimum** requirement when planning.
 
 ### Claude Code Add-on (Premium)
 
