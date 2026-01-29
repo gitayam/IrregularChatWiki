@@ -59,6 +59,10 @@ Business accounts require a **minimum of 5 user seats** (standard accounts). You
 
 ### Military Procurement Advice
 
+:::note[Compliance vs. Discounts]
+The following points are **procurement strategies** to ensure purchases are compliant with government fiscal rules. These are **not** special discount codes or rates. You are asking the vendor to structure the contract in a way that allows the government to pay for it legally.
+:::
+
 *   **Recurring Payments:** Recurring charges on a Government Purchase Card (GPC) are rare and often flagged.
 *   **Contracting vs. Subscriptions:** If you need a recurring service, avoid simple "subscription" terms. Most cases will require a contract with **Wide Area Workflow (WAWF)** or standard invoice submission.
 *   **Vendor Flexibility:** When contacting Anthropic sales, request pricing structures that fit government fiscal years (e.g., annual upfront payment) rather than monthly recurring billing. Be prepared to ask them to arrange pricing in a way that fits specific requiring activity needs.
@@ -98,6 +102,32 @@ Anthropic only allows purchasing API credits in **escalating tiers**. You can't 
 
 This can lead to over-purchasing for small projects.
 :::
+
+## Why Claude Code? (vs. Alternatives)
+
+### vs. Self-Hosted Free LLM Stack
+Many developers consider running a local LLM (like Llama 3 via Ollama) with an MCP stack to avoid costs and rate limits.
+
+| Feature | Claude Code | Self-Hosted / Local Agent |
+|---------|-------------|---------------------------|
+| **Setup** | Immediate (install & login) | High (requires "deployable single script" setup) |
+| **Intelligence** | **SOTA (Sonnet 3.5)**. Extremely high coherence for complex multi-step tasks. | Varies. Local models often struggle with long-context agentic loops compared to Sonnet. |
+| **Reliability** | "Just works." Orchestration is handled for you. | "The Agentic Problem." Self-hosted agents often get stuck in loops or lose context without heavy tuning. |
+| **Cost** | Paid Subscription | Free (excluding hardware costs) |
+
+**Verdict:** If you are building the "deployable single script" for a self-hosted agent, keep building! But if you need to *get work done today* with an agent that reliably navigates your repo, Claude Code is currently the most polished, "batteries-included" solution.
+
+### vs. VS Code Copilot / ChatGPT
+"I use Copilot and haven't hit token limits. Why switch?"
+
+*   **Autocompletion vs. Delegation:**
+    *   **Copilot** is for *in-flow* assistance. It suggests the next few lines of code while you type. It is an **assistant**.
+    *   **Claude Code** is for *delegation*. You tell it: "Read the `auth` module, add a new 'Reset Password' flow, create the necessary files, and write tests." It goes away and does it. It is an **agent**.
+*   **Scope:**
+    *   **ChatGPT/Copilot Chat:** Good for snippets or single-file context.
+    *   **Claude Code:** Reads your *entire* repository structure, runs terminal commands (grep, ls, git), and fixes its own mistakes when tests fail.
+
+**Verdict:** Use both. Copilot for typing speed, Claude Code for feature implementation and heavy lifting.
 
 ## Billing Warnings
 
