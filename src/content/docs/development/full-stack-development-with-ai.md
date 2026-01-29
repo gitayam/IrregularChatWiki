@@ -83,8 +83,51 @@ A more efficient way to expose tools to an LLM is to use the "Code Mode" approac
 *   **IDE:** VSCode, JupyterLab
 *   **Mobile Development:** Claude Code on the Web
 
+## Military-Focused Development Resources
+
+### CAC Authentication for Web Applications
+
+For military and government applications, integrating **Common Access Card (CAC)** authentication is often a critical requirement. CAC enables strong two-factor authentication using the DoD PKI infrastructure.
+
+#### [cac-auth - DoD CAC Authentication for Cloudflare Workers](https://github.com/nkuntz1934/cac-auth)
+
+This repository provides a reference implementation for enabling CAC authentication using Cloudflare Workers with mTLS (mutual TLS) and BYOCA (Bring Your Own CA).
+
+**Key concepts covered:**
+
+- **mTLS (Mutual TLS):** Two-way certificate authentication where both server and client validate each other's certificates
+- **BYOCA:** Bringing your own Certificate Authority (DoD Root CA 6 + intermediate CAs) to Cloudflare
+- **Certificate Chain:** Proper handling of DoD ID CAs (70, 71, 72, 73, 78, 79)
+- **Cloudflare Workers:** Edge-based authentication without managing traditional server infrastructure
+
+**Why this matters for military units:**
+
+- Build internal tools that require CAC authentication without complex server-side PKI setups
+- Serverless architecture reduces maintenance burden for small teams
+- Can be integrated with existing Cloudflare infrastructure
+- Provides a foundation for building CAC-protected APIs and web applications
+
+**Requirements:**
+
+- Cloudflare Enterprise account (required for BYOCA/mTLS)
+- DoD CA certificates from [public.cyber.mil](https://public.cyber.mil/pki-pke/)
+- Wrangler CLI for deployment
+
+:::note[Enterprise Requirement]
+CAC authentication via BYOCA requires a Cloudflare Enterprise account. For unit-level applications, coordinate with your organization's Cloudflare administrator or explore alternative hosting options if Enterprise access is not available.
+:::
+
+**Example use cases:**
+
+- Internal unit dashboards accessible only to CAC holders
+- API endpoints requiring certificate-based authentication
+- Self-service tools for personnel management
+- Training management systems with verified identity
+
 ## See Also
 
+*   [Claude Code Guide](../ai-ml/claude-code.md) - Comprehensive guide to using Claude Code for AI-assisted development
 *   [Software Engineering](./software-engineering.md)
 *   [OpenHands Guide](../ai-ml/openhands.md)
+*   [DoD PKI Certificate Repository](https://public.cyber.mil/pki-pke/)
 
