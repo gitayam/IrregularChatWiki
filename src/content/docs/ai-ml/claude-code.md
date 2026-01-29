@@ -42,7 +42,7 @@ Many developers consider running a local LLM (like Llama 3 via Ollama) with an M
 | **Reliability** | "Just works." Orchestration is handled for you. | "The Agentic Problem." Self-hosted agents often get stuck in loops or lose context without heavy tuning. |
 | **Cost** | Paid Subscription | Free (excluding hardware costs) |
 
-**Verdict:** If you are building the "deployable single script" for a self-hosted agent, keep building! But if you need to *get work done today* with an agent that reliably navigates your repo, Claude Code is currently the most polished, "batteries-included" solution.
+**Verdict:** If you are building the "deployable single script" for a self-hosted agent, keep building! But if you need to *get work done today* with an agent that reliably navigates your repo, Claude Code is currently the most polished, "batteries-included" solution. For another alternative agentic coding tool, see our [OpenHands Guide](/ai-ml/openhands).
 
 ### vs. VS Code Copilot / ChatGPT
 "I use Copilot and haven't hit token limits. Why switch?"
