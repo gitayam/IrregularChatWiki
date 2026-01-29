@@ -142,157 +142,88 @@ Reaching a human at Anthropic is **very challenging**. Our community experience:
 
 ## Extending Claude Code with Plugins
 
-Claude Code supports a plugin ecosystem for extending its capabilities. These can significantly improve productivity for specific workflows.
+Claude Code (terminal) with plugins is considered **state of the art** for agentic coding. Plugins extend capabilities with new commands, specialized subagents, and MCP servers.
 
-### Plugin Marketplaces
+### Plugin Marketplaces & Frameworks
 
-| Marketplace | Installation | Description |
-|-------------|--------------|-------------|
-| **claude-plugins-official** | Pre-installed | Official Anthropic plugins |
-| **superpowers-marketplace** | `/plugin marketplace add obra/superpowers-marketplace` | Agentic workflows, TDD, systematic development |
-| **voltagent-subagents** | Manual clone | 126+ specialized subagents |
-| **oh-my-claudecode** | Manual clone | Multi-agent orchestration |
-| **ccplugins-awesome** | Manual clone | 100+ community plugins |
+| Marketplace/Plugin | Repo | Description |
+|--------------------|------|-------------|
+| **superpowers** | `obra/superpowers` | Agentic skills framework & software development methodology. Focuses on TDD and systematic workflows. |
+| **oh-my-claudecode** | `Yeachan-Heo/oh-my-claudecode` | Multi-agent orchestration. Features 5 execution modes: **Autopilot**, **Ultrapilot** (parallel), **Swarm**, **Pipeline**, and **Ecomode**. |
+| **awesome-claude-code-subagents** | `VoltAgent` | Collection of 100+ specialized subagents for specific tasks. |
+| **awesome-claude-code-plugins** | `ccplugins` | Curated list of slash commands, subagents, MCP servers, and hooks. |
+| **claude-plugins-official** | Pre-installed | Official Anthropic plugins. |
 
-### Recommended Plugins
+### Essential Plugins to Install
 
-#### For Documentation/Wiki Work
-
-| Plugin | Source | Use Case |
-|--------|--------|----------|
-| documentation-engineer | voltagent | Content organization, search optimization |
-| technical-writer | voltagent | Clear documentation, tutorials |
-| content-marketer | voltagent | SEO, content strategy |
-| changelog-generator | ccplugins | Auto-generate changelogs |
-
-#### For Development
-
-| Plugin | Source | Use Case |
-|--------|--------|----------|
-| superpowers | superpowers-marketplace | TDD workflow, systematic development |
-| code-reviewer | voltagent | Code quality review |
-| debugger | voltagent | Issue diagnosis |
-| git-workflow-manager | voltagent | Branch/PR management |
-
-#### For Research
-
-| Plugin | Source | Use Case |
-|--------|--------|----------|
-| explore | ccplugins | Codebase exploration |
-| analyze-codebase | ccplugins | Project structure analysis |
-| technical-researcher | built-in | Technology evaluation |
+1.  **Context7**: "VERY GOOD ONE". Fetches up-to-date documentation. It essentially acts as a giant database of `llms.txt` files for the web.
+2.  **Explanatory Output Style**: Enable this from the official marketplace for "cool nuggets" of information during execution.
+3.  **Ralph Loop**: A skill/plugin for looping strategies to complete complex apps. *Tip: Ask Claude to use the ralph skill, research online, and come up with the best strategy to loop to complete your app.*
+4.  **Serena**: *Warning*: Configure it to **not** open a browser popup every time it loads.
 
 ### Installing Plugins
 
+You can install plugins manually or simply ask Claude to do it for you:
+
+> "Install the state of the art claude plugins"
+> "Install the 'superpowers' claude plugin"
+
+Or use the slash command:
 ```bash
-# Add a marketplace
-/plugin marketplace add obra/superpowers-marketplace
-
-# Install a plugin
-/plugin install explanatory-output-style@claude-plugins-official
-
-# Update plugins
-/plugin update superpowers
+/plugin
+# Navigate to the default marketplace and enable/install
 ```
 
 ### Context Management with Plugins
 
-:::tip[Monitor Context Usage]
-Plugins and MCP servers can consume significant context tokens. To assess impact:
-
-1. **Check active plugins**: Review which hooks run at session start
-2. **Identify token-heavy components**: SessionStart hooks add to every session
-3. **Disable unused plugins**: Temporarily disable non-essential plugins
-4. **Use lightweight models**: Switch to `haiku` for simple tasks
+:::danger[Context Hogs]
+Plugins and MCP servers (and files like `CLAUDE.md`) can consume significant context tokens.
+**Critical Prompt:** *"Can you assess whether any plugins or MCP servers are eating up all my context?"*
 :::
 
 ## Troubleshooting & Debugging
 
-When you encounter issues with Claude Code or your project, follow this systematic approach:
+### The "State of the Art" Debugging Workflow
 
-### Step 1: Research Online & Use Context7
+When hitting a difficult bug or implementing a complex feature, use this prompt strategy:
 
-The [Context7 MCP](https://context7.com/docs/clients/claude-code) fetches up-to-date, version-specific documentation directly into your prompts.
+> "To fix the current issues, try researching online and/or looking at the context7 plugin, and then try looking at the list of subagents and finding the set of agents to help debug, if needed."
 
-**Install Context7:**
-```bash
-claude mcp add context7 -- npx -y @upstash/context7-mcp
-```
+### Feature Implementation Strategy
 
-**Usage:**
-```
-# Add "use context7" to fetch current docs
-"use context7 to show me how to configure Vite for Cloudflare Workers"
+> "Implement &lt;FEATURE_X&gt; but first look at the possible claude plugins and perhaps select ones that are best for the job."
 
-# Or be specific with a library ID
-"use context7 for React Router 7 middleware setup"
-```
+### LLMs.txt
 
-The `context7-docs-fetcher` plugin (ccplugins) automatically detects when you need library documentation and fetches it.
-
-### Step 2: Use Debugging Subagents
-
-If research doesn't resolve the issue, leverage specialized debugging agents:
-
-| Agent | Source | Specialization |
-|-------|--------|----------------|
-| **debugger** | voltagent | Root cause analysis, systematic problem-solving |
-| **debug-session** | ccplugins | Interactive debugging workflows |
-| **error-detective** | ccplugins | Error pattern detection |
-| **systematic-debugging** | superpowers | Structured debugging methodology |
-
-**Debugging Agent Capabilities:**
-- Stack trace interpretation and log analysis
-- Memory leak and race condition detection
-- Performance profiling and bottleneck identification
-- Minimal reproduction case creation
-- Cross-platform debugging (OS, architecture, library versions)
-
-### Step 3: Escalation Path
-
-1. **Search** → Web search, Context7 docs
-2. **Analyze** → Use debugger/error-detective agents
-3. **Isolate** → Create minimal reproduction
-4. **Community** → [Claude Code GitHub Issues](https://github.com/anthropics/claude-code/issues)
-5. **Support** → Anthropic support (expect delays)
+The `/llms.txt` standard is like a "big sitemap for LLMs". It helps AI models quickly understand your website or documentation. `Context7` leverages this concept at scale. Ensure your own projects have an `llms.txt` to make them accessible to these agentic tools.
 
 ## Recommended Tech Stacks
 
-These are battle-tested tech stacks that work well with Claude Code for modern full-stack development.
+The "Vibecoded" stack for modern, edge-native development.
 
-### Edge-First Stack (Recommended)
-
-For projects deploying to Cloudflare Workers or similar edge platforms:
+### The "EdgeLorde" Stack (Recommended)
 
 | Layer | Technology | Notes |
 |-------|------------|-------|
-| **Runtime** | [Cloudflare Workers](https://workers.cloudflare.com/) | Edge compute, global distribution |
-| **Framework** | [React Router 7](https://reactrouter.com/) (formerly Remix) | Full-stack React framework |
-| **Database** | [Cloudflare D1](https://developers.cloudflare.com/d1/) | Serverless SQLite at the edge |
-| **Storage** | [Cloudflare R2](https://developers.cloudflare.com/r2/) | S3-compatible object storage, zero egress fees |
-| **AI** | [Workers AI](https://developers.cloudflare.com/workers-ai/) | Edge AI inference |
-| **Containers** | [Cloudflare Containers](https://developers.cloudflare.com/containers/) | Run Docker containers at edge |
-| **KV** | [Workers KV](https://developers.cloudflare.com/kv/) | Global key-value storage |
-| **Components** | [Storybook](https://storybook.js.org/) | Component development & testing |
-| **Monorepo** | [Turborepo](https://turbo.build/) | Fast, incremental builds |
-| **E2E Testing** | [Playwright](https://playwright.dev/) | Cross-browser testing |
-| **Package Manager** | [pnpm](https://pnpm.io/) | Fast, disk-efficient |
+| **Runtime** | [Cloudflare Workers](https://workers.cloudflare.com/) | Edge compute. |
+| **Framework** | [React Router 7](https://reactrouter.com/) | **Delete NextJS.** RR7 is the go-to for edge compatibility. |
+| **Database** | [Cloudflare D1](https://developers.cloudflare.com/d1/) | Serverless SQLite at the edge. |
+| **Storage** | [Cloudflare R2](https://developers.cloudflare.com/r2/) | S3-compatible, zero egress fees. |
+| **AI** | [Workers AI](https://developers.cloudflare.com/workers-ai/) | Edge AI inference. |
+| **Containers** | [Cloudflare Containers (Beta)](https://developers.cloudflare.com/containers/) | Run Rust/Go in containers on Workers. |
+| **Workflows** | [Cloudflare Workflows](https://developers.cloudflare.com/workflows/) | Durable execution for multi-step tasks. |
+| **Observability** | [Baselime](https://baselime.io/) | Now part of Cloudflare. |
+| **Docs** | [Fumadocs](https://fumadocs.vercel.app/) | Built on Next.js/Contentlayer, but highly recommended for docs. |
+| **Testing** | [Playwright](https://playwright.dev/) | E2E testing. |
+| **Components** | [Storybook](https://storybook.js.org/) | Component isolation. |
+| **Package Mgr** | [pnpm](https://pnpm.io/) | Fast, disk-efficient. |
+| **Monorepo** | [Turborepo](https://turbo.build/) | Build system. |
+| **Automation** | [Stagehand](https://stagehand.dev/) | Browser automation for agents (Cloudflare). |
 
-**Why Cloudflare Services:**
-- **D1**: SQLite at the edge with automatic replication, perfect for read-heavy workloads
-- **R2**: Zero egress fees (unlike S3), S3-compatible API
-- **Workers AI**: Run inference without managing GPU infrastructure
-- **Containers**: Full Docker support when Workers aren't enough
-
-**Why this stack:**
-- React Router 7 has [first-class Cloudflare Workers support](https://developers.cloudflare.com/workers/framework-guides/web-apps/react-router/)
-- Turborepo + pnpm enables efficient monorepo management
-- Storybook 8+ is fully compatible with pnpm
-- Playwright supports [portable stories from Storybook](https://storybook.js.org/docs/api/portable-stories/portable-stories-playwright) for component testing
-
-**Starter Templates:**
-- [turborepo-react-router-v7-starter](https://github.com/thedammyking/turborepo-react-router-v7-starter) - Turborepo + RR7 + TypeScript
-- [cloudflare-turbo-stack](https://github.com/imkeanserna/cloudflare-turbo-stack) - Full SaaS starter with auth
+### Why this stack?
+*   **React Router 7**: Superior edge compatibility compared to Next.js.
+*   **Cloudflare Ecosystem**: Deep integration between Workers, D1, R2, and AI allows for extremely low-latency applications.
+*   **Agentic Ready**: Tools like Stagehand and Workflows are built for the agentic future.
 
 ### Alternatives to Cloudflare
 
