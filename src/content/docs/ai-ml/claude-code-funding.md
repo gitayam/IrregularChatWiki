@@ -20,10 +20,12 @@ Anthropic offers several plans for Claude Code, catering to individual developer
 | **Claude Max** | $200/month | 5x the usage of Pro, higher rate limits |
 
 ### Business/Team Plans
+*(Effective January 2026)*
 
 | Plan | Price | Notes |
 |------|-------|-------|
-| **Claude Team** | $30/user/month | **Minimum 5 seats required** |
+| **Claude Team (Standard Seats)** | $25/seat/month ($20 if you bill annually) | **Minimum 5 seats required**. All usage limits, Claude Code, and Cowork remain the same. |
+| **Claude Team (Premium Seats)** | $125/seat/month ($100 if you bill annually) | Additional premium Claude Code seats can be added per-user to Team/Enterprise plans. These provide enhanced usage limits. |
 | **Claude Enterprise** | Custom pricing | Volume discounts, SSO, admin controls |
 
 :::danger[Contracting Complication]
