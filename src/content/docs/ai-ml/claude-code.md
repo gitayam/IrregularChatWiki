@@ -93,6 +93,13 @@ For teams already on Claude Team/Enterprise:
 - **Integration**: Embedding Claude in custom applications
 - **One-time projects**: Tasks that don't justify a subscription
 
+:::tip[Alternative to Raw API Credits]
+While API credits are available, there's often no need to use them directly.
+1.  **Claude Agent SDK for Python**: You can script complex tasks in Python, and the SDK will leverage your existing authenticated Claude Pro session on that machine.
+2.  **CLI Scripting**: For simpler automation, you can directly `bash` script calls to the `claude` CLI, also using your Pro subscription.
+3.  **API Emulation**: Some users create local servers (e.g., with FastAPI) that wrap the Claude Code CLI or SDK, exposing an OpenAI-compatible API endpoint to integrate with tools expecting that format.
+:::
+
 :::caution[API Credit Tiers]
 Anthropic only allows purchasing API credits in **escalating tiers**. You can't buy small amounts - minimum purchases increase as you scale:
 - Tier 1: $5 minimum
@@ -101,6 +108,21 @@ Anthropic only allows purchasing API credits in **escalating tiers**. You can't 
 - Higher tiers: Contact sales
 
 This can lead to over-purchasing for small projects.
+:::
+
+## Current Capabilities & Maintenance
+
+### Rapid Evolution & Staying Updated
+Claude Code is a rapidly evolving tool. It's crucial to stay updated with the latest changes and features. Review changelogs frequently (monthly at the slowest) to understand new capabilities and improvements.
+
+### Top-Level Built-In Capabilities
+
+*   **/chrome interaction**: One of the newest, highly efficient, and effective built-in capabilities allowing direct interaction with the Chrome browser.
+
+### Multiple Terminals & Updates
+
+:::warning[CLI Update Conflicts]
+Having multiple terminals open with the Claude Code CLI running simultaneously can sometimes "hold back" updates and lead to API errors. It's recommended to close extra CLI sessions if you encounter unexpected behavior or update issues.
 :::
 
 ## Why Claude Code? (vs. Alternatives)
