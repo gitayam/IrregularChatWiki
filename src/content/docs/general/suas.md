@@ -13,6 +13,10 @@ To operate small Unmanned Aircraft Systems (sUAS) commercially in the United Sta
 
 - [Become a Drone Pilot - FAA](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot)
 
+:::tip[Veterans & Active Duty]
+[Vets to Drones](https://vetstodrones.org) offers Part 107 certification assistance and a private networking portal for verified veterans and active duty members. See [Unmanned Systems - Vets to Drones](/general/unmanned-systems#vets-to-drones) for details.
+:::
+
 ### Related Resources
 
 - [sUAS Breakdown](/general/suas-breakdown) - Technical overview of sUAS components

@@ -19,6 +19,17 @@ Small unmanned aerial systems (sUAS), counter-UAS, FPV operations, and autonomou
 - **Forum**: [Shared Unmanned Systems Files and Briefs](https://forum.irregularchat.com/t/shared-unmanned-systems-access-files-and-briefs/257)
 - **Chat**: Open to all enthusiasts of robotics, sUAS, and fabrication
 
+### Vets to Drones
+
+[Vets to Drones](https://vetstodrones.org) is a community member-run program (Chris L.) that helps veterans and active duty service members get their FAA Part 107 certification and connect with other drone operators worldwide.
+
+:::tip[How to Join]
+1. **Register** at [VetsToDrones.org](https://vetstodrones.org) and verify your veteran/active duty status
+2. **Access the Portal** at [Portal.VetsToDrones.org](https://portal.vetstodrones.org) after verification
+
+The portal is a private ecosystem where verified vets can connect, share resources, and network with other drone operators from anywhere in the world.
+:::
+
 ## sUAS Guides
 
 ### Operator Resources
