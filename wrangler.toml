@@ -1,0 +1,25 @@
+name = "irregularpedia"
+compatibility_date = "2024-01-01"
+pages_build_output_dir = "dist"
+
+# D1 Database - will be created in Task 2
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "irregularpedia-db"
+# database_id = "TO_BE_FILLED"
+
+# KV Namespace - will be created in Task 3
+# [[kv_namespaces]]
+# binding = "SESSIONS"
+# id = "TO_BE_FILLED"
+
+[vars]
+AUTHENTIK_URL = "https://sso.irregularchat.com"
+AUTHENTIK_CLIENT_ID = "irregularpedia"
+WIKI_URL = "https://irregularpedia.org"
+
+# Secrets to set via `wrangler secret put`:
+# - AUTHENTIK_CLIENT_SECRET
+# - FORGEJO_API_TOKEN
+# - SIGNAL_BOT_TOKEN
+# - SIGNAL_MODERATOR_GROUP_ID
