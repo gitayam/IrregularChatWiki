@@ -1,0 +1,208 @@
+---
+// User menu component - shows login/logout and user info
+---
+
+<div class="user-menu" id="user-menu">
+  <div class="user-menu-loading">
+    <span class="loading-spinner"></span>
+  </div>
+  <div class="user-menu-logged-out" style="display: none;">
+    <a href="/api/auth/login" class="login-btn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/>
+        <polyline points="10 17 15 12 10 7"/>
+        <line x1="15" y1="12" x2="3" y2="12"/>
+      </svg>
+      <span>Login</span>
+    </a>
+  </div>
+  <div class="user-menu-logged-in" style="display: none;">
+    <button class="user-btn" id="user-btn">
+      <span class="user-avatar" id="user-avatar">?</span>
+      <span class="user-name" id="user-name">User</span>
+    </button>
+    <div class="user-dropdown" id="user-dropdown">
+      <a href="/api/auth/logout" class="dropdown-item logout-item">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+          <polyline points="16 17 21 12 16 7"/>
+          <line x1="21" y1="12" x2="9" y2="12"/>
+        </svg>
+        <span>Logout</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  .user-menu {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+  }
+
+  .user-menu-loading .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--sl-color-gray-5);
+    border-top-color: var(--sl-color-accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .login-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    background: var(--sl-color-accent);
+    color: var(--sl-color-black);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+
+  .login-btn:hover {
+    opacity: 0.9;
+  }
+
+  .user-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.3rem 0.6rem;
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: var(--sl-color-text);
+    font-size: 0.875rem;
+  }
+
+  .user-btn:hover {
+    background: var(--sl-color-gray-5);
+  }
+
+  .user-avatar {
+    width: 24px;
+    height: 24px;
+    background: var(--sl-color-accent);
+    color: var(--sl-color-black);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+
+  .user-name {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .user-dropdown {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    background: var(--sl-color-bg);
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+    min-width: 150px;
+    z-index: 100;
+  }
+
+  .user-dropdown.open {
+    display: block;
+  }
+
+  .dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    color: var(--sl-color-text);
+    text-decoration: none;
+    font-size: 0.875rem;
+  }
+
+  .dropdown-item:hover {
+    background: var(--sl-color-gray-6);
+  }
+
+  .logout-item {
+    color: var(--sl-color-red);
+  }
+
+  .user-menu-logged-in {
+    position: relative;
+  }
+
+  @media (max-width: 50rem) {
+    .user-name {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  // Check auth status and update UI
+  async function initUserMenu() {
+    const menu = document.getElementById('user-menu');
+    if (!menu) return;
+
+    const loading = menu.querySelector('.user-menu-loading') as HTMLElement;
+    const loggedOut = menu.querySelector('.user-menu-logged-out') as HTMLElement;
+    const loggedIn = menu.querySelector('.user-menu-logged-in') as HTMLElement;
+    const userAvatar = document.getElementById('user-avatar');
+    const userName = document.getElementById('user-name');
+    const userBtn = document.getElementById('user-btn');
+    const dropdown = document.getElementById('user-dropdown');
+
+    try {
+      const response = await fetch('/api/auth/me');
+      const data = await response.json();
+
+      loading.style.display = 'none';
+
+      if (data.authenticated && data.user) {
+        loggedIn.style.display = 'block';
+        if (userAvatar) userAvatar.textContent = data.user.username.charAt(0).toUpperCase();
+        if (userName) userName.textContent = data.user.username;
+      } else {
+        loggedOut.style.display = 'block';
+      }
+    } catch (error) {
+      console.error('Failed to check auth status:', error);
+      loading.style.display = 'none';
+      loggedOut.style.display = 'block';
+    }
+
+    // Toggle dropdown
+    userBtn?.addEventListener('click', () => {
+      dropdown?.classList.toggle('open');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!menu.contains(e.target as Node)) {
+        dropdown?.classList.remove('open');
+      }
+    });
+  }
+
+  // Run on page load and navigation
+  initUserMenu();
+  document.addEventListener('astro:page-load', initUserMenu);
+</script>

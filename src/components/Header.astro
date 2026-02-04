@@ -1,0 +1,35 @@
+---
+// Custom Header that includes UserMenu
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Header.astro';
+import UserMenu from './UserMenu.astro';
+---
+
+<div class="header-wrapper">
+  <Default {...Astro.props}><slot /></Default>
+  <div class="header-user-menu">
+    <UserMenu />
+  </div>
+</div>
+
+<style>
+  .header-wrapper {
+    display: contents;
+  }
+
+  .header-user-menu {
+    position: fixed;
+    top: 0;
+    right: 1rem;
+    height: var(--sl-nav-height);
+    display: flex;
+    align-items: center;
+    z-index: 10;
+  }
+
+  @media (min-width: 50rem) {
+    .header-user-menu {
+      right: 2rem;
+    }
+  }
+</style>

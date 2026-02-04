@@ -1,0 +1,35 @@
+---
+// Custom PageTitle that includes bookmark button
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/PageTitle.astro';
+import BookmarkButton from './BookmarkButton.astro';
+---
+
+<div class="page-title-wrapper">
+  <Default {...Astro.props}><slot /></Default>
+  <div class="page-actions">
+    <BookmarkButton />
+  </div>
+</div>
+
+<style>
+  .page-title-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .page-title-wrapper :global(h1) {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .page-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+  }
+</style>
