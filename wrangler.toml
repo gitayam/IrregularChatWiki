@@ -2,11 +2,11 @@ name = "irregularpedia"
 compatibility_date = "2024-01-01"
 pages_build_output_dir = "dist"
 
-# D1 Database - will be created in Task 2
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "irregularpedia-db"
-# database_id = "TO_BE_FILLED"
+# D1 Database
+[[d1_databases]]
+binding = "DB"
+database_name = "irregularpedia-db"
+database_id = "7768a510-935e-4db4-ac25-808b1416759b"
 
 # KV Namespace - will be created in Task 3
 # [[kv_namespaces]]
