@@ -15,7 +15,7 @@ id = "17796fa8100b419f8df5ad08b2a09d7a"
 
 [vars]
 AUTHENTIK_URL = "https://sso.irregularchat.com"
-AUTHENTIK_CLIENT_ID = "irregularpedia"
+AUTHENTIK_CLIENT_ID = "ps3AS5DcPW43FhB9hAvfUGbQupGRnILnMbi9S5V6"
 WIKI_URL = "https://irregularpedia.org"
 
 # Secrets to set via `wrangler secret put`:
