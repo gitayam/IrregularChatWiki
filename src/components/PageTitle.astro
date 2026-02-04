@@ -1,13 +1,15 @@
 ---
-// Custom PageTitle that includes bookmark button
+// Custom PageTitle that includes bookmark and edit buttons
 import type { Props } from '@astrojs/starlight/props';
 import Default from '@astrojs/starlight/components/PageTitle.astro';
 import BookmarkButton from './BookmarkButton.astro';
+import EditButton from './EditButton.astro';
 ---
 
 <div class="page-title-wrapper">
   <Default {...Astro.props}><slot /></Default>
   <div class="page-actions">
+    <EditButton {...Astro.props} />
     <BookmarkButton />
   </div>
 </div>
