@@ -15,7 +15,7 @@ Are you starting your path to improving your research skills? See this community
 | Plan & Prepare | [Research Preparation](/research/research-preparation) • [Research Template](/research/research-template) |
 | Gather | [Research Datasets](/research/research-datasets) • [Research Tools](/research/research-tools) |
 | Process | [Research Containers](/research/research-containers) • [RStudio Guide](/general/rstudio) |
-| Analyze | [Gephi Guide](/general/gephi) • [Structured Analytic Techniques](/general/structured-analytic-techniques-sats) |
+| Analyze | [Gephi Guide](/general/gephi) • [Structured Analytic Techniques](/research/structured-analytic-techniques-sats) |
 
 ## Research Planning
 
@@ -74,7 +74,7 @@ Examine processed data to identify patterns, trends, and relationships.
 
 - [PMESII-PT Framework](/general/pmesii-pt) - Political, Military, Economic, Social, Information, Infrastructure, Physical Environment, Time
 - [Center of Gravity Analysis](/general/center-of-gravity-analysis-guide) - COG analysis methodology
-- [Structured Analytic Techniques (SATs)](/general/structured-analytic-techniques-sats) - Formal analytical methods
+- [Structured Analytic Techniques (SATs)](/research/structured-analytic-techniques-sats) - Formal analytical methods
 - [Behavior Analysis](/general/behavior-analysis) - Understanding behavioral patterns
 
 **Recommended Analysis Tools:**

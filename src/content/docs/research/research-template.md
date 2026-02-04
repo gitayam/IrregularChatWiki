@@ -47,7 +47,7 @@ This template provides a collection of Structured Analytic Techniques (SATs) for
 
 - [SATs Sheets Template](http://url.irregular.chat/research-template-sats)
 
-- [SATs Guide](/general/structured-analytic-techniques-sats)
+- [SATs Guide](/research/structured-analytic-techniques-sats)
 
 ### Research Diagram (Draw)
 Use this template to visualize complex data and relationships. Diagrams help clarify and communicate important aspects of your research by illustrating connections between different data points.

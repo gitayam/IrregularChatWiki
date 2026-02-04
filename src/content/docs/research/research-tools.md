@@ -5,9 +5,9 @@ tags: ["research", "osint", "tools"]
 
 # Research Tools
 
-## Research Tools
+A curated collection of OSINT and research tools for data gathering, analysis, and investigation.
 
-### Research Repositories and Toolkits
+## Research Repositories and Toolkits
 
 - [Bellingcat toolkit](https://bellingcat.gitbook.io/toolkit/most-used) - Bellingcat toolkit that stays updated.
 

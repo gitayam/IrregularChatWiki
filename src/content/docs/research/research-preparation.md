@@ -11,22 +11,17 @@ title: "Research Preparation"
 
 ### Understanding the Topic or Tasks
 
-## Clearly define the research topic or tasks to ensure the team is aligned on goals and deliverables.
-
-## This could involve brainstorming sessions or mind mapping to explore different aspects of the research.
-
-## Confirm the scope of the research and the specific questions or problems that need to be answered (e.g., identifying a company’s center of gravity, understanding a target audience, or analyzing a network for vulnerabilities).
+- **Define the research topic** - Clearly define the research topic or tasks to ensure the team is aligned on goals and deliverables.
+- **Brainstorm approaches** - Use brainstorming sessions or [mind mapping](/research/sats/mind-maps) to explore different aspects of the research.
+- **Confirm scope** - Confirm the scope of the research and the specific questions or problems that need to be answered (e.g., identifying a company's center of gravity, understanding a target audience, or analyzing a network for vulnerabilities).
 
 
 ### Identify the Scope of the Research
 
-## Define the boundaries of the research, including geographical area, time frame, and specific aspects of the topic to be covered.
-
-## Determine specific objectives such as identifying key players, understanding behaviors, or forecasting risks.
-
-## Identify research limitations like data availability, ethical considerations, or resource constraints.
-
-## Define the research questions guiding the data collection and analysis process.
+- **Define boundaries** - Define the boundaries of the research, including geographical area, time frame, and specific aspects of the topic to be covered.
+- **Determine objectives** - Determine specific objectives such as identifying key players, understanding behaviors, or forecasting risks.
+- **Identify limitations** - Identify research limitations like data availability, ethical considerations, or resource constraints.
+- **Define research questions** - Define the research questions guiding the data collection and analysis process.
 
 
 ### Identifying Necessary Data
@@ -52,7 +47,7 @@ title: "Research Preparation"
 
 - Alternative Hypothesis: "The content shows significant signs of being AI-generated."
 
-Structured Analytical Techniques (SATs), such as Analysis of Competing Hypotheses (ACH) and Key Assumptions Check (KAC), help refine hypotheses. Use the [wiki page](/general/structured-analytic-techniques-sats) to guide planning, brainstorming, data collection, and analysis.
+Structured Analytical Techniques (SATs), such as [Analysis of Competing Hypotheses (ACH)](/research/sats/analysis-of-competing-hypotheses) and [Key Assumptions Check (KAC)](/research/sats/key-assumptions-check), help refine hypotheses. Use the [SATs wiki page](/research/structured-analytic-techniques-sats) to guide planning, brainstorming, data collection, and analysis.
 
 ### Prepare for Research
 
@@ -103,21 +98,19 @@ A VPN can protect privacy while researching and help bypass website geographic r
 
 
 ### Kasm Virtual Environment
-Kasm allows you to run a virtual machine in a web browser, useful for research on devices without local resources. Find the self-hosted version of Kasm [
+
+[Kasm Workspaces](https://kasmweb.com/) allows you to run isolated browser sessions in a web browser, useful for research on devices without local resources. Kasm provides containerized desktops and browsers that can be spun up on-demand.
 
 ### Pre-Browsing Checks
+
 Run the following checks before browsing to ensure privacy and security:
 
-1. [https://dnsleaktest.com/ DNS / IP Leak Test](/general/links).) - Confirm your location.
+1. [DNS Leak Test](https://dnsleaktest.com/) - Confirm your DNS is not leaking your location
+2. [Cover Your Tracks (EFF)](https://coveryourtracks.eff.org/) - Check browser fingerprinting and tracking protection
+3. [Browser Cookie Tester](https://www.grc.com/cookies/forensics.html) - Test cookie behavior
+4. [InAppBrowser](https://inappbrowser.com/) - Check if in-app browsers inject JavaScript
+5. [AdBlock Test](https://canyoublockit.com/extreme-test/) - Verify ad blocking is working
 
-2. [Cover Your Tracks EFF](https://coveryourtracks.eff.org/) - Browser canvas check.
-
-3. [Browser Cookie Tester](https://www.grc.com/cookies/forensics.html)
-
-4. [InAppBrowser](https://inappbrowser.com/)
-
-5. [AdBlock Test](https://canyoublockit.com/extreme-test/) - Ensure ads are blocked.
-
-See the full [Force Protection Guide](/general/dfp-guide) for more detailed guidance.
+See the full [Digital Force Protection Guide](/general/dfp-guide) for more detailed guidance.
 
 

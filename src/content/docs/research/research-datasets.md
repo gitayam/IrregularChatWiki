@@ -26,7 +26,7 @@ title: "Research Datasets"
 
 - [Awesome Cyber Threat Datasets](https://github.com/hslatman/awesome-threat-intelligence) provide context, mechanisms, indicators, implications, and actionable advice about existing or emerging threats to assets that can inform decisions regarding the subject's response to that menace or hazard.
 
-1. [DataSet Tag](https://forum.irregularchat.com/tag/dataset) on IrregularChat Forum
+- [DataSet Tag](https://forum.irregularchat.com/tag/dataset) on IrregularChat Forum
 
 - [r/datasets](https://www.reddit.com/r/datasets/)
 
