@@ -126,8 +126,8 @@ CAC authentication via BYOCA requires a Cloudflare Enterprise account. For unit-
 
 ## See Also
 
-*   [Claude Code Guide](../ai-ml/claude-code.md) - Comprehensive guide to using Claude Code for AI-assisted development
-*   [Software Engineering](./software-engineering.md)
-*   [OpenHands Guide](../ai-ml/openhands.md)
+*   [Claude Code Guide](../ai-ml/claude-code) - Comprehensive guide to using Claude Code for AI-assisted development
+*   [Software Engineering](./software-engineering)
+*   [OpenHands Guide](../ai-ml/openhands)
 *   [DoD PKI Certificate Repository](https://public.cyber.mil/pki-pke/)
 

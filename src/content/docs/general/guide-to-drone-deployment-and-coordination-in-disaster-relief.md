@@ -13,9 +13,9 @@ Further discussion on this topic and questions a volunteer  might ask are on the
 
 ### Airspace Coordination
 
-- **Importance of Coordination**: Effective airspace management prevents conflicts between manned and unmanned aircraft. During the relief efforts, the absence of centralized coordination led to multiple mid-air close calls, underscoring the need for structured airspace management.)(https://www.dji.com).
+- **Importance of Coordination**: Effective airspace management prevents conflicts between manned and unmanned aircraft. During the relief efforts, the absence of centralized coordination led to multiple mid-air close calls, underscoring the need for structured airspace management.
 
-- **Communication Tools**: Satellite-based internet services like Starlink provided crucial connectivity in areas where traditional communication networks were down.)(https://www.arrl.org).
+- **Communication Tools**: Satellite-based internet services like Starlink provided crucial connectivity in areas where traditional communication networks were down.
 
 ### Volunteer Management
 
@@ -26,7 +26,7 @@ Further discussion on this topic and questions a volunteer  might ask are on the
 ### Training and Standard Operating Procedures (SOPs)
 
 - **Regulatory Compliance**: Operators should have a clear understanding of relevant regulations:
-  - Civilian Operators: Federal Aviation Administration (FAA) Part 107 Certification. See [Non Active](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot).)(/non-active)
+  - Civilian Operators: [FAA Part 107 Certification](https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot)
 
 - **Development of SOPs**: Establishing SOPs is vital for rapid and organized deployment during disaster scenarios.
 
@@ -70,10 +70,12 @@ Community Organization:
 ### Open-Source Communication Tools for Disaster Scenarios
 In disaster situations where traditional communication networks are compromised, open-source mesh networking tools can provide resilient alternatives:
 
-- **[Meshtastic](https://meshtastic.org/)**:
-  - Overview: Meshtastic is an open-source project that utilizes inexpensive LoRa radios to create a mesh network, enabling off-grid, long-range communication without relying on cellular or internet infrastructure.)**:
-  - Overview: Briar is an open-source communication tool designed for secure and resilient peer-to-peer messaging without centralized servers, operating over Bluetooth, Wi-Fi, or the internet via Tor.)**:
-  - Overview: OpenDroneMap is an open-source project for processing aerial imagery captured by drones into maps, 3D models, and other geospatial data formats.)(https://gotenna.com).
-  - Applications: Can supplement other mesh networking solutions for small-scale, localized disaster response.
+- **[Meshtastic](https://meshtastic.org/)**: An open-source project that utilizes inexpensive LoRa radios to create a mesh network, enabling off-grid, long-range communication without relying on cellular or internet infrastructure.
+
+- **[Briar](https://briarproject.org/)**: An open-source communication tool designed for secure and resilient peer-to-peer messaging without centralized servers, operating over Bluetooth, Wi-Fi, or the internet via Tor.
+
+- **[OpenDroneMap](https://www.opendronemap.org/)**: An open-source project for processing aerial imagery captured by drones into maps, 3D models, and other geospatial data formats.
+
+- **[goTenna](https://gotenna.com/)**: Can supplement other mesh networking solutions for small-scale, localized disaster response.
 
 ### References

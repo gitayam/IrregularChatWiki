@@ -4,9 +4,9 @@ title: "Mantrix with Ansible"
 
 # Mantrix with Ansible
 
-Return to [
+Return to [Server Guides](/server-guides/)
 
-### Pushing Updates
+## Pushing Updates
 
 ### Remotely Pushing updates with ssh command
 ```shell

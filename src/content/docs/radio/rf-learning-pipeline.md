@@ -67,7 +67,7 @@ This section includes practical, often hands-on, learning opportunities recommen
     *   Learn about EMCOM (Emergency Communications).
     *   Pair up with experienced members to learn repair.
 *   **Join a SAR Group:** Join your local Search and Rescue (SAR) group for practical VHF/UHF experience.
-*   **Explore Modern Radio Tech:** Get into [Software Defined Radios (SDRs)](./software-defined-radios-sdrs.md) and projects like Meshtastic. [DragonOS](./dragonos.md) is a great resource for this.
+*   **Explore Modern Radio Tech:** Get into [Software Defined Radios (SDRs)](./software-defined-radios-sdrs) and projects like Meshtastic. [DragonOS](./dragonos) is a great resource for this.
 *   **Specialized Exploration (Example):** For those near the TAG (Tennessee, Alabama, Georgia) region, joining a group like the Huntsville Cave Rescue Unit offers a chance to explore the unique challenges of underground communications and radio wave attenuation through limestone.
 
 ## 5. Recommended Resources
@@ -90,7 +90,7 @@ This section includes practical, often hands-on, learning opportunities recommen
 
 ## See Also
 
-*   [Community Recommended Pathways](../community/community-recommended-pathways.md)
-*   [Software Defined Radios (SDRs)](./software-defined-radios-sdrs.md)
-*   [DragonOS](./dragonos.md)
-*   [Research Pathways](../research/community-recommended-pathways-research.md)
+*   [Community Recommended Pathways](../community/community-recommended-pathways)
+*   [Software Defined Radios (SDRs)](./software-defined-radios-sdrs)
+*   [DragonOS](./dragonos)
+*   [Research Pathways](../research/community-recommended-pathways-research)

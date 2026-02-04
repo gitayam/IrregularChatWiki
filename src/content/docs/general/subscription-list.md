@@ -36,7 +36,9 @@ https://www.youtube.com/c/NetworkChuck ## Software Defined Radios - [cemaxecuter
 
 ### Home Lab (Self-Host)
 
-### [Selfhosted](https://selfhosted.show/) - [
+### [Self-Hosted](https://selfhosted.show/) - [rss](https://feeds.fireside.fm/selfhosted/rss)
+
+Discover new software and hardware to get the best out of your network, control smart devices, and secure your data on cloud services.
 
 ### Influence
 
