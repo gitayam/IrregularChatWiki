@@ -4,9 +4,7 @@ title: "SSH Keys"
 
 # SSH Keys
 
-## SSH Keys
-
-### What They Are
+## What They Are
 SSH keys are a pair of cryptographic keys used for secure access to systems over a network. They consist of a public key, which is shared, and a private key, which is kept secret. SSH keys provide a more secure and convenient way to authenticate than traditional passwords.
 
 ### Difference Between SSH and GPG Keys

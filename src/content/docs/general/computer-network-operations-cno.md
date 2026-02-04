@@ -4,7 +4,6 @@ title: "Computer Network Operations (CNO)"
 
 # Computer Network Operations (CNO)
 
-## Computer Network Operations (CNO)
 **Computer Network Operations (CNO)** encompasses offensive and defensive cyber operations as defined by the **U.S. Department of Defense (DoD)**. It includes three primary areas of focus:
 
 - **Computer Network Attack (CNA)**: Offensive operations to disrupt or disable adversary networks.

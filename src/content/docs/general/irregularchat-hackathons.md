@@ -4,7 +4,6 @@ title: "IrregularChat Hackathons"
 
 # IrregularChat Hackathons
 
-## IrregularChat Hackathons
 IrregularChat Hackathons are community-driven coding sprints designed to bring developers, engineers, and problem solvers together to create innovative solutions in a short time frame. These hackathons focus on rapid prototyping, collaboration, and leveraging open-source principles to solve real-world challenges.
 
 ### Mini Virtual Hackathons

@@ -4,7 +4,6 @@ title: "Learning from an Incident"
 
 # Learning from an Incident
 
-## Learning from an Incident
 For in-depth guidelines and steps to take following an incident, refer to our [Incident Response Guide (Personal)](/cybersecurity/cyber-incident-response-guide-personal)
 
 ### Learning from the Experience

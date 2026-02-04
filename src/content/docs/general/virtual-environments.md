@@ -4,9 +4,7 @@ title: "Virtual Environments"
 
 # Virtual Environments
 
-## Virtual Environments
-
-### Hypervisors
+## Hypervisors
 Hypervisors are the software, firmware, or hardware that create and run virtual machines. They come in two types:
 
 - **Type 1 Hypervisors:** Also known as bare-metal hypervisors, they run directly on the host’s hardware to manage guest operating systems. Examples include VMware ESXi, Microsoft Hyper-V, and Xen.

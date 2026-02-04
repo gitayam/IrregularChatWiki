@@ -4,7 +4,6 @@ title: "RFID Spoofing"
 
 # RFID Spoofing
 
-## RFID Spoofing
 This page provides a detailed guide on RFID (Radio Frequency Identification) spoofing, an essential technique used in red teaming to evaluate security systems that utilize RFID technology for access control and tracking.
 
 ### Overview of RFID Technology

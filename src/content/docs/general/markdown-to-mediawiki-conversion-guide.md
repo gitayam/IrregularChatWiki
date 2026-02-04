@@ -4,9 +4,7 @@ title: "Markdown to MediaWiki Conversion Guide"
 
 # Markdown to MediaWiki Conversion Guide
 
-## Markdown to MediaWiki Conversion Guide
-
-### Convert Markdown to MediaWiki
+## Convert Markdown to MediaWiki
 Mediawiki syntax is a bit different from markdown syntax and GPT tends to prefer markdown syntax and defaults to it even when you ask it to convert to mediawiki.
 
 This template is a guide to convert markdown to mediawiki syntax using gpt along with regex instructions to do the find and replace what is often missed by gpt.

@@ -5,16 +5,15 @@ tags: ["learning", "certifications", "career", "education"]
 
 # Certifications
 
-## Certifications
-Resources, guides, and information for credentialing and certifications.
+Resources, guides, and information for credentialing and certifications. You may also be interested in [Learning Resources](/general/learning).
 
-You may also be interested in [resources.
+:::tip[Military Funding]
+See [Military Funding for Certifications](/general/learning) for information on using tuition assistance to fund certifications.
+:::
 
-### Tips
+## Tips
+
 Using educational resources from Hack The Box Academy helps prepare users for intermediate cybersecurity courses like the Offensive Security Certified Professional (OSCP). Registering with a school email reduces the monthly cost from $40 to about $10, saving nearly $370 annually.
-
-‼️ **LOOK HERE** ‼️ **Military Funding for Certifications**](/general/learning)
-*Covers using tuition assistance to fund certifications.
 
 ### Cybersecurity
 **SANS**

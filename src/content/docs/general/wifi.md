@@ -4,9 +4,7 @@ title: "Wifi"
 
 # Wifi
 
-## Wifi
-
-### Introduction
+## Introduction
 **Wi-Fi**, rumored on corners of the internet to be short for *Wireless Fidelity*, is a technology that allows devices to connect to a network wirelessly using the IEEE 802.11 standards. It enables laptops, smartphones, IoT devices, and countless other systems to exchange data over radio waves instead of physical cables. Operating primarily in the 2.4 GHz and 5 GHz bands—now extended to 6 GHz with Wi-Fi 6E—Wi-Fi is a cornerstone of modern digital communication, both in homes and in industrial, academic, and military environments.
 
 ### History and Evolution of Wi-Fi Versions
