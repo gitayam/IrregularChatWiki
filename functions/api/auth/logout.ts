@@ -4,7 +4,6 @@ import {
   deleteSession,
   createLogoutCookie,
 } from '../../lib/auth';
-import { buildLogoutUrl } from '../../lib/authentik';
 
 export const onRequestPost: PagesFunction<Env> = async (context) => {
   const { env, request } = context;
@@ -45,13 +44,24 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     await deleteSession(env.SESSIONS, sessionId);
   }
 
-  // Redirect to home with cleared cookie
-  const headers = new Headers();
-  headers.set('Set-Cookie', createLogoutCookie());
-  headers.set('Location', env.WIKI_URL);
+  // Use HTML redirect with cookie to clear session
+  const html = `<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0;url=${env.WIKI_URL}">
+  <title>Logging out...</title>
+</head>
+<body>
+  <p>Logging out...</p>
+  <p><a href="${env.WIKI_URL}">Click here if not redirected</a></p>
+</body>
+</html>`;
 
-  return new Response(null, {
-    status: 302,
-    headers,
+  return new Response(html, {
+    status: 200,
+    headers: {
+      'Content-Type': 'text/html',
+      'Set-Cookie': createLogoutCookie(),
+    },
   });
 };

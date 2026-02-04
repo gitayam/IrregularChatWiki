@@ -9,6 +9,31 @@ import {
   fetchUserInfo,
 } from '../../lib/authentik';
 
+// Helper to create HTML redirect with cookie
+function htmlRedirectWithCookie(url: string, cookieValue?: string): Response {
+  const html = `<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="refresh" content="0;url=${url}">
+  <title>Redirecting...</title>
+</head>
+<body>
+  <p>Redirecting...</p>
+  <p><a href="${url}">Click here if not redirected</a></p>
+</body>
+</html>`;
+  const headers: Record<string, string> = {
+    'Content-Type': 'text/html',
+  };
+  if (cookieValue) {
+    headers['Set-Cookie'] = cookieValue;
+  }
+  return new Response(html, {
+    status: 200,
+    headers,
+  });
+}
+
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const { env, request } = context;
   const url = new URL(request.url);
@@ -22,18 +47,18 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   // Handle OAuth errors
   if (error) {
     console.error(`OAuth error: ${error} - ${errorDescription}`);
-    return Response.redirect(`${env.WIKI_URL}/?error=auth_failed`, 302);
+    return htmlRedirectWithCookie(`${env.WIKI_URL}/?error=auth_failed`);
   }
 
   if (!code || !state) {
-    return Response.redirect(`${env.WIKI_URL}/?error=missing_params`, 302);
+    return htmlRedirectWithCookie(`${env.WIKI_URL}/?error=missing_params`);
   }
 
   // Verify state parameter
   const stateData = await env.SESSIONS.get(`oauth_state:${state}`);
   if (!stateData) {
     console.error('Invalid or expired state parameter');
-    return Response.redirect(`${env.WIKI_URL}/?error=invalid_state`, 302);
+    return htmlRedirectWithCookie(`${env.WIKI_URL}/?error=invalid_state`);
   }
 
   // Delete used state
@@ -91,20 +116,14 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       Date.now()
     ).run();
 
-    // Create response with session cookie
-    const response = Response.redirect(`${env.WIKI_URL}${returnTo}`, 302);
-
-    // Clone response to add cookie header
-    const headers = new Headers(response.headers);
-    headers.set('Set-Cookie', createSessionCookie(sessionId));
-
-    return new Response(response.body, {
-      status: 302,
-      headers,
-    });
+    // Create response with session cookie using HTML redirect
+    return htmlRedirectWithCookie(
+      `${env.WIKI_URL}${returnTo}`,
+      createSessionCookie(sessionId)
+    );
 
   } catch (err) {
     console.error('Auth callback error:', err);
-    return Response.redirect(`${env.WIKI_URL}/?error=auth_failed`, 302);
+    return htmlRedirectWithCookie(`${env.WIKI_URL}/?error=auth_failed`);
   }
 };

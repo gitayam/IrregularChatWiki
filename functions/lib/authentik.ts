@@ -12,7 +12,7 @@ export function buildAuthorizationUrl(
     client_id: env.AUTHENTIK_CLIENT_ID,
     response_type: 'code',
     redirect_uri: redirectUri,
-    scope: 'openid profile email groups',
+    scope: 'openid profile email',
     state: state,
   });
 
