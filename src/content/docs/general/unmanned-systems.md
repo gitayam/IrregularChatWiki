@@ -75,7 +75,7 @@ The portal is a private ecosystem where verified vets can connect, share resourc
 
 ## Combat Lessons Learned (Ukraine)
 
-Based on interviews with combat drone operators and advisors, including [Lito Villanueva's Drone Wars Podcast interview](#ukraine-has-the-best-drones-in-the-world---lito-villanueva).
+Based on interviews with combat drone operators and advisors, including [Lito's Drone Wars Podcast interview](#ukraine-has-the-best-drones-in-the-world---lito-villanueva).
 
 ### Why Ukrainian Drones Lead the World
 
@@ -182,9 +182,9 @@ See: [FPV sUAS Guide](/general/fpv-suas)
 
 ## Videos & Training
 
-### Ukraine Has the BEST Drones in the World - Lito Villanueva
+### Ukraine Has the BEST Drones in the World - Lito
 
-Lito Villanueva is a U.S. Air Force veteran who served as a combat drone pilot and team leader for a drone team in 3rd Regiment Ukrainian Special Operations Forces. This interview covers critical lessons learned from the Ukraine conflict.
+Lito is a U.S. Air Force veteran who served as a combat drone pilot and team leader for a drone team in 3rd Regiment Ukrainian Special Operations Forces. This interview covers critical lessons learned from the Ukraine conflict.
 
 <div class="not-content">
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/WtxqPB14pqk" title="Ukraine Has the BEST Drones in the World: Lito Part IV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -112,7 +112,7 @@ HD FPV options each have trade-offs: DJI leads in performance but at higher cost
 
 ## Ukraine Combat FPV Operations
 
-Combat-proven insights from FPV operators in Ukraine, including from [Lito Villanueva's interview on the Drone Wars Podcast](https://youtu.be/WtxqPB14pqk).
+Combat-proven insights from FPV operators in Ukraine, including from [Lito's interview on the Drone Wars Podcast](https://youtu.be/WtxqPB14pqk).
 
 ### Why Ukrainian FPV Tech Leads
 

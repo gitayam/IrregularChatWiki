@@ -108,7 +108,7 @@ Ukrainian teams modify DJI platforms because the hardware (camera, gimbal, OcuSy
 This practice has been refined over 4+ years of conflict and is now highly systematic.
 
 :::note[Source]
-DJI modification details from [Lito Villanueva's Drone Wars Podcast interview](https://youtu.be/WtxqPB14pqk) (Feb 2026)
+DJI modification details from [Lito's Drone Wars Podcast interview](https://youtu.be/WtxqPB14pqk) (Feb 2026)
 :::
 
 ## Why Each Piece Matters
@@ -158,6 +158,6 @@ DJI modification details from [Lito Villanueva's Drone Wars Podcast interview](h
 
 ## References
 
-- [Ukraine Has the BEST Drones in the World - Lito Villanueva (Drone Wars Podcast)](https://youtu.be/WtxqPB14pqk) - Combat drone pilot discusses Ukrainian innovation, DJI modifications, and lessons learned
+- [Ukraine Has the BEST Drones in the World - Lito (Drone Wars Podcast)](https://youtu.be/WtxqPB14pqk) - Combat drone pilot discusses Ukrainian innovation, DJI modifications, and lessons learned
 - [Unmanned Systems](/general/unmanned-systems) - Main hub for UAS resources
 - [FPV sUAS Guide](/general/fpv-suas) - First-person view drone operations and training

@@ -134,7 +134,7 @@ This section is not intended to call out any specific vendor but to help leaders
 
 ## Ukraine Combat Lessons Learned
 
-Based on interviews with combat veterans including [Lito Villanueva](https://youtu.be/WtxqPB14pqk), a former drone team leader in 3rd Regiment Ukrainian Special Operations Forces.
+Based on interviews with combat veterans including [Lito](https://youtu.be/WtxqPB14pqk), a former drone team leader in 3rd Regiment Ukrainian Special Operations Forces.
 
 ### Why Ukrainian Systems Lead
 
