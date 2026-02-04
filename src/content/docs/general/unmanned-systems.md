@@ -73,6 +73,54 @@ The portal is a private ecosystem where verified vets can connect, share resourc
 | F3EAD | Find, Fix, Finish, Exploit, Analyze, Disseminate |
 | Legacy | Detect, Identify, Track, Defeat/Destroy |
 
+## Combat Lessons Learned (Ukraine)
+
+Based on interviews with combat drone operators and advisors, including [Lito Villanueva's Drone Wars Podcast interview](#ukraine-has-the-best-drones-in-the-world---lito-villanueva).
+
+### Why Ukrainian Drones Lead the World
+
+| Factor | Description |
+|--------|-------------|
+| **Battle Testing** | Constant iteration against peer adversary with advanced EW |
+| **Necessity-Driven Innovation** | Built homegrown industry when Western weapons were unavailable |
+| **Rapid Adaptation** | Weekly/monthly iteration cycles vs. years for Western programs |
+| **Cost Efficiency** | $5,000/drone target drives innovation under constraint |
+| **DJI Modifications** | Jailbreaking, desoldering Chinese telemetry, chimera chips |
+
+### What Works vs. What Doesn't
+
+**Effective in Ukraine:**
+- Ukrainian-built systems with constant combat iteration
+- Modified DJI platforms (jailbroken, telemetry removed)
+- Systems designed for GPS-denied, EW-contested environments
+- Alternate PNT (Position, Navigation, Timing) solutions
+
+**Ineffective in Ukraine (per combat operators):**
+- Anduril systems - "didn't work" in contested environment
+- Skydio - "didn't work" for combat ops (better for public safety/surveillance)
+- Parrot Anafi (including government version) - "trash"
+- Any system claiming to be "jam-proof" or "EW-proof"
+
+:::caution[Context Matters]
+These assessments reflect specific combat conditions in Ukraine (heavy EW, GPS denial, peer adversary). Systems may perform differently in other environments.
+:::
+
+### Training Reality
+
+US special operations forces reportedly receive ~30 minutes/week of stick time - far below combat requirements. Ukraine's approach:
+
+- **Build & Fly Classes**: Operators learn to build, repair, and fly
+- **Dedicated Drone Corps**: Department-level organization (like Space Force)
+- **SWORD Model**: Special Operations Robotics Detachment - broader than just drones
+
+### Key Recommendations from Combat Veterans
+
+1. **Secure logistics and supply chain** - #1 priority
+2. **Training adoption** - only way to integrate drones into operations
+3. **Combined arms maneuver** - integrate drones into existing tactics, don't replace humans
+4. **Test in Ukraine** - millions of dollars of free validation vs. Yuma/White Sands
+5. **Buy from allies** - consider Ukrainian systems and expertise
+
 ## FPV Operations
 
 ### Equipment
@@ -133,6 +181,27 @@ See: [FPV sUAS Guide](/general/fpv-suas)
 | VTX | Video Transmitter |
 
 ## Videos & Training
+
+### Ukraine Has the BEST Drones in the World - Lito Villanueva
+
+Lito Villanueva is a U.S. Air Force veteran who served as a combat drone pilot and team leader for a drone team in 3rd Regiment Ukrainian Special Operations Forces. This interview covers critical lessons learned from the Ukraine conflict.
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/WtxqPB14pqk" title="Ukraine Has the BEST Drones in the World: Lito Part IV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+**Key Topics Covered:**
+- Why Ukrainian drone tech is "the best in the world" - constant iteration and battle testing
+- DJI hardware superiority and Ukrainian jailbreaking/modification techniques
+- Testing and validation vs. Western systems built for GWOT
+- Combined arms maneuver with drones
+- Training requirements (US SOF getting inadequate stick time)
+- AI's near-term value: coordination software, not autonomous kinetic strike
+- Indo-Pacific preparation and partnership strategies
+
+:::tip[Source]
+[Drone Wars Podcast](https://www.youtube.com/@DroneWarsPodcast) - Lito Part IV (Feb 2026)
+:::
 
 ### 2-508 sUAS Lessons Learned
 

@@ -4,15 +4,15 @@ title: "FPV sUAS"
 
 # FPV sUAS
 
-### Start FPV Flying
+## Start FPV Flying
 First-person view (FPV) flying offers an immersive experience, piloting drones from the perspective of the cockpit. This guide covers everything beginners need to know about equipment, simulators, and initial flights, drawing from community insights and recommended practices.
 
 **Community Contacts:** Justin C., Bryan S., Stanislav Oros, Lito, Flo.
 
-### Summary
+## Summary
 This guide walks new pilots through simulators, gear selection, first flights, drills, strike‐net training, and community resources to accelerate safe, confident FPV flying.
 
-### Simulators
+## Simulators
 Simulators let you hone throttle, stick control, and orientation without risk of real‐world damage.
 
 *Note: You’ll need a compatible radio controller—see Equipment section below.*
@@ -21,7 +21,7 @@ Simulators let you hone throttle, stick control, and orientation without risk of
 
 - **Velocidrone** – Custom environments, wide controller support; available from the publisher. [Velocidrone official site](https://www.velocidrone.com/)
 
-### Equipment to Buy
+## Equipment to Buy
 Choosing the right gear ensures reliable, enjoyable flights:
 
 - **Radio Controller** – e.g. RadioMaster Boxer with ELRS internal module for low latency. [RadioMaster Boxer ELRS](https://www.radiomasterrc.com/products/boxer-radio-controller-m2)
@@ -38,17 +38,17 @@ Choosing the right gear ensures reliable, enjoyable flights:
 
 - **Propellers & Tools** – Spare props, hex drivers, zip-ties, Velcro straps.
 
-### Your First FPV Experience
+## Your First FPV Experience
 Start with ~20 hours in a simulator before real flights; this eases the transition and reduces crash rates.
 
-### Community & Training
+## Community & Training
 Tap into shared knowledge and tutorials:
 
 - Joshua Bardwell’s YouTube Channel: [Joshua Bardwell](https://www.youtube.com/channel/UCX3eufnI7A2I7IkKHZn8KSQ)
 
 - FPV forums, Discords, local meetup groups
 
-### FPV Drills & Practices
+## FPV Drills & Practices
 Structured drills accelerate skill growth.
 
 ### For Beginners
@@ -77,7 +77,7 @@ Structured drills accelerate skill growth.
 
 - **Acro Mode** – Manual control without stabilization, essential for freestyle/racing.
 
-### Crash Nets for FPV Strike Training
+## Crash Nets for FPV Strike Training
 Crash nets (or “strike nets”) contain drones during impact-practice drills, safeguarding gear and pilots while marking clear targets.
 
 ### Recommended Products
@@ -102,18 +102,81 @@ Crash nets (or “strike nets”) contain drones during impact-practice drills, 
 
 ### DIY Setup
 
-## Construct a 2×4 box frame matching your mock vehicle.
+1. Construct a 2×4 box frame matching your mock vehicle.
+2. Attach the pop-up net with zip-ties or bungees.
+3. Mark strike zones using spray-paint or target stickers.
+4. Adjust distance and angle to simulate different attack profiles.
 
-## Attach the pop-up net with zip-ties or bungees.
-
-## Mark strike zones using spray-paint or target stickers.
-
-## Adjust distance and angle to simulate different attack profiles.
-
-### Community Insights
+## Community Insights
 HD FPV options each have trade-offs: DJI leads in performance but at higher cost and regulatory risk; Walksnail/Caddx respond to feedback and supply 1S ultra-light systems; HDZero is a mid-tier choice.
 
-### Additional Tips
+## Ukraine Combat FPV Operations
+
+Combat-proven insights from FPV operators in Ukraine, including from [Lito Villanueva's interview on the Drone Wars Podcast](https://youtu.be/WtxqPB14pqk).
+
+### Why Ukrainian FPV Tech Leads
+
+Ukrainian drone technology is considered "the best in the world" due to:
+
+- **Constant iteration** against a peer adversary with advanced electronic warfare
+- **Battle-tested validation** - systems that don't work get operators killed
+- **Homegrown industry** built from necessity when Western weapons were unavailable
+- **Rapid development cycles** - weeks/months vs. years for Western procurement
+
+### DJI Modifications (Jailbreaking)
+
+Ukrainian teams extensively modify DJI hardware because it remains superior in:
+- Camera quality and gimbal stabilization
+- OcuSync protocol performance
+- Battery life and propeller efficiency
+- Overall hardware reliability
+
+**Modification Process:**
+1. Map entire circuit diagram of data flows
+2. Use Wireshark and traffic analysis to identify Chinese server connections
+3. Desolder chips responsible for telemetry to Chinese servers
+4. Install "chimera chips" - custom replacements
+5. Remove security features preventing capability unlocks
+
+:::caution[Legal & Security]
+Jailbreaking may violate terms of service and export controls. This information is provided for educational awareness of combat realities.
+:::
+
+### Training Requirements
+
+Combat FPV requires significantly more training than recreational flying:
+
+| Level | Recommended Hours | Notes |
+|-------|------------------|-------|
+| Basic Competency | 20+ hours simulator | Before any real flights |
+| Combat Ready | 100+ hours total | Mix of sim and live |
+| Current US SOF | ~30 min/week | Reported as inadequate |
+
+**Training Philosophy from Ukraine:**
+- "Guys only need to learn how to fly drones - you don't build your own M4 unless you're a hobbyist"
+- Focus on flying proficiency, then customize for mission
+- Build & fly classes valuable for understanding repair capabilities
+
+### Combined Arms Integration
+
+The future isn't replacing humans with drones but integrating drones into existing maneuver:
+
+- **ISR drones** for persistent surveillance
+- **Kinetic strike drones** for precision engagement
+- **UGVs** for logistics and medical evacuation
+- **Coordination software** to manage drone force status and scheduling
+
+:::tip[AI's Real Value]
+Per combat veterans, AI's near-term military value is in **coordination and scheduling** (which teams are ready, where, with what capabilities) rather than autonomous targeting. "The human is still really important."
+:::
+
+### Recommended Viewing
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/WtxqPB14pqk" title="Ukraine Has the BEST Drones in the World: Lito Part IV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## Additional Tips
 
 - **Budgeting** – Plan for gear, repairs, and upgrades: “Cry once, fly forever.”
 

@@ -132,6 +132,76 @@ This section is not intended to call out any specific vendor but to help leaders
 - **Integration Testing**: Test the integration of the system with existing technology and workflows to ensure compatibility and ease of use.
 - **Performance Metrics**: Establish and measure key performance metrics, such as CE90, to validate the system's accuracy and effectiveness in various conditions.
 
+## Ukraine Combat Lessons Learned
+
+Based on interviews with combat veterans including [Lito Villanueva](https://youtu.be/WtxqPB14pqk), a former drone team leader in 3rd Regiment Ukrainian Special Operations Forces.
+
+### Why Ukrainian Systems Lead
+
+Ukrainian drone technology is considered "the best in the world" due to constant battle testing and rapid iteration. Key factors:
+
+| Factor | US/Western Approach | Ukrainian Approach |
+|--------|--------------------|--------------------|
+| **Development Cycle** | Years (acquisition process) | Weeks/months |
+| **Testing Environment** | Simulated (Yuma, White Sands) | Active combat against peer EW |
+| **Cost Priority** | Capability-first | $5,000/drone constraint |
+| **Validation** | Controlled tests | Operators' lives depend on it |
+
+### Combat-Tested Vendor Assessments
+
+:::caution[Context]
+These assessments reflect specific combat conditions in Ukraine (heavy EW, GPS denial). Systems may perform differently in other environments.
+:::
+
+| Vendor/System | Combat Assessment | Notes |
+|---------------|-------------------|-------|
+| **Ukrainian-built** | Effective | Constant iteration, battle-tested |
+| **DJI (modified)** | Effective | Jailbroken with Chinese telemetry removed |
+| **Anduril** | "Didn't work" | Per combat operators in contested environment |
+| **Skydio** | "Didn't work" | May be suitable for public safety, not combat |
+| **Parrot Anafi** | "Trash" | Including government version |
+| **Any "jam-proof" claim** | Skeptical | "Anything wireless can be jammed by dirt" |
+
+### Why Western Systems Struggled
+
+Per combat veterans, US systems were built for Global War on Terror conditions:
+- Radio supremacy assumed
+- Logistics superiority assumed
+- GPS availability assumed
+- EW threat minimal
+
+In contested Ukraine environment:
+- Heavy Russian EW presence
+- GPS frequently denied/spoofed
+- Supply chains contested
+- Peer adversary adapts quickly
+
+### What Makes Ukrainian Systems Work
+
+1. **Testing and Validation** - Constant real-world feedback loop
+2. **Alternate PNT** - Systems designed for GPS-denied operations
+3. **Rapid Iteration** - Weekly improvements based on combat results
+4. **User-Driven Requirements** - Operators shape development
+5. **DJI Hardware Foundation** - Superior hardware with modifications
+
+### Recommended Actions for US Programs
+
+From debriefs with senior military leaders:
+
+1. **Test in Ukraine** - "Millions of dollars of free testing" vs. domestic ranges
+2. **Hire Ukrainian expertise** - Bring proven operators/engineers on visa
+3. **Partner with allies** - Buy from Ukraine, leverage their experience
+4. **Focus on training** - US SOF reportedly get ~30 min/week stick time
+5. **Prioritize secure logistics** - Supply chain is #1 challenge
+
+### Video Reference
+
+<div class="not-content">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/WtxqPB14pqk" title="Ukraine Has the BEST Drones in the World: Lito Part IV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+---
+
 ### Telltale Signs Leaders Should Be Aware Of
 
 **Modularity and Open Architecture:**

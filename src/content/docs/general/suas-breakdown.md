@@ -4,10 +4,11 @@ title: "SUAS Breakdown"
 
 # SUAS Breakdown
 
-1. small Unmanned Aerial Systems
+## Small Unmanned Aerial Systems
+
 An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly known as a drone, is an aircraft with no human pilot, crew, or passengers onboard, but rather is controlled remotely or is autonomous.
 
-### Terms
+## Terms
 
 - **Unmanned aircraft**: The term "unmanned aircraft" means an aircraft that is operated without the possibility of direct human intervention from within or on the aircraft.
 
@@ -45,9 +46,17 @@ An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly kno
 
 - **GCS**: Ground Control Station
 
-- **Pixel Lock**: A computer-vision-based target-tracking mode found in advanced FPV and autonomous small UAS. Once the operator designates a subject (person, vehicle, structure, etc.), the onboard AI locks onto the target’s pixel representation in the video feed, continuously tracking it—even if GPS or radio communications are lost.
+- **Pixel Lock**: A computer-vision-based target-tracking mode found in advanced FPV and autonomous small UAS. Once the operator designates a subject (person, vehicle, structure, etc.), the onboard AI locks onto the target's pixel representation in the video feed, continuously tracking it—even if GPS or radio communications are lost.
 
-### UAS Groups
+- **Chimera Chip**: Custom replacement chip installed after desoldering original DJI components; bypasses telemetry to Chinese servers and unlocks restricted features. Named for combining capabilities from multiple sources.
+
+- **Alt-PNT**: Alternate Position, Navigation, and Timing - systems that provide navigation capability when GPS/GNSS is denied or jammed. Critical for contested environments.
+
+- **OcuSync**: DJI's proprietary low-latency video transmission protocol. Considered superior to alternatives; Ukrainian teams retain this capability while removing telemetry components.
+
+- **SWORD**: Special Operations Robotics Detachment - US Special Forces organizational concept for robotics (broader than just drones/UAS).
+
+## UAS Groups
 
 | Group | Weight | Alt | Speed | DoD Label | Common Roles | Examples |
 |-------|--------|-----|-------|-----------|--------------|----------|
@@ -58,9 +67,9 @@ An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly kno
 | Group 4 | > 1,320 lb | < 18,000 ft MSL | Any | Tactical UAS | Armed ISR, EW, extended-range strike | MQ-1C Gray Eagle, MQ-8B Fire Scout |
 | Group 5 | > 1,320 lb | > 18,000 ft MSL | Any | Strategic UAS | HALE ISR/strike, deep-strike, maritime patrol | MQ-9 Reaper, RQ-4 Global Hawk |
 
-1. sUAS Components
+## sUAS Components
 
-### sUAS — Core Flight Hardware (Must Have)
+### Core Flight Hardware (Must Have)
 
 | Sub-system | Key parts | Why it's indispensable |
 |------------|-----------|------------------------|
@@ -72,20 +81,37 @@ An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly kno
 | Power distribution | XT60/XT90 lead; silicone-insulated loom; power-distribution board | Safely routes high-current battery output to ESCs & avionics |
 | Optional | FPV / EO-IR camera; video TX; companion computer; payload mount | Adds ISR or strike capability |
 
-### Fielded Configurations (Ukraine 2023–25)
+## Fielded Configurations (Ukraine 2023–26)
 
-| Component | COTS Quad (DJI Mavic 3) | FPV Kamikaze (DIY 5″–7″) | Stick-frame Improvised |
-|-----------|-------------------------|--------------------------|------------------------|
-| Frame | Injection-moulded, folding arms | 5–7″ carbon X-frame | Pine / bamboo sticks; zip-ties |
-| Motors | Integrated in arm | 2306 / 2307 / 2807 6S outrunners | Cheap 2306 1900 KV sets |
-| Propellers | Folding 9–9.4″ 2-blade | 5–7″ tri-blade poly-carbonate | Any 5″ nylon/carbon pair |
-| ESCs | Integrated 4-in-1 | 45–60 A BLHeli-32 (singles or 4-in-1) | Same, heat-shrunk to stick arm |
-| Battery | Smart 4S 5000 mAh Li-Po (≈77 Wh) | 6S 1300–1800 mAh Li-Po | Recycled 6S or parallel tool packs |
-| FC firmware | DJI proprietary | Betaflight / iNav or ArduPilot | Same on low-cost F722 boards |
-| RC / Video | DJI OcuSync 2.4 / 5.8 GHz | ExpressLRS RX + 5.8 GHz 1W VTX | Crossfire or ELRS; VTX taped on |
-| Typical payload | 4K gimbal cam; grenade drop-mod | 3D-printed nose with PG-7V or 40mm HEDP; ESAD PCB | Stick spear, thermite charge |
+| Component | COTS Quad (DJI Mavic 3) | DJI Jailbroken | FPV Kamikaze (DIY 5″–7″) | Stick-frame Improvised |
+|-----------|-------------------------|----------------|--------------------------|------------------------|
+| Frame | Injection-moulded, folding arms | Same DJI hardware | 5–7″ carbon X-frame | Pine / bamboo sticks; zip-ties |
+| Motors | Integrated in arm | Same | 2306 / 2307 / 2807 6S outrunners | Cheap 2306 1900 KV sets |
+| Propellers | Folding 9–9.4″ 2-blade | Same | 5–7″ tri-blade poly-carbonate | Any 5″ nylon/carbon pair |
+| ESCs | Integrated 4-in-1 | Same | 45–60 A BLHeli-32 (singles or 4-in-1) | Same, heat-shrunk to stick arm |
+| Battery | Smart 4S 5000 mAh Li-Po (≈77 Wh) | Same | 6S 1300–1800 mAh Li-Po | Recycled 6S or parallel tool packs |
+| FC firmware | DJI proprietary | Modified; telemetry chips desoldered | Betaflight / iNav or ArduPilot | Same on low-cost F722 boards |
+| RC / Video | DJI OcuSync 2.4 / 5.8 GHz | OcuSync with Chinese servers blocked | ExpressLRS RX + 5.8 GHz 1W VTX | Crossfire or ELRS; VTX taped on |
+| Modifications | None | Chimera chip installed; security unlocks | N/A | N/A |
+| Typical payload | 4K gimbal cam; grenade drop-mod | Same + enhanced capabilities | 3D-printed nose with PG-7V or 40mm HEDP; ESAD PCB | Stick spear, thermite charge |
 
-### Why Each Piece Matters
+#### DJI Jailbreaking Process
+
+Ukrainian teams modify DJI platforms because the hardware (camera, gimbal, OcuSync protocol, battery life) remains superior to alternatives. Per combat veterans, the modification process involves:
+
+1. **Circuit mapping** – Trace entire diagram of data flows
+2. **Traffic analysis** – Use Wireshark to identify Chinese server connections
+3. **Desoldering** – Remove chips responsible for telemetry to external servers
+4. **Chimera chip installation** – Replace with custom chips to unlock features
+5. **Security bypass** – Remove DRM preventing capability unlocks
+
+This practice has been refined over 4+ years of conflict and is now highly systematic.
+
+:::note[Source]
+DJI modification details from [Lito Villanueva's Drone Wars Podcast interview](https://youtu.be/WtxqPB14pqk) (Feb 2026)
+:::
+
+## Why Each Piece Matters
 
 - **Propellers** – diameter + pitch must suit motor KV & voltage; wrong combo causes brown-outs or stalls.
 
@@ -101,25 +127,18 @@ An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly kno
 
 - **ESAD add-ons** – simple MOSFET safe/arm PCB triggered by spare FC output; dual-command logic prevents accidental detonation.
 
-### Minimal Shopping List
+## Minimal Shopping List
 
-## Four brushless motors + matching props
+1. Four brushless motors + matching props
+2. Four ESCs (or one 4-in-1 board)
+3. Li-Po battery + XT60 lead
+4. Basic frame (sticks, carbon, or 3-D-printed)
+5. Flight-controller stack w/ IMU + GPS puck
+6. RC receiver & antennas
+7. Power-distribution harness & wiring
+8. *Optional:* FPV camera + VTX, payload mount, ESAD module if carrying explosives
 
-## Four ESCs (or one 4-in-1 board)
-
-## Li-Po battery + XT60 lead
-
-## Basic frame (sticks, carbon, or 3-D-printed)
-
-## Flight-controller stack w/ IMU + GPS puck
-
-## RC receiver & antennas
-
-## Power-distribution harness & wiring
-
-1. *Optional:* FPV camera + VTX, payload mount, ESAD module if carrying explosives
-
-### Roles Involving sUAS
+## Roles Involving sUAS
 ;Pilot / Operator
 : Directly controls the aircraft (manual, semi-autonomous, or autonomous modes) and executes the mission profile.
 ;Payload / Sensor Operator
@@ -137,6 +156,8 @@ An unmanned aerial vehicle (UAV) or unmanned aircraft system (UAS), commonly kno
 ;Instructor / Standardization Pilot
 : Trains crews, maintains SOPs, and ensures compliance with regulatory and tactical standards.
 
-### References
+## References
 
-
+- [Ukraine Has the BEST Drones in the World - Lito Villanueva (Drone Wars Podcast)](https://youtu.be/WtxqPB14pqk) - Combat drone pilot discusses Ukrainian innovation, DJI modifications, and lessons learned
+- [Unmanned Systems](/general/unmanned-systems) - Main hub for UAS resources
+- [FPV sUAS Guide](/general/fpv-suas) - First-person view drone operations and training
