@@ -8,10 +8,10 @@ binding = "DB"
 database_name = "irregularpedia-db"
 database_id = "7768a510-935e-4db4-ac25-808b1416759b"
 
-# KV Namespace - will be created in Task 3
-# [[kv_namespaces]]
-# binding = "SESSIONS"
-# id = "TO_BE_FILLED"
+# KV Namespace for session storage
+[[kv_namespaces]]
+binding = "SESSIONS"
+id = "17796fa8100b419f8df5ad08b2a09d7a"
 
 [vars]
 AUTHENTIK_URL = "https://sso.irregularchat.com"
