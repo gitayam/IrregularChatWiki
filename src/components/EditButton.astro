@@ -1,8 +1,16 @@
 ---
 // Edit button for editing pages on Forgejo
-import type { Props } from '@astrojs/starlight/props';
+import config from 'virtual:starlight/user-config';
 
-const { entry, editUrl } = Astro.props;
+// Get the current page path from the URL
+const pathname = Astro.url.pathname;
+// Convert URL path to file path (e.g., /ai-ml/ -> src/content/docs/ai-ml/index.md)
+const pagePath = pathname.replace(/\/$/, '') || '/index';
+const filePath = `src/content/docs${pagePath}.md`;
+
+// Build edit URL from config
+const editBaseUrl = config.editLink?.baseUrl;
+const editUrl = editBaseUrl ? `${editBaseUrl}${filePath}` : null;
 ---
 
 {editUrl && (
