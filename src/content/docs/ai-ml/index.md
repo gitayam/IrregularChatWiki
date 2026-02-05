@@ -2,7 +2,7 @@
 title: "AI & Autonomy"
 ---
 
-# AI & Autonomy now
+# AI & Autonomy now now
 
 Artificial intelligence, machine learning, large language models, and autonomous systems resources for defense and research applications.
 
