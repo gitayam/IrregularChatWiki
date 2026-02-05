@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Page | Irregularpedia</title>
+  <link rel="icon" href="/favicon.ico">
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --bg-secondary: #16213e;
+      --text: #e4e4e7;
+      --text-muted: #a1a1aa;
+      --accent: #3eaf7c;
+      --border: #374151;
+      --error: #ef4444;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.5rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .back-btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 0.5rem 0.75rem;
+      border-radius: 0.5rem;
+      transition: all 0.2s;
+    }
+
+    .back-btn:hover {
+      color: var(--text);
+      background: rgba(255,255,255,0.1);
+    }
+
+    .page-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.2s;
+      border: none;
+      text-decoration: none;
+    }
+
+    .btn-secondary {
+      background: var(--bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.1);
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: #000;
+    }
+
+    .btn-primary:hover {
+      opacity: 0.9;
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .editor-container {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    .editor-pane, .preview-pane {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .pane-header {
+      padding: 0.75rem 1rem;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+    }
+
+    .preview-pane {
+      border-left: 1px solid var(--border);
+    }
+
+    textarea {
+      flex: 1;
+      width: 100%;
+      padding: 1rem;
+      background: var(--bg);
+      color: var(--text);
+      border: none;
+      resize: none;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+
+    textarea:focus {
+      outline: none;
+    }
+
+    .preview-content {
+      flex: 1;
+      padding: 1rem;
+      overflow: auto;
+      background: var(--bg);
+    }
+
+    .preview-content h1, .preview-content h2, .preview-content h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .preview-content h1:first-child { margin-top: 0; }
+    .preview-content h1 { font-size: 1.5rem; }
+    .preview-content h2 { font-size: 1.25rem; }
+    .preview-content h3 { font-size: 1.125rem; }
+
+    .preview-content p { margin-bottom: 1rem; line-height: 1.7; }
+
+    .preview-content code {
+      background: rgba(255,255,255,0.1);
+      padding: 0.2em 0.4em;
+      border-radius: 0.25rem;
+      font-size: 0.875em;
+    }
+
+    .preview-content pre {
+      background: var(--bg-secondary);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+      margin-bottom: 1rem;
+    }
+
+    .preview-content pre code { background: none; padding: 0; }
+    .preview-content ul, .preview-content ol { margin-bottom: 1rem; padding-left: 1.5rem; }
+    .preview-content li { margin-bottom: 0.5rem; }
+    .preview-content a { color: var(--accent); }
+
+    .preview-content blockquote {
+      border-left: 3px solid var(--accent);
+      padding-left: 1rem;
+      margin: 1rem 0;
+      color: var(--text-muted);
+    }
+
+    .loading, .error, .auth-required {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      gap: 1rem;
+      color: var(--text-muted);
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .error { color: var(--error); }
+
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 1rem 1.5rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      display: none;
+      z-index: 100;
+    }
+
+    .toast.success { border-color: var(--accent); }
+    .toast.error { border-color: var(--error); }
+
+    .toast.show {
+      display: block;
+      animation: slideUp 0.3s ease;
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translate(-50%, 1rem); }
+      to { opacity: 1; transform: translate(-50%, 0); }
+    }
+
+    .commit-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+    }
+
+    .commit-modal.open { display: flex; }
+
+    .commit-dialog {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      width: 90%;
+      max-width: 500px;
+    }
+
+    .commit-dialog h3 { margin-bottom: 1rem; }
+
+    .commit-dialog input {
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      color: var(--text);
+      font-size: 0.875rem;
+      margin-bottom: 1rem;
+    }
+
+    .commit-dialog input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .commit-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 0.75rem;
+    }
+
+    @media (max-width: 768px) {
+      .editor-container { flex-direction: column; }
+      .preview-pane { border-left: none; border-top: 1px solid var(--border); }
+      .editor-pane, .preview-pane { flex: none; height: 50vh; }
+      .header { padding: 0.75rem 1rem; }
+      .page-title { font-size: 0.875rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <a href="/" class="back-btn" id="back-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Back
+      </a>
+      <span class="page-title" id="page-title">Loading...</span>
+    </div>
+    <div class="header-right">
+      <button class="btn btn-secondary" id="preview-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+        Preview
+      </button>
+      <button class="btn btn-primary" id="submit-btn" disabled>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+          <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+        Submit
+      </button>
+    </div>
+  </header>
+
+  <div class="editor-container" id="editor-container">
+    <div class="loading" id="loading">
+      <div class="spinner"></div>
+      <span>Loading page content...</span>
+    </div>
+
+    <div class="auth-required" id="auth-required" style="display: none;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+        <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+      </svg>
+      <span>Login required to edit pages</span>
+      <a href="/api/auth/login" class="btn btn-primary" id="login-btn">Login to Edit</a>
+    </div>
+
+    <div class="error" id="error" style="display: none;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="12" r="10"/>
+        <line x1="12" y1="8" x2="12" y2="12"/>
+        <line x1="12" y1="16" x2="12.01" y2="16"/>
+      </svg>
+      <span id="error-message">Failed to load page</span>
+      <a href="/" class="btn btn-secondary" id="error-back-btn">Go Back</a>
+    </div>
+
+    <div class="editor-pane" id="editor-pane" style="display: none;">
+      <div class="pane-header">Markdown Editor</div>
+      <textarea id="editor" placeholder="Loading..."></textarea>
+    </div>
+
+    <div class="preview-pane" id="preview-pane" style="display: none;">
+      <div class="pane-header">Preview</div>
+      <div class="preview-content" id="preview"></div>
+    </div>
+  </div>
+
+  <div class="commit-modal" id="commit-modal">
+    <div class="commit-dialog">
+      <h3>Submit Your Edit</h3>
+      <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.875rem;">
+        Your edit will be submitted as a pull request for review.
+      </p>
+      <input type="text" id="commit-message" placeholder="Describe your changes...">
+      <div class="commit-actions">
+        <button class="btn btn-secondary" id="cancel-submit">Cancel</button>
+        <button class="btn btn-primary" id="confirm-submit">Submit PR</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // Get page path from URL query parameter
+    const urlParams = new URLSearchParams(window.location.search);
+    const pagePath = urlParams.get('path') || '';
+
+    let originalContent = '';
+    let currentSha = '';
+    let currentFilePath = '';
+    let isAuthenticated = false;
+
+    const elements = {
+      loading: document.getElementById('loading'),
+      authRequired: document.getElementById('auth-required'),
+      error: document.getElementById('error'),
+      errorMessage: document.getElementById('error-message'),
+      editorPane: document.getElementById('editor-pane'),
+      previewPane: document.getElementById('preview-pane'),
+      editor: document.getElementById('editor'),
+      preview: document.getElementById('preview'),
+      submitBtn: document.getElementById('submit-btn'),
+      previewToggle: document.getElementById('preview-toggle'),
+      commitModal: document.getElementById('commit-modal'),
+      commitMessage: document.getElementById('commit-message'),
+      cancelSubmit: document.getElementById('cancel-submit'),
+      confirmSubmit: document.getElementById('confirm-submit'),
+      toast: document.getElementById('toast'),
+      pageTitle: document.getElementById('page-title'),
+      backBtn: document.getElementById('back-btn'),
+      loginBtn: document.getElementById('login-btn'),
+      errorBackBtn: document.getElementById('error-back-btn'),
+    };
+
+    // Update page title and back link
+    elements.pageTitle.textContent = `Editing: ${pagePath || 'Home'}`;
+    elements.backBtn.href = `/${pagePath}/`;
+    elements.errorBackBtn.href = `/${pagePath}/`;
+    elements.loginBtn.href = `/api/auth/login?return_to=/edit.html?path=${encodeURIComponent(pagePath)}`;
+
+    // Simple markdown to HTML converter
+    function renderMarkdown(md) {
+      return md
+        .replace(/^### (.*$)/gm, '<h3>$1</h3>')
+        .replace(/^## (.*$)/gm, '<h2>$1</h2>')
+        .replace(/^# (.*$)/gm, '<h1>$1</h1>')
+        .replace(/\*\*\*(.*?)\*\*\*/g, '<strong><em>$1</em></strong>')
+        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+        .replace(/\*(.*?)\*/g, '<em>$1</em>')
+        .replace(/```(\w*)\n([\s\S]*?)```/g, '<pre><code>$2</code></pre>')
+        .replace(/`([^`]+)`/g, '<code>$1</code>')
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+        .replace(/^> (.*$)/gm, '<blockquote>$1</blockquote>')
+        .replace(/^\- (.*$)/gm, '<li>$1</li>')
+        .replace(/^\d+\. (.*$)/gm, '<li>$1</li>')
+        .replace(/\n\n/g, '</p><p>')
+        .replace(/\n/g, '<br>');
+    }
+
+    function showToast(message, type = 'info') {
+      elements.toast.textContent = message;
+      elements.toast.className = `toast show ${type}`;
+      setTimeout(() => elements.toast.classList.remove('show'), 3000);
+    }
+
+    function updatePreview() {
+      elements.preview.innerHTML = '<p>' + renderMarkdown(elements.editor.value) + '</p>';
+    }
+
+    function checkChanges() {
+      const hasChanges = elements.editor.value !== originalContent;
+      elements.submitBtn.disabled = !hasChanges || !isAuthenticated;
+    }
+
+    async function init() {
+      if (!pagePath) {
+        elements.loading.style.display = 'none';
+        elements.error.style.display = 'flex';
+        elements.errorMessage.textContent = 'No page path specified';
+        return;
+      }
+
+      try {
+        // Check authentication
+        const authResponse = await fetch('/api/auth/me');
+        const authData = await authResponse.json();
+        isAuthenticated = authData.authenticated;
+
+        if (!isAuthenticated) {
+          elements.loading.style.display = 'none';
+          elements.authRequired.style.display = 'flex';
+          return;
+        }
+
+        // Fetch page content
+        const pageResponse = await fetch(`/api/pages/${pagePath}`);
+        const pageData = await pageResponse.json();
+
+        if (!pageData.success) {
+          throw new Error(pageData.error || 'Failed to load page');
+        }
+
+        originalContent = pageData.content;
+        currentSha = pageData.sha;
+        currentFilePath = pageData.path;
+
+        elements.editor.value = originalContent;
+        updatePreview();
+
+        elements.loading.style.display = 'none';
+        elements.editorPane.style.display = 'flex';
+        elements.previewPane.style.display = 'flex';
+        elements.submitBtn.disabled = true;
+
+      } catch (err) {
+        elements.loading.style.display = 'none';
+        elements.error.style.display = 'flex';
+        elements.errorMessage.textContent = err.message;
+      }
+    }
+
+    // Event listeners
+    elements.editor.addEventListener('input', () => {
+      updatePreview();
+      checkChanges();
+    });
+
+    elements.previewToggle.addEventListener('click', () => {
+      const isVisible = elements.previewPane.style.display !== 'none';
+      elements.previewPane.style.display = isVisible ? 'none' : 'flex';
+    });
+
+    elements.submitBtn.addEventListener('click', () => {
+      elements.commitMessage.value = `Update ${pagePath}`;
+      elements.commitModal.classList.add('open');
+    });
+
+    elements.cancelSubmit.addEventListener('click', () => {
+      elements.commitModal.classList.remove('open');
+    });
+
+    elements.confirmSubmit.addEventListener('click', async () => {
+      elements.confirmSubmit.disabled = true;
+      elements.confirmSubmit.textContent = 'Submitting...';
+
+      try {
+        const response = await fetch(`/api/pages/${pagePath}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            content: elements.editor.value,
+            sha: currentSha,
+            path: currentFilePath,
+            message: elements.commitMessage.value,
+          }),
+        });
+
+        const data = await response.json();
+
+        if (!data.success) {
+          throw new Error(data.error || 'Failed to submit edit');
+        }
+
+        elements.commitModal.classList.remove('open');
+        showToast('Edit submitted! PR created.', 'success');
+
+        originalContent = elements.editor.value;
+        checkChanges();
+
+        if (data.pr_url) {
+          window.open(data.pr_url, '_blank');
+        }
+
+      } catch (err) {
+        showToast(err.message, 'error');
+      } finally {
+        elements.confirmSubmit.disabled = false;
+        elements.confirmSubmit.textContent = 'Submit PR';
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') elements.commitModal.classList.remove('open');
+    });
+
+    init();
+  </script>
+</body>
+</html>
