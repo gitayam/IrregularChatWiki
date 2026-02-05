@@ -18,24 +18,37 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
     });
   }
 
+  // Get Forgejo API token - required for private repos
+  const forgejoToken = env.FORGEJO_API_TOKEN;
+  if (!forgejoToken) {
+    return new Response(JSON.stringify({
+      success: false,
+      error: 'Forgejo API not configured',
+    }), {
+      status: 500,
+      headers: { 'Content-Type': 'application/json' },
+    });
+  }
+
+  const authHeaders = {
+    'Authorization': `token ${forgejoToken}`,
+    'Accept': 'application/json',
+  };
+
   try {
     // Fetch raw content from Forgejo
     const filePath = `src/content/docs/${pagePath}.md`;
     const apiUrl = `https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki/contents/${filePath}`;
 
     const response = await fetch(apiUrl, {
-      headers: {
-        'Accept': 'application/json',
-      },
+      headers: authHeaders,
     });
 
     if (!response.ok) {
       // Try with /index.md for directory pages
       const indexPath = `src/content/docs/${pagePath}/index.md`;
       const indexResponse = await fetch(`https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki/contents/${indexPath}`, {
-        headers: {
-          'Accept': 'application/json',
-        },
+        headers: authHeaders,
       });
 
       if (!indexResponse.ok) {
