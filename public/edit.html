@@ -463,6 +463,27 @@
       elements.submitBtn.disabled = !hasChanges || !isAuthenticated;
     }
 
+    async function reloadContent() {
+      try {
+        const pageResponse = await fetch(`/api/pages/${pagePath}`);
+        const pageData = await pageResponse.json();
+
+        if (!pageData.success) {
+          throw new Error(pageData.error || 'Failed to reload');
+        }
+
+        originalContent = pageData.content;
+        currentSha = pageData.sha;
+        currentFilePath = pageData.path;
+        elements.editor.value = originalContent;
+        updatePreview();
+        checkChanges();
+        showToast('Page reloaded with latest version', 'success');
+      } catch (err) {
+        showToast('Failed to reload: ' + err.message, 'error');
+      }
+    }
+
     async function init() {
       if (!pagePath) {
         elements.loading.style.display = 'none';
@@ -549,7 +570,15 @@
         const data = await response.json();
 
         if (!data.success) {
-          throw new Error(data.error || 'Failed to submit edit');
+          // Check for SHA mismatch (conflict)
+          if (data.error && data.error.includes('sha does not match')) {
+            elements.commitModal.classList.remove('open');
+            if (confirm('This page was modified by someone else. Reload the latest version?\n\n(Your changes will be lost - copy them first if needed)')) {
+              await reloadContent();
+            }
+            return;
+          }
+          throw new Error(data.error || 'Failed to save');
         }
 
         elements.commitModal.classList.remove('open');
