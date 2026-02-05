@@ -1,6 +1,13 @@
 import type { Env } from '../../types';
 import { getAuthContext } from '../../lib/auth';
 
+// Common headers for API responses - no caching
+const apiHeaders = {
+  'Content-Type': 'application/json',
+  'Cache-Control': 'no-store, no-cache, must-revalidate',
+  'Pragma': 'no-cache',
+};
+
 // GET /api/pages/:path - Get raw markdown content for a page
 export const onRequestGet: PagesFunction<Env> = async (context) => {
   const { env, params } = context;
@@ -14,7 +21,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       error: 'Page path is required',
     }), {
       status: 400,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   }
 
@@ -26,7 +33,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       error: 'Forgejo API not configured',
     }), {
       status: 500,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   }
 
@@ -57,7 +64,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
           error: 'Page not found',
         }), {
           status: 404,
-          headers: { 'Content-Type': 'application/json' },
+          headers: apiHeaders,
         });
       }
 
@@ -71,7 +78,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
         path: indexData.path,
       }), {
         status: 200,
-        headers: { 'Content-Type': 'application/json' },
+        headers: apiHeaders,
       });
     }
 
@@ -85,7 +92,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       path: data.path,
     }), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   } catch (error) {
     console.error('Failed to fetch page content:', error);
@@ -94,7 +101,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
       error: 'Failed to fetch page content',
     }), {
       status: 500,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   }
 };
@@ -111,7 +118,7 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
       error: 'Authentication required',
     }), {
       status: 401,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   }
 
@@ -123,7 +130,7 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
       error: 'Page path is required',
     }), {
       status: 400,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   }
 
@@ -143,7 +150,7 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
         error: 'content, sha, and path are required',
       }), {
         status: 400,
-        headers: { 'Content-Type': 'application/json' },
+        headers: apiHeaders,
       });
     }
 
@@ -155,7 +162,7 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
         error: 'Forgejo API not configured',
       }), {
         status: 500,
-        headers: { 'Content-Type': 'application/json' },
+        headers: apiHeaders,
       });
     }
 
@@ -278,7 +285,7 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
       pr_url: prData.html_url,
     }), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   } catch (error) {
     console.error('Failed to submit edit:', error);
@@ -287,7 +294,7 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
       error: error instanceof Error ? error.message : 'Failed to submit edit',
     }), {
       status: 500,
-      headers: { 'Content-Type': 'application/json' },
+      headers: apiHeaders,
     });
   }
 };
