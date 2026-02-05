@@ -203,16 +203,25 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
       content: { sha: string };
     };
 
-    // Log the edit
-    await env.DB.prepare(`
-      INSERT INTO edit_submissions (user_id, page_path, status, forgejo_pr_url, created_at)
-      VALUES (?, ?, 'committed', ?, ?)
-    `).bind(
-      auth.user.userId,
-      pagePath,
-      updateData.commit.html_url,
-      Date.now()
-    ).run();
+    // Log the edit (non-blocking - Git history is the source of truth)
+    try {
+      await env.DB.prepare(`
+        INSERT INTO edit_submissions (id, page_path, original_content, proposed_content, user_id, username, status, forgejo_pr_url, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, 'committed', ?, ?)
+      `).bind(
+        crypto.randomUUID(),
+        pagePath,
+        '', // Original content not tracked (see Git history)
+        content,
+        auth.user.userId,
+        auth.user.username,
+        updateData.commit.html_url,
+        Date.now()
+      ).run();
+    } catch (dbError) {
+      // Don't fail the save if logging fails - Git commit succeeded
+      console.error('Failed to log edit to DB:', dbError);
+    }
 
     return new Response(JSON.stringify({
       success: true,
