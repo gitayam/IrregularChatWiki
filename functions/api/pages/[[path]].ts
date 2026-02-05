@@ -106,7 +106,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
   }
 };
 
-// PUT /api/pages/:path - Submit an edit (creates a PR)
+// PUT /api/pages/:path - Submit an edit (commits directly to main)
 export const onRequestPut: PagesFunction<Env> = async (context) => {
   const { env, request, params } = context;
 
@@ -166,60 +166,9 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
       });
     }
 
-    // Create a unique branch name
-    const branchName = `edit/${auth.user.username}/${Date.now()}`;
     const commitMessage = message || `Update ${pagePath} via wiki editor`;
 
-    // Step 1: Get the default branch SHA
-    const repoResponse = await fetch('https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki', {
-      headers: {
-        'Authorization': `token ${forgejoToken}`,
-        'Accept': 'application/json',
-      },
-    });
-
-    if (!repoResponse.ok) {
-      throw new Error('Failed to get repo info');
-    }
-
-    const repoData = await repoResponse.json() as { default_branch: string };
-    const defaultBranch = repoData.default_branch || 'main';
-
-    // Step 2: Get the latest commit SHA of the default branch
-    const branchResponse = await fetch(`https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki/branches/${defaultBranch}`, {
-      headers: {
-        'Authorization': `token ${forgejoToken}`,
-        'Accept': 'application/json',
-      },
-    });
-
-    if (!branchResponse.ok) {
-      throw new Error('Failed to get branch info');
-    }
-
-    const branchData = await branchResponse.json() as { commit: { id: string } };
-    const baseSha = branchData.commit.id;
-
-    // Step 3: Create a new branch
-    const createBranchResponse = await fetch('https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki/git/refs', {
-      method: 'POST',
-      headers: {
-        'Authorization': `token ${forgejoToken}`,
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        ref: `refs/heads/${branchName}`,
-        sha: baseSha,
-      }),
-    });
-
-    if (!createBranchResponse.ok) {
-      const error = await createBranchResponse.text();
-      throw new Error(`Failed to create branch: ${error}`);
-    }
-
-    // Step 4: Update the file on the new branch
+    // Commit directly to main branch
     const updateFileResponse = await fetch(`https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki/contents/${filePath}`, {
       method: 'PUT',
       headers: {
@@ -231,8 +180,12 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
         message: commitMessage,
         content: btoa(content),
         sha: sha,
-        branch: branchName,
+        // No branch specified = commits to default branch (main)
         author: {
+          name: auth.user.username,
+          email: auth.user.email || `${auth.user.username}@irregularchat.com`,
+        },
+        committer: {
           name: auth.user.username,
           email: auth.user.email || `${auth.user.username}@irregularchat.com`,
         },
@@ -240,49 +193,32 @@ export const onRequestPut: PagesFunction<Env> = async (context) => {
     });
 
     if (!updateFileResponse.ok) {
-      const error = await updateFileResponse.text();
-      throw new Error(`Failed to update file: ${error}`);
+      const errorText = await updateFileResponse.text();
+      console.error('Forgejo API error:', updateFileResponse.status, errorText);
+      throw new Error(`Failed to save: ${errorText}`);
     }
 
-    // Step 5: Create a pull request
-    const prResponse = await fetch('https://git.irregularchat.com/api/v1/repos/irregulars/IrregularChatWiki/pulls', {
-      method: 'POST',
-      headers: {
-        'Authorization': `token ${forgejoToken}`,
-        'Accept': 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        title: commitMessage,
-        body: `Submitted by @${auth.user.username} via the wiki editor.\n\n---\n*This PR was created automatically by the Irregularpedia edit feature.*`,
-        head: branchName,
-        base: defaultBranch,
-      }),
-    });
+    const updateData = await updateFileResponse.json() as {
+      commit: { sha: string; html_url: string };
+      content: { sha: string };
+    };
 
-    if (!prResponse.ok) {
-      const error = await prResponse.text();
-      throw new Error(`Failed to create PR: ${error}`);
-    }
-
-    const prData = await prResponse.json() as { number: number; html_url: string };
-
-    // Log the edit submission
+    // Log the edit
     await env.DB.prepare(`
       INSERT INTO edit_submissions (user_id, page_path, status, forgejo_pr_url, created_at)
-      VALUES (?, ?, 'pending', ?, ?)
+      VALUES (?, ?, 'committed', ?, ?)
     `).bind(
       auth.user.userId,
       pagePath,
-      prData.html_url,
+      updateData.commit.html_url,
       Date.now()
     ).run();
 
     return new Response(JSON.stringify({
       success: true,
-      message: 'Edit submitted successfully',
-      pr_number: prData.number,
-      pr_url: prData.html_url,
+      message: 'Changes saved successfully',
+      commit_url: updateData.commit.html_url,
+      new_sha: updateData.content.sha,
     }), {
       status: 200,
       headers: apiHeaders,

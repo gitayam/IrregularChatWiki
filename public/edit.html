@@ -377,14 +377,14 @@
 
   <div class="commit-modal" id="commit-modal">
     <div class="commit-dialog">
-      <h3>Submit Your Edit</h3>
+      <h3>Save Your Edit</h3>
       <p style="color: var(--text-muted); margin-bottom: 1rem; font-size: 0.875rem;">
-        Your edit will be submitted as a pull request for review.
+        Your changes will be saved directly to the wiki.
       </p>
       <input type="text" id="commit-message" placeholder="Describe your changes...">
       <div class="commit-actions">
         <button class="btn btn-secondary" id="cancel-submit">Cancel</button>
-        <button class="btn btn-primary" id="confirm-submit">Submit PR</button>
+        <button class="btn btn-primary" id="confirm-submit">Save</button>
       </div>
     </div>
   </div>
@@ -532,7 +532,7 @@
 
     elements.confirmSubmit.addEventListener('click', async () => {
       elements.confirmSubmit.disabled = true;
-      elements.confirmSubmit.textContent = 'Submitting...';
+      elements.confirmSubmit.textContent = 'Saving...';
 
       try {
         const response = await fetch(`/api/pages/${pagePath}`, {
@@ -553,20 +553,24 @@
         }
 
         elements.commitModal.classList.remove('open');
-        showToast('Edit submitted! PR created.', 'success');
+        showToast('Changes saved!', 'success');
 
+        // Update the sha for subsequent edits
+        if (data.new_sha) {
+          currentSha = data.new_sha;
+        }
         originalContent = elements.editor.value;
         checkChanges();
 
-        if (data.pr_url) {
-          window.open(data.pr_url, '_blank');
+        if (data.commit_url) {
+          window.open(data.commit_url, '_blank');
         }
 
       } catch (err) {
         showToast(err.message, 'error');
       } finally {
         elements.confirmSubmit.disabled = false;
-        elements.confirmSubmit.textContent = 'Submit PR';
+        elements.confirmSubmit.textContent = 'Save';
       }
     });
 
