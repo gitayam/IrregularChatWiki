@@ -46,17 +46,11 @@ export default defineConfig({
         starlightTags(),
         starlightSiteGraph({
           sitemap: {
-            // Exclude edit button links and other UI elements from the graph
+            // Standard UI element exclusions
             ignoreLinksInSelectors: [
               'header', 'footer', 'nav',
               '.right-sidebar', '.site-title',
-              '.edit-btn', '.bookmark-btn', '.page-actions',
-              '[data-no-graph]'
             ],
-            // Exclude _edit page from sitemap
-            pageInclusionRules: ['!_edit/', '!_edit', '**/*'],
-            // Exclude _edit paths from links
-            linkInclusionRules: ['!_edit/', '!_edit', '**/*'],
           },
         }),
         starlightScrollToTop(),

@@ -8,7 +8,7 @@ import EditButton from './EditButton.astro';
 
 <div class="page-title-wrapper">
   <Default {...Astro.props}><slot /></Default>
-  <div class="page-actions">
+  <div class="page-actions" data-pagefind-ignore data-site-graph-ignore>
     <EditButton {...Astro.props} />
     <BookmarkButton />
   </div>

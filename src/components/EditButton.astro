@@ -1,22 +1,49 @@
 ---
 // Edit button for editing pages via in-page editor
+// Rendered client-side to avoid site-graph plugin indexing the link
 
 // Get the current page path from the URL
 const pathname = Astro.url.pathname;
 // Convert URL path to edit page path (e.g., /ai-ml/ -> ai-ml)
 const pagePath = pathname.replace(/^\//, '').replace(/\/$/, '') || 'index';
-// Use underscore prefix to avoid site-graph plugin indexing, hash for page path
-const editUrl = `/_edit#${pagePath}`;
 ---
 
-<a href={editUrl} class="edit-btn" title="Edit this page" aria-label="Edit this page" data-no-graph>
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
-      <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
-    </svg>
-</a>
+{/* Placeholder that gets replaced with the actual link client-side */}
+<span class="edit-btn-container" data-page-path={pagePath}></span>
+
+<script>
+  // Client-side rendering to avoid site-graph plugin seeing the link
+  function initEditButton() {
+    document.querySelectorAll('.edit-btn-container').forEach(container => {
+      const pagePath = container.getAttribute('data-page-path');
+      if (!pagePath || container.querySelector('.edit-btn')) return;
+
+      const link = document.createElement('a');
+      link.href = `/_edit#${pagePath}`;
+      link.className = 'edit-btn';
+      link.title = 'Edit this page';
+      link.setAttribute('aria-label', 'Edit this page');
+      link.innerHTML = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
+          <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
+        </svg>
+      `;
+      container.appendChild(link);
+    });
+  }
+
+  // Run on initial load
+  initEditButton();
+  // Re-run on Astro page transitions
+  document.addEventListener('astro:page-load', initEditButton);
+</script>
 
 <style>
+  .edit-btn-container {
+    display: contents;
+  }
+
   .edit-btn {
     display: flex;
     align-items: center;
