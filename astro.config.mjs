@@ -44,7 +44,21 @@ export default defineConfig({
       plugins: [
         // starlightObsidian({ vault: './src/content/docs' }), // Disabled - requires Obsidian vault config
         starlightTags(),
-        starlightSiteGraph(),
+        starlightSiteGraph({
+          sitemap: {
+            // Exclude edit button links and other UI elements from the graph
+            ignoreLinksInSelectors: [
+              'header', 'footer', 'nav',
+              '.right-sidebar', '.site-title',
+              '.edit-btn', '.bookmark-btn', '.page-actions',
+              '[data-no-graph]'
+            ],
+            // Exclude _edit page from sitemap
+            pageInclusionRules: ['!_edit/', '!_edit', '**/*'],
+            // Exclude _edit paths from links
+            linkInclusionRules: ['!_edit/', '!_edit', '**/*'],
+          },
+        }),
         starlightScrollToTop(),
         // starlightChangelogs(), // Requires changelogs content collection
         starlightPageActions(),

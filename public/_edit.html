@@ -392,9 +392,9 @@
   <div class="toast" id="toast"></div>
 
   <script>
-    // Get page path from URL query parameter
+    // Get page path from URL hash or query parameter (for backwards compatibility)
     const urlParams = new URLSearchParams(window.location.search);
-    const pagePath = urlParams.get('path') || '';
+    const pagePath = window.location.hash.slice(1) || urlParams.get('path') || '';
 
     let originalContent = '';
     let currentSha = '';
@@ -427,7 +427,7 @@
     elements.pageTitle.textContent = `Editing: ${pagePath || 'Home'}`;
     elements.backBtn.href = `/${pagePath}/`;
     elements.errorBackBtn.href = `/${pagePath}/`;
-    elements.loginBtn.href = `/api/auth/login?return_to=/edit.html?path=${encodeURIComponent(pagePath)}`;
+    elements.loginBtn.href = `/api/auth/login?return_to=/_edit%23${encodeURIComponent(pagePath)}`;
 
     // Simple markdown to HTML converter
     function renderMarkdown(md) {
