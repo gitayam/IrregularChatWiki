@@ -20,3 +20,4 @@ dist/
 # Temporary files
 *.log
 .gemini-clipboard/
+.wrangler/

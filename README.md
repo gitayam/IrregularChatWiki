@@ -20,8 +20,17 @@ Irregularpedia is an open wiki maintained by the IrregularChat community. It ser
 |-----------|------------|-----|
 | Static Site Generator | [Astro Starlight](https://starlight.astro.build/) | Modern, fast, excellent documentation framework |
 | Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) | Free, global CDN, automatic HTTPS |
+| Backend | [Cloudflare Workers](https://workers.cloudflare.com/) | Serverless functions for auth & editing |
+| Database | [Cloudflare D1](https://developers.cloudflare.com/d1/) | SQLite at the edge |
+| Auth | [Authentik SSO](https://goauthentik.io/) | Self-hosted OAuth2/OIDC |
 | Source Control | GitHub + Forgejo | Redundancy, community access |
 | Content Format | Markdown/MDX | Simple, portable, component support |
+
+### Interactive Features
+
+- **In-Page Editor** - Edit any page directly with live markdown preview
+- **User Authentication** - SSO login via Authentik (IrregularChat accounts)
+- **Bookmarks** - Save favorite pages for quick access (requires login)
 
 ### Enabled Plugins
 
@@ -34,7 +43,19 @@ Irregularpedia is an open wiki maintained by the IrregularChat community. It ser
 
 ## Contributing
 
-### Option 1: Edit Directly Online
+### Option 1: Edit In-Page (Recommended)
+
+The easiest way to contribute - edit any page directly from the wiki:
+
+1. **Login** - Click the user icon and sign in with your IrregularChat SSO account
+2. **Navigate** - Go to any wiki page you want to edit
+3. **Edit** - Click the pencil icon (✏️) next to the page title
+4. **Write** - Use the split-pane markdown editor with live preview
+5. **Save** - Click Save to commit your changes directly
+
+Your edits are committed to the main branch with your username as the author. Git history tracks all changes.
+
+### Option 2: Edit via Git Platforms
 
 Edit pages directly in your browser:
 
@@ -43,7 +64,7 @@ Edit pages directly in your browser:
 
 Navigate to any file in `src/content/docs/`, click Edit, make your changes, and submit a pull request.
 
-### Option 2: Local Development
+### Option 3: Local Development
 
 ```bash
 # Clone the repository
@@ -140,9 +161,22 @@ IrregularChatWiki/
 │   │       ├── community/  # Community info
 │   │       └── general/    # General topics
 │   ├── components/         # Custom Astro components
+│   │   ├── Header.astro    # Custom header with login
+│   │   ├── UserMenu.astro  # User auth dropdown
+│   │   ├── EditButton.astro    # In-page edit button
+│   │   └── BookmarkButton.astro # Bookmark toggle
 │   └── styles/             # Custom CSS
-├── public/                 # Static assets (images, etc.)
+├── functions/              # Cloudflare Workers Functions
+│   ├── api/
+│   │   ├── auth/           # OAuth2 endpoints (login, callback, logout)
+│   │   ├── bookmarks/      # Bookmark CRUD
+│   │   └── pages/          # Page content fetch/edit
+│   ├── lib/                # Shared utilities (auth, etc.)
+│   └── types.ts            # TypeScript types
+├── public/
+│   └── edit.html           # In-page markdown editor
 ├── astro.config.mjs        # Astro/Starlight configuration
+├── wrangler.toml           # Cloudflare configuration
 ├── tags.yml                # Tag definitions
 ├── .github/workflows/      # GitHub Actions (sync to Forgejo)
 ├── .forgejo/workflows/     # Forgejo Actions (deploy to Cloudflare)
@@ -152,7 +186,31 @@ IrregularChatWiki/
 ## Architecture
 
 ```
-GitHub Repository ──sync──> Forgejo ──deploy──> Cloudflare Pages ──> irregularpedia.org
+┌─────────────────────────────────────────────────────────────────────┐
+│                        irregularpedia.org                            │
+├─────────────────────────────────────────────────────────────────────┤
+│  Cloudflare Pages                                                    │
+│  ├── Static Site (Astro Starlight)                                  │
+│  ├── Workers Functions (/api/*)                                      │
+│  │   ├── /api/auth/* - OAuth2 with Authentik SSO                    │
+│  │   ├── /api/pages/* - Fetch/edit pages via Forgejo API            │
+│  │   └── /api/bookmarks/* - User bookmarks                          │
+│  ├── D1 Database - Users, sessions, bookmarks                       │
+│  └── KV Namespace - Session storage                                  │
+└─────────────────────────────────────────────────────────────────────┘
+                              │
+    ┌─────────────────────────┼─────────────────────────┐
+    ▼                         ▼                         ▼
+┌─────────┐           ┌─────────────┐           ┌─────────────┐
+│ GitHub  │◄──sync───►│   Forgejo   │──deploy──►│ Cloudflare  │
+└─────────┘           │ (git.irr..) │           │   Pages     │
+                      └─────────────┘           └─────────────┘
+                              │
+                              ▼
+                      ┌─────────────┐
+                      │  Authentik  │
+                      │ (SSO/OAuth) │
+                      └─────────────┘
 ```
 
 ### Why Astro Starlight?
