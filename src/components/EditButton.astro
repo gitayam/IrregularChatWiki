@@ -5,7 +5,7 @@
 const pathname = Astro.url.pathname;
 // Convert URL path to edit page query param (e.g., /ai-ml/ -> ai-ml)
 const pagePath = pathname.replace(/^\//, '').replace(/\/$/, '') || 'index';
-const editUrl = `/edit.html?path=${encodeURIComponent(pagePath)}`;
+const editUrl = `/edit?path=${encodeURIComponent(pagePath)}`;
 ---
 
 <a href={editUrl} class="edit-btn" title="Edit this page" aria-label="Edit this page">
