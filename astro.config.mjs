@@ -156,6 +156,7 @@ export default defineConfig({
             { label: 'Overview', slug: 'general/military-and-career' },
             { label: 'Leaving Service', slug: 'military/leaving-service' },
             { label: 'SSC Quick Links', slug: 'general/ssc' },
+            { label: 'TAK (Tactical Awareness Kit)', slug: 'general/tak' },
             { label: 'Tactical Technology', slug: 'military/tactical-tech' },
             { label: 'Evaluations', slug: 'military/army-evaluation-resources' },
             { label: 'Awards', slug: 'military/awards' },

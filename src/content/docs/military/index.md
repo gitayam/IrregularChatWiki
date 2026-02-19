@@ -21,4 +21,5 @@ This page is a central resource for all military and career-related topics in th
 
 ## Tactical & Technical
 
+- **[TAK (Tactical Awareness Kit)](/general/tak)**: A comprehensive guide to the TAK ecosystem (ATAK, WinTAK, iTAK).
 - **[Tactical Technology](/military/tactical-tech)**: Assured PNT, DAPS II, and tactical payload interfaces.
