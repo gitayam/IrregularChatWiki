@@ -64,6 +64,18 @@ ATAK's power comes from its modular plugin system:
 - **Data Sync**: Syncs specific mission folders across all connected devices.
 
 ---
+## Common Initial Tasks
+
+Once you are set up, try these basic actions to familiarize yourself with the interface:
+
+1.  **Drop a Point**: Long-press on the map to drop a point (marker). You can edit its name, icon, and description.
+2.  **Measure Distance**: Use the "Bloodhound" or "Ranging" tool to measure the distance between two points.
+3.  **Create a Route**: Use the Route tool to draw a path. It will automatically calculate total distance and estimated travel time.
+4.  **Send a Message**: Open the Contact List (or Chat tool), select a user or group, and send a text message.
+5.  **Share a Marker**: Long-press a marker you created and select the "Send" icon to share it with other users on your network.
+6.  **Check Elevation**: Tap anywhere on the map to see the coordinates (MGRS/Lat-Lon) and elevation (if elevation data is loaded).
+
+---
 
 ## Community Resources
 
