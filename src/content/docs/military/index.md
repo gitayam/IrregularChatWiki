@@ -18,3 +18,7 @@ This page is a central resource for all military and career-related topics in th
 - **[Promotion Boards](/military/promotion-boards)**: A guide to military promotion boards.
 - **[CNO Careers](/general/computer-network-operations-cno)**: Information on careers in Computer Network Operations.
 - **[SSC Quick Links](/general/ssc)**: A list of self-service links for service members.
+
+## Tactical & Technical
+
+- **[Tactical Technology](/military/tactical-tech)**: Assured PNT, DAPS II, and tactical payload interfaces.

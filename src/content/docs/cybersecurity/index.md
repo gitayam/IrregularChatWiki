@@ -15,6 +15,7 @@ This page provides a central hub for all cybersecurity-related topics in the Irr
 
 - **[Cyber Incident Response Guide (Personal)](/cybersecurity/cyber-incident-response-guide-personal)**: A guide to help you react to potential cyber incidents on personal devices, accounts, and networks.
 - **[Mobile Hardening Guide](/cybersecurity/mobile-hardening)**: How to secure your mobile devices.
+- **[Medical Device Security](/cybersecurity/medical-device-security)**: Security considerations for Bluetooth medical implants.
 
 ## Offensive Security (Red Team)
 

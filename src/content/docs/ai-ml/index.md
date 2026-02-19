@@ -58,7 +58,12 @@ New to AI/ML? Start with these community guides:
 - [AI Content Detector](https://writer.com/ai-content-detector/) - Detect AI-generated content
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programming
 - **[Claude Code](/ai-ml/claude-code)** - Agentic CLI for AI-assisted development (pricing, plugins, tips)
+- **[Codex CLI Project Rules](/ai-ml/codex-project-rules)** - SOP for running OpenAI Codex against Irregularpedia (commands, deployments, lessons learned)
 - [HackerGPT](/ai-ml/hackergpt2) - Security-focused AI assistant
+
+### Agent Pricing & Usage Limits
+
+- **[CLI + IDE Agents — Plan Pricing vs Usage Limits](/ai-ml/cli-ide-agent-pricing)** - Snapshot of Claude Code, Codex CLI, Gemini CLI, Cursor, Windsurf, and GitHub Copilot allowances with published sources
 
 ### AI Prompt Templates
 

@@ -20,6 +20,8 @@ This page is a central resource for software engineers in the IrregularChat comm
 ## AI Assistants
 
 - **[Claude Code Guide](/ai-ml/claude-code)**: Comprehensive guide to Anthropic's CLI for agentic coding - pricing, plugins, billing tips, and workflow guidance for military/government users.
+- **[CLI + IDE Agent Pricing Snapshot](/ai-ml/cli-ide-agent-pricing)**: Published quotas, context windows, and allowance units for Claude Code, Codex CLI, Gemini Code Assist, Cursor, Windsurf, and GitHub Copilot.
+- **[Codex CLI Project Rules](/ai-ml/codex-project-rules)**: Codex-specific SOP for this repo—local commands, deployment guardrails, and lessons learned.
 - **[Full-Stack Development with AI](./full-stack-development-with-ai)**: A guide to leveraging AI in your development workflow.
 - **[AI & Autonomy](/ai-ml/)**: The main portal for all AI/ML-related topics, including learning guides and tools.
 - **[AI Prompting Guide](/ai-ml/ai-prompting)**: A comprehensive guide on how to effectively use AI models.

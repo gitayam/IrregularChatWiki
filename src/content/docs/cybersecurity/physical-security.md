@@ -40,6 +40,10 @@ Physical security testing evaluates the strength of existing physical security m
 
 - **RFID Cloners**: Devices that can clone access cards. [Red Teaming Guide](/general/rfid-spoofing)
 
+- **Non-Linear Junction Detectors (NLJD)**: Used to detect electronic devices (powered or unpowered) by energizing semiconductor junctions (transistors, ICs). High-power NLJDs can be used to scan walls or floors for covert devices, though they risk damaging sensitive electronics.
+
+- **Faraday Tents/Enclosures**: Portable RF and audio-shielded environments (e.g., VIP Faraday Tents) used for conducting sensitive operations, secure debriefs, or as RFI test chambers in non-permissive environments.
+
 ### Testing Methodologies
 
 ### Reconnaissance

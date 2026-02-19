@@ -56,6 +56,13 @@ tags: ["security", "privacy", "dfp", "cybersecurity"]
 | 💬 [Element Messenger Guide](/matrix/element-matrix-messenger) | Secure messaging with Element |
 | 🪙 [Monero Guide](/privacy/monero) | Privacy-focused cryptocurrency |
 
+### Research & Reports
+
+- 📄 [Tracking The Trackers: Commercial Surveillance Occurring on U.S. Army Networks](https://doi.org/20.500.14216/1714)
+- 📄 [Death by a Thousand Cuts: Commercial Data Risks to the Army](https://cyber.army.mil/Portals/3/Documents/2023_ACI_Commercial_Data_Report.pdf)
+- 🚗 [Unseen Threats: The Privacy Risks of Data Collection in Government Fleet Vehicles](https://www.usenix.org/system/files/vehiclesec25_poster7-chojnacki.pdf)
+- 🏦 [AdTech and Military-Friendly Banks: Data Vulnerabilities for Servicemembers, Families, and Veterans](https://www.dvidshub.net/video/926074/avengercon-viii-adtech-and-military-friendly-banks-data-vulnerabilities-servicemembers-families-and-veterans)
+
 ### Additional Resources
 
 - 🔒 [Cybersecurity Guide](/cybersecurity/)

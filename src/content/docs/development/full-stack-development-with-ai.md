@@ -34,6 +34,8 @@ An agentic harness is a tool that provides an LLM with the capabilities to inter
 
 These tools can be used to automate tasks like writing code, fixing bugs, and even submitting merge requests based on issues in your project management system.
 
+> **Plan selection tip:** Need to justify which commercial agent to fund? Use the [CLI + IDE agent pricing snapshot](/ai-ml/cli-ide-agent-pricing) to compare Claude Code, Codex CLI, Gemini Code Assist, Cursor, Windsurf, and GitHub Copilot limits before locking in subscriptions.
+
 ### 3. AI-Powered Project Management
 
 AI can be integrated into your project management workflow to automate tedious tasks.
@@ -82,6 +84,7 @@ A more efficient way to expose tools to an LLM is to use the "Code Mode" approac
 *   **Frontend (Lightweight):** [HTMX](https://htmx.org/)
 *   **IDE:** VSCode, JupyterLab
 *   **Mobile Development:** Claude Code on the Web
+*   **Plan benchmarking:** [CLI + IDE Agents — Plan Pricing vs Usage Limits](/ai-ml/cli-ide-agent-pricing)
 
 ## Military-Focused Development Resources
 
@@ -126,8 +129,7 @@ CAC authentication via BYOCA requires a Cloudflare Enterprise account. For unit-
 
 ## See Also
 
-*   [Claude Code Guide](../ai-ml/claude-code) - Comprehensive guide to using Claude Code for AI-assisted development
-*   [Software Engineering](./software-engineering)
-*   [OpenHands Guide](../ai-ml/openhands)
+*   [Claude Code Guide](/ai-ml/claude-code) - Comprehensive guide to using Claude Code for AI-assisted development
+*   [Software Engineering](/development/software-engineering)
+*   [OpenHands Guide](/ai-ml/openhands)
 *   [DoD PKI Certificate Repository](https://public.cyber.mil/pki-pke/)
-

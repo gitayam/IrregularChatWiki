@@ -26,6 +26,7 @@ Some services operate on a subscription model, while others provide free DIY too
 ### 🔗 Curated Lists
 
 - [The Big Ass Data Broker Opt-Out List](https://github.com/yaelwrites/Big-Ass-Data-Broker-Opt-Out-List) – A comprehensive, community-maintained list of opt-out instructions for dozens of data brokers.
+- [Resist and Unsubscribe](https://www.resistandunsubscribe.com/) - A resource for breaking away from your digital footprint, including guides on removing yourself from data broker sites.
 
 ### 📺 Must-Watch Videos
 

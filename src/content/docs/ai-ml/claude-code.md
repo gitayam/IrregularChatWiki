@@ -9,7 +9,7 @@ tags: ["ai", "coding", "claude", "anthropic", "development"]
 Claude Code is Anthropic's official command-line interface (CLI) for AI-assisted software development. It provides agentic coding capabilities, allowing Claude to read files, execute commands, and make changes to your codebase directly from the terminal.
 
 :::tip[Quick Navigation]
-**Jump to:** [What is Claude Code?](#what-is-claude-code) | [Why Claude Code? (vs. Alternatives)](#why-claude-code-vs-alternatives) | [Getting Started](#getting-started-with-claude-code) | [Plugins](#extending-claude-code-with-plugins) | [Troubleshooting](#troubleshooting--debugging) | [Tech Stacks](#recommended-tech-stacks) | [Funding & Subscriptions](/ai-ml/claude-code-funding) | [Customer Support](#customer-support-reality)
+**Jump to:** [What is Claude Code?](#what-is-claude-code) | [Why Claude Code? (vs. Alternatives)](#why-claude-code-vs-alternatives) | [Getting Started](#getting-started-with-claude-code) | [Plugins](#extending-claude-code-with-plugins) | [Troubleshooting](#troubleshooting--debugging) | [Tech Stacks](#recommended-tech-stacks) | [Funding & Subscriptions](/ai-ml/claude-code-funding) | [Plan Comparisons](/ai-ml/cli-ide-agent-pricing) | [Customer Support](#customer-support-reality)
 :::
 
 ## What is Claude Code?
@@ -260,6 +260,8 @@ Modern frontend testing combines multiple approaches:
 For detailed information on Claude Code pricing models, API credits, military procurement advice, and billing considerations, please refer to the dedicated guide:
 
 👉 [**Claude Code Funding & Subscriptions**](/ai-ml/claude-code-funding) 👈
+
+Need to benchmark Claude Code against Codex CLI, Gemini Code Assist, Cursor, Windsurf, or GitHub Copilot? See the companion [CLI + IDE agent pricing snapshot](/ai-ml/cli-ide-agent-pricing) for published context windows and allowance units across vendors.
 
 ## Customer Support Reality
 

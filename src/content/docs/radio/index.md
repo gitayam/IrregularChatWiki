@@ -15,6 +15,7 @@ title: "RF/SDR/Communications"
 | [Software Defined Radios (SDRs)](/radio/software-defined-radios-sdrs) | Introduction to SDR concepts and hardware |
 | [DragonOS](/radio/dragonos) | Pre-configured Linux for SDR operations |
 | [HAM Radio](/radio/ham-radio) | Amateur radio licensing and resources |
+| [Modem Design & Digital Modes](/radio/modem-design) | RF sync, timing, and digital protocols |
 
 ## Software Defined Radio (SDR)
 

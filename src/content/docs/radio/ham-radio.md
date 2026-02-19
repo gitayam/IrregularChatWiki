@@ -43,3 +43,19 @@ Once licensed, new operators can join local clubs, participate in contests, and 
 
 ### Contests and Awards
 Ham radio offers numerous contests and awards for operators of all levels. These activities can enhance your operating skills, provide opportunities to test your station setup, and offer a fun way to engage with the global ham radio community.
+
+### 60-Meter Band (5 MHz) Rules
+As of February 13, 2026, the FCC has updated the 60-meter band access for US radio amateurs, aligning with WRC-15 international allocations.
+
+- **New Segment**: 5351.5 – 5366.5 kHz
+- **Max Power**: 9.15 W ERP
+- **Retained Channels (100 W ERP)**:
+  - 5332 kHz
+  - 5348 kHz
+  - 5373 kHz
+  - 5405 kHz
+- **Operating Modes**: USB for voice, CW center.
+- **Bandwidth**: 2.8 kHz max on all frequencies.
+- **Licensing**: General class or higher required.
+
+The continuous 15 kHz segment (5351.5–5366.5 kHz) replaces the old 5357 kHz channel and provides more flexibility than the previous channelized system.

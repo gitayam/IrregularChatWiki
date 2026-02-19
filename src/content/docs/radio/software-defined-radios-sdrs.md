@@ -32,10 +32,18 @@ If you're trying to teach/learn, the PlutoSDR + Pysdr is great. If you want to l
 
 ### SDR Software
 
-- [## References
+- [DragonOS SourceForge](https://sourceforge.net/p/dragonos-focal/wiki/Home/) ([Internal Link](/radio/dragonos))
+
+## SDR Tools & Hardware
+
+### Specialized SDR Platforms
+- **AntSDR**: A popular platform for SDR research and drone-specific applications. Recent firmware for models like the DJI O4 allows for enhanced signal sniffing and analysis. Note: Default credentials often include `root/abawavearm` or `root/1`.
+
+### SDR Design & Analysis Tools
+- **AntennaCalculator**: [Dollarhyde/AntennaCalculator](https://github.com/Dollarhyde/AntennaCalculator) - An open-source tool for computing antenna dimensions and exporting designs directly to fabrication-ready formats like Gerber, DXF, and PNG.
+
+## References
 
 - Dillinger, Markus; Madani, Kambiz; Alonistioti, Nancy (2003). *Software Defined Radio: Architectures, Systems, and Functions*. Wiley & Sons. ISBN 0-470-85164-3.
 
 - Amaral, Cristiano (2021). *Guia Moderno do Radioescuta*. Brazil: Amazon. ISBN 978-65-00-20800-9.
-
-- [https://sourceforge.net/p/dragonos-focal/wiki/Home/ DragonOS SourceForge](/radio/dragonos)
