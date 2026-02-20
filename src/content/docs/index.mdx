@@ -22,6 +22,36 @@ hero:
 
 import { Card, CardGrid, LinkCard, Tabs, TabItem, Steps, Badge } from '@astrojs/starlight/components';
 
+<div class="search-cta">
+  <button class="search-cta-button" id="homepage-search-trigger" type="button" aria-label="Search the wiki">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <span>Search the wiki...</span>
+    <kbd>Ctrl K</kbd>
+  </button>
+</div>
+
+<script>
+{`
+  function initHomepageSearch() {
+    const btn = document.getElementById('homepage-search-trigger');
+    if (!btn) return;
+
+    // Update kbd to show ⌘ on Mac
+    const kbd = btn.querySelector('kbd');
+    if (kbd && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+      kbd.textContent = '⌘ K';
+    }
+
+    btn.addEventListener('click', () => {
+      const searchBtn = document.querySelector('button[data-open-modal]');
+      if (searchBtn) searchBtn.click();
+    });
+  }
+  initHomepageSearch();
+  document.addEventListener('astro:page-load', initHomepageSearch);
+`}
+</script>
+
 ## Explore by Topic
 
 <CardGrid>

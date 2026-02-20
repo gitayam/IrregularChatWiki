@@ -45,6 +45,105 @@
   border-radius: 0.5rem;
 }
 
+/* ============================================
+   Mobile Search Bar - Make search prominent
+   ============================================ */
+
+/* Show the "Search" text label on mobile (Starlight hides it by default) */
+site-search button[data-open-modal] > span.sl-hidden {
+  display: block !important;
+}
+
+/* Style the search button as a full search bar on mobile */
+@media (max-width: 49.99rem) {
+  site-search {
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  site-search button[data-open-modal] {
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 0.5rem;
+    padding-inline: 0.75rem;
+    background-color: var(--sl-color-black);
+    color: var(--sl-color-gray-2);
+    font-size: var(--sl-text-sm);
+    width: 100%;
+  }
+
+  site-search button[data-open-modal]:hover {
+    border-color: var(--sl-color-gray-2);
+    color: var(--sl-color-white);
+  }
+
+  site-search button[data-open-modal] > span.sl-hidden {
+    flex-grow: 1;
+    text-align: left;
+  }
+}
+
+/* Prevent UserMenu from overlapping search on mobile */
+@media (max-width: 50rem) {
+  .header-user-menu {
+    position: static !important;
+    height: auto !important;
+  }
+}
+
+/* ============================================
+   Homepage Search CTA
+   ============================================ */
+.search-cta {
+  margin: 1.5rem auto 2rem;
+  max-width: 32rem;
+}
+
+.search-cta-button {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.875rem 1.25rem;
+  background-color: var(--sl-color-black);
+  border: 2px solid var(--sl-color-gray-5);
+  border-radius: 0.75rem;
+  color: var(--sl-color-gray-3);
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: border-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.search-cta-button:hover {
+  border-color: var(--sl-color-accent);
+  color: var(--sl-color-gray-1);
+  box-shadow: 0 0 0 3px var(--sl-color-accent-low);
+}
+
+.search-cta-button svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.search-cta-button span {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.search-cta-button kbd {
+  font-family: var(--__sl-font, inherit);
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--sl-color-gray-6);
+  border-radius: 0.25rem;
+  color: var(--sl-color-gray-3);
+}
+
+@media (max-width: 50rem) {
+  .search-cta-button kbd {
+    display: none;
+  }
+}
+
 /* Footer styling */
 footer.site-footer {
   text-align: center;

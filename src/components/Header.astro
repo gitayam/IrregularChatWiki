@@ -27,6 +27,13 @@ import UserMenu from './UserMenu.astro';
     z-index: 10;
   }
 
+  /* On mobile, don't let UserMenu overlap the search bar */
+  @media (max-width: 49.99rem) {
+    .header-user-menu {
+      right: 0.25rem;
+    }
+  }
+
   @media (min-width: 50rem) {
     .header-user-menu {
       right: 2rem;
