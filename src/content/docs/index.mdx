@@ -43,10 +43,12 @@ import { Card, CardGrid, LinkCard, Tabs, TabItem, Steps, Badge } from '@astrojs/
       kbd.textContent = '⌘ K';
     }
 
-    btn.addEventListener('click', () => {
-      // Directly click Starlight's search button — .click() carries
-      // user activation from our trusted click, which dialog.showModal() requires.
-      // Synthetic dispatchEvent() does NOT propagate user activation (isTrusted=false).
+    btn.addEventListener('click', (e) => {
+      // Stop the click from bubbling to window — Starlight's openModal() adds
+      // a window click listener that closes the dialog if the click target is
+      // outside it. Without this, the original click propagates to window AFTER
+      // the modal opens and immediately closes it (open+close in one frame).
+      e.stopPropagation();
       const searchBtn = document.querySelector('site-search button[data-open-modal]');
       if (searchBtn && !searchBtn.disabled) searchBtn.click();
     });
