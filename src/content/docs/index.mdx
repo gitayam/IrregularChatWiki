@@ -37,14 +37,22 @@ import { Card, CardGrid, LinkCard, Tabs, TabItem, Steps, Badge } from '@astrojs/
     if (!btn) return;
 
     // Update kbd to show ⌘ on Mac
+    const isMac = /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform);
     const kbd = btn.querySelector('kbd');
-    if (kbd && /(Mac|iPhone|iPod|iPad)/i.test(navigator.platform)) {
+    if (kbd && isMac) {
       kbd.textContent = '⌘ K';
     }
 
     btn.addEventListener('click', () => {
-      const searchBtn = document.querySelector('button[data-open-modal]');
-      if (searchBtn) searchBtn.click();
+      // Dispatch Ctrl/Cmd+K keyboard event — the Starlight search
+      // component listens for this on window and opens the modal
+      window.dispatchEvent(new KeyboardEvent('keydown', {
+        key: 'k',
+        ctrlKey: !isMac,
+        metaKey: isMac,
+        bubbles: true,
+        cancelable: true,
+      }));
     });
   }
   initHomepageSearch();
