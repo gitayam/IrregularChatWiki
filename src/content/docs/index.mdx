@@ -44,15 +44,11 @@ import { Card, CardGrid, LinkCard, Tabs, TabItem, Steps, Badge } from '@astrojs/
     }
 
     btn.addEventListener('click', () => {
-      // Dispatch Ctrl/Cmd+K keyboard event — the Starlight search
-      // component listens for this on window and opens the modal
-      window.dispatchEvent(new KeyboardEvent('keydown', {
-        key: 'k',
-        ctrlKey: !isMac,
-        metaKey: isMac,
-        bubbles: true,
-        cancelable: true,
-      }));
+      // Directly click Starlight's search button — .click() carries
+      // user activation from our trusted click, which dialog.showModal() requires.
+      // Synthetic dispatchEvent() does NOT propagate user activation (isTrusted=false).
+      const searchBtn = document.querySelector('site-search button[data-open-modal]');
+      if (searchBtn && !searchBtn.disabled) searchBtn.click();
     });
   }
   initHomepageSearch();
