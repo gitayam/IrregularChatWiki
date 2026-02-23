@@ -74,9 +74,9 @@ A more efficient way to expose tools to an LLM is to use the "Code Mode" approac
 
 ## Recommended Tools and Technologies
 
-*   **Models:** Devstral-Small, Mistral, Qwen, Claude
+*   **Models:** Devstral-Small, Mistral, Qwen, Claude, Gemini
 *   **Model Serving:** vLLM, Docker
-*   **Agentic Harnesses:** OpenHands, cline.bot
+*   **Agentic Harnesses:** OpenHands, cline.bot, **Gemini CLI (with Jules)**
 *   **AI-Enhanced Shells:** Warp
 *   **Project Management:** Gitlab, GitHub
 *   **A2A Communication:** A2A Protocol, Agno
@@ -130,6 +130,7 @@ CAC authentication via BYOCA requires a Cloudflare Enterprise account. For unit-
 ## See Also
 
 *   [Claude Code Guide](/ai-ml/claude-code) - Comprehensive guide to using Claude Code for AI-assisted development
+*   [Gemini Code Guide](/ai-ml/gemini-code) - Advanced guide to Gemini CLI and subagents
 *   [Software Engineering](/development/software-engineering)
 *   [OpenHands Guide](/ai-ml/openhands)
 *   [DoD PKI Certificate Repository](https://public.cyber.mil/pki-pke/)

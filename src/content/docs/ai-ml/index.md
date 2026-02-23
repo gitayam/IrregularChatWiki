@@ -39,6 +39,7 @@ New to AI/ML? Start with these community guides:
 |---------|------|-------|
 | ChatGPT | [chatgpt.com](https://chatgpt.com) | OpenAI's GPT models |
 | Gemini | [gemini.google.com](https://gemini.google.com) | Google's LLM (formerly Bard) |
+| **Gemini CLI** | [Gemini Code Guide](/ai-ml/gemini-code) | Google's terminal agent for Gemini |
 | Claude | [claude.ai](https://claude.ai) | Anthropic's AI assistant |
 | **Claude Code** | [Claude Code Guide](/ai-ml/claude-code) | Anthropic's CLI for agentic coding |
 | Perplexity | [perplexity.ai](https://perplexity.ai) | AI search with citations |
@@ -58,12 +59,13 @@ New to AI/ML? Start with these community guides:
 - [AI Content Detector](https://writer.com/ai-content-detector/) - Detect AI-generated content
 - [GitHub Copilot](https://github.com/features/copilot) - AI pair programming
 - **[Claude Code](/ai-ml/claude-code)** - Agentic CLI for AI-assisted development (pricing, plugins, tips)
+- **[Gemini Code](/ai-ml/gemini-code)** - High-context terminal agent (subagents, Jules, massive context)
 - **[Codex CLI Project Rules](/ai-ml/codex-project-rules)** - SOP for running OpenAI Codex against Irregularpedia (commands, deployments, lessons learned)
 - [HackerGPT](/ai-ml/hackergpt2) - Security-focused AI assistant
 
 ### Agent Pricing & Usage Limits
 
-- **[CLI + IDE Agents — Plan Pricing vs Usage Limits](/ai-ml/cli-ide-agent-pricing)** - Snapshot of Claude Code, Codex CLI, Gemini CLI, Cursor, Windsurf, and GitHub Copilot allowances with published sources
+- **[CLI + IDE Agents — Plan Pricing vs Usage Limits](/ai-ml/cli-ide-agent-pricing)** - Snapshot of Claude Code, Codex CLI, Gemini Code (CLI), Cursor, Windsurf, and GitHub Copilot allowances with published sources
 
 ### AI Prompt Templates
 

@@ -7,7 +7,7 @@ description: "Snapshot comparison (2026-02-14) of leading CLI and IDE AI coding 
 
 Snapshot date: **2026-02-14**
 
-Comparing AI coding agents is messy because most vendors do **not publish** token caps per plan, especially for consumer-oriented CLI and IDE add‑ons. This page distills what is actually disclosed, flags what is *not* stated, and links to vendor primary sources so you can cite them in acquisition paperwork or budget briefings. Use it alongside the [Claude Code Guide](/ai-ml/claude-code), [OpenHands Guide](/ai-ml/openhands), and the [Full-Stack Development with AI](/development/full-stack-development-with-ai) workflow for deeper operational context.
+Comparing AI coding agents is messy because most vendors do **not publish** token caps per plan, especially for consumer-oriented CLI and IDE add‑ons. This page distills what is actually disclosed, flags what is *not* stated, and links to vendor primary sources so you can cite them in acquisition paperwork or budget briefings. Use it alongside the [Claude Code Guide](/ai-ml/claude-code), [Gemini Code Guide](/ai-ml/gemini-code), [OpenHands Guide](/ai-ml/openhands), and the [Full-Stack Development with AI](/development/full-stack-development-with-ai) workflow for deeper operational context.
 
 ---
 
