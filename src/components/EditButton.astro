@@ -1,6 +1,6 @@
 ---
 // Edit button for editing pages via in-page editor
-// Rendered client-side to avoid site-graph plugin indexing the link
+// Rendered client-side to avoid indexing the link
 
 // Get the current page path from the URL
 const pathname = Astro.url.pathname;
@@ -12,7 +12,7 @@ const pagePath = pathname.replace(/^\//, '').replace(/\/$/, '') || 'index';
 <span class="edit-btn-container" data-page-path={pagePath}></span>
 
 <script>
-  // Client-side rendering to avoid site-graph plugin seeing the link
+  // Client-side rendering to avoid indexing the link
   function initEditButton() {
     document.querySelectorAll('.edit-btn-container').forEach(container => {
       const pagePath = container.getAttribute('data-page-path');

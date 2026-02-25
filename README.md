@@ -35,7 +35,6 @@ Irregularpedia is an open wiki maintained by the IrregularChat community. It ser
 ### Enabled Plugins
 
 - **starlight-tags** - Tagging system for content organization
-- **starlight-site-graph** - Interactive site visualization
 - **starlight-scroll-to-top** - Scroll to top button
 - **starlight-page-actions** - Page action buttons
 - **starlight-ui-tweaks** - UI customization

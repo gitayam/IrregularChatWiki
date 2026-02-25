@@ -104,7 +104,6 @@ IrregularChatWiki/
 | starlight-scroll-to-top | Scroll button | `starlight-scroll-to-top` |
 | starlight-kbd | Keyboard shortcuts | `starlight-kbd` |
 | starlight-videos | Video embeds | `starlight-videos` |
-| starlight-site-graph | Site visualization | `starlight-site-graph` |
 
 ### 2.2 Additional Integrations
 
@@ -126,7 +125,6 @@ npm install @astrojs/starlight astro sharp \
   starlight-scroll-to-top \
   starlight-kbd \
   starlight-videos \
-  starlight-site-graph \
   astro-mermaid \
   astro-plantuml \
   astro-live-code \
@@ -150,7 +148,6 @@ import starlightChangelogs from 'starlight-changelogs';
 import starlightScrollToTop from 'starlight-scroll-to-top';
 import starlightKbd from 'starlight-kbd';
 import starlightVideos from 'starlight-videos';
-import starlightSiteGraph from 'starlight-site-graph';
 import mermaid from 'astro-mermaid';
 import plantuml from 'astro-plantuml';
 import liveCode from 'astro-live-code';
@@ -189,9 +186,6 @@ export default defineConfig({
         starlightScrollToTop(),
         starlightKbd(),
         starlightVideos(),
-        starlightSiteGraph({
-          // Configuration options
-        }),
       ],
       sidebar: [
         // Migrated from VitePress config.ts
@@ -467,18 +461,7 @@ starlightTags({
 })
 ```
 
-### 5.5 Site Graph Configuration
-```javascript
-starlightSiteGraph({
-  // Graph visualization options
-  trackVisitedPages: true,
-  graphConfig: {
-    depth: 2,
-  },
-})
-```
-
-### 5.6 Feelback Integration
+### 5.5 Feelback Integration
 ```javascript
 // Add to astro.config.mjs
 import feelback from '@nickvergessen/astro-feelback-starlight';
@@ -567,7 +550,6 @@ jobs:
 - [ ] PlantUML diagrams render
 - [ ] Live code blocks function
 - [ ] Tags system works
-- [ ] Site graph displays
 - [ ] Scroll-to-top button appears
 - [ ] Keyboard shortcut hints display
 - [ ] Video embeds work
@@ -671,5 +653,4 @@ After successful deployment:
 - Plugin Documentation:
   - [starlight-obsidian](https://github.com/HiDeoo/starlight-obsidian)
   - [starlight-tags](https://frostybee.github.io/starlight-tags/)
-  - [starlight-site-graph](https://github.com/Fevol/starlight-site-graph)
   - [astro-mermaid](https://github.com/joesaby/astro-mermaid)

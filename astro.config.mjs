@@ -5,7 +5,6 @@ import plantuml from 'astro-plantuml';
 import liveCode from 'astro-live-code';
 // import starlightObsidian from 'starlight-obsidian'; // Disabled - requires Obsidian vault setup
 import starlightTags from 'starlight-tags';
-import starlightSiteGraph from 'starlight-site-graph';
 import starlightScrollToTop from 'starlight-scroll-to-top';
 // import starlightChangelogs from 'starlight-changelogs'; // Requires changelogs content collection
 import starlightPageActions from 'starlight-page-actions';
@@ -44,15 +43,6 @@ export default defineConfig({
       plugins: [
         // starlightObsidian({ vault: './src/content/docs' }), // Disabled - requires Obsidian vault config
         starlightTags(),
-        starlightSiteGraph({
-          sitemap: {
-            // Standard UI element exclusions
-            ignoreLinksInSelectors: [
-              'header', 'footer', 'nav',
-              '.right-sidebar', '.site-title',
-            ],
-          },
-        }),
         starlightScrollToTop(),
         // starlightChangelogs(), // Requires changelogs content collection
         starlightPageActions(),
@@ -204,7 +194,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { label: 'Overview', slug: 'matrix' },
-            { label: 'Element Matrix', slug: 'matrix/element-matrix-messenger' },
+            { label: 'Element Matrix', slug: 'matrix/element-messenger' },
             { label: 'Ansible Deployment', slug: 'matrix/ansible-for-matrix-deployment' },
             { label: 'Managing Matrix', slug: 'matrix/managing-matrix' },
             { label: 'Matrix Bots', slug: 'matrix/matrix-bots' },
@@ -261,3 +251,4 @@ export default defineConfig({
     }),
   ],
 });
+

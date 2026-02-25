@@ -42,7 +42,7 @@ The IrregularChat community generates a tremendous amount of knowledge through d
 ┌─────────────────────────────────────────────────────────────────┐
 │                  BUILD LAYER (Astro Starlight)                 │
 │  - Converts Markdown/MDX → HTML                                │
-│  - Generates navigation, search index & site graph             │
+│  - Generates navigation & search index                         │
 │  - Applies theme, plugins & Astro components                   │
 └─────────────────────────────────────────────────────────────────┘
                               │
@@ -68,7 +68,7 @@ The IrregularChat community generates a tremendous amount of knowledge through d
 
 - **Performance** - Ships zero JavaScript by default, ultra-fast page loads
 - **Documentation-First** - Purpose-built for technical documentation
-- **Rich Plugin Ecosystem** - Tags, site graph, scroll-to-top, videos, and more
+- **Rich Plugin Ecosystem** - Tags, scroll-to-top, videos, and more
 - **MDX Support** - Embed interactive components when needed
 - **Built-in Search** - Pagefind-powered search works instantly
 - **Accessibility** - WCAG 2.1 compliant out of the box
@@ -82,7 +82,6 @@ The IrregularChat community generates a tremendous amount of knowledge through d
 | Dark/Light Mode | Reader preference with system detection |
 | Code Highlighting | Syntax highlighting with Shiki |
 | starlight-tags | Content categorization and tag pages |
-| starlight-site-graph | Visual knowledge graph of page connections |
 | starlight-videos | Embedded video support |
 | starlight-kbd | Keyboard shortcut documentation |
 | Mermaid & PlantUML | Diagram rendering from code |
@@ -206,7 +205,6 @@ The wiki was further migrated to Astro Starlight for enhanced features:
 | Single content type | MDX support for interactive content |
 
 **Key improvements from Starlight:**
-- Site graph visualization of knowledge connections
 - Tag-based content organization
 - Embedded video support
 - Keyboard shortcut documentation
