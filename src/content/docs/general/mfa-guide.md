@@ -2,6 +2,8 @@
 title: "MFA Guide"
 ---
 
+import { Tabs, TabItem, Card, CardGrid, Steps } from '@astrojs/starlight/components';
+
 # MFA Guide
 
 :::tip[Related Resources]
@@ -9,74 +11,93 @@ title: "MFA Guide"
 :::
 
 ## What is MFA
-**Multi-factor authentication (MFA)** is a layered approach to securing online accounts and their data. MFA requires users to provide two or more authenticators to verify their identity before accessing services. This method significantly reduces the likelihood of unauthorized access. According to Microsoft, users who enable MFA are significantly less likely to get hacked. Even if one factor, like a password, is compromised, unauthorized users cannot bypass the second authentication requirement.
 
-MFA is also called Two-Factor Authentication (2FA), Multi-Factor Authentication, Two-Step Authentication, or UFA. All these terms refer to using a combination of what the user knows, has, or is to confirm identity online. [Source: CISA](https://www.cisa.gov/mfa)
+**Multi-factor authentication (MFA)** is a layered approach to securing online accounts. MFA requires users to provide two or more independent credentials to verify their identity.
 
-### MFA Combines Two or More Independent Credentials
+<CardGrid>
+  <Card title="Something You Know" icon="password">
+    A password, PIN, or answer to a security question.
+  </Card>
+  <Card title="Something You Have" icon="id-card">
+    A security token, smartphone, or physical hardware key.
+  </Card>
+  <Card title="Something You Are" icon="fingerprint">
+    Biometric verification like a fingerprint or facial recognition.
+  </Card>
+</CardGrid>
 
-1. What the **user knows** (password)
-2. What the **user has** (security token)
-3. What the **user is** (biometric verification)
+---
 
-### MFA Backup Codes
-Backup One-Time Passcodes (OTP) are vital for deployments and should be part of every user's emergency plan. Situations prohibiting personal devices may require using backup OTP to access accounts. Securely store backup codes and ensure they are accessible during critical times.
+## Types of MFA
 
-### Types of MFA
+<Tabs>
+  <TabItem label="Strongest (U2F/FIDO2)" icon="rocket">
+    **Hardware Tokens**: Devices like Yubikey or Nitrokey.
+    - Phishing-resistant.
+    - Does not require a battery or internet connection for the token itself.
+    - Highly recommended for high-risk accounts.
+  </TabItem>
+  <TabItem label="Standard (TOTP)" icon="shieldCheck">
+    **Authenticator Apps**: Software like Aegis or 2FAS.
+    - Generates a 6-digit code every 30-60 seconds.
+    - Much more secure than SMS.
+    - Works offline.
+  </TabItem>
+  <TabItem label="Weakest (SMS/Email)" icon="warning">
+    **Text or Email Codes**.
+    - Vulnerable to SIM-jacking.
+    - Requires cellular service or internet.
+    - *Only use if no other options are available.*
+  </TabItem>
+</Tabs>
 
-- **(WEAKEST)** Text Message (SMS) or Email: A service sends a code to your phone or email, which you use to log in. While better than no MFA, SMS/email-based authentication is considered the weakest form.
+---
 
-- Authenticator App: Generates MFA codes on your smartphone. These codes typically expire every 30 or 60 seconds.
+## How To Enable MFA
 
-- Push Notification: Instead of entering a code, you approve or deny a login request via a notification sent to your device.
+### App MFA (TOTP) Setup
 
-- FIDO Authentication: Utilizes secure biometric mechanisms or physical keys, providing a highly secure authentication method.
+<Steps>
+1. **Log in** to your account and navigate to **Settings**.
+2. Go to **Security & Privacy** (or similar).
+3. Enable or set up **Multi-Factor Authentication (MFA)**.
+4. Select **"Mobile App"** or "Authenticator App".
+5. **Scan the QR Code** with your chosen authenticator app.
+6. **Securely store** the MFA "seed" or "secret key" in your password manager.
+7. **Download Backup Codes** and store them in a secure, offline location.
+</Steps>
 
-- **(STRONGEST)** Universal 2nd Factor (U2F): Hardware tokens such as CAC, Nitrokey, or Yubikey. These hardware tokens are phishing-resistant and use protocols like FIDO2 for enhanced security. [Source: Yubico](https://www.yubico.com/authentication-standards/fido-u2f/)
+### Hardware Token (U2F) Setup
 
-### How To Enable MFA
+<Steps>
+1. **Log in** and go to **Security Settings**.
+2. Select **"Add Hardware Key"** or "Security Key".
+3. **Insert your hardware token** into the USB port or tap via NFC.
+4. **Touch the gold disk** or button on the key when prompted.
+5. **Add a second backup key** if possible, to avoid being locked out if one is lost.
+</Steps>
 
-### App MFA (TOTP)
-Follow these steps to enable MFA with an authenticator app:
+---
 
-1. Log in to the account
-2. Navigate to Settings
-3. Go to Security & Privacy
-4. Enable or set up Multi-Factor Authentication (MFA)
-5. Select "Mobile App" (avoid SMS unless necessary)
-6. Scan the QR Code or enter the MFA "seed" manually
-7. Securely store the MFA seed in a password manager or encrypted database
-8. Print and save backup keys provided by the service
+## Recommendations
 
-#### Recommended Software for MFA
+<Tabs>
+  <TabItem label="Software (Apps)" icon="laptop">
+    - **[Aegis (Android)](https://getaegis.app/)**: Open-source, local backups, highly customizable.
+    - **[2FAS (iOS/Android)](https://2fas.com/)**: Easy to use, iCloud/Google Drive backup options.
+    - **[OTP Auth (iOS)](https://apps.apple.com/us/app/otp-auth/id659877384)**: Feature-rich with Apple Watch support.
+  </TabItem>
+  <TabItem label="Hardware (Keys)" icon="setting">
+    - **[Security Key C NFC by Yubico](https://www.yubico.com/product/security-key-c-nfc-by-yubico/)**: Best "bang for your buck" for most users.
+    - **[YubiKey 5 Series](https://www.yubico.com/products/yubikey-5-series/)**: Adds support for PGP and Smart Card features.
+  </TabItem>
+</Tabs>
 
-- [OTP Auth (iOS)](https://apps.apple.com/us/app/otp-auth/id659877384)
-
-- [Aegis (Android)](https://getaegis.app/)
-
-- [Authenticator (Firefox)](https://addons.mozilla.org/en-US/firefox/addon/auth-helper/)
-
-### Hardware Token (U2F)
-Steps for enabling MFA using a hardware token:
-
-1. Log in to the account
-2. Navigate to Settings
-3. Go to Security & Privacy
-4. Enable or add "Hardware keys"
-5. Insert the hardware token when prompted
-
-**Note: Backups**
-Configure a duplicate hardware token and store it securely as a backup.
-
-#### Recommended Hardware for U2F
-
-- [Security Key C NFC by Yubico](https://www.yubico.com/product/security-key-c-nfc-by-yubico/): A budget-friendly Yubikey option offering phishing-resistant U2F.
-
-**Note: About Buying Yubikeys**
-Higher-end Yubikeys offer additional features such as encryption and signature capability, which may not be necessary for all users.
+:::caution[Note on Backup Codes]
+Backup One-Time Passcodes (OTP) are vital for deployments. Securely store backup codes and ensure they are accessible during critical times when your primary device may be unavailable.
+:::
 
 ### References
 
 - [CISA: What is MFA](https://www.cisa.gov/mfa)
-
 - [Yubico: FIDO U2F Authentication](https://www.yubico.com/authentication-standards/fido-u2f/)

@@ -9,6 +9,8 @@ title: "Counter UxS"
 ### Overview
 This page focuses on specific technologies and techniques used in anti-drone defense, addressing the challenges of countering unmanned aerial systems (UAS).
 
+For a comprehensive leader's guide on evaluating vendors and implementing C-UAS strategies, see the [Guide to Countering Unmanned Systems](/general/guide-to-countering-unmanned-systems).
+
 ### Counter UAS Frameworks
 The “generate, grab, guide, grenade” approach for the AI-assisted human-in-the-loop suas kill chain describes the new Command, Control, Communications, Computers, Intelligence, Surveillance, and Reconnaissance (C4ISR) kill chain. old being: detect, identify, track, defeat/destroy; current: find, fix, finish.
 

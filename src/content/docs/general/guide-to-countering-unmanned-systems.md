@@ -2,6 +2,8 @@
 title: "Guide to Countering Unmanned Systems"
 ---
 
+import { Tabs, TabItem, Card, CardGrid } from '@astrojs/starlight/components';
+
 # Guide to Countering Unmanned Systems
 
 ## Leader's Guide to Counter Unmanned Systems
@@ -12,13 +14,21 @@ This guide provides a comprehensive overview of Counter Unmanned Aerial Systems 
 
 Effective C-UAS operations begin with well-trained subordinates. Training should cover key principles of detecting, neutralizing, and engaging unmanned threats. A layered defense is crucial, combining multiple technologies, such as radar, RF jammers, and high-powered lasers. Instructors should focus on hands-on familiarity with these systems, as well as the integration of AI and networked sensors for faster decision-making.
 
-Key training components:
+<CardGrid>
+  <Card title="Threat Identification" icon="magnifier">
+    Training subordinates to recognize both low-cost and high-tech drones, including swarm attacks and preprogrammed autonomous UAS.
+  </Card>
+  <Card title="System Proficiency" icon="setting">
+    Ensuring that operators are comfortable with layered defense systems that combine kinetic (e.g., shotguns, missiles) and non-kinetic (e.g., RF jamming).
+  </Card>
+  <Card title="Tactical Guidance" icon="target">
+    Emphasize offensive measures, such as targeting enemy UAS operators. Eliminating the pilot renders UAS threats inoperable.
+  </Card>
+</CardGrid>
 
-- **Threat Identification**: Training subordinates to recognize both low-cost and high-tech drones, including swarm attacks and preprogrammed autonomous UAS.
-- **System Proficiency**: Ensuring that operators are comfortable with layered defense systems that combine kinetic (e.g., shotguns, missiles) and non-kinetic (e.g., RF jamming) solutions.
-- **Tactical Guidance**: Emphasize offensive measures, such as targeting enemy UAS operators, when possible. A solid offensive strategy complements C-UAS efforts, as eliminating the enemy pilot renders UAS threats inoperable.
-
-> "At all times, if given the opportunity, kill the enemy pilot and disable their sUAS weapon systems. This concludes the counter sUAS brief."
+:::tip[Combat Doctrine]
+"At all times, if given the opportunity, kill the enemy pilot and disable their sUAS weapon systems. This concludes the counter sUAS brief."
+:::
 
 ### Counter Unmanned Systems: Dealing with Vendors
 
@@ -34,13 +44,11 @@ Leaders must also consider practical and unconventional tools, such as the **Def
 
 ### C-UAS Technology Comparison Table
 
-This table compares various C-UAS solutions, focusing on operational effectiveness, range, power consumption, and other factors that matter on the battlefield.
-
 | Model | Range (km) | Power (watts) | Cost (USD) | Point of Contact | Remarks |
 |-------|------------|---------------|------------|------------------|---------|
 | Stargazer | 6 km | 400 W | $180,000 | Vendor A | Proven in Ukraine, adaptable to different UAS threats |
 | Squarehead FOCUS | 3.5 km | 320 W | $120,000 | Vendor B | Effective for smaller UAS, needs improved camera quality |
-| Defendtex Metalstorm M320 Insert | 0.5 km (shotgun) | N/A | $15,000 | Vendor C | Close-range kinetic option, challenges with accuracy in swarm scenarios |
+| Defendtex Metalstorm | 0.5 km | N/A | $15,000 | Vendor C | Close-range kinetic option, challenges with accuracy |
 
 ### Key Considerations
 
@@ -52,25 +60,67 @@ This table compares various C-UAS solutions, focusing on operational effectivene
 
 ### Key Phrases to Watch For
 
-#### Look For (Good)
+<Tabs>
+  <TabItem label="Look For (Good)" icon="approve-check">
+    1. **"Layered defense approach"** – Integrating multiple technologies for a comprehensive defense.
+    2. **"Low-collateral interceptors"** – Minimizes risk to non-combatants and friendly forces.
+    3. **"AI-powered threat prioritization"** – Enhances decision-making speed and accuracy.
+  </TabItem>
+  <TabItem label="Watch Out For (Bad)" icon="warning">
+    1. **"High collateral risk"** – Systems that may endanger civilian infrastructure.
+    2. **"Limited effectiveness against swarms"** – Systems struggling with multiple UAS threats simultaneously.
+    3. **"Excessive cost per engagement"** – Unsustainable solutions for prolonged conflict scenarios.
+  </TabItem>
+</Tabs>
 
-1. "Layered defense approach" – Integrating multiple technologies for a comprehensive defense.
-2. "Low-collateral interceptors" – Minimizes risk to non-combatants and friendly forces.
-3. "AI-powered threat prioritization" – Enhances decision-making speed and accuracy.
+### Vendor Evaluation Reference Sheet
 
-#### Watch Out For (Bad)
+Use these tabs to navigate specific categories of questions when evaluating C-UAS systems.
 
-1. "High collateral risk" – Systems that may endanger civilian infrastructure.
-2. "Limited effectiveness against swarms" – Systems struggling with multiple UAS threats simultaneously.
-3. "Excessive cost per engagement" – Unsustainable solutions for prolonged conflict scenarios.
-
-### Questions Leaders Should Be Asking
-
-1. How does this system perform against large-scale swarm attacks?
-2. What is the total cost per engagement, and how does it compare to the threat posed by low-cost UAS?
-3. How does the system integrate with other defensive layers and existing command and control networks?
-4. What are the power and logistical requirements for sustained field operations?
-5. What is the system's adaptability to evolving UAS threats, such as autonomous and preprogrammed drones?
+<Tabs>
+  <TabItem label="Cost & Logistics">
+    - **Total Cost of Ownership**: What is the full cost, including kits, additions, and recurring software licenses?
+    - **O&M Support**: What are the estimated costs for Operations and Maintenance support?
+    - **Production Capacity**: How many units can be produced and delivered within a specific timeframe?
+    - **Portability**: How much does it weigh? Is it man-packable, man-portable, vehicle-mounted, or UAS/HAB-ready?
+    - **Power Requirements**: Does it run on battery, shore power, or both? What are the requirements for sustained field operations?
+  </TabItem>
+  <TabItem label="Technical & Data">
+    - **Frequency Coverage**: What specific frequencies or frequency ranges does it cover?
+    - **Power Output**: How much power (wattage) does it put out for engagement?
+    - **Environmental Rating**: Is the system environmentally sealed or ruggedized (IP rating)?
+    - **Data I/O**: What data can it ingest or output?
+    - **IQ Data**: Can it ingest, save, or output IQ data?
+    - **VITA 49**: Does it support any flavor of the VITA 49 standard?
+  </TabItem>
+  <TabItem label="Integration">
+    - **TAK Integration**: Is it compatible with TAK (Cursor on Target)? If not, why?
+    - **COP Integration**: Has the system been successfully integrated into a Common Operational Picture (COP)?
+    - **Net Readiness**: Does the system meet "Net Ready" requirements for your organization?
+    - **Remote Operation**: Can the system be operated remotely?
+    - **Connectivity**: Are the cables and connectors proprietary or industry-standard?
+  </TabItem>
+  <TabItem label="Architecture & Software">
+    - **Logic Type**: Is it a library-based system, an RFML (Machine Learning) based system, or a hybrid?
+    - **Development Environment**: Does it have an open development environment?
+    - **Reprogrammability**: Is the system reprogrammable in the field by operators, or does it require proprietary vendor handling?
+    - **Upgradeability**: How upgradeable are the internal components and software? (Ask for proof of modularity).
+    - **Third-Party Integration**: Who are some Points of Contact (POCs) that have successfully integrated their own software or hardware on this box?
+  </TabItem>
+  <TabItem label="Performance & Security">
+    - **Targeting Capability**: Can it affect more than one target or frequency simultaneously?
+    - **Attack Modes**: What are the available attack modes (e.g., noise, timing, protocol manipulation)?
+    - **Target Vectors**: Does it target C2 (Command and Control), GNSS (Navigation), and/or video links?
+    - **Performance Data**: What proven performance data exists against specific UAS makes/models/groups?
+    - **Security & Classification**: Does it meet specific security requirements? What classification levels (Unclassified, Secret, etc.) is it intended for and capable of operating at?
+    - **Swarm Defense**: How does the system perform against large-scale swarm attacks?
+  </TabItem>
+  <TabItem label="Track Record">
+    - **User Base**: Who currently uses this system? (Request names and contact numbers for references).
+    - **Engagement Economics**: What is the total cost per engagement compared to the threat (e.g., using a $100k missile for a $500 drone)?
+    - **Field Provenance**: Has this system seen combat or significant field trials?
+  </TabItem>
+</Tabs>
 
 ### Actions for Technical Section or Consultant to Validate C-UAS Claims
 

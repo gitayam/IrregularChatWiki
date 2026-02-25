@@ -2,22 +2,29 @@
 title: "Unmanned Systems"
 ---
 
+import { Tabs, TabItem, Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
 # Unmanned Systems
 
 Small unmanned aerial systems (sUAS), counter-UAS, FPV operations, and autonomous robotics resources for defense and civilian applications.
 
 ## Getting Started
 
-| Resource | Description |
-|----------|-------------|
-| [sUAS Breakdown](/general/suas-breakdown) | Components, terminology, and UAS groups |
-| [FPV sUAS Guide](/general/fpv-suas) | First-person view flying fundamentals |
-| [Guide to Unmanned Systems](/general/guide-to-unmanned-systems) | Leader's guide for vendor evaluation |
+<CardGrid>
+  <LinkCard title="sUAS Breakdown" href="/general/suas-breakdown" description="Components, terminology, and UAS groups." />
+  <LinkCard title="FPV sUAS Guide" href="/general/fpv-suas" description="First-person view flying fundamentals." />
+  <LinkCard title="Vendor Evaluation" href="/general/guide-to-unmanned-systems" description="Leader's guide for evaluating vendors." />
+  <LinkCard title="Counter-UAS Guide" href="/general/guide-to-countering-unmanned-systems" description="Counter-UAS technologies and TTPs." />
+</CardGrid>
+
+---
 
 ## Community Resources
 
-- **Forum**: [Shared Unmanned Systems Files and Briefs](https://forum.irregularchat.com/t/shared-unmanned-systems-access-files-and-briefs/257)
-- **Chat**: Open to all enthusiasts of robotics, sUAS, and fabrication
+<CardGrid>
+  <LinkCard title="UAS Forum" href="https://forum.irregularchat.com/t/shared-unmanned-systems-access-files-and-briefs/257" description="Shared files and briefs." target="_blank" />
+  <LinkCard title="Vets to Drones" href="https://vetstodrones.org" description="Helping veterans get FAA Part 107 certified." target="_blank" />
+</CardGrid>
 
 ### Vets to Drones
 
@@ -34,20 +41,21 @@ The portal is a private ecosystem where verified vets can connect, share resourc
 
 ### Operator Resources
 
-| Guide | Description |
-|-------|-------------|
-| [sUAS Breakdown](/general/suas-breakdown) | Components, terms, UAS groups, fielded configurations |
-| [FPV sUAS](/general/fpv-suas) | First-person view flying, equipment, drills |
-| [Operator Licensing](/general/suas) | FAA Part 107 and military licensing |
-| [Operating Conditions](/general/suas-operating-conditions) | Weather, airspace, and operational factors |
+<CardGrid>
+  <LinkCard title="sUAS Breakdown" href="/general/suas-breakdown" description="Components, terms, UAS groups." />
+  <LinkCard title="FPV sUAS" href="/general/fpv-suas" description="Flying, equipment, and drills." />
+  <LinkCard title="Operator Licensing" href="/general/suas" description="FAA Part 107 and military licensing." />
+  <LinkCard title="Operating Conditions" href="/general/suas-operating-conditions" description="Weather, airspace, and operational factors." />
+</CardGrid>
 
 ### Leadership Resources
 
-| Guide | Description |
-|-------|-------------|
-| [Guide to Unmanned Systems](/general/guide-to-unmanned-systems) | Vendor evaluation, key questions, red flags |
-| [Guide to Countering Unmanned Systems](/general/guide-to-countering-unmanned-systems) | Counter-UAS technologies and TTPs |
-| [Guide to Drone Deployment in Disaster Relief](/general/guide-to-drone-deployment-and-coordination-in-disaster-relief) | Civilian UAS coordination |
+<CardGrid>
+  <LinkCard title="Guide to Unmanned Systems" href="/general/guide-to-unmanned-systems" description="Vendor evaluation, questions, red flags." />
+  <LinkCard title="Counter-UAS Guide" href="/general/guide-to-countering-unmanned-systems" description="C-UAS technologies and TTPs." />
+  <LinkCard title="Drone Deployment" href="/general/guide-to-drone-deployment-and-coordination-in-disaster-relief" description="Civilian UAS coordination." />
+</CardGrid>
+
 
 ## UAS Classification
 
