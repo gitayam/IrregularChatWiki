@@ -67,6 +67,7 @@ A more efficient way to expose tools to an LLM is to use the "Code Mode" approac
 
 *   **The Concept:** Instead of giving the LLM a list of tools, you provide it with a TypeScript API definition. The LLM then writes code to call that API.
 *   **Benefits:** This can significantly reduce the number of tokens required for tool use, making your agents faster and more cost-effective.
+*   **Chrome DevTools MCP:** The "next level" of agentic interaction. It allows agents to interact with a live browser for real-time debugging, snapshots, and interaction. See the full [Chrome DevTools MCP Guide](/ai-ml/chrome-devtools-mcp).
 
 ## Mobile Development with AI
 

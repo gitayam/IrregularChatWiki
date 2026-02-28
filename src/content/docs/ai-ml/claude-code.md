@@ -67,7 +67,7 @@ Claude Code is a rapidly evolving tool. It's crucial to stay updated with the la
 
 #### Top-Level Built-In Capabilities
 
-*   **/chrome interaction**: One of the newest, highly efficient, and effective built-in capabilities allowing direct interaction with the Chrome browser.
+*   **/chrome interaction**: One of the newest, highly efficient, and effective built-in capabilities allowing direct interaction with the Chrome browser. This uses the [Chrome DevTools MCP](/ai-ml/chrome-devtools-mcp) protocol to provide the agent with "eyes" and deep debugging access.
 
 #### Multiple Terminals & Updates
 
@@ -285,6 +285,7 @@ Reaching a human at Anthropic is **very challenging**. Our community experience:
 
 ## Related Resources
 
+- [Chrome DevTools MCP](/ai-ml/chrome-devtools-mcp) - Agentic browser control and debugging
 - [Cloudflare Workers Guide](/development/cloudflare-workers-guide) - Complete beginner's guide to edge computing
 - [Project Rules & Lessons Learned](/ai-ml/project-rules-lessons-learned) - CLAUDE.md patterns, common bugs, and fixes by stack type
 - [Full-Stack Development with AI](/development/full-stack-development-with-ai) - AI-powered development workflows

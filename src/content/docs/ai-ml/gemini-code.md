@@ -101,6 +101,7 @@ Edit your `~/.gemini/settings.json` file to include:
 - **Context Injection**: Use `llms.txt` and `.gemini-rules` files to provide mission-specific context without manually pasting it every time.
 
 ## Related Resources
+- [Chrome DevTools MCP](/ai-ml/chrome-devtools-mcp) - Agentic browser control and debugging
 - [Claude Code Guide](/ai-ml/claude-code) - Comparison and complementary workflows
 - [Full-Stack Development with AI](/development/full-stack-development-with-ai) - Broad AI integration strategies
 - [Project Rules & Lessons Learned](/ai-ml/project-rules-lessons-learned) - Maintaining `CLAUDE.md` and `.gemini-rules`

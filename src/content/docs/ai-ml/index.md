@@ -55,8 +55,8 @@ New to AI/ML? Start with these community guides:
 <CardGrid>
   <LinkCard title="Claude Code Guide" href="/ai-ml/claude-code" description="Anthropic's CLI for agentic coding." />
   <LinkCard title="Gemini Code Guide" href="/ai-ml/gemini-code" description="Google's terminal agent for high-context tasks." />
+  <LinkCard title="Chrome DevTools MCP" href="/ai-ml/chrome-devtools-mcp" description="Direct AI agent browser control via MCP." />
   <LinkCard title="Codex CLI Rules" href="/ai-ml/codex-project-rules" description="SOP for running OpenAI Codex." />
-  <LinkCard title="Agent Pricing" href="/ai-ml/cli-ide-agent-pricing" description="Comparison of Claude, Gemini, Cursor, and Copilot limits." />
 </CardGrid>
 
 ### Specialized Tools
