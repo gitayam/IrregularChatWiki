@@ -51,22 +51,60 @@ An agent might use Chrome DevTools MCP to verify a UI change:
 
 To use Chrome DevTools MCP, you typically need an MCP-compatible agent and a running Chrome instance configured for debugging.
 
-1.  **Install an MCP Server:** Use a server like the official [Google Chrome DevTools MCP server](https://github.com/google/chrome-devtools-mcp).
-2.  **Configure Your Agent:** Add the MCP server to your agent's configuration (e.g., in `claude_desktop_config.json` or your Gemini CLI settings).
-3.  **Launch Chrome:** Run Chrome with remote debugging enabled if required by the server.
+### 1. Prerequisites (Launch Chrome with Debugging)
 
-### Example Configuration (Claude Desktop)
+Most MCP server implementations require Chrome to be running with remote debugging enabled. Close all Chrome instances and relaunch it from the terminal:
+
+**macOS:**
+```bash
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+```
+
+**Windows:**
+```powershell
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222
+```
+
+**Linux:**
+```bash
+google-chrome --remote-debugging-port=9222
+```
+
+### 2. Install/Configure the MCP Server
+
+The official Google-backed server is `chrome-devtools-mcp`.
+
+#### For Claude Desktop (macOS)
+Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
 
 ```json
 {
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": ["-y", "@google/model-context-protocol-chrome-devtools"]
+      "args": ["-y", "chrome-devtools-mcp"]
     }
   }
 }
 ```
+
+#### For Claude Code (CLI)
+Add to your project's `.claude/settings.json` (or global `~/.claude/settings.json`):
+
+```json
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp"]
+    }
+  }
+}
+```
+*Tip: You can also use the command `claude mcp add chrome-devtools npx -y chrome-devtools-mcp`.*
+
+#### For Gemini CLI
+Add to your `~/.gemini/settings.json` under the `mcpServers` block using the same structure as above.
 
 ## Advanced Usage
 
