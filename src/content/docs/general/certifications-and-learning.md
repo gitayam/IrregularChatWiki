@@ -2,8 +2,6 @@
 title: "Certifications & Learning"
 ---
 
-# Certifications & Learning
-
 Military credentialing programs, certification guides, free learning resources, and professional development opportunities for service members and veterans.
 
 ## Getting Started
