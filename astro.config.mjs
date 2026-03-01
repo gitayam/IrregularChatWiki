@@ -194,7 +194,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { label: 'Overview', slug: 'matrix' },
-            { label: 'Element Matrix', slug: 'matrix/element-messenger' },
+            { label: 'Element Matrix', slug: 'matrix/element-matrix-messenger' },
             { label: 'Ansible Deployment', slug: 'matrix/ansible-for-matrix-deployment' },
             { label: 'Managing Matrix', slug: 'matrix/managing-matrix' },
             { label: 'Matrix Bots', slug: 'matrix/matrix-bots' },

@@ -5,8 +5,6 @@ tags: ["security", "privacy", "mobile", "android", "ios", "dfp"]
 
 import { Tabs, TabItem, Card, CardGrid, Steps, LinkCard } from '@astrojs/starlight/components';
 
-# Mobile Hardening Guide
-
 Ensure the safety and security of your mobile devices with guidelines tailored for Android and iOS.
 
 :::caution[Threat Model Context]
