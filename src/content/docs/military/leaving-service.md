@@ -138,6 +138,10 @@ These SkillBridge opportunities have been shared and vetted by IrregularChat com
 
 | Program | Focus | Location | Contact |
 |---|---|---|---|
+| [Microsoft MSSA](https://military.microsoft.com/mssa/) | Cloud, Cybersecurity, Dev (17-18 weeks) | Multiple | [Apply here](https://military.microsoft.com/mssa/) |
+| [Amazon Technical Apprenticeship](https://www.amazon.jobs/en/landing_pages/mil-apprentice) | Cloud, tech | Multiple | See website |
+| [Salesforce Military Fellows](https://trailhead.salesforce.com/content/learn/modules/vetforce) | Salesforce admin/dev (12 weeks) | Multiple | See website |
+| [Hiring Our Heroes Fellowship](https://www.hiringourheroes.org/) | Corporate fellowship (12 weeks) | Multiple | See website |
 | [Decisive Drones](https://decisivedrones.com) | FPV drone building & operations | Tampa, FL | nolan@decisivedrones.com |
 | [Flex Air Commercial Pilot Gateway](https://goflexair.com/skillbridge) | Commercial aviation training | Multiple | See website |
 | ICE (Immigration & Customs Enforcement) | Federal law enforcement | Multiple | Through SkillBridge portal |
@@ -181,5 +185,5 @@ Businesses participating in the DOD SkillBridge Program gain access to skilled, 
 - [Certification Funding Guide](/military/certification-funding) — all military/veteran funding programs
 - [Certifications](/general/certifications) — certification pathways by domain
 - [Credentialing Assistance](/military/credentialing-assistance)
-- [Certifications & Learning Overview](/general/certifications-and-learning)
+- [Learning Resources](/general/learning) — free education platforms
 

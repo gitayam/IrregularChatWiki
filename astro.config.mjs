@@ -131,8 +131,7 @@ export default defineConfig({
           label: 'Certifications & Learning',
           collapsed: false,
           items: [
-            { label: 'Overview', slug: 'general/certifications-and-learning' },
-            { label: 'Certifications', slug: 'general/certifications' },
+            { label: 'Overview', slug: 'general/certifications' },
             { label: 'Certification Funding', slug: 'military/certification-funding' },
             { label: 'Credentialing Assistance', slug: 'military/credentialing-assistance' },
             { label: 'Learning Resources', slug: 'general/learning' },

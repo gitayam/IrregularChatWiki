@@ -168,6 +168,6 @@ Loyalty, Duty, Respect, Selfless Service, Honor, Integrity, Personal Courage
 
 ## Related Pages
 
-- [Certifications & Learning](/general/certifications-and-learning) - Professional development
+- [Certifications](/general/certifications) - Professional development
 - [Learning Resources](/general/learning) - Free education platforms
-- [Funding Certifications](/general/funding-certifications-through-the-military) - CA, SEP, TA
+- [Certification Funding](/military/certification-funding) - CA, COOL, GI Bill, SEP, SkillBridge

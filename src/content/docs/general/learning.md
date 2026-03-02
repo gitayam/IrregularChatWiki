@@ -1,5 +1,6 @@
 ---
 title: "Learning"
+description: "Free and discounted learning platforms, courses, and educational resources for military personnel and families"
 tags: ["learning", "education", "resources", "training"]
 ---
 
@@ -8,7 +9,7 @@ tags: ["learning", "education", "resources", "training"]
 ## Learning Guides and Resources
 This page is a comprehensive guide to various educational resources and programs available for military personnel and their families. It includes links to free and discounted courses, technical training, and professional development opportunities across platforms like Udemy, O’Reilly, Coursera, and more. Each section provides key details about the offerings, eligibility, and access instructions, making it easier for service members to enhance their skills and knowledge in various fields.
 
-If you are looking for resources, guides, and certification funding, see the [Page](/general/certifications).
+If you are looking for resources, guides, and certification funding, see the [Certifications Guide](/general/certifications).
 
 Find community-shared posts about learning [here](https://forum.irregularchat.com/tag/learning)
 
@@ -53,12 +54,6 @@ Filled out the data as it says in the body; took about two days for them to emai
 >
 From computer hardware fundamentals to advanced forensic concepts, the DC3 Cyber Training Academy provides students with the skills needed to meet mission goals in the cyber environment.
 
-#### SOF EDUCATION PROGRAM (SEP) FUNDS GUIDE
-
-- [Download/View Link](https://u.pcloud.link/publink/show?code=XZ0frk0ZchOJr4ELEVkiFyB7Ic45CmhSpaEk)
->
-SEP offers up to $10,000 per fiscal year, separate from Tuition Assistance (TA) or Credentialing Assistance (CA). This unique funding focuses on specific knowledge gaps in special operations roles, supporting professional development without duplicating existing service programs. Requests involve submission of forms like SF-182 and must comply with specific criteria, such as no planned separation within 18 months. For more details, contact the Education Office.
-
 #### PACKT
 
 - [Free Technical Resources](https://www.packtpub.com/free-learning)
@@ -100,3 +95,19 @@ DAU credentials fulfill continuing education requirements for certifications lik
 The Small Business Program Credential enhances understanding of small business participation in acquisitions.
 
 DAU courses and credentials are a convenient way to stay competitive in professional development while meeting military requirements.
+
+### Cheat Sheets & Study Resources
+
+| Resource | Link |
+|----------|------|
+| OWASP Cheat Sheets | [cheatsheetseries.owasp.org](https://cheatsheetseries.owasp.org/) |
+| Bug Bounty Writeups | [GitHub Collection](https://github.com/devanshbatham/Awesome-Bugbounty-Writeups) |
+| OSCP Resources | [GitHub Collection](https://github.com/0xsyr0/OSCP) |
+
+---
+
+## Related Pages
+
+- [Certifications Guide](/general/certifications) — certification pathways by domain
+- [Certification Funding](/military/certification-funding) — military funding programs (CA, COOL, GI Bill, SEP)
+- [Military & Career](/general/military-and-career) — transition and career resources

@@ -50,6 +50,19 @@ Navy, Air Force, and Marine Corps do not have a standalone CA program. Their cre
 - Air Force: AF Portal (myFSS) via base education center
 - Marine Corps: MarineNet / base education center
 
+### SOF Education Program (SEP)
+
+- **Amount**: Up to $10,000/year
+- **Purpose**: Individual knowledge gaps in special operations roles
+- **Separate from**: TA and CA (additional funding — does not duplicate existing programs)
+- **Requirements**: SF-182 submission, no planned separation within 18 months
+- **Approval chain**: Company Commander → Battalion Commander → SWCS signatures
+- **Guide**: [SEP Funds Guide](https://u.pcloud.link/publink/show?code=XZ0frk0ZchOJr4ELEVkiFyB7Ic45CmhSpaEk)
+
+:::tip[SEP is Additional Money]
+SEP is separate from both TA and CA. If you're SOF, this is up to $10,000/year on top of your other education benefits. Contact the Education Office for details.
+:::
+
 ### COOL Programs (Credentialing Opportunities On-Line)
 
 Central portal for all branches: [cool.osd.mil](https://www.cool.osd.mil/)
@@ -127,19 +140,11 @@ Use your **last 180 days** of active duty for civilian training while still rece
 
 **Requirements:** 180+ continuous days active service, command approval, all TAP requirements complete. Start the process 9-12 months before separation.
 
-| Program | Duration | Focus |
-|---|---|---|
-| [Microsoft MSSA](https://military.microsoft.com/mssa/) | 17-18 weeks | Cloud, Cybersecurity, Dev (CSO track requires Sec+) |
-| [Amazon Technical Apprenticeship](https://www.amazon.jobs/en/landing_pages/mil-apprentice) | Varies | Cloud, tech |
-| [Salesforce Military Fellows](https://trailhead.salesforce.com/content/learn/modules/vetforce) | 12 weeks | Salesforce admin/dev |
-| [Hiring Our Heroes Fellowship](https://www.hiringourheroes.org/) | 12 weeks | Corporate fellowship |
-| [Decisive Drones](https://decisivedrones.com) | Varies | FPV drone building (Tampa, FL) |
-| [Flex Air Commercial Pilot Gateway](https://goflexair.com/skillbridge) | Up to 180 days | Commercial aviation training |
-| [VFNC Farm Map](https://vfnc.org/farm-map/) | Varies | Agriculture & farming careers |
+Popular programs include Microsoft MSSA, Amazon Technical Apprenticeship, Salesforce Military Fellows, and Hiring Our Heroes Fellowship.
+
+**Full SkillBridge directory**: See the [Leaving Service](/military/leaving-service) page for the complete community-sourced program list.
 
 **Find all programs:** [skillbridge.osd.mil](https://skillbridge.osd.mil/)
-
-See the [Leaving Service](/military/leaving-service) page for the full community-sourced SkillBridge directory.
 
 ---
 
