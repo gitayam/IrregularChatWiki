@@ -129,14 +129,20 @@ export default defineConfig({
         },
         {
           label: 'Certifications & Learning',
-          collapsed: true,
+          collapsed: false,
           items: [
             { label: 'Overview', slug: 'general/certifications-and-learning' },
             { label: 'Certifications', slug: 'general/certifications' },
-            { label: 'Learning Resources', slug: 'general/learning' },
+            { label: 'Certification Funding', slug: 'military/certification-funding' },
             { label: 'Credentialing Assistance', slug: 'military/credentialing-assistance' },
+            { label: 'Learning Resources', slug: 'general/learning' },
             { label: 'OSCP', slug: 'cybersecurity/oscp' },
             { label: 'GPEN', slug: 'cybersecurity/gpen' },
+            { label: 'Cloud Certifications', slug: 'general/cloud-certifications' },
+            { label: 'Project Management', slug: 'general/project-management-certifications' },
+            { label: 'FAA Part 107 (Drones)', slug: 'general/faa-part-107' },
+            { label: 'Aviation / Pilot', slug: 'general/aviation-certifications' },
+            { label: 'Trade & Technical', slug: 'general/trade-certifications' },
           ],
         },
         {
