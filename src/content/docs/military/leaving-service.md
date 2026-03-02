@@ -144,7 +144,6 @@ These SkillBridge opportunities have been shared and vetted by IrregularChat com
 | [Hiring Our Heroes Fellowship](https://www.hiringourheroes.org/) | Corporate fellowship (12 weeks) | Multiple | See website |
 | [Decisive Drones](https://decisivedrones.com) | FPV drone building & operations | Tampa, FL | nolan@decisivedrones.com |
 | [Flex Air Commercial Pilot Gateway](https://goflexair.com/skillbridge) | Commercial aviation training | Multiple | See website |
-| ICE (Immigration & Customs Enforcement) | Federal law enforcement | Multiple | Through SkillBridge portal |
 | [VFNC Farm Map](https://vfnc.org/farm-map/) | Agriculture & farming | Multiple (VA focus) | See website |
 | [SOCOM Career Transition](https://www.socom.mil/care-coalition/Pages/Career-Transition.aspx) | SOCOM-specific "SkillBridge-like" program | Multiple | Includes Military Mentorship Partners |
 
