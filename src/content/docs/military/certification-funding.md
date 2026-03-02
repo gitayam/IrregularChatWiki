@@ -133,8 +133,13 @@ Use your **last 180 days** of active duty for civilian training while still rece
 | [Amazon Technical Apprenticeship](https://www.amazon.jobs/en/landing_pages/mil-apprentice) | Varies | Cloud, tech |
 | [Salesforce Military Fellows](https://trailhead.salesforce.com/content/learn/modules/vetforce) | 12 weeks | Salesforce admin/dev |
 | [Hiring Our Heroes Fellowship](https://www.hiringourheroes.org/) | 12 weeks | Corporate fellowship |
+| [Decisive Drones](https://decisivedrones.com) | Varies | FPV drone building (Tampa, FL) |
+| [Flex Air Commercial Pilot Gateway](https://goflexair.com/skillbridge) | Up to 180 days | Commercial aviation training |
+| [VFNC Farm Map](https://vfnc.org/farm-map/) | Varies | Agriculture & farming careers |
 
 **Find all programs:** [skillbridge.osd.mil](https://skillbridge.osd.mil/)
+
+See the [Leaving Service](/military/leaving-service) page for the full community-sourced SkillBridge directory.
 
 ---
 

@@ -53,6 +53,29 @@ If you hold a Part 61 manned aircraft certificate (military pilots who converted
 The FAA is developing Part 108 for Beyond Visual Line of Sight (BVLOS) operations. This will create a new certification tier above Part 107 with permit (24-month) and certificate (permanent) options. Early movers will command premium pay — BVLOS operators are expected to earn significantly more than standard Part 107 pilots.
 :::
 
+## Drone Insurance
+
+Commercial Part 107 operations typically require liability insurance. Costs and recommendations from the community:
+
+| Coverage | Annual Cost | Notes |
+|---|---|---|
+| Hobbyist liability | $300-$600 | Basic third-party coverage |
+| Commercial ($1M coverage) | $600-$1,200 | Standard for contract work |
+
+**Providers:**
+- [Skywatch AI](https://skywatch.ai) — on-demand, hourly, monthly, or annual policies; pay-per-flight option
+- [BWI Aviation Insurance](https://bwifly.com) — traditional aviation underwriter
+
+:::tip[Insurance Is Often Required]
+Many commercial clients, government contracts, and mapping projects require proof of $1M+ liability coverage before you can start work. Budget for this when calculating ROI.
+:::
+
+## Free Veteran Training
+
+- **Chris Lewis Veteran Portal** — a private ecosystem connecting veterans to commercial UAS opportunities with a **free Part 107 curriculum** for the veteran community
+- [Pilot Institute Part 107 Course](https://pilotinstitute.com/course/part-107-remote-pilot/) — comprehensive paid course (frequently runs military discounts)
+- VA reimburses the $175 exam fee via [VA Form 22-0803](https://www.va.gov/education/about-gi-bill-benefits/how-to-use-benefits/licensing-and-certification-tests/)
+
 ## Career Outlook (2026)
 
 The commercial drone market is projected at $54.6B by 2030 (10.6% CAGR).

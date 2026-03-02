@@ -1,8 +1,8 @@
 ---
 title: "Leaving Service"
+description: "Military transition guide — SkillBridge programs, career advice, networking, and benefits"
+tags: ["military", "transition", "career", "skillbridge", "veterans"]
 ---
-
-# Leaving Service
 
 ## Transitioning Out of the Military
 
@@ -67,6 +67,15 @@ Transitioning out of the military involves understanding retirement processes an
 
 - Mention projects you’ve started, even if not completed, to own your experience.
 
+- **Join professional associations early** — attend your local ISSA, ISACA, DefCon group, hacker meetup, or other professional association. You don’t have to join all of them; figure out which one is most active in your area or most relevant to your subsection of the field. These connections are what get you interviews.
+
+### Scholarship & Education Opportunities
+
+- [Harvard Kennedy School](https://www.hks.harvard.edu/) — full tuition scholarships for veterans (MPA program)
+- [Stanford Ignite](https://www.gsb.stanford.edu/exec-ed/programs/stanford-ignite) — Stanford GSB certificate program (not an MBA)
+- [Student Veterans of America](https://studentveterans.org/) — advocacy, scholarships, and Google Career Certificate access
+- [Pat Tillman Foundation](https://pattillmanfoundation.org/apply/) — scholarships for veterans and military spouses
+
 ### Entrepreneurship and Creative Ventures
 
 - Consider starting your own business, engaging in side projects, or exploring creative ventures like online stores.
@@ -123,6 +132,26 @@ Just goes to show you there are probably opportunities out there where just unaw
 
 - For more detailed guidelines, see the [SkillBridge FAQ page](https://skillbridge.osd.mil/faq.htm)
 
+#### Community SkillBridge Programs
+
+These SkillBridge opportunities have been shared and vetted by IrregularChat community members:
+
+| Program | Focus | Location | Contact |
+|---|---|---|---|
+| [Decisive Drones](https://decisivedrones.com) | FPV drone building & operations | Tampa, FL | nolan@decisivedrones.com |
+| [Flex Air Commercial Pilot Gateway](https://goflexair.com/skillbridge) | Commercial aviation training | Multiple | See website |
+| ICE (Immigration & Customs Enforcement) | Federal law enforcement | Multiple | Through SkillBridge portal |
+| [VFNC Farm Map](https://vfnc.org/farm-map/) | Agriculture & farming | Multiple (VA focus) | See website |
+| [SOCOM Career Transition](https://www.socom.mil/care-coalition/Pages/Career-Transition.aspx) | SOCOM-specific "SkillBridge-like" program | Multiple | Includes Military Mentorship Partners |
+
+:::tip[Share Your SkillBridge]
+If you or your organization offers a SkillBridge program open to IrregularChat members, share it in the community chat or DM an admin to get it listed here.
+:::
+
+:::caution[TS/SCI and SkillBridge]
+Some SkillBridge programs may not accept applicants who already hold a TS/SCI clearance. Verify with the program manager before applying.
+:::
+
 #### Employer
 Businesses participating in the DOD SkillBridge Program gain access to skilled, highly motivated service members transitioning out of the military. Through this initiative, employers can create tailored training programs that meet their specific workforce needs while benefiting from the Department of Defense covering service members' salaries and benefits during their final 180 days of service. This allows companies to integrate experienced veterans into their workforce at no additional cost. Employers can host training on base or at their facilities, and virtual or remote learning options are available, making it accessible regardless of location. To ensure success, companies should provide clear job training and development programs, aligning with industry demands and offering a high probability of employment for service members upon completion.
 
@@ -145,4 +174,12 @@ Businesses participating in the DOD SkillBridge Program gain access to skilled, 
 
 - **Maximize Savings**: Live frugally in the early stages of your new career to maximize savings and investments.
 
+---
+
+## Related Pages
+
+- [Certification Funding Guide](/military/certification-funding) — all military/veteran funding programs
+- [Certifications](/general/certifications) — certification pathways by domain
+- [Credentialing Assistance](/military/credentialing-assistance)
+- [Certifications & Learning Overview](/general/certifications-and-learning)
 

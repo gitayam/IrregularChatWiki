@@ -32,6 +32,12 @@ Certification pathways by domain with resources, costs, and military funding opt
 
 **CompTIA**
 - [CASP+ (CAS-004)](/general/casp)
+- **Security+** — DoD 8570 baseline. Study: [Jason Dion practice exams](https://www.udemy.com/user/jason-dion-2/) and [Professor Messer](https://www.professormesser.com/) (free). Don't pay $1,200 for the bundle — buy voucher separately via [Pearson VUE Gov Store](https://govstore.pearsonvue.com/shop/comptia) or use [COOL](/military/certification-funding).
+
+**CMMC (Cybersecurity Maturity Model Certification)**
+- Required for DoD contractors — [SBA CMMC Roundtable info](https://advocacy.sba.gov/2026/02/24/department-of-war-cybersecurity-maturity-model-certification-cmmc-program-small-business-impacts-roundtable/)
+- Small business cost estimates: higher than initially projected
+- Relevant for anyone starting a defense contracting company
 
 **Free**
 - [ISC2 CC](https://www.isc2.org/Certifications/CC) — free entry-level security certification
@@ -115,6 +121,21 @@ Detailed guide: [Trade Certifications](/general/trade-certifications)
 | Air Force 1D7/3D | [AWS + Azure](/general/cloud-certifications) + clearance | $100k-$160k |
 
 Look up your specific MOS at [Army COOL](https://www.cool.osd.mil/army/), [Navy COOL](https://www.cool.osd.mil/usn/), [Marine COOL](https://www.cool.osd.mil/usmc/), or [Air Force COOL](https://www.cool.osd.mil/usaf/).
+
+---
+
+## Career Networking
+
+:::tip[Join Professional Associations Early]
+Start going to local meetups and join relevant professional associations **before** you transition. For infosec/cyber: ISSA, ISACA, local DefCon group, hacker meetups. You don't need all of them — find the one most active in your area. These connections are what get you interviews, not just the cert.
+:::
+
+**Community insight**: 15 years of cyber experience without formal certs makes the job market brutal. Get at least one industry cert to get past HR filters, even if your skills are solid.
+
+**Active job postings shared by community members (2026):**
+- ARSOF remote cyber TMs (Maryland) — seeking OSCP, OSWP, OSED, PEN 100/200
+- AI SOC Engineer at Tyto Athene (Reston, VA) — SOCOM-focused
+- IT Manager at MetroStar (Rosslyn, VA) — CISSP + TS/SCI
 
 ---
 
