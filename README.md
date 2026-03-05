@@ -1,5 +1,7 @@
 # IrregularChat Wiki (Irregularpedia)
 
+> **ARCHIVED** — This repository has been consolidated into the [IrregularChat Monorepo](https://git.irregularchat.com/irregulars/irregularchat-monorepo) at `apps/wiki/`. All future development happens there. This repo is preserved for git history reference only.
+
 A community-driven knowledge base for the IrregularChat community, covering cybersecurity, AI/ML, military topics, and more.
 
 **Live Wiki:** [irregularpedia.org](https://irregularpedia.org)
